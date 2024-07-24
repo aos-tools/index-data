@@ -1,0 +1,783 @@
+{
+  "name": "Bonesplitterz",
+  "battle_traits": [
+    {
+      "name": "Take Da Bait",
+      "activation": "Once Per Battle, Deployment Phase",
+      "phases": ["Start of Turn"],
+      "declare": "Pick up to 3 friendly Bonesplitterz units to be the targets.",
+      "effect": "For the rest of the battle, add 1 to the Attacks characteristic of each target’s melee weapons while it is in combat with an enemy unit that charged in the same turn, and so long as the target has not charged during the battle.",
+      "keywords": []
+    },
+    {
+      "name": "Bonesplitterz Waaagh!",
+      "activation": "Once Per Battle (Army), Your Hero Phase",
+      "phases": ["Hero Phase"],
+      "declare": "Pick each friendly Bonesplitterz Wizard and Bonesplitterz Priest to be the targets.",
+      "effect": "Add 1 to the power level of each target for the rest of the turn. In addition, friendly Bonesplitterz units have Ward (5+) for the rest of the turn.",
+      "keywords": ["Waaagh!"]
+    },
+    {
+      "name": "Monster Hunters",
+      "activation": "Once Per Turn (Army), Any Charge Phase",
+      "phases": ["Charge Phase"],
+      "declare": "Pick a friendly Bonesplitterz unit in combat with an enemy Monster to be the target.",
+      "effect": "For the rest of the turn, add 1 to wound rolls for the target’s combat attacks and add 1 to save rolls for the target.",
+      "keywords": []
+    },
+    {
+      "name": "Spring The Trap",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Add 1 to wound rolls for friendly Bonesplitterz units that charged in the same turn.",
+      "keywords": []
+    }
+  ],
+  "battle_formations": {
+    "Brutal Rukk": {
+      "name": "Tireless Trackers",
+      "activation": "Once Per Battle, Deployment Phase",
+      "phases": ["Start of Turn"],
+      "effect": "Half the friendly non-Hero Bonesplitterz Infantry units on the battlefield (rounding up) can immediately use the ‘Normal Move’ ability as if it were your movement phase.",
+      "keywords": []
+    },
+    "Kop Rukk": {
+      "name": "Realm-chompers",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Ward rolls cannot be made for enemy units while they are within the combat range of any friendly Bonesplitterz Heroes.",
+      "keywords": []
+    },
+    "Kunnin' Rukk": {
+      "name": "Squint-eye Taktiks",
+      "activation": "Once Per Turn (Army), Your Shooting Phase",
+      "phases": ["Shooting Phase"],
+      "declare": "Pick an enemy unit on the battlefield to be the target.",
+      "effect": "For the rest of the turn, hit rolls for shooting attacks made by friendly Savage Orruk Arrowboys units that target the target unit score critical hits on unmodified hit rolls of 5+.",
+      "keywords": []
+    },
+    "Snaga Rukk": {
+      "name": "We'z Da Beastiest",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Friendly Bonesplitterz Cavalry units have Anti-charge (+1 Rend).",
+      "keywords": []
+    }
+  },
+  "heroic_traits": [
+    {
+      "name": "One Wiv' Da Beast",
+      "activation": "Once Per Battle (Army), Reaction: You declared a Spell ability for a friendly Bonesplitterz Wizard",
+      "phases": ["Hero Phase"],
+      "effect": "Instead of making a casting roll for this unit, you can use a value of 6 for the roll that cannot be modified.",
+      "keywords": []
+    },
+    {
+      "name": "Killa Instinkt",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "This unit’s melee weapons have Crit (Mortal).",
+      "keywords": []
+    },
+    {
+      "name": "'Orrible Leer",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "Enemy Monsters cannot use Rampage abilities while they are in combat with this unit.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Monsta-killa Chompa",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "This unit has Strike-first while it is in combat with an enemy Beast or Monster.",
+      "keywords": []
+    },
+    {
+      "name": "Glowin' Tattooz",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "This unit has Ward (4+).",
+      "keywords": []
+    },
+    {
+      "name": "Dokk Juice",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, Heal (1) this unit. This unit cannot use this ability again for the rest of the battle.",
+      "keywords": []
+    }
+  ],
+  "spell_lore": {
+    "Lore of the Savage Beast": [
+      {
+        "name": "Fists of Gork",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Bonesplitterz Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+        "casting_value": 6,
+        "keywords": ["Spell"]
+      },
+      {
+        "name": "Gorkamorka's War Cry",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Bonesplitterz Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+        "casting_value": 6,
+        "keywords": ["Spell"]
+      },
+      {
+        "name": "Glowy Green Frenzy",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Bonesplitterz Wizard to cast this spell, pick a visible friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn, including Companion weapons.",
+        "casting_value": 6,
+        "keywords": ["Spell", "Unlimited"]
+      }
+    ]
+  },
+  "prayer_lore": {
+    "Prayers of the Living Wilds": [
+      {
+        "name": "Weirdokk Dance",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Bonesplitterz Priest to chant this prayer. Then make a chanting roll of D6.",
+        "effect": "Subtract 1 from chanting rolls and casting rolls for enemy Priests and Wizards while they are within 18\" of the chanter until the start of your next turn.\n\nIn addition, if the chanting roll was 11+, enemy Priests within 18\" of the chanter each lose D6 ritual points and enemy Wizards cannot use Unbind abilities while they are within 18\" of the chanter until the start of your next turn.",
+        "chanting_value": 5,
+        "keywords": ["Prayer"]
+      },
+      {
+        "name": "Grimdokk Dance",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Bonesplitterz Priest to chant this prayer, pick a visible friendly Bonesplitterz unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Heal (3) the target unit or return a number of slain models to it with a combined Health characteristic of up to 3. If the chanting roll for this prayer was 9+, instead, Heal (6) the target unit or return a number of slain models to it with a combined Health characteristic of up to 6.",
+        "chanting_value": 4,
+        "keywords": ["Prayer"]
+      },
+      {
+        "name": "Bashdokk Dance",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Bonesplitterz Priest to chant this prayer, pick a visible friendly Bonesplitterz unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Add 1 to charge rolls and run rolls for the target for the rest of the turn. If the chanting roll was 7+, in addition, for the rest of the turn, the target can use Charge abilities even if it used a Run or Retreat ability in the same turn.",
+        "chanting_value": 3,
+        "keywords": ["Prayer", "Unlimited"]
+      }
+    ]
+  },
+  "warscrolls": [
+    {
+      "name": "Savage Orruk Morboyz",
+      "move": "5\"",
+      "health": "2",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Paired Savage Weapons",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Morboy Fury",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "If this unit charged this turn, enemy units cannot use commands while they are in combat with this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/10)",
+        "Standard Bearer (1/10)",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/fcfa195e-b25c-4284-84e6-8b8d9bb39561",
+      "baseSize": "32mm",
+      "points": 160,
+      "modelCount": 10,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Savage Big Boss",
+      "move": "5\"",
+      "health": "6",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Boss Chompa",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Anti-Monster (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Havin' A Good Old Rukk",
+          "activation": "Reaction: You declared a Fight ability for this unit",
+          "phases": ["Combat Phase"],
+          "effect": "Pick a friendly non-Hero Bonesplitterz Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/d8078581-697c-4374-acf5-2813eced09db",
+      "baseSize": "32mm",
+      "points": 130,
+      "modelCount": 1,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025. This Hero can join a Wurrgog Prophet’s regiment."
+    },
+    {
+      "name": "Savage Big Stabbas",
+      "move": "5\"",
+      "health": "4",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Gorktoof",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (Mortal)", "Charge (+1 Damage)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Da Final Fling",
+          "activation": "Passive",
+          "phases": ["Shooting Phase"],
+          "effect": "While this unit is not in combat, each time a model in this unit is slain by a shooting attack and that model was within 12\" of the attacking unit, roll a dice. Add 2 to the roll if the attacking unit was a Monster. On a 4+, inflict D6 mortal damage on the attacking unit after the Shoot ability has been resolved.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/e75337fe-300b-4867-ab30-ac7eee9dbf69",
+      "baseSize": "60 x 35mm",
+      "points": 130,
+      "modelCount": 2,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Maniak Weirdnob",
+      "move": "10\"",
+      "health": "6",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "War Boar’s Tusks and Hooves",
+            "attacks": "2",
+            "hit": "5+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Charge (+1 Damage)"]
+          },
+          {
+            "name": "Bonebeast Staff",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Bone Spirit",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick a friendly Bonesplitterz Cavalry unit within this unit’s combat range to be the target.",
+          "effect": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s melee weapons, including Companion weapons, for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Cavalry",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/981b0458-fe1b-4caf-8436-80c6311839d1",
+      "baseSize": "60 x 35mm",
+      "points": 160,
+      "modelCount": 1,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Savage Boarboy Maniaks",
+      "move": "10\"",
+      "health": "3",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Chompas",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "War Boar’s Tusks and Hooves",
+            "attacks": "2",
+            "hit": "5+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Charge (+1 Damage)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "On a Tear",
+          "activation": "Once Per Turn (Army), Reaction: You declared a Charge ability for this unit",
+          "phases": ["Charge Phase"],
+          "effect": "Add 5 to this unit’s control score for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Cavalry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/05e98cc5-c547-47b7-985b-d314a74594cb",
+      "baseSize": "60 x 35mm",
+      "points": 150,
+      "modelCount": 5,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Wurrgog Prophet",
+      "move": "5\"",
+      "health": "6",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "2",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Deadly Green Bolts",
+            "range": "10\"",
+            "attacks": "D6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wurrgog Staff",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Suiggly Curse",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick an enemy Hero in combat with the caster to be the target, then make a casting roll of 2D6.",
+          "effect": "Inflict D3 mortal damage on the target. If the target is destroyed by this spell, add 1 to this unit’s power level for the rest of the battle.",
+          "casting_value": 4,
+          "keywords": ["Spell", "Unlimited"]
+        },
+        {
+          "name": "Wurrgog Mask",
+          "activation": "Once Per Battle (Army), Your Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "effect": "For the rest of the turn:\n\n• The Attacks characteristic of this unit’s Deadly Green Bolts is 12 instead of D6.\n• For each unmodified hit roll of 1 for a shooting attack made by this unit, inflict D3 mortal damage on this unit after the Shoot ability has been resolved.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (2)",
+        "Infantry",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/b7596db0-6158-4237-b6c0-7293042083c3",
+      "baseSize": "32mm",
+      "points": 160,
+      "modelCount": 1,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Wardokk",
+      "move": "5\"",
+      "health": "5",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "1",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Bonebeast Stikk",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Primal Hex",
+          "activation": "Once Per Turn (Army), Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick an enemy Wizard within 24\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, until the start of your next turn, each time the target uses a Spell or Unbind ability, this unit gains 1 ritual point.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Priest (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/db2953d9-7fd4-4809-a8bd-090497dc51aa",
+      "baseSize": "32mm",
+      "points": 100,
+      "modelCount": 1,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Savage Orruks",
+      "move": "5\"",
+      "health": "2",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Savage Weapons",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "The Savage Hordes",
+          "activation": "Passive",
+          "phases": null,
+          "effect": "Add 10 to the control score of this unit while it is in combat with any enemy units that charged this turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/10)",
+        "Standard Bearer (1/10)",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/3d28f957-71b0-4566-9e1f-f42683e8b8d1",
+      "baseSize": "32mm",
+      "points": 140,
+      "modelCount": 10,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Savage Boarboys",
+      "move": "10\"",
+      "health": "3",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "War Boar’s Tusks and Hooves",
+            "attacks": "2",
+            "hit": "5+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Charge (+1 Damage)"]
+          },
+          {
+            "name": "Boarboy Weapons",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Wild Enthusiasm",
+          "activation": "Passive",
+          "phases": null,
+          "effect": "This unit can use the ‘Power Through’ command even if it has not charged this turn. In addition, when you pick a target for that command, the target does not have to have a lower Health characteristic than this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Cavalry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/e23283e7-596f-4649-95ff-63c6a6694e69",
+      "baseSize": "60 x 35mm",
+      "points": 140,
+      "modelCount": 5,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Savage Orruk Arrowboys",
+      "move": "5\"",
+      "health": "2",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Stinga Bow",
+            "range": "15\"",
+            "attacks": "2",
+            "hit": "5+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (Auto-wound)"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Chompa",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Aim Fer Its Eyes",
+          "activation": "Once Per Battle Round (Army), Any Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "declare": "If all of the attacks made with this unit’s Stinga Bows this turn targeted the same enemy unit, pick that enemy unit to be the target.",
+          "effect": "Roll a dice. Add 1 to the roll if the target is a Beast or Cavalry unit, or add 2 to the roll if the target is a Monster. On a 4+, subtract 1 from the Attacks characteristic of the target’s Companion weapons for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/10)",
+        "Standard Bearer (1/10)",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/694d93a5-662b-49c8-bdb1-a856b0cf403e",
+      "baseSize": "32mm",
+      "points": 140,
+      "modelCount": 10,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025."
+    },
+    {
+      "name": "Hedkrakka's Madmob",
+      "move": "5\"",
+      "health": "3",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Madmob Weapons",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Hedkrakka, Gob of Gork",
+          "activation": "Passive",
+          "phases": ["Hero Phase"],
+          "effect": "While this unit’s Hedkrakka, Gob of Gork, is on the battlefield, it has Wizard (1).",
+          "keywords": []
+        },
+        {
+          "name": "Go For Da Eyes",
+          "activation": "Once Per Turn (Army), Your Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "declare": "If this unit’s Dakko Sharp-Stikka is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
+          "effect": "Roll a dice. Add 1 to the roll if the target is a Monster. On a 4+, inflict 1 mortal damage on the target.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Infantry",
+        "Champion",
+        "Ward (6+)",
+        "Destruction",
+        "Bonesplitterz",
+        "Orruk"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/3a9c15bc-56de-4485-a041-ea5bc6ace343",
+      "baseSize": "40mm [1], 32mm [3]",
+      "points": 100,
+      "modelCount": 4,
+      "notes": "This unit cannot be reinforced."
+    }
+  ]
+}

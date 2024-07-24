@@ -1,0 +1,1658 @@
+{
+  "name": "Ossiarch Bonereapers",
+  "battle_traits": [
+    {
+      "name": "Contingent Arrival",
+      "activation": "Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "effect": "Set up this unit anywhere on the battlefield wholly within 3\" of a battlefield edge and more than 6\" from all enemy units.",
+      "keywords": ["Core"]
+    },
+    {
+      "name": "Re-form Ranks",
+      "activation": "Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "declare": "If no friendly units have used a Relentless Discipline ability this phase, pick a friendly Ossiarch Bonereapers Hero to use this ability.",
+      "effect": "For the rest of the turn, while they are wholly within 12\" of that Hero, friendly Ossiarch Bonereapers units can use Charge abilities even if they used a Retreat ability in the same turn.",
+      "keywords": ["Relentless Discipline"]
+    },
+    {
+      "name": "Unstoppable Advance",
+      "activation": "Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "declare": "If no friendly units have used a Relentless Discipline ability this phase, pick a friendly Ossiarch Bonereapers Hero to use this ability. All friendly Ossiarch Bonereapers units wholly within 12\" of that Hero are the targets.",
+      "effect": "Add 2\" to the Move characteristic of each target for the rest of the turn.",
+      "keywords": ["Relentless Discipline"]
+    },
+    {
+      "name": "Coordinated Charge",
+      "activation": "Any Charge Phase",
+      "phases": ["Charge Phase"],
+      "declare": "If no friendly units have used a Relentless Discipline ability this phase, pick a friendly Ossiarch Bonereapers Hero to use this ability.",
+      "effect": "For the rest of the turn, add 1 to charge rolls for friendly Ossiarch Bonereapers units while they are wholly within 12\" of that Hero.",
+      "keywords": ["Relentless Discipline"]
+    },
+    {
+      "name": "Counter-strike",
+      "activation": "Any Charge Phase",
+      "phases": ["Charge Phase"],
+      "declare": "If no friendly units have used a Relentless Discipline ability this phase, pick a friendly Ossiarch Bonereapers Hero to use this ability.",
+      "effect": "For the rest of the turn, friendly units’ melee weapons have Anti‑charge (+1 Rend) while they are wholly within 12\" of that Hero.",
+      "keywords": ["Relentless Discipline"]
+    },
+    {
+      "name": "Impenetrable Ranks",
+      "activation": "Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "declare": "If no friendly units have used a Relentless Discipline ability this phase, pick a friendly Ossiarch Bonereapers Hero to use this ability.",
+      "effect": "For the rest of the turn, friendly Ossiarch Bonereapers have Ward (5+) while they are wholly within 12\" of that Hero.",
+      "keywords": ["Relentless Discipline"]
+    },
+    {
+      "name": "Bludgeon",
+      "activation": "Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "declare": "If no friendly units have used a Relentless Discipline ability this phase, pick a friendly Ossiarch Bonereapers Hero to use this ability.",
+      "effect": "For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Ossiarch Bonereapers units while they are wholly within 12\" of that Hero.",
+      "keywords": ["Relentless Discipline"]
+    }
+  ],
+  "battle_formations": {
+    "Kavalos Lance": {
+      "name": "Swift as Death",
+      "activation": "Once Per Battle (Army), Deployment Phase",
+      "phases": ["Start of Turn"],
+      "declare": "Pick up to 3 friendly Ossiarch Bonereapers Cavalry units to be the targets.",
+      "effect": "Each target can move 6\" but cannot end that move in combat.",
+      "keywords": []
+    },
+    "Mortek Ballistari": {
+      "name": "Crawling Barrage",
+      "activation": "Your Shooting Phase",
+      "phases": ["Shooting Phase"],
+      "declare": "Pick up to 3 friendly Mortek Crawler units that are wholly within friendly territory and that have not used a Move ability this turn to be the targets.",
+      "effect": "Add 1 to hit rolls for each target’s shooting attacks for the rest of the turn.",
+      "keywords": []
+    },
+    "Mortek Phalanx": {
+      "name": "Send in the Reserve",
+      "activation": "Once Per Turn (Army), Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "declare": "Pick a friendly Mortek Guard unit that has been destroyed to be the target.",
+      "effect": "Roll a dice. On a 5+, set up a replacement unit with half the number of models from the target unit (rounding up) on the battlefield more than 9\" from all enemy units.",
+      "keywords": []
+    },
+    "Mortisan Council": {
+      "name": "Necrotic Symphony",
+      "activation": "Passive",
+      "phases": ["Hero Phase"],
+      "effect": "Add 1 to casting rolls for friendly Ossiarch Bonereapers Infantry Wizards.",
+      "keywords": []
+    }
+  },
+  "heroic_traits": [
+    {
+      "name": "Diversionary Tactics",
+      "activation": "Passive",
+      "phases": ["Charge Phase"],
+      "effect": "Subtract 2 from charge rolls for enemy units while they are within 12\" of this unit.",
+      "keywords": []
+    },
+    {
+      "name": "Mighty Archaeossian",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-3, the attack fails and the attack sequence ends.",
+      "keywords": []
+    },
+    {
+      "name": "Aura of Sterility",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly Ossiarch Bonereapers units while they are wholly within 12\" of this unit.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Marrowpact",
+      "activation": "Once Per Battle, Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "effect": "For the rest of the turn, if the unmodified hit roll for a combat attack that targets this unit is 1-2, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+      "keywords": []
+    },
+    {
+      "name": "Helm of Tyranny",
+      "activation": "Passive",
+      "phases": null,
+      "effect": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit.",
+      "keywords": []
+    },
+    {
+      "name": "Lode of Saturation",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "This unit has Ward (5+).",
+      "keywords": []
+    }
+  ],
+  "spell_lore": {
+    "Lore of Ossian Sorcery": [
+      {
+        "name": "Empower Nadirite Weapons",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible friendly Ossiarch Bonereapers unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "The target’s combat attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.",
+        "casting_value": 5,
+        "keywords": ["Spell", "Unlimited"]
+      },
+      {
+        "name": "Shard Storm",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+        "casting_value": 7,
+        "keywords": ["Spell"]
+      },
+      {
+        "name": "Drain Vitality",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Until the start of your next turn, subtract 1 from hit rolls for the target’s attacks and subtract 1 from save rolls for the target.",
+        "casting_value": 7,
+        "keywords": ["Spell"]
+      }
+    ]
+  },
+  "manifestation_lore": {
+    "Horrors of the Necropolis": [
+      {
+        "name": "Summon Bone-tithe Shrieker",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "If there is not a friendly Bone‑tithe Shrieker on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "Set up a Bone-tithe Shrieker wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+        "casting_value": 6,
+        "keywords": ["Summon", "Spell"],
+        "summons": "Bone-tithe Shrieker"
+      },
+      {
+        "name": "Summon Soulstealer Carrion",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "If there is not a friendly Soulstealer Carrion on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "Set up a Soulstealer Carrion wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+        "casting_value": 6,
+        "keywords": ["Summon", "Spell"],
+        "summons": "Soulstealer Carrion"
+      },
+      {
+        "name": "Summon Nightmare Predator",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "If there is not a friendly Nightmare Predator on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "Set up a Nightmare Predator wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+        "casting_value": 6,
+        "keywords": ["Summon", "Spell"],
+        "summons": "Nightmare Predator"
+      }
+    ]
+  },
+  "warscrolls": [
+    {
+      "name": "Liege-Kavalos",
+      "move": "10\"",
+      "health": "7",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Kavalos Steed’s Hooves, Teeth and Barbed Tails",
+            "attacks": "4",
+            "hit": "5+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Commander’s Blade",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)", "Charge (+1 Damage)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Unstoppable Charge",
+          "activation": "Any Charge Phase",
+          "phases": ["Charge Phase"],
+          "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": []
+        },
+        {
+          "name": "Spear of the Kavaloi",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "When this unit uses a Charge ability, it can pass through models in enemy Infantry units as if it had Fly.",
+          "keywords": []
+        },
+        {
+          "name": "Master of Cavalry",
+          "activation": "Reaction: You declared a Fight ability for this unit",
+          "phases": ["Combat Phase"],
+          "effect": "Pick a friendly Kavalos Deathriders unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Cavalry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/8d5b5949-6504-41b3-86d0-5ace33755d4f",
+      "baseSize": "80mm",
+      "points": 210,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Legion Subcommander."
+    },
+    {
+      "name": "Gothizzar Harvester",
+      "move": "6\"",
+      "health": "10",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Death’s Head Maw",
+            "range": "12\"",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Soulcrusher Weapons",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          },
+          {
+            "name": "Ossified Hooves and Tail",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Bone Harvest",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "Each time an enemy model in combat with this unit is slain, give this unit 1 bone-tithe point. This unit can have a maximum of 6 bone-tithe points at once.",
+          "keywords": []
+        },
+        {
+          "name": "Gruesome Surgery",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. For each model slain by this ability, you can return 1 slain model to a friendly Mortek Guard unit wholly within 12\" of this unit.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "Repair Construct",
+          "activation": "End of Any Turn",
+          "phases": null,
+          "declare": "Pick a friendly Ossiarch Bonereapers unit wholly within 12\" of this unit to be the target.",
+          "effect": "Return a number of slain models to the target with a combined Health characteristic equal to the number of bone-tithe points this unit has. Then, reset this unit’s bone-tithe points to 0.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Monster", "Ward (6+)", "Death", "Ossiarch Bonereapers"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/2e800cb3-d204-4467-b019-6b4a8bef2f9c",
+      "baseSize": "105 x 70mm",
+      "points": 230,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Bone-tithe Shrieker",
+      "move": "8\"",
+      "health": "7",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "",
+      "banishment": "7+",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Soul-rending Shriek",
+            "range": "12\"",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Soul-rending Shriek",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "No Escape",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Subtract 1 from ward rolls for enemy units while they are within 12\" of this Manifestation.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/0b08a656-ae6a-47e1-8d13-cd1bffb26ec8",
+      "baseSize": "90 x 52mm",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Nightmare Predator",
+      "move": "8\"",
+      "health": "7",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "",
+      "banishment": "7+",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Lacerating Claws",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Death Incarnate",
+          "activation": "End of Any Turn",
+          "phases": null,
+          "effect": "If this Manifestation was destroyed or banished this turn and the unit that summoned it is on the battlefield, roll a dice. On a 4+, set up this Manifestation again, wholly within 12\" of the unit that summoned it and more than 9\" from all enemy units.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/83475601-863d-49d8-b4b0-da67a37a8f3f",
+      "baseSize": "60mm",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Arkhan the Black, Mortarch of Sacrament",
+      "move": "12\"",
+      "health": "14",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "3",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Razarak’s Ebon Claws",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": true,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Zefet-kar and Khenash-an",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Razarak’s Ebon Claws is 4.",
+          "keywords": []
+        },
+        {
+          "name": "The Staff of Spirits",
+          "activation": "Passive",
+          "phases": ["Hero Phase"],
+          "effect": "Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, Heal (1) this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Mortarch of Sacrament",
+          "activation": "Reaction: Opponent declared a Spell ability",
+          "phases": ["Hero Phase"],
+          "effect": "If a friendly Ossiarch Bonereapers unit wholly within 18\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on that unit. This unit can use this ability more than once per phase but only once per Spell ability.",
+          "keywords": []
+        },
+        {
+          "name": "Curse of Years",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+          "effect": "Roll 10 dice. For each 6:\n\n• Inflict 1 mortal damage on the target.\n• Roll an extra dice.\n\nFor each 5+ on those extra dice, repeat the above bullet points. Then, do the same for each 4+, then each 3+, then each 2+.",
+          "casting_value": 6,
+          "keywords": ["Spell"]
+        },
+        {
+          "name": "The Doom of Traitors",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is a Hero, double the amount of mortal damage inflicted.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard (3)",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/00bd29cd-50c6-4b30-9bfb-eb9be92a7216",
+      "baseSize": "120 x 92mm",
+      "points": 410,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Mortek Guard",
+      "move": "4\"",
+      "health": "1",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Nadirite Weapons",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)", "Anti-charge (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Shieldwall",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Ignore all modifiers to save rolls for this unit (positive and negative) for the rest of the turn if this unit did not use a Move ability in the same turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Standard Bearer (1/10)",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/022efda3-b1fb-4be3-b039-a14915ebfa69",
+      "baseSize": "25mm",
+      "points": 130,
+      "modelCount": 10,
+      "notes": ""
+    },
+    {
+      "name": "Teratic Cohort",
+      "move": "7\"",
+      "health": "2",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Claws and Talons",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Teratic Weapons",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Predator's Cunning",
+          "activation": "Deployment Phase",
+          "phases": ["Start of Turn"],
+          "declare": "Pick this unit if it has not been deployed.",
+          "effect": "Set up this unit in reserve outflanking the enemy. It has now been deployed.",
+          "keywords": ["Deploy"]
+        },
+        {
+          "name": "Hunters Unleashed",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "declare": "Pick this unit if it is outflanking the enemy.",
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion (1/8)",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/e20d6813-574c-4aea-8635-10cdac7cc95d",
+      "baseSize": "60 x 35mm [1], 32mm [2], 28.5mm [5]",
+      "points": 140,
+      "modelCount": 8,
+      "notes": "This unit cannot be reinforced."
+    },
+    {
+      "name": "Soulstealer Carrion",
+      "move": "10\"",
+      "health": "7",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "",
+      "banishment": "7+",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Spectral Claws and Beak",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Aviarch Sentry",
+          "activation": "Passive",
+          "phases": null,
+          "effect": "Subtract 5 from the control scores of enemy Infantry units while they are within 6\" of this Manifestation.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/348c4401-c170-42b9-a716-8a79d4d15f9c",
+      "baseSize": "60mm",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Mortek Crawler",
+      "move": "5\"",
+      "health": "12",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Dread Catapult",
+            "range": "24\"",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "D3+2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)", "Anti-Infantry (+1 Rend)"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Attendants’ Crawler Tools",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Deathly Barrage",
+          "activation": "Any Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "declare": "Pick an enemy unit that was targeted by all of this unit’s shooting attacks this phase to be the target.",
+          "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Mortisan Ossifector, and add 1 to the roll if any other friendly Mortek Crawler units picked that enemy unit to be the target of this ability this turn. On a 4+, the target has Strike‑last for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["War Machine", "Ward (6+)", "Death", "Ossiarch Bonereapers"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/65204d51-bd54-4acf-91c9-8d5b4d5eddab",
+      "baseSize": "170 x 105mm",
+      "points": 280,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Vokmortian, Master of the Bone-tithe",
+      "move": "5\"",
+      "health": "5",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "2",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Gaze of Death",
+            "range": "12\"",
+            "attacks": "1",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Staff of Retribution",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Voice of Nagash",
+          "activation": "Once Per Battle, Any Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+          "effect": "For the rest of the turn, non‑Fight Core abilities cost 1 command point for the target to use.",
+          "keywords": []
+        },
+        {
+          "name": "Mortal Contract",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit within 18\" of this unit to be bound, pick a visible friendly Ossiarch Bonereapers unit wholly within 18\" of this unit to be bound, then make a casting roll of 2D6.",
+          "effect": "Until the start of your next turn, each time the bound friendly unit is picked to be the target of an ability used by the bound enemy unit, roll a D3. On a 2+, inflict an amount of mortal damage on the bound enemy unit equal to the roll as a reaction. If the bound enemy unit is destroyed by this ability, do not resolve the effect of the enemy ability.",
+          "casting_value": 7,
+          "keywords": ["Spell"]
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Hero",
+        "Wizard (2)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/79c9975d-4cce-4e72-9c6d-4e9dcf3b8d63",
+      "baseSize": "40mm",
+      "points": 190,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Mortisan Boneshaper",
+      "move": "5\"",
+      "health": "5",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Ossified Talons",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Boneshaper",
+          "activation": "Once Per Turn, Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Ossiarch Bonereapers unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+:\n\n• If the target is damaged, Heal (3) the target.\n• If the target is not damaged, return a number of slain models to the target unit with a combined Health characteristic of up to 3.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers",
+        "Mortisan"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/4afa28ea-3aa7-41da-8631-045162169b9c",
+      "baseSize": "32mm",
+      "points": 140,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Bone-tithe Nexus",
+      "move": "-",
+      "health": "13",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "-",
+      "banishment": "",
+      "weapons": {},
+      "abilities": [
+        {
+          "name": "Deadly Gaze",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit within 18\" of this terrain feature to be the target.",
+          "effect": "Roll a dice. On a 4+, pick 1 of the following effects to apply:\n\nPunishment of Agony: Subtract 1 from hit rolls for the target until the start of your next turn.\n\nPunishment of Ignorance: Subtract 1 from casting rolls and/or chanting rolls for the target until the start of your next turn.\n\nPunishment of Lethargy: Halve the target’s Move characteristic until the start of your next turn.\n\nPunishment of Death: Inflict D3 mortal damage on the target.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Faction Terrain", "Death", "Ossiarch Bonereapers"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/08943cf8-2d3d-4342-9581-e234fd46ddca",
+      "baseSize": "Use model",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Katakros, Mortarch of the Necropolis",
+      "move": "4\"",
+      "health": "20",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "The Shield Immortis",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Inda-Khaat",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": true,
+            "abilities": ["Crit (2 Hits)"]
+          },
+          {
+            "name": "Retinue Blades",
+            "attacks": "10",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Aviarch Spymaster",
+          "activation": "Once Per Turn, Reaction: Opponent declared a command for a unit within 18\" of this unit",
+          "phases": ["Start of Turn"],
+          "effect": "Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.",
+          "keywords": []
+        },
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Inda-Khaat is 3.",
+          "keywords": []
+        },
+        {
+          "name": "Mortarch of the Necropolis",
+          "activation": "Passive",
+          "phases": ["Hero Phase"],
+          "effect": "If this unit uses a Relentless Discipline ability, that ability affects friendly Ossiarch Bonereapers units wholly within 18\" of this unit instead of wholly within 12\".",
+          "keywords": []
+        },
+        {
+          "name": "Supreme Lord of the Bonereaper Legions",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick up to 3 friendly Ossiarch Bonereapers units wholly within 18\" of this unit to be the targets.",
+          "effect": "Until the start of your next turn, add 1 to save rolls for the targets while they are wholly within 18\" of this unit.",
+          "command_point_cost": 1,
+          "keywords": []
+        },
+        {
+          "name": "Prime Necrophoros",
+          "activation": "Passive",
+          "phases": null,
+          "effect": "Add 3 to the control scores of other friendly Ossiarch Bonereapers units while they are wholly within 18\" of this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/369e160a-65ef-4b99-beee-59175b892377",
+      "baseSize": "120 x 92mm",
+      "points": 500,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Mortisan Soulmason",
+      "move": "5\"",
+      "health": "6",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "2",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Mortek Throne’s Ossified Claws",
+            "attacks": "2",
+            "hit": "5+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Soulmason’s Staff",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Soul-guide",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible friendly Ossiarch Bonereapers unit wholly within 12\" of the caster to be the target, then make a casting roll of 2D6.",
+          "effect": "The target has Strike-first for the rest of the turn.",
+          "casting_value": 7,
+          "keywords": ["Spell"]
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (2)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers",
+        "Mortisan"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c0ff5dc7-2e93-4605-947f-b1be10f0c8e2",
+      "baseSize": "40mm",
+      "points": 160,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Kavalos Deathriders",
+      "move": "10\"",
+      "health": "3",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Kavalos Blades",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)", "Charge (+1 Damage)"]
+          },
+          {
+            "name": "Kavalos Steed’s Hooves and Teeth",
+            "attacks": "2",
+            "hit": "5+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Unstoppable Charge",
+          "activation": "Any Charge Phase",
+          "phases": ["Charge Phase"],
+          "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": []
+        },
+        {
+          "name": "Deathrider Wedge",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "When this unit uses a Charge ability, models in this unit can pass through models in enemy Infantry units as if this unit had Fly.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Cavalry",
+        "Champion",
+        "Standard Bearer (1/5)",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/97295cf8-cd74-47ba-af8b-5d16b07ef9b0",
+      "baseSize": "60 x 35mm",
+      "points": 180,
+      "modelCount": 5,
+      "notes": ""
+    },
+    {
+      "name": "Immortis Guard",
+      "move": "5\"",
+      "health": "4",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Dread Halberd",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Soulbound Protectors",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Add 1 to ward rolls for friendly Ossiarch Bonereapers Heroes within this unit’s combat range. However, each time you make a ward roll of 1 for a friendly Ossiarch Bonereapers Hero within this unit’s combat range, allocate 1 damage point to this unit after the damage sequence for that Hero has been resolved (ward rolls cannot be made for those damage points).",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Infantry", "Ward (6+)", "Death", "Ossiarch Bonereapers"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/6da9ce07-3d89-4390-9d0b-89655f6231e8",
+      "baseSize": "50mm",
+      "points": 200,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Mortisan Ossifector",
+      "move": "5\"",
+      "health": "5",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Ossified Talons",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Refined Creation",
+          "activation": "Once Per Turn (Army), Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Gothizzar Harvester, Morghast Archai or Morghast Harbingers unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers",
+        "Mortisan"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/8eebf378-43fe-454d-aa83-846fcf5bc348",
+      "baseSize": "32mm",
+      "points": 120,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Arch-Kavalos Zandtos",
+      "move": "10\"",
+      "health": "8",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "The Dark Lance",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)", "Charge (+1 Damage)"]
+          },
+          {
+            "name": "Kavalos Steed’s Hooves, Teeth and Barbed Tails",
+            "attacks": "4",
+            "hit": "5+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Unstoppable Charge",
+          "activation": "Any Charge Phase",
+          "phases": ["Charge Phase"],
+          "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": []
+        },
+        {
+          "name": "Spear of the Kavaloi",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "When this unit uses a Charge ability, it can pass through models in enemy Infantry units as if it had Fly.",
+          "keywords": []
+        },
+        {
+          "name": "Still Their Breath!",
+          "activation": "Once Per Battle, Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "If this unit is in combat, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly non-Hero Ossiarch Bonereapers units while they are wholly within 12\" of this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Hero",
+        "Cavalry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/560d120e-f40a-4fb5-8a2f-2536b22e62ce",
+      "baseSize": "80mm",
+      "points": 230,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Mortisan Soulreaper",
+      "move": "5\"",
+      "health": "5",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Soulreaper Scythe",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Necrotic Impetus",
+          "activation": "Reaction: You declared a Fight ability for this unit",
+          "phases": ["Combat Phase"],
+          "effect": "Pick a friendly non-Hero Ossiarch Bonereapers Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Soulreaper",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers",
+        "Mortisan"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c684c9a9-d744-4046-b016-f5fd3074c266",
+      "baseSize": "32mm",
+      "points": 140,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Necropolis Stalkers",
+      "move": "6\"",
+      "health": "4",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Stalker Blades",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Quadrarch Aspects",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "Pick 1 of the following effects to apply for the rest of the turn:\n\nDomination Aspect: Subtract 3 from the control scores of enemy units while they are in combat with this unit.\n\nBlade-parry Aspect: Subtract 1 from hit rolls for combat attacks that target this unit.\n\nDestroyer Aspect: Ward rolls cannot be made for damage points inflicted by this unit’s combat attacks.\n\nPrecision Aspect: This unit’s melee weapons have Anti-Hero (+1 Rend) while this unit is in combat with an enemy Hero.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Infantry", "Ward (6+)", "Death", "Ossiarch Bonereapers"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/057d171a-0546-4791-82b5-f3f93db8dfcd",
+      "baseSize": "50mm",
+      "points": 180,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Nagash, Supreme Lord of the Undead",
+      "move": "10\"",
+      "health": "18",
+      "save": "3+",
+      "ward": "5+",
+      "wizardLevel": "9",
+      "priestLevel": "",
+      "control": "10",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Alakanash",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Zefet-nebtar",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, subtract 3 from its power level.",
+          "keywords": []
+        },
+        {
+          "name": "Supreme Lord of the Undead",
+          "activation": "Once Per Battle, Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly non-Hero non-Unique Death unit that has been destroyed to be the target.",
+          "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.",
+          "keywords": []
+        },
+        {
+          "name": "The Staff of Power",
+          "activation": "Passive",
+          "phases": ["Hero Phase"],
+          "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.",
+          "keywords": []
+        },
+        {
+          "name": "Invocation of Nagash",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.",
+          "effect": "If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly Death unit, pick 1 of the following effects:\n\n• Return a number of slain models to the target unit with a combined Health characteristic of up to 3.\n• The target has Ward (5+) until the start of your next turn.",
+          "casting_value": 7,
+          "keywords": ["Spell"]
+        },
+        {
+          "name": "Hand of Dust",
+          "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": null,
+          "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
+          "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard (9)",
+        "Fly",
+        "Ward (5+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/e8dc791a-71f5-4263-9750-529fc5da9a77",
+      "baseSize": "130mm",
+      "points": 880,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Morghast Archai",
+      "move": "10\"",
+      "health": "6",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Spirit Weapons",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)", "Anti-Monster (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Discharge Armour",
+          "activation": "Any Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "If this unit has an arcane charge token, pick a friendly Ossiarch Bonereapers Wizard wholly within 12\" of this unit to be the target.",
+          "effect": "Remove this unit’s arcane charge token, then add 1 to casting rolls for the target for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Ebon-wrought Armour",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "This unit has Ward (3+) against damage points inflicted by Spell abilities, Prayer abilities and abilities used by Manifestations.\n\nIf you make a successful ward roll for this unit, or if this unit destroys an enemy Manifestation, give this unit an arcane charge token. This unit cannot have more than 1 arcane charge token at once.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c2614c23-a63d-4a8d-8dc4-347f720b7c77",
+      "baseSize": "60mm",
+      "points": 270,
+      "modelCount": 2,
+      "notes": ""
+    },
+    {
+      "name": "Morghast Harbingers",
+      "move": "10\"",
+      "health": "6",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Spirit Weapons",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)", "Anti-Monster (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Heralds of Nagash",
+          "activation": "Once Per Turn (Army), Reaction: You declared a Relentless Discipline ability",
+          "phases": ["Start of Turn"],
+          "effect": "This unit is affected by that Relentless Discipline ability as if it were wholly within range of the friendly Hero picked to use it.",
+          "keywords": []
+        },
+        {
+          "name": "Harbingers of Death",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/682e36b3-57ab-4e1e-ba86-159fa575b3b1",
+      "baseSize": "60mm",
+      "points": 270,
+      "modelCount": 2,
+      "notes": ""
+    },
+    {
+      "name": "Kainan's Reapers",
+      "move": "5\"",
+      "health": "2",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Nadirite Weapon",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Anti-charge (+1 Rend)"]
+          },
+          {
+            "name": "Soulreaper Axe",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Anti-charge (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Mir Kainan",
+          "activation": "Passive",
+          "phases": ["Hero Phase"],
+          "effect": "While this unit’s Mir Kainan is on the battlefield, it has Wizard (1).",
+          "keywords": []
+        },
+        {
+          "name": "Nadirite Bow",
+          "activation": "Your Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "declare": "If this unit’s Nohem is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 4+, inflict 1 mortal damage on the target.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Ossiarch Bonereapers",
+        "Mortisan"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/dc2cff50-b41a-45b2-a12e-efc03a62842a",
+      "baseSize": "40mm [1], 25mm [5]",
+      "points": 140,
+      "modelCount": 6,
+      "notes": "This unit cannot be reinforced."
+    }
+  ]
+}

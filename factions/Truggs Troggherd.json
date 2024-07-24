@@ -1,0 +1,374 @@
+{
+  "name": "Trugg's Troggherd",
+  "battle_traits": [
+    {
+      "name": "Living Landmark",
+      "activation": "Once Per Battle (Army), Deployment Phase",
+      "phases": ["Start of Turn"],
+      "declare": "Pick a friendly Trugg’s Troggherd unit that has not been deployed.",
+      "effect": "Set up that unit in reserve as a living landmark. It has now been deployed.",
+      "keywords": ["Deploy"]
+    },
+    {
+      "name": "Aura of Haywire Magic",
+      "activation": "Passive",
+      "phases": ["Hero Phase"],
+      "effect": "The effects of a friendly Trugg’s ‘Malfunctioning Leystone’ ability affect friendly Trugg’s Troggherd units anywhere on the battlefield instead of only those wholly within 12\" of that friendly Trugg.",
+      "keywords": []
+    },
+    {
+      "name": "Broken Slumber",
+      "activation": "Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "declare": "Pick a friendly Trugg’s Troggherd unit that is a living landmark.",
+      "effect": "Set up that unit anywhere on the battlefield wholly within 3\" of a terrain feature and more than 9\" from all enemy units.",
+      "keywords": []
+    },
+    {
+      "name": "Moon-toughened Hide",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "In battle rounds 2 and 3, subtract 1 from the Rend characteristic of melee weapons used for attacks that target friendly Trugg’s Troggherd units.",
+      "keywords": []
+    },
+    {
+      "name": "Herd Healing",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "Each time a friendly Troggoth unit uses a Fight ability, after that ability has been resolved, Heal (D3) that unit.",
+      "keywords": []
+    }
+  ],
+  "heroic_traits": [
+    {
+      "name": "Loonstone Teef",
+      "activation": "Once Per Battle, Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike‑last for the rest of the turn.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Crunchy Shinies",
+      "activation": "Once Per Battle, Any Movement Phase",
+      "phases": ["Movement Phase"],
+      "effect": "For the rest of the turn, add 3 to run rolls and charge rolls for this unit.",
+      "keywords": []
+    }
+  ],
+  "warscrolls": [
+    {
+      "name": "Trugg, the Troggoth King",
+      "move": "6\"",
+      "health": "16",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Ironshell Club",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "4",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Mighty Antlers",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3+3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, when it uses the 'Malfunctioning Leystone' ability, roll 1 dice instead of 3.",
+          "keywords": []
+        },
+        {
+          "name": "Greater Regeneration",
+          "activation": "Start of Any Turn",
+          "phases": ["Start of Turn"],
+          "effect": "Heal (D6) this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Malfunctioning Leystone",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "Roll 3 dice. You must pick 1 of those dice and apply the effect that corresponds to its value. Effects 2-6 persist until the start of your next turn.\n\n1 - Glyph of Shyish: Inflict D3 mortal damage on this unit.\n\n2 -  Glyph of Ghur: Add 1 to the Attacks characteristic of melee weapons used by friendly Troggoth units while they are wholly within 12\" of this unit.\n\n3 -  Glyph of Aqshy: Add 1 to the Rend characteristic of melee weapons used by friendly Troggoth units while they are wholly within 12\" of this unit.\n\n4 - Glyph of Hysh: This unit can use Unbind abilities as if it had Wizard (1).\n\n5 - Glyph of Ulgu: Subtract 1 from hit rolls for shooting attacks that target friendly Troggoth units while they are wholly within 12\" of this unit.\n\n6 - Glyph of Chamon: This unit has Ward (5+).",
+          "keywords": []
+        },
+        {
+          "name": "Crushing Grip",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit within 1\" of this unit to be the target.",
+          "effect": "Roll a dice. If the roll equals or  exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Hero",
+        "Monster",
+        "Destruction",
+        "Gloomspite Gitz",
+        "Troggoth"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/5fe85a0a-446e-4260-8b4a-8e30b20103f6",
+      "baseSize": "100mm",
+      "points": 360,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Fellwater Troggoths",
+      "move": "6\"",
+      "health": "5",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Noxious Vomit",
+            "range": "6\"",
+            "attacks": "D3",
+            "hit": "2+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Spiked Club",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Regeneration",
+          "activation": "Start of Any Turn",
+          "phases": ["Start of Turn"],
+          "effect": "Heal (D3) this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Noxious Vomit",
+          "activation": "Passive",
+          "phases": ["Shooting Phase"],
+          "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s Noxious Vomit, that unit is drenched in vomit until the start of your next turn.\n\nWhile a unit is drenched in vomit:\n• Subtract 1 from save rolls for that unit.\n• Ignore positive modifiers to save rolls for that unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Infantry", "Destruction", "Gloomspite Gitz", "Troggoth"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/8a2381dd-2d7f-4c1d-a834-88a9117b4276",
+      "baseSize": "50mm",
+      "points": 180,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Rockgut Troggoths",
+      "move": "6\"",
+      "health": "5",
+      "save": "4+",
+      "ward": "5+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Throwin’ Boulders",
+            "range": "10\"",
+            "attacks": "1",
+            "hit": "5+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Stone Maul or Craggy Hands",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Regeneration",
+          "activation": "Start of Any Turn",
+          "phases": ["Start of Turn"],
+          "effect": "Heal (D3) this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Ward (5+)",
+        "Destruction",
+        "Gloomspite Gitz",
+        "Troggoth"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/2c68ab1b-0ace-4afc-a1cb-ee55793b219b",
+      "baseSize": "50mm",
+      "points": 170,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Dankhold Troggoth",
+      "move": "6\"",
+      "health": "10",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Colossal Boulder Club",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3+3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Regeneration",
+          "activation": "Start of Any Turn",
+          "phases": ["Start of Turn"],
+          "effect": "Heal (D3) this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Magical Resistance",
+          "activation": "Reaction: Opponent declared a Spell ability",
+          "phases": ["Hero Phase"],
+          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Wade and Smash",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "If this unit is in combat, it can move 6\" but must end that move in combat. Then, roll a D3 for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": ["Monster", "Destruction", "Gloomspite Gitz", "Troggoth"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/218bba63-7fb9-4629-928a-dd51b18f34e4",
+      "baseSize": "60mm",
+      "points": 180,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Dankhold Troggboss",
+      "move": "6\"",
+      "health": "12",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Boulder Club",
+            "attacks": "5",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Greater Regeneration",
+          "activation": "Start of Any Turn",
+          "phases": ["Start of Turn"],
+          "effect": "Heal (D6) this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Magical Resistance",
+          "activation": "Reaction: Opponent declared a Spell ability",
+          "phases": ["Hero Phase"],
+          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Shepherd of Destruction",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "If this unit is in combat, roll a dice. On a 3+, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Troggoth units while they are within this unit’s combat range.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Monster",
+        "Destruction",
+        "Gloomspite Gitz",
+        "Troggoth"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/f3219b54-5a43-42d7-9a85-28191d5639ff",
+      "baseSize": "60mm",
+      "points": 220,
+      "modelCount": 1,
+      "notes": "This Hero can join Trugg’s regiment."
+    }
+  ]
+}

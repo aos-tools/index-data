@@ -1,0 +1,2134 @@
+{
+  "name": "Flesh-eater Courts",
+  "battle_traits": [
+    {
+      "name": "Noble Deeds",
+      "activation": "Passive",
+      "phases": ["Start of Turn"],
+      "effect": "Each friendly Flesh-eater Courts Hero starts the battle with 0 noble deeds points and can have a maximum of 6 noble deeds points at once.\n\nEach time a friendly Flesh-eater Courts Hero uses a Fight ability, after that ability has been resolved, give that Hero a number of noble deeds points equal to the number of damage points inflicted by that ability. Do not count attacks made with Companion weapons.\n\nEach time a friendly Flesh-eater Courts Priest Hero uses a Prayer ability and the prayer is answered, after that ability has been resolved, give that Hero 1 noble deeds point.\n\nEach time a friendly Flesh-eater Courts Wizard Hero uses a Spell ability and the spell is successfully cast, after that ability has been resolved, give that Hero 1 noble deeds point.",
+      "keywords": []
+    },
+    {
+      "name": "Royal Blood",
+      "activation": "Once Per Turn (Army), Your Hero Phase",
+      "phases": ["Hero Phase"],
+      "declare": "Pick any number of friendly Abhorrants to be the targets.",
+      "effect": "Heal (D3) each target.",
+      "keywords": []
+    },
+    {
+      "name": "Muster Guard",
+      "activation": "Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "declare": "Pick a friendly Courtier Hero that has 1 or more noble deeds points to use this ability, then pick a friendly unit wholly within 12\" of it to be the target.",
+      "effect": "Spend any of that Hero’s noble deeds points. If the target is a Serfs unit, for each noble deeds point spent, return 1 slain model to it. If the target is a Knights unit, for every 2 noble deeds points spent, return 1 slain model to it.",
+      "keywords": []
+    },
+    {
+      "name": "Summon Loyal Subjects",
+      "activation": "Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "declare": "Pick a friendly Abhorrant Hero that has 6 noble deeds points to use this ability, then pick a friendly Serfs or Knights unit that has been destroyed to be the target.",
+      "effect": "Spend all of that Hero’s noble deeds points. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.",
+      "keywords": []
+    },
+    {
+      "name": "Feeding Frenzy",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Add 1 to the Attacks characteristic of melee weapons, including Companion weapons, used by friendly Flesh-eater Courts units while they are wholly within 12\" of any friendly Heroes that have 6 noble deeds points.",
+      "keywords": []
+    },
+    {
+      "name": "Summon Loyal Subject",
+      "activation": "Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "declare": "Pick a friendly Hero with any noble deeds points to use this ability.",
+      "effect": "Spend any number of that Hero’s noble deeds points as follows:\n\nPick a friendly Cryptguard unit within 9\" of this unit and spend 1 noble deeds point to return 1 model to that unit.\n\nPick a friendly Morbheg Knights unit within 9\" of this unit and spend 2 noble deeds points to return 1 model to that unit.",
+      "keywords": []
+    },
+    {
+      "name": "Feeding Frenzy",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Add 1 to the Attacks characteristic of melee weapons used by friendly units while they are wholly within 12\" of any friendly Heroes that have 6 noble deeds points.",
+      "keywords": []
+    },
+    {
+      "name": "Noble Deeds",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Each time a friendly Hero uses a Fight ability, after its attacks have been resolved, give that Hero a number of noble deeds points equal to the number of damage points allocated by that ability. Each Hero can have a maximum of 6 noble deeds points at any time.",
+      "keywords": []
+    }
+  ],
+  "battle_formations": {
+    "Cannibal Court": {
+      "name": "A Hunger For Glory",
+      "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": null,
+      "effect": "Give 1 noble deeds point to each friendly Flesh-eater Courts Hero wholly outside friendly territory.",
+      "keywords": []
+    },
+    "Ghoul Patrol": {
+      "name": "Gore-splattered Hunters",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "When players are alternating picking units to use a Fight ability, when it is your turn to pick a unit, you can pick 2 Crypt Ghouls units instead of 1. Neither unit can have Strike‑last. Resolve the second Fight ability immediately after the first.",
+      "keywords": []
+    },
+    "Lords of the Manor": {
+      "name": "Raise the Banners",
+      "activation": "Passive",
+      "phases": ["Start of Turn"],
+      "effect": "Each time a friendly unit uses an ability that returns any slain models to a friendly Serfs or Knights unit, add 1 to the number of slain models returned to that unit.",
+      "keywords": []
+    },
+    "Royal Menagerie": {
+      "name": "Meat for the Beast",
+      "activation": "Once Per Turn (Army), Your Combat Phase",
+      "phases": ["Combat Phase"],
+      "declare": "Pick a friendly Flesh-eater Courts Monster to be the target.",
+      "effect": "Roll a dice. On a 3+, the target has Strike-first for the rest of the turn.",
+      "keywords": []
+    }
+  },
+  "heroic_traits": [
+    {
+      "name": "Cruel Taskmaster",
+      "activation": "Passive",
+      "phases": ["Hero Phase"],
+      "effect": "Each time a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "keywords": []
+    },
+    {
+      "name": "Savage Beyond Reason",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "While this unit has fewer than 6 noble deeds points, its melee weapons have Crit (2 Hits). While it has 6 noble deeds points, its melee weapons have Crit (Mortal).",
+      "keywords": []
+    },
+    {
+      "name": "Stronger In Madness",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "Add 2 to this unit’s Health characteristic. In addition, while this unit has 6 noble deeds points, it has Ward (5+).",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Charnel Vestments",
+      "activation": "Passive",
+      "phases": ["Hero Phase"],
+      "effect": "If this unit is not a Priest, it has Priest (1). If this unit is already a Priest, add 1 to chanting rolls for this unit. If this unit is a Wizard, it cannot use Spell abilities and Prayer abilities in the same phase.",
+      "keywords": []
+    },
+    {
+      "name": "Heart of the Gargant",
+      "activation": "Once Per Battle, Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "effect": "If this unit is in combat, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn. This ability also affects Companion weapons.",
+      "keywords": []
+    },
+    {
+      "name": "The Grim Garland",
+      "activation": "Passive",
+      "phases": null,
+      "effect": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit.",
+      "keywords": []
+    }
+  ],
+  "spell_lore": {
+    "Lore of Madness": [
+      {
+        "name": "Miasma of Madness",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Flesh-eater Courts Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Roll 7 dice and apply the corresponding effect:\n\nRavaged Mind: If 2 or more dice have the same value, inflict 1 mortal damage on the target.\n\nGory Visions: If 3 or more dice have the same value, in addition to the effect of ‘Ravaged Mind’, subtract 1 from hit rolls for the target’s attacks until the start of your next turn.\n\nDrooling Stupor: If 4 or more dice have the same value, in addition to the effects of ‘Ravaged Mind’ and ‘Gory Visions’, subtract 1 from wound rolls for the target’s attacks until the start of your next turn.",
+        "casting_value": 5,
+        "keywords": ["Spell"]
+      },
+      {
+        "name": "Charnel Feast",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Flesh-eater Courts Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Inflict D3 mortal damage on the target. Then, you can pick a friendly Flesh-eater Courts Infantry unit within 6\" of the target. For each damage point allocated to the target by this ability, you can return 1 slain model to that friendly unit.",
+        "casting_value": 6,
+        "keywords": ["Spell"]
+      },
+      {
+        "name": "Deranged Transformation",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Flesh-eater Courts Wizard to cast this spell, pick a visible friendly Flesh-eater Courts Infantry or Cavalry unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Until the start of your next turn:\n\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to wound rolls for the target’s combat attacks.",
+        "casting_value": 6,
+        "keywords": ["Spell", "Unlimited"]
+      }
+    ]
+  },
+  "prayer_lore": {
+    "Rites of Delusion": [
+      {
+        "name": "Charnel Conviction",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Flesh-eater Courts Priest to chant this prayer, pick a visible friendly Flesh-eater Courts unit wholly within 18\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Until the start of your next turn, the target has Ward (5+). If the chanting roll was 10+, pick another friendly Flesh-eater Courts unit wholly within 18\" of the target. That unit also has Ward (5+) until the start of your next turn.",
+        "chanting_value": 5,
+        "keywords": ["Prayer"]
+      },
+      {
+        "name": "The Summerking's Favour",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Flesh-eater Courts Priest to chant this prayer, pick a visible friendly Flesh-eater Courts Hero wholly within 18\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Until the start of your next turn, each time an enemy model is slain by a combat attack made by the target, give the target 1 additional noble deeds point after the Fight ability has been resolved. If the chanting roll was 10+, until the start of your next turn, each time an enemy model is slain by a combat attack made by the target, give all friendly Flesh-eater Courts Heroes wholly within 18\" of the target 1 additional noble deeds point after the Fight ability has been resolved instead of only the target.",
+        "chanting_value": 5,
+        "keywords": ["Prayer"]
+      },
+      {
+        "name": "Blessed Feast",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Flesh-eater Courts Priest to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Until the start of your next turn, each time a model in the target unit is slain, Heal (1) a friendly Flesh-eater Courts unit in combat with the target. If the chanting roll was 10+, Heal (D3) that friendly unit instead.",
+        "chanting_value": 5,
+        "keywords": ["Prayer", "Unlimited"]
+      }
+    ]
+  },
+  "manifestation_lore": {
+    "Manifested Insanity": [
+      {
+        "name": "Summon Cadaverous Barricade",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "If there is not a friendly Cadaverous Barricade on the battlefield, pick a friendly Flesh-eater Courts Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "Set up a Cadaverous Barricade wholly within 18\" of the caster and visible to them.",
+        "casting_value": 5,
+        "keywords": ["Summon", "Spell"],
+        "summons": "Cadaverous Barricade"
+      },
+      {
+        "name": "Summon Corpsemare Stampede",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "If there is not a friendly Corpsemare Stampede on the battlefield, pick a friendly Flesh-eater Courts Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "Set up a Corpsemare Stampede wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
+        "casting_value": 7,
+        "keywords": ["Summon", "Spell"],
+        "summons": "Corpsemare Stampede"
+      },
+      {
+        "name": "Summon Chalice of Ushoran",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "If there is not a friendly Chalice of Ushoran on the battlefield, pick a friendly Flesh-eater Courts Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "Set up a Chalice of Ushoran wholly within 12\" of the caster and visible to them.",
+        "casting_value": 6,
+        "keywords": ["Summon", "Spell"],
+        "summons": "Chalice of Ushoran"
+      }
+    ]
+  },
+  "warscrolls": [
+    {
+      "name": "Crypt Haunter Courtier",
+      "move": "7\"",
+      "health": "6",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Massive Bone Club and Rancid Talons",
+            "attacks": "5",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Noble Blood",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "Heal (D3) this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Knightly Exemplar",
+          "activation": "Reaction: You declared a Fight ability for this unit",
+          "phases": ["Combat Phase"],
+          "effect": "Pick a friendly Crypt Horrors unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Courtier"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/7273cb40-39e1-4230-a07e-5c41bc6eb9fd",
+      "baseSize": "50mm",
+      "points": 140,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Flesh-eater Noble."
+    },
+    {
+      "name": "Abhorrant Cardinal",
+      "move": "6\"",
+      "health": "5",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "1",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Cursed Crosier",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Rousing Oration",
+          "activation": "Any Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Flesh-eater Courts Hero wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a D3. On a 2+, give the target a number of noble deeds points equal to the roll.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Priest (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Abhorrant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/fdf936b7-ecbe-46bc-933b-f33fafc519d3",
+      "baseSize": "32mm",
+      "points": 110,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Royal Decapitator",
+      "move": "6\"",
+      "health": "5",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Headsman’s Axe",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Executioner's Entourage",
+          "activation": "Reaction: You declared a Fight ability for this unit",
+          "phases": ["Combat Phase"],
+          "effect": "Pick a friendly Serfs unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+          "keywords": []
+        },
+        {
+          "name": "Off With Their Head!",
+          "activation": "End of Any Turn",
+          "phases": null,
+          "declare": "Pick an enemy Infantry Hero that had any damage points allocated to it this turn by this unit’s attacks to be the target.",
+          "effect": "Roll a dice. On a 5+, the target is automatically destroyed.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Courtier"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/284552d9-9c8f-471e-98f9-bf4c6f46136f",
+      "baseSize": "32mm",
+      "points": 110,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Flesh-eater Noble."
+    },
+    {
+      "name": "Crypt Flayers (2 models)",
+      "move": "12\"",
+      "health": "4",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Death Scream",
+            "range": "10\"",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Piercing Talons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Escort Courtier",
+          "activation": "Once Per Turn (Army), Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "declare": "If this unit is not in combat, pick a friendly Flesh-eater Courts Infantry Hero that does not have Fly and is within this unit’s combat range to be the target.",
+          "effect": "Remove the target from the battlefield. Then, this unit can move a distance up to its Move characteristic. It cannot end that move in combat. Then, set up the target within this unit’s combat range and more than 3\" from all enemy units.",
+          "keywords": ["Core", "Move"]
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Knights"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/4bbcb91e-9650-4bca-b905-c10b5bda42eb",
+      "baseSize": "50mm",
+      "points": 110,
+      "modelCount": 2,
+      "notes": "You can include 1 unit of this type for each Crypt Infernal Courtier in your army. This unit cannot be reinforced."
+    },
+    {
+      "name": "Abhorrant Archregent",
+      "move": "6\"",
+      "health": "6",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "2",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Gory Talons and Fangs",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Carrion Call",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Make a casting roll of 2D6.",
+          "effect": "The first friendly Flesh‑eater Courts unit to be set up in the following movement phase can immediately move D6\". That unit cannot move into combat during any part of that move.",
+          "casting_value": 6,
+          "keywords": ["Spell"]
+        },
+        {
+          "name": "Countless Servants",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Serfs or Knights unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+:\n\n• If the target is a Serfs unit, you can return up to 3 slain models to that unit.\n• If the target is a Knights unit, you can return 1 slain model to that unit.",
+          "keywords": ["Core"]
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (2)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Abhorrant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/2dc08d6c-99d3-4e3d-be5f-b5643f194004",
+      "baseSize": "40mm",
+      "points": 190,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Crypt Flayers",
+      "move": "12\"",
+      "health": "4",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Death Scream",
+            "range": "10\"",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Piercing Talons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Escort Courtier",
+          "activation": "Once Per Turn (Army), Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "declare": "If this unit is not in combat, pick a friendly Flesh-eater Courts Infantry Hero that does not have Fly and is within this unit’s combat range to be the target.",
+          "effect": "Remove the target from the battlefield. Then, this unit can move a distance up to its Move characteristic. It cannot end that move in combat. Then, set up the target within this unit’s combat range and more than 3\" from all enemy units.",
+          "keywords": ["Core", "Move"]
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Knights"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/4bbcb91e-9650-4bca-b905-c10b5bda42eb",
+      "baseSize": "50mm",
+      "points": 170,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Cryptguard",
+      "move": "6\"",
+      "health": "1",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Cursed Weapon",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Armoury of Madness",
+          "activation": "Reaction: You declared a Fight ability for this unit",
+          "phases": ["Combat Phase"],
+          "effect": "If any damage points inflicted by attacks made as part of that Fight ability are allocated to any enemy units, those enemy units cannot use commands until the start of your next turn.",
+          "keywords": []
+        },
+        {
+          "name": "Royal Bodyguard",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "While any friendly Flesh-eater Courts Heroes are wholly within this unit’s combat range, both this unit and those Heroes have Ward (5+).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/10)",
+        "Standard Bearer (1/10)",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Serfs"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/b4c75cbe-a933-4c7f-b91f-7ad17920ab52",
+      "baseSize": "25mm",
+      "points": 120,
+      "modelCount": 10,
+      "notes": ""
+    },
+    {
+      "name": "Royal Zombie Dragon",
+      "move": "12\"",
+      "health": "14",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Pestilential Breath",
+            "range": "10\"",
+            "attacks": "D6",
+            "hit": "2+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat", "Companion"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Draconic Claws",
+            "attacks": "7",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": true,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Draconic Maw",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Vantage Point",
+          "activation": "Deployment Phase",
+          "phases": ["Start of Turn"],
+          "declare": "Pick this unit if it has not been deployed.",
+          "effect": "Set up this unit in reserve high above the battlefield. It has now been deployed.",
+          "keywords": ["Deploy"]
+        },
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.",
+          "keywords": []
+        },
+        {
+          "name": "Loathsome Descent",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "declare": "Pick this unit if it is high above the battlefield.",
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+          "keywords": []
+        },
+        {
+          "name": "Soaring Terror",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units but must end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/6188815f-5a9c-47b3-952b-43bd2e0c99ae",
+      "baseSize": "130mm",
+      "points": 290,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Varghulf Courtier",
+      "move": "10\"",
+      "health": "8",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Immense Claws",
+            "attacks": "7",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          },
+          {
+            "name": "Dagger-like Fangs",
+            "attacks": "1",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Bounding Strides",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can pass across terrain features as if it had Fly.",
+          "keywords": []
+        },
+        {
+          "name": "Victory Feast",
+          "activation": "End of Any Turn",
+          "phases": null,
+          "effect": "If any models were slain by this unit this turn:\n\n• Heal (D6) this unit.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Courtier"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/b212c212-001f-497b-917f-748fc6c8c9ae",
+      "baseSize": "90 x 52mm",
+      "points": 180,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Flesh-eater Noble."
+    },
+    {
+      "name": "Marrowscroll Herald",
+      "move": "6\"",
+      "health": "5",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Bone Scythe",
+            "attacks": "5",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "The King's Entreaty",
+          "activation": "Once Per Turn (Army), Any Charge Phase",
+          "phases": ["Charge Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n\nAttack the Apostate!: Friendly Flesh‑eater Courts units in combat with the target have Strike‑first for the rest of the turn.\n\nWelcome the Disciple!: The target has the Infected keyword for the rest of the battle. Each time your opponent declares a command, Spell ability or Prayer ability for an Infected unit, roll a dice. On a 5+:\n\n• If they declared a command, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.\n• If they declared a Spell or Prayer ability, that spell or prayer fails.",
+          "keywords": []
+        },
+        {
+          "name": "Don't Shoot The Messenger",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "While this unit is not in combat and is wholly within the combat ranges of 3 or more other friendly Flesh-eater Courts Infantry models, it is not visible to enemy units.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Courtier"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/ea0736ea-9a27-4f07-a832-00c1dffe455f",
+      "baseSize": "32mm",
+      "points": 120,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Flesh-eater Noble."
+    },
+    {
+      "name": "Abhorrant Ghoul King on Royal Zombie Dragon",
+      "move": "12\"",
+      "health": "16",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Pestilential Breath",
+            "range": "10\"",
+            "attacks": "D6",
+            "hit": "2+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat", "Companion"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Draconic Claws",
+            "attacks": "7",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": true,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Draconic Maw",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Gory Talons and Fangs",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.",
+          "keywords": []
+        },
+        {
+          "name": "Monstrous Hunger",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "While they are wholly within 12\" of this unit, friendly non-Hero Flesh‑eater Courts Monsters can use Charge abilities even if they used a Run ability in the same turn.",
+          "keywords": []
+        },
+        {
+          "name": "Draconic Terror",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. If the roll exceeds the target’s Control characteristic, the target cannot use commands for the rest of the turn.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Monster",
+        "Wizard (1)",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Abhorrant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/e68dfcb6-3106-42e3-9a81-2f76f64ca0a0",
+      "baseSize": "130mm",
+      "points": 380,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Royal Terrorgheist",
+      "move": "12\"",
+      "health": "14",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Death Shriek",
+            "range": "10\"",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat", "Companion"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Fanged Maw",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Skeletal Talons",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": true,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Skeletal Talons is 4.",
+          "keywords": []
+        },
+        {
+          "name": "Death Shriek",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
+          "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If 3 or more damage points are allocated to the target by this ability, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "Gaping Maw",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Each time an attack made with this unit’s Fanged Maw scores a critical hit, that attack inflicts 6 mortal damage on the target unit and the attack sequence ends.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/697d1133-fe29-4a7d-b94a-126c16895830",
+      "baseSize": "130mm",
+      "points": 280,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Charnel Throne",
+      "move": "-",
+      "health": "10",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "-",
+      "banishment": "",
+      "weapons": {},
+      "abilities": [
+        {
+          "name": "Steward of the Realm",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this terrain feature has a Steward:\n\n• The Steward cannot use Move abilities.\n• Instead of measuring range or visibility to the Steward, measure to this terrain feature instead.\n• All attacks that would target the Steward target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Steward. Then, set up the Steward on the battlefield within 3\" of this terrain feature and not in combat. That unit is no longer the Steward. If it is not possible to set up the Steward, it is slain.",
+          "keywords": []
+        },
+        {
+          "name": "Ruler of All They Survey",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "Give D3 noble deeds points to this terrain feature’s Steward.",
+          "keywords": []
+        },
+        {
+          "name": "Reigning Champion",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "If this terrain feature does not have a Steward, pick a friendly Flesh‑eater Courts Infantry Hero within 3\" of it to be the target.",
+          "effect": "Place the target on this terrain feature. The target is now the Steward (see ‘Steward of the Realm’).",
+          "keywords": []
+        },
+        {
+          "name": "Duty Calls",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "effect": "If this terrain feature has a Steward, set up the Steward on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer the Steward.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Faction Terrain", "Death", "Flesh-eater Courts"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/19732562-2771-442e-b84e-2422bea7efcc",
+      "baseSize": "Use model",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Abhorrant Gorewarden",
+      "move": "12\"",
+      "health": "7",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Gory Talons and Fangs",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Royal Hunting Party",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "declare": "If this unit is not in combat, you can pick up to 2 friendly Crypt Flayers or Morbheg Knights units that are not in combat and are wholly within 12\" of this unit to be the targets.",
+          "effect": "Remove this unit and the targets (if any) from the battlefield. Set up this unit again on the battlefield more than 9\" from all enemy units. Then, set up each target wholly within 12\" of this unit and more than 9\" from all enemy units.",
+          "keywords": ["Core"]
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Abhorrant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/6972a576-d05b-4c57-bdcc-8e00b5e8fa9c",
+      "baseSize": "40mm",
+      "points": 160,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "The Skinnerkin",
+      "move": "6\"",
+      "health": "2",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Butchering Weapons",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (Auto-wound)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Prime Cuts",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Each time a combat attack made by this unit scores a critical hit, give 1 prime cut point to this unit, to a maximum of 6.",
+          "keywords": []
+        },
+        {
+          "name": "Dinner is Served",
+          "activation": "End of Any Turn",
+          "phases": null,
+          "declare": "Pick a friendly Flesh-eater Courts Hero wholly within 12\" of this unit to be the target.",
+          "effect": "Heal (X) the target, where X is the number of prime cut points this unit has. Then, reset this unit’s prime cut points to 0.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Infantry",
+        "Champion",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Serfs"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/a014c915-59a9-428a-990a-a7b38e1b71c7",
+      "baseSize": "32mm [1], 25mm [4]",
+      "points": 80,
+      "modelCount": 5,
+      "notes": "This unit cannot be reinforced."
+    },
+    {
+      "name": "Abhorrant Ghoul King on Royal Terrorgheist",
+      "move": "12\"",
+      "health": "16",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Death Shriek",
+            "range": "10\"",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat", "Companion"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Terrorgheist’s Skeletal Talons",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": true,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Terrorgheist’s Fanged Maw",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Gory Talons and Fangs",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Terrorgheist’s Skeletal Talons is 4.",
+          "keywords": []
+        },
+        {
+          "name": "Ferocious Hunger",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy Hero in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, attacks made with this unit’s Terrorgheist’s Fanged Maw that target that enemy unit score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "Gaping Maw",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Each time an attack made with this unit’s Terrorgheist’s Fanged Maw scores a critical hit, that attack inflicts 6 mortal damage on the target unit and the attack sequence ends.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Monster",
+        "Wizard (1)",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Abhorrant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/78cfa830-d221-41fa-ad56-11e7502ee23f",
+      "baseSize": "130mm",
+      "points": 380,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Abhorrant Ghoul King",
+      "move": "6\"",
+      "health": "6",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Gory Talons and Fangs",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Unnatural Speed",
+          "activation": "Your Charge Phase",
+          "phases": ["Charge Phase"],
+          "effect": "If this unit charged this phase, it has Strike-first for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Code of Honour",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy Hero in combat with this unit to be the target.",
+          "effect": "For the rest of the turn, add 1 to the Damage characteristic of this unit’s melee weapons, but all of this unit’s attacks must target that Hero.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Abhorrant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/68175a9f-3381-41c9-84ce-62c4f94b9a6e",
+      "baseSize": "32mm",
+      "points": 140,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Chalice of Ushoran",
+      "move": "-",
+      "health": "6",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "",
+      "banishment": "7+",
+      "weapons": {},
+      "abilities": [
+        {
+          "name": "Fill the Chalice",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "Each time a model (friendly or enemy) is slain within 12\" of this Manifestation, give this Manifestation a blood point, to a maximum of 6.",
+          "keywords": []
+        },
+        {
+          "name": "Overflowing Gore",
+          "activation": "End of Any Turn",
+          "phases": null,
+          "declare": "Pick a friendly Flesh-eater Courts unit wholly within 18\" of this Manifestation to be the target.",
+          "effect": "Add the number of blood points this Manifestation has to the target’s control score for the rest of the turn. Then, reset this Manifestation’s blood points to 0.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/19aead5f-9bf1-45e9-9daa-769f2a74ad1b",
+      "baseSize": "50mm",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Royal Beastflayers",
+      "move": "6\"",
+      "health": "1",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Beastflayer Weapons",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Anti-Monster (+1 Rend)", "Anti-Beast (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Hunter's Instincts",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "Enemy Monsters cannot use Rampage abilities while they are in combat with this unit.\n\nIn addition, subtract 1 from the Damage characteristic of melee weapons used by enemy Monsters and Beast units while they are in combat with this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Royal Flaymaster",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the amount of mortal damage inflicted, if any, if the target is a Monster or Beast unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion (1/10)",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Serfs"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/30ffc3cb-5294-4931-b5fc-e15dede9b8e8",
+      "baseSize": "40mm [2], 32mm [2], 28.5mm [3], 25mm [3]",
+      "points": 120,
+      "modelCount": 10,
+      "notes": "This unit cannot be reinforced."
+    },
+    {
+      "name": "Crypt Horrors",
+      "move": "7\"",
+      "health": "4",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Club and Septic Talons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (Auto-wound)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Noble Blood",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "Heal (D3) this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Royal Approval",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly Courtiers or Abhorrants.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Knights"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/3f280355-2479-455f-86eb-caef6605e601",
+      "baseSize": "50mm",
+      "points": 150,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Crypt Infernal Courtier",
+      "move": "12\"",
+      "health": "6",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Piercing Death Screech",
+            "range": "10\"",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Skewering Claws",
+            "attacks": "5",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Mind-shattering Cacophony",
+          "activation": "Passive",
+          "phases": ["Shooting Phase"],
+          "effect": "If any enemy models were slain by this unit’s Piercing Death Screech this turn, for the rest of the turn, add 1 to the Damage characteristic of ranged weapons used by friendly Crypt Flayers units while they are wholly within 12\" of this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Courtier"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/17350e84-8a7d-4473-9c3f-677b38a4daf8",
+      "baseSize": "50mm",
+      "points": 170,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Flesh-eater Noble."
+    },
+    {
+      "name": "Crypt Ghast Courtier",
+      "move": "6\"",
+      "health": "4",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Bone Club and Filthy Claws",
+            "attacks": "5",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Marshal of the Peasantry",
+          "activation": "Reaction: You declared a Fight ability for this unit",
+          "phases": ["Combat Phase"],
+          "effect": "Pick a friendly Crypt Ghouls unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Courtier"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/8f1c07fc-545e-4f33-96a6-8d73b413c2b3",
+      "baseSize": "25mm",
+      "points": 100,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Flesh-eater Noble."
+    },
+    {
+      "name": "Morbheg Knights",
+      "move": "12\"",
+      "health": "4",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Nightshrieker’s Claws and Teeth",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Grisly Lance",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Charge (+1 Damage)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Predator's Pounce",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities.",
+          "keywords": []
+        },
+        {
+          "name": "Shrieking Charge",
+          "activation": "Any Charge Phase",
+          "phases": ["Charge Phase"],
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of this unit to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Cavalry",
+        "Champion",
+        "Musician (1/3)",
+        "Standard Bearer (1/3)",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Knights"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/af070d7d-3571-4af6-a0d7-72cc4a95f013",
+      "baseSize": "75 x 42mm",
+      "points": 170,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Corpsemare Stampede",
+      "move": "12\"",
+      "health": "10",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "",
+      "banishment": "7+",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Corpsemare Trample",
+            "attacks": "10",
+            "hit": "5+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Trample Underfoot",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "effect": "This Manifestation can move a distance up to its Move characteristic. This Manifestation can pass through models and the combat ranges of enemy units, but it cannot end that move in combat.\n\nThen, pick up to 3 enemy units that this Manifestation passed across during that move to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nDesigner’s Note: This Manifestation can use this ability even if it is in combat.",
+          "keywords": ["Core", "Move"]
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/552b74d4-f87e-4353-8616-9945abbacb48",
+      "baseSize": "120 x 92mm",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Grand Justice Gormayne",
+      "move": "6\"",
+      "health": "5",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Gore-streaked Gavel",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Delusion of Justice Served",
+          "activation": "Once Per Turn (Army), Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit to be the target.",
+          "effect": "Roll a dice. On a 3+, pick 1 of the following effects to apply to the target until the start of your next turn:\n\nPetty Transgression: Add 1 to wound rolls for combat attacks that target that unit.\n\nDishonourable Conduct in Battle: Friendly non-Monster Flesh-eater Courts units can use Charge abilities even if they used a Run ability in the same turn, but if they do so, they must end the charge move within 00bd\" of the target.\n\nGrievous Insult to the Court: While the target is in combat with a friendly Abhorrant, add 1 to hit rolls for attacks made by friendly Flesh-eater Courts units that target that unit.\n\nRegicide: If the target destroyed a friendly Abhorrant this battle, add 1 to the Damage characteristic of melee weapons used by friendly Flesh-eater Courts units that target that unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Abhorrant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/4b9f392b-7eba-456f-80ec-7502ebfea95b",
+      "baseSize": "32mm",
+      "points": 120,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Cadaverous Barricade",
+      "move": "-",
+      "health": "10",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "",
+      "banishment": "7+",
+      "weapons": {},
+      "abilities": [
+        {
+          "name": "Grasping Hands",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "Enemy units cannot use Run or Retreat abilities while they are within this Manifestation’s combat range.\n\nIn addition, if an enemy unit is picked to use a Move ability while it is within this Manifestation’s combat range, halve that unit’s Move characteristic (rounding up) for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/0fba5f96-bf28-423d-865d-8cc5236aa901",
+      "baseSize": "Use model",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Crypt Ghouls",
+      "move": "6\"",
+      "health": "1",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Sharpened Teeth and Filthy Claws",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (Auto-wound)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Royal Approval",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly Courtiers or Abhorrants.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Serfs"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/d9b6ada9-a96a-4392-9886-7042fc120d83",
+      "baseSize": "25mm",
+      "points": 170,
+      "modelCount": 20,
+      "notes": ""
+    },
+    {
+      "name": "Ushoran, Mortarch of Delusion",
+      "move": "10\"",
+      "health": "16",
+      "save": "4+",
+      "ward": "5+",
+      "wizardLevel": "2",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Monstrous Talons",
+            "attacks": "8",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": true,
+            "abilities": []
+          },
+          {
+            "name": "Sceptre of the Carrion King",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3+3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Monstrous Talons is 6.",
+          "keywords": []
+        },
+        {
+          "name": "Glimpse of Delusion",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy model within 18\" of this unit to be the target, pick another enemy unit within the target’s combat range to be the victim, then make a casting roll of 2D6.",
+          "effect": "Pick 1 of the target’s melee weapons. Immediately resolve combat attacks made with that weapon against the victim.",
+          "casting_value": 7,
+          "keywords": ["Spell"]
+        },
+        {
+          "name": "Epicentre of Delusion",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "Pick 1 of the following effects to apply until the start of your next turn:\n\nThe Royal Hunt: Add 1 to wound rolls for attacks made by friendly Flesh-eater Courts units that target a Monster.\n\nCrusading Army: Add 1 to run rolls and charge rolls for friendly Flesh-eater Courts units.\n\nDefenders of the Realm: Add 1 to save rolls for friendly Flesh-eater Courts units while they are contesting an objective you control.\n\nThe Grand Tournament: Add 1 to hit rolls for attacks made by other friendly Flesh-eater Courts Heroes if they charged in the same turn.",
+          "keywords": []
+        },
+        {
+          "name": "Shroudcage Fragment",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
+          "effect": "Roll a dice for each target. If the roll exceeds the target’s Control characteristic, the target has Strike‑last for the rest of the turn.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "The Carrion King",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "While this unit has 6 noble deeds points, the effect of the ‘Feeding Frenzy’ ability applies to friendly Flesh-eater Courts units while they are wholly within 24\" of this unit instead of 12\".",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard (2)",
+        "Ward (5+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Abhorrant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/0bb1ddcd-90d5-4403-9cdc-4c482444b89b",
+      "baseSize": "130mm",
+      "points": 470,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "The Grymwatch",
+      "move": "6\"",
+      "health": "3",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Knightly Weapons",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Anti-Monster (+1 Rend)", "Crit (Auto-wound)"]
+          },
+          {
+            "name": "Great Halberd",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Anti-Monster (+1 Rend)", "Crit (Auto-wound)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Quest to Slay the Monster",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "For the rest of the turn, while this unit is in combat with any enemy Monster or Beast units, it has Strike-first. However, for the rest of the turn, while it is in combat with any enemy Monster or Beast units, all of this unit’s combat attacks must target an enemy Monster or Beast unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Infantry",
+        "Champion",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Serfs"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/6bb65032-d7a7-43d0-a1a1-f7230a83bb4a",
+      "baseSize": "32mm [2], 25mm [5]",
+      "points": 140,
+      "modelCount": 7,
+      "notes": "This unit cannot be reinforced."
+    },
+    {
+      "name": "Crypt Horrors (2 models)",
+      "move": "7\"",
+      "health": "4",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Club and Septic Talons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (Auto-wound)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Noble Blood",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "Heal (D3) this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Royal Approval",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly Courtiers or Abhorrants.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Ward (6+)",
+        "Death",
+        "Flesh-eater Courts",
+        "Knights"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/3f280355-2479-455f-86eb-caef6605e601",
+      "baseSize": "50mm",
+      "points": 100,
+      "modelCount": 2,
+      "notes": "You can include 1 unit of this type for each Crypt Haunter Courtier in your army. This unit cannot be reinforced."
+    },
+    {
+      "name": "Nagash, Supreme Lord of the Undead",
+      "move": "10\"",
+      "health": "18",
+      "save": "3+",
+      "ward": "5+",
+      "wizardLevel": "9",
+      "priestLevel": "",
+      "control": "10",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Alakanash",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Zefet-nebtar",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, subtract 3 from its power level.",
+          "keywords": []
+        },
+        {
+          "name": "Supreme Lord of the Undead",
+          "activation": "Once Per Battle, Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly non-Hero non-Unique Death unit that has been destroyed to be the target.",
+          "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.",
+          "keywords": []
+        },
+        {
+          "name": "The Staff of Power",
+          "activation": "Passive",
+          "phases": ["Hero Phase"],
+          "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.",
+          "keywords": []
+        },
+        {
+          "name": "Invocation of Nagash",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.",
+          "effect": "If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly Death unit, pick 1 of the following effects:\n\n• Return a number of slain models to the target unit with a combined Health characteristic of up to 3.\n• The target has Ward (5+) until the start of your next turn.",
+          "casting_value": 7,
+          "keywords": ["Spell"]
+        },
+        {
+          "name": "Hand of Dust",
+          "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": null,
+          "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
+          "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard (9)",
+        "Fly",
+        "Ward (5+)",
+        "Death",
+        "Flesh-eater Courts"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/e8dc791a-71f5-4263-9750-529fc5da9a77",
+      "baseSize": "130mm",
+      "points": 880,
+      "modelCount": 1,
+      "notes": ""
+    }
+  ]
+}

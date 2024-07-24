@@ -1,0 +1,839 @@
+{
+  "name": "The Croneseer’s Pariahs",
+  "battle_traits": [
+    {
+      "name": "The Blood Reveals All",
+      "activation": "Once Per Battle (Army), Your Hero Phase",
+      "phases": ["Hero Phase"],
+      "declare": "Pick a friendly Croneseer’s Pariahs Hero within the combat range of a friendly empty Cauldron of Blood. Then, pick another unit within the combat range of that Hero to be the target.",
+      "effect": "Roll a dice. Allocate a number of damage points to the target equal to the roll (ward rolls cannot be made for those damage points). Then, that Cauldron of Blood becomes full.",
+      "keywords": []
+    },
+    {
+      "name": "Skilled Skirmishers",
+      "activation": "Once Per Turn (Army), Any Charge Phase",
+      "phases": ["Charge Phase"],
+      "declare": "Pick a friendly Croneseer’s Pariahs Cavalry unit that has not charged this turn and is in combat with an enemy unit that charged this turn to be the target.",
+      "effect": "Roll a dice. On 3+, the target can immediately use a Retreat ability as if it were your movement phase. In addition, no mortal damage is inflicted on the target by that Retreat ability.",
+      "keywords": []
+    },
+    {
+      "name": "Guided by Morai-Heg",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Add 1 to the Rend characteristic of combat attacks made by friendly non-Hero Infantry units while they are wholly within 9\" of a friendly Krethusa.",
+      "keywords": []
+    },
+    {
+      "name": "Laden with Prophecy",
+      "activation": "End of Any Turn",
+      "phases": null,
+      "declare": "Pick a friendly empty Cauldron of Blood.",
+      "effect": "If any enemy models were slain this turn by that Cauldron of Blood’s combat attacks, it becomes full.",
+      "keywords": []
+    },
+    {
+      "name": "Plumes of Auspicious Smoke",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "Effect: Friendly Cauldron of Blood units are either empty or full. They start the battle empty. While a friendly Cauldron of Blood unit is full:\n\n• That Cauldron of Blood has Ward (4+) against damage points inflicted by shooting attacks.\n• Subtract 1 from hit rolls for shooting attacks that target friendly Croneseer’s Pariahs units while they are wholly within 9\" of that Cauldron of Blood.",
+      "keywords": []
+    }
+  ],
+  "heroic_traits": [
+    {
+      "name": "Proselyte of Morai-Heg",
+      "activation": "Passive",
+      "phases": ["Start of Turn"],
+      "effect": "Enemy units cannot use commands while they are in combat with this unit.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Blade of Prophetic Doom",
+      "activation": "Once Per Turn, End of Any Turn",
+      "phases": null,
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "effect": "Roll a dice. On a 2+:\n\n• If the target is not damaged, inflict 1 mortal damage on it.\n• If the target is damaged, inflict an amount of mortal damage on it equal to the roll.",
+      "keywords": []
+    }
+  ],
+  "prayer_lore": {
+    "The Croneseer’s Pariahs Prayer Lore": [
+      {
+        "name": "Augury of Battle",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Croneseer’s Pariahs Priest to chant this prayer, pick a visible friendly Croneseer’s Pariahs unit wholly within 18\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Until the start of your next turn, the target has Ward (5+). If the chanting roll was 10+, you can pick up to 2 friendly Croneseer’s Pariahs units wholly within 18\" of the caster instead of 1.",
+        "chanting_value": 5,
+        "keywords": ["Prayer"]
+      },
+      {
+        "name": "Wings of the Crone Goddess",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Croneseer’s Pariahs Priest to chant this prayer, pick a visible friendly Croneseer’s Pariahs unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Until the start of your next turn:\n\n• The target has Fly.\n• Add 2\" to the target’s Move characteristic. If the chanting roll was 8+, add 6\" to the target’s Move characteristic instead.",
+        "chanting_value": 3,
+        "keywords": ["Prayer", "Unlimited"]
+      },
+      {
+        "name": "Auspicious Strike",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Croneseer’s Pariahs Priest to chant this prayer, pick a visible friendly Croneseer’s Pariahs unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Until the start of your next turn, each time the unmodified hit roll for an attack made against the target is 1, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved. If the chanting roll was 10+, inflict 1 mortal damage for each unmodified hit roll of 1-2 instead.",
+        "chanting_value": 4,
+        "keywords": ["Prayer"]
+      }
+    ]
+  },
+  "warscrolls": [
+    {
+      "name": "Sisters of Slaughter with Sacrificial Knives",
+      "move": "6\"",
+      "health": "1",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Kruiplash and Sacrificial Knife",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Dance of Death",
+          "activation": "Enemy Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "This unit can move 3\". It can pass through the combat ranges of enemy units and can end that move in combat.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/d0d74437-21dd-4d14-9e84-43237afc4798",
+      "baseSize": "25mm",
+      "points": 130,
+      "modelCount": 10,
+      "notes": ""
+    },
+    {
+      "name": "Slaughter Queen",
+      "move": "6\"",
+      "health": "5",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "1",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Deathsword and Blade of Khaine",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Orgy of Slaughter",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick a friendly Daughters of Khaine Aelf Infantry unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Priest (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/19884af3-93b7-4b54-82b9-5f026544eb42",
+      "baseSize": "25mm",
+      "points": 150,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "High Gladiatrix",
+      "move": "6\"",
+      "health": "5",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Barbed Whip and Gladiatrix’s Blade",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Paragon of Slaughter",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "If this unit is in combat, pick a visible friendly Daughters of Khaine Aelf non-Hero Infantry unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 2+, add 1 to the Rend characteristic of melee weapons used by the target for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Killing Stroke",
+          "activation": "Once Per Battle, Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy Hero in combat with this unit to be the target.",
+          "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/bd0772b6-0691-4716-9301-abcba84db225",
+      "baseSize": "32mm",
+      "points": 130,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Coven Matriarch."
+    },
+    {
+      "name": "Slaughter Queen on Cauldron of Blood",
+      "move": "6\"",
+      "health": "12",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "1",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Torrent of Burning Blood",
+            "range": "10\"",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Avatar’s Sword",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Witch Aelves’ Sciansá",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Deathsword and Blade of Khaine",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Altar of Khaine",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "Add 1 to save rolls for friendly Daughters of Khaine Infantry units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly Daughters of Khaine Priests while they are wholly within 9\" of this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Bladed Impact",
+          "activation": "Any Charge Phase",
+          "phases": ["Charge Phase"],
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": []
+        },
+        {
+          "name": "Orgy of Slaughter",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick a friendly Daughters of Khaine Aelf Infantry unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Priest (1)",
+        "War Machine",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf",
+        "Cauldron of Blood"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/745030fd-8f11-443e-84a9-ad596eb7d2f5",
+      "baseSize": "120 x 92mm",
+      "points": 350,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Hag Queen",
+      "move": "6\"",
+      "health": "5",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "1",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Blade of Khaine",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (Mortal)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Witchbrew",
+          "activation": "Once Per Turn (Army), Any Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Daughters of Khaine unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Priest (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/712482a0-0b43-44b7-ba8a-cbd43cdd81d5",
+      "baseSize": "25mm",
+      "points": 140,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Witch Aelves with Paired Sciansá",
+      "move": "6\"",
+      "health": "1",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Paired Sciansá",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (Auto-wound)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Frenzied Fervour",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn if this unit charged in the same turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/713c45d6-68f4-4769-9118-52f9c65c022b",
+      "baseSize": "25mm",
+      "points": 110,
+      "modelCount": 10,
+      "notes": ""
+    },
+    {
+      "name": "Sisters of Slaughter with Bladed Bucklers",
+      "move": "6\"",
+      "health": "1",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Kruiplash",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Bladed Bucklers",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "keywords": []
+        },
+        {
+          "name": "Dance of Diversion",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Subtract 1 from hit rolls for combat attacks that target this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/01ab670a-a181-429a-8716-6022945e9f05",
+      "baseSize": "25mm",
+      "points": 110,
+      "modelCount": 10,
+      "notes": ""
+    },
+    {
+      "name": "Doomfire Warlocks",
+      "move": "14\"",
+      "health": "3",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Doomfire Crossbow",
+            "range": "10\"",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Cursed Scimitar",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Dark Steed’s Vicious Bite",
+            "attacks": "2",
+            "hit": "5+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Outmanoeuvre",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "When this unit uses the ‘Redeploy’ command, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Wizard (1)",
+        "Cavalry",
+        "Champion",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/3bebc14b-5548-4e49-9b73-ac6ef8aa6760",
+      "baseSize": "60 x 35mm",
+      "points": 150,
+      "modelCount": 5,
+      "notes": ""
+    },
+    {
+      "name": "Hag Queen on Cauldron of Blood",
+      "move": "6\"",
+      "health": "12",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "1",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Torrent of Burning Blood",
+            "range": "10\"",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Witch Aelves’ Scians00e1",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Blade of Khaine",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (Mortal)"]
+          },
+          {
+            "name": "Avatar’s Sword",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Altar of Khaine",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "Add 1 to save rolls for friendly Daughters of Khaine Infantry units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly Daughters of Khaine Priests while they are wholly within 9\" of this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Witchbrew",
+          "activation": "Once Per Turn (Army), Any Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Daughters of Khaine unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Bladed Impact",
+          "activation": "Any Charge Phase",
+          "phases": ["Charge Phase"],
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Priest (1)",
+        "War Machine",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf",
+        "Cauldron of Blood"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/a7a53039-e536-4b19-9fee-6666a438d3c7",
+      "baseSize": "120 x 92mm",
+      "points": 350,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Krethusa the Croneseer",
+      "move": "12\"",
+      "health": "6",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "1",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Staff of Morai-Heg",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Burnt Offerings",
+          "activation": "Once Per Turn, Any Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "If this unit is within the combat range of a friendly Cauldron of Blood, pick a visible friendly Daughters of Khaine Aelf non‑Hero Infantry unit wholly within 18\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply to the target.\n\nProphecy of Silence: Until the start of your next turn, enemy units cannot use commands while they are in combat with the target.\n\nProphecy of Dark Wings: The target can use the ‘Normal Move’ ability as if it were your movement phase. That unit counts as having used a Run ability this turn.\n\nProphecy of Reclamation: For the rest of the turn, while the target is contesting an objective, subtract 10 from the control scores of enemy units contesting that objective that do not have the Hero or Monster keyword.",
+          "keywords": []
+        },
+        {
+          "name": "Murder of Crows",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a chanting roll of D6.",
+          "effect": "Roll a D3. If the chanting roll was 8+, roll a D6 instead. Inflict an amount of mortal damage on the target equal to the roll. In addition, if the roll exceeds the target’s Health characteristic, subtract 1 from hit rolls for the target’s attacks until the start of your next turn.",
+          "chanting_value": 4,
+          "keywords": ["Prayer"]
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Hero",
+        "Priest (1)",
+        "Infantry",
+        "Fly",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/4de88064-f3bc-43e9-b1b7-5b50daacd3c9",
+      "baseSize": "60mm",
+      "points": 190,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Khainite Shadowstalkers",
+      "move": "6\"",
+      "health": "1",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Cursed Missiles",
+            "range": "10\"",
+            "attacks": "1",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Shadowstalker Blades",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Shadow Leap",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+          "keywords": ["Core"]
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion (1/9)",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/5cb484a8-97d1-4a02-aafb-cbcc18ed3d68",
+      "baseSize": "40mm [1], 28.5mm [8]",
+      "points": 110,
+      "modelCount": 9,
+      "notes": "This unit cannot be reinforced."
+    },
+    {
+      "name": "Witch Aelves with Bladed Bucklers",
+      "move": "6\"",
+      "health": "1",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Scians00e1",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Crit (Auto-wound)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Bladed Bucklers",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)",
+        "Ward (6+)",
+        "Order",
+        "Daughters of Khaine",
+        "Aelf"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/22d5b3b8-b3f0-4f37-bb9f-8ff4e2e15b31",
+      "baseSize": "25mm",
+      "points": 110,
+      "modelCount": 10,
+      "notes": ""
+    }
+  ]
+}

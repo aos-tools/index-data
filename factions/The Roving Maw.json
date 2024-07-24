@@ -1,0 +1,711 @@
+{
+  "name": "The Roving Maw",
+  "battle_traits": [
+    {
+      "name": "Mawpits of Ghur",
+      "activation": "Once Per Battle Round (Army), Start of Battle Round",
+      "phases": ["Start of Turn"],
+      "effect": "Roll 2D6 and add the number of tasty morsels you have to the roll. Apply the corresponding effect below for the rest of the battle round. Then, reset your tasty morsels to 0.\n\n2-3 – Subdued: \nNo effect.\n\n4-5 – Peckish: \nSubtract 3 from the control scores of units that are vulnerable to Mawpits.\n\n6-8 – Rumbling: \nRoll a dice for each unit that is vulnerable to Mawpits. On a 3+, inflict 1 mortal damage on that unit.\n\n9-11 – Famished: \nUnits that are vulnerable to Mawpits cannot use commands.\n\n12+ – Ravenous: \nRoll a D3 for each unit that is vulnerable to Mawpits. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "keywords": []
+    },
+    {
+      "name": "Tasty Morsels",
+      "activation": "Passive",
+      "phases": ["Start of Turn"],
+      "effect": "Each time a model is slain by a friendly Mawpit’s ‘Throat of Ghur’ ability, you gain 1 tasty morsel.",
+      "keywords": []
+    },
+    {
+      "name": "Gutbuster Charge",
+      "activation": "Any Charge Phase",
+      "phases": ["Charge Phase"],
+      "declare": "Pick a friendly Roving Maw unit that charged this turn to use this ability, then pick a visible enemy unit within 1\" of it to be the target.",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "keywords": []
+    },
+    {
+      "name": "Driven By Starvation",
+      "activation": "Passive",
+      "phases": ["Charge Phase"],
+      "effect": "Friendly Gorger Mawpack units can use Charge abilities even if they used a Run ability in the same turn unless they are wholly within 3\" of a terrain feature.",
+      "keywords": []
+    },
+    {
+      "name": "The Realm Hungers",
+      "activation": "Passive",
+      "phases": ["Charge Phase"],
+      "effect": "Units and Manifestations are vulnerable to Mawpits while they are on the battlefield unless they are wholly within 1\" of a terrain feature that is not a Mawpit. This ability has no effect on Roving Maw units or units that have Fly.",
+      "keywords": []
+    }
+  ],
+  "heroic_traits": [
+    {
+      "name": "Prime Gutserver",
+      "activation": "Once Per Battle Round (Army), Start of Battle Round",
+      "phases": ["Start of Turn"],
+      "effect": "If this unit is a Head Butcher, gain 1 tasty morsel.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Flasks of Congealed Maw-juices",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "Friendly Mawpits within this unit’s combat range have Ward (5+).",
+      "keywords": []
+    }
+  ],
+  "spell_lore": {
+    "The Roving Maw Spell Lore": [
+      {
+        "name": "Retcher",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Roving Maw Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "Add 2 to the Rend characteristic of the caster’s melee weapons until the start of your next turn.",
+        "casting_value": 7,
+        "keywords": ["Spell"]
+      },
+      {
+        "name": "Mawmeat",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Roving Maw Wizard to cast this spell, pick a visible terrain feature within 18\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "For the rest of the battle, units on or within 1\" of the target are vulnerable to Mawpits.",
+        "casting_value": 6,
+        "keywords": ["Spell", "Unlimited"]
+      }
+    ]
+  },
+  "warscrolls": [
+    {
+      "name": "Leadbelchers",
+      "move": "6\"",
+      "health": "4",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Leadbelcher Gun",
+            "range": "15\"",
+            "attacks": "D3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Bludgeoning Blows",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "-",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Powder Gnoblars",
+          "activation": "Passive",
+          "phases": ["Shooting Phase"],
+          "effect": "This unit has up to 2 Powder Gnoblar tokens. Each time this unit uses a Shoot ability, for each of this unit’s Powder Gnoblars that are on the battlefield, you can re-roll 1 random characteristic roll for this unit’s Attacks characteristic. If a random characteristic roll re-rolled in this manner is 1, remove 1 of this unit’s Powder Gnoblars from the battlefield.",
+          "keywords": []
+        },
+        {
+          "name": "Firing from the Belly",
+          "activation": "Your Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor",
+        "Gutbusters"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/e1caa0f0-fbdd-403c-a811-8c424f2b2a5c",
+      "baseSize": "40mm",
+      "points": 150,
+      "modelCount": 4,
+      "notes": ""
+    },
+    {
+      "name": "Ogor Gluttons",
+      "move": "6\"",
+      "health": "4",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Glutton Weapons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Insatiable Gluttony",
+          "activation": "Passive",
+          "phases": null,
+          "effect": "If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/6)",
+        "Standard Bearer (1/6)",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor",
+        "Gutbusters"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/12ab3c9b-c3e0-45d8-92a4-cd4ae36cc78e",
+      "baseSize": "40mm",
+      "points": 220,
+      "modelCount": 6,
+      "notes": ""
+    },
+    {
+      "name": "Slaughtermaster",
+      "move": "6\"",
+      "health": "8",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Stump Blades",
+            "attacks": "2D6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Goblar's Implements",
+            "attacks": "3",
+            "hit": "5+",
+            "wound": "5+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Great Cauldron",
+          "activation": "Any Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "You can spend 1 or more of this unit’s grisly remains points. For each point spent, pick a friendly Gutbusters unit wholly within 12\" of this unit to be the target, then pick 1 of the following effects:\n\nBloodgruel: The target has Ward (5+) for the rest of the turn.\n\nSpinemarrow: Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Fill the Pot",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Each time an enemy unit is destroyed by a combat attack made by a friendly Ogor Mawtribes unit wholly within 18\" of this unit, give this unit a grisly remains point, to a maximum of 3.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor",
+        "Gutbusters"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/52d7d7f0-1da1-49c0-ab46-e6157cd3faa5",
+      "baseSize": "105 x 70mm",
+      "points": 130,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Ironguts",
+      "move": "6\"",
+      "health": "4",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Irongut Weapon",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Down to the Ironguts",
+          "activation": "Once Per Battle, Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Protect the Tyrant",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "While this unit is within the combat ranges of any friendly Tyrants, both this unit and those Tyrants have Ward (6+).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/4)",
+        "Standard Bearer (1/4)",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor",
+        "Gutbusters"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c7f34924-c339-47bb-ad8f-c8b8172e25e1",
+      "baseSize": "40mm",
+      "points": 240,
+      "modelCount": 4,
+      "notes": ""
+    },
+    {
+      "name": "Ironblaster",
+      "move": "9\"",
+      "health": "9",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Ironblaster Cannon: Hail Shot",
+            "range": "12\"",
+            "attacks": "8",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Ironblaster Cannon: Big Shot",
+            "range": "18\"",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3+3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Rhinox’s Sharp Horns",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Clubber",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "-",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Lethal Payload",
+          "activation": "Passive",
+          "phases": ["Shooting Phase"],
+          "effect": "Each time this unit uses a Shoot ability, pick either the Big Shot or Hail Shot weapon characteristics for all the attacks it makes with its Ironblaster Cannon.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "War Machine",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor",
+        "Rhinox",
+        "Gutbusters"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/fb6c2b57-31a7-4cc2-a62d-e8b36b19c106",
+      "baseSize": "120 x 92mm",
+      "points": 240,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Tyrant",
+      "move": "6\"",
+      "health": "8",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Ogor Pistols",
+            "range": "10\"",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Thundermace",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": ["Crit (Mortal)"]
+          },
+          {
+            "name": "Beastskewer Glaive",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Anti-Monster (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Bully of the First Degree",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick another friendly Ogor Mawtribes unit wholly within 12\" of this unit to be the target.",
+          "effect": "Add 3 to the target’s control score until the start of your next turn.",
+          "keywords": []
+        },
+        {
+          "name": "Brawlerguts",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "Add 1 to the D3 roll made when this unit uses the ‘Trampling Charge’ ability.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor",
+        "Gutbusters"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/1ce9eea7-1f6a-471e-966c-d8cdc771855a",
+      "baseSize": "50mm",
+      "points": 180,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Mawpit",
+      "move": "-",
+      "health": "10",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "-",
+      "banishment": "",
+      "weapons": {},
+      "abilities": [
+        {
+          "name": "Altar of the Gulping God",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this terrain feature has a Head Butcher:\n\n• The Head Butcher cannot use Move abilities.\n• Instead of measuring range or visibility to the Head Butcher, measure to this terrain feature instead.\n• All attacks that would target the Head Butcher target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Head Butcher. Then, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher. If it is not possible to set up the Head Butcher, it is slain.",
+          "keywords": []
+        },
+        {
+          "name": "Throat of Ghur",
+          "activation": "Any Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick up to 3 enemy units within 12\" of this terrain feature, or within 18\" if it has a Head Butcher, to be the targets.",
+          "effect": "Roll a D3 for each target. Add 1 to the roll if the target is more than 3\" from all other enemy units. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+          "keywords": []
+        },
+        {
+          "name": "Feed the Maw",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "If this terrain feature does not have a Head Butcher, pick a friendly Butcher or Slaughtermaster within 3\" of it to be the target.",
+          "effect": "Place the target on this terrain feature. The target is now a Head Butcher (see ‘Altar of the Gulping God’).",
+          "keywords": []
+        },
+        {
+          "name": "Step Away From The Maw",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "effect": "If this terrain feature has a Head Butcher, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Faction Terrain", "Destruction", "Ogor Mawtribes"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/81c633df-09dd-49b7-8a8a-01fab50e1a17",
+      "baseSize": "Use Model",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Butcher",
+      "move": "6\"",
+      "health": "7",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Butcher's Tools",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Savage Hunger",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "While they are wholly within 12\" of this unit, friendly Gutbusters units can use Charge abilities even if they used a Run ability in the same turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor",
+        "Gutbusters"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/4fa3edb4-ed15-46a3-a1cf-8b1dd0d15daa",
+      "baseSize": "50mm",
+      "points": 140,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Bloodpelt Hunter",
+      "move": "6\"",
+      "health": "8",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Impaling Spear",
+            "range": "12\"",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Anti-Monster (+1 Rend)"]
+          },
+          {
+            "name": "Skullshatter Crossbow",
+            "range": "18\"",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Hacker-axe and Meatblade",
+            "attacks": "5",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Anti-Monster (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Unrelenting Hunter",
+          "activation": "Once Per Turn (Army), Enemy Movement Phase",
+          "phases": ["Movement Phase"],
+          "effect": "If this unit is more than 9\" from all enemy units, it can use the ‘Normal Move’ ability as if it were your movement phase.",
+          "keywords": []
+        },
+        {
+          "name": "Beast-breaker",
+          "activation": "Passive",
+          "phases": ["Shooting Phase"],
+          "effect": "If the target is a Monster, the Damage characteristic of this unit’s Skullshatter Crossbow is 3 and the Damage characteristic of its Impaling Spear is 6.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor",
+        "Gutbusters"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/18c5b50e-d58c-4362-8d5c-5a5898fa3015",
+      "baseSize": "40mm",
+      "points": 170,
+      "modelCount": 1,
+      "notes": "This Hero can join a Tyrant’s regiment."
+    },
+    {
+      "name": "Gorger Mawpack",
+      "move": "6\"",
+      "health": "5",
+      "save": "6+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Clubs, Claws and Jaws",
+            "attacks": "5",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Troglodytic Lurkers",
+          "activation": "Deployment Phase",
+          "phases": ["Start of Turn"],
+          "declare": "Pick this unit if it has not been deployed.",
+          "effect": "Set up this unit in reserve lurking on the fringes. It has now been deployed.",
+          "keywords": ["Deploy"]
+        },
+        {
+          "name": "Frenzied Hunters",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "declare": "Pick this unit if it is lurking on the fringes.",
+          "effect": "Set up this unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion (1/5)",
+        "Musician (1/5)",
+        "Destruction",
+        "Ogor Mawtribes",
+        "Ogor"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/6570d299-c3ea-4606-925a-f295cec6ec3e",
+      "baseSize": "50mm",
+      "points": 260,
+      "modelCount": 5,
+      "notes": "This unit cannot be reinforced."
+    }
+  ]
+}

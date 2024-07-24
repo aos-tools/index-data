@@ -1,0 +1,657 @@
+{
+  "name": "Draconith Skywing",
+  "battle_traits": [
+    {
+      "name": "Thunderous Roar",
+      "activation": "Once Per Turn (Army), Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "declare": "Pick a friendly Draconith Skywing Monster that has not used any Rampage abilities this turn to use this ability. Then, pick up to 3 enemy units in combat with it to be the targets.",
+      "effect": "Roll a dice for each target. On a 3+, subtract 5 from that target’s control score for the rest of the turn.",
+      "keywords": ["Rampage"]
+    },
+    {
+      "name": "Aetheric Cyclone",
+      "activation": "Once Per Turn (Army), Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "declare": "Pick a friendly Draconith Skywing Monster that has not used any Rampage abilities this turn to use this ability. Then, pick an enemy unit in combat with it to be the target.",
+      "effect": "Roll a dice. On a 3+, subtract 1 from wound rolls for the target’s attacks for the rest of the turn.",
+      "keywords": ["Rampage"]
+    },
+    {
+      "name": "Exemplars of Fury",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Add 1 to the Attacks characteristic of Companion weapons used by friendly Draconith Skywing Heroes while they are within 6\" of 2 or more friendly Stormdrake Guard units.",
+      "keywords": []
+    },
+    {
+      "name": "Shields of the Warden",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "While any friendly Stormdrake Guard units are within a friendly Ionus Cryptborn’s combat range:\n\n• That friendly Ionus Cryptborn has Ward (4+).\n• Each time you make a successful ward roll for that friendly Ionus Cryptborn, allocate 1 damage point to a friendly Stormdrake Guard unit within its combat range after the damage sequence for that friendly Ionus Cryptborn has been resolved (ward rolls cannot be made for those damage points).",
+      "keywords": []
+    }
+  ],
+  "heroic_traits": [
+    {
+      "name": "Fearless Fliers",
+      "activation": "End of Any Turn",
+      "phases": null,
+      "effect": "If this unit is not in combat, it can immediately make a D6\" move and can end that move in combat.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Celestium Ensign",
+      "activation": "Once Per Battle (Army), End of Any Turn",
+      "phases": null,
+      "effect": "Heal (3) each friendly Draconith Skywing unit wholly within 12\" of this unit.",
+      "keywords": []
+    }
+  ],
+  "spell_lore": {
+    "Draconith Skywing Spell Lore": [
+      {
+        "name": "Regal Authority",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Draconith Skywing Wizard to cast this spell, pick a visible friendly Draconith Skywing unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "Add 5 to the target’s control score for the rest of the turn.",
+        "casting_value": 7,
+        "keywords": ["Spell", "Unlimited"]
+      }
+    ]
+  },
+  "prayer_lore": {
+    "Draconith Skywing Prayer Lore": [
+      {
+        "name": "Sigmar's Grace",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Draconith Skywing Priest to chant this prayer, pick a friendly Draconith Skywing unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+        "effect": "Heal (D3) the target. If the chanting roll was 8+, Heal (2D3) the target instead.",
+        "chanting_value": 4,
+        "keywords": ["Prayer", "Unlimited"]
+      },
+      {
+        "name": "Sanctification",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Draconith Skywing Priest to chant this prayer, then make a chanting roll of D6.",
+        "effect": "Until the start of your next turn, subtract 1 from casting rolls for enemy Wizards while they are within 30\" of the chanter. If the chanting roll was 12+, subtract 1 from casting rolls for enemy Wizards for the rest of the battle and friendly Priests cannot use this ability again for the rest of the battle.",
+        "chanting_value": 4,
+        "keywords": ["Prayer"]
+      }
+    ]
+  },
+  "manifestation_lore": {
+    "Draconith Skywing Manifestation Lore": [
+      {
+        "name": "Summon Everblaze Comet",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "If there is not a friendly Everblaze Comet on the battlefield, pick a friendly Draconith Skywing Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "Set up an Everblaze Comet wholly within 18\" of the caster.",
+        "casting_value": 8,
+        "keywords": ["Summon", "Spell"],
+        "summons": "Everblaze Comet"
+      }
+    ]
+  },
+  "warscrolls": [
+    {
+      "name": "Krondys, Son of Dracothion",
+      "move": "12\"",
+      "health": "20",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "2",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Blazing Tempest",
+            "range": "12\"",
+            "attacks": "1",
+            "hit": "2+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "D3+3",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Drake-lord’s Talons",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Apex Maw",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "4",
+            "battleDamaged": true,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Apex Maw is 2.",
+          "keywords": []
+        },
+        {
+          "name": "Regalia Fulmentarus",
+          "activation": "Passive",
+          "phases": ["Hero Phase"],
+          "effect": "Add 2 to casting rolls for this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Atavistic Tempest",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit within 18\" of the caster to be the target, then make a casting roll of 2D6.",
+          "effect": "Pick 1 of the following effects to apply to the target until the start of your next turn:\n\nBlinding Gales: Subtract 1 from hit rolls for the target’s attacks.\n\nMeteor-hail: Subtract 1 from the Rend characteristic of the target’s weapons.\n\nFlash-freezing Blizzard: Subtract 1 from save rolls for the target.",
+          "casting_value": 8,
+          "keywords": ["Spell"]
+        },
+        {
+          "name": "Soul-shaking Roar",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
+          "keywords": ["Rampage"]
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard (2)",
+        "Fly",
+        "Order",
+        "Stormcast Eternals"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/6aca29be-956d-44b1-a647-8c054ab961d9",
+      "baseSize": "160mm",
+      "points": 540,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Ionus Cryptborn, Warden of Lost Souls",
+      "move": "12\"",
+      "health": "16",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "2",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Spirit-scouring Flames",
+            "range": "10\"",
+            "attacks": "9",
+            "hit": "2+",
+            "wound": "4+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat", "Companion"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Soulbreaker",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Cthorak’s Ancient Claws",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": true,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Cthorak’s Ancient Claws is 4.",
+          "keywords": []
+        },
+        {
+          "name": "Lightning Tempest",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit within 12\" of this unit to be struck by lightning, then make a chanting roll of D6.",
+          "effect": "Inflict D3 mortal damage on that unit, then roll a dice. On a 1-2, the sequence ends. On a 3+, pick another enemy unit within 3\" of that unit to be struck by lightning and inflict D3 mortal damage on it. If the chanting roll was 10+, you can pick another enemy unit within 6\" of that unit instead of 3\". Keep rolling dice in this way until the sequence ends or there are no other enemy units eligible to be struck by lightning. A unit cannot be struck by lightning more than once per turn.",
+          "chanting_value": 5,
+          "keywords": ["Prayer"]
+        },
+        {
+          "name": "Soulburned",
+          "activation": "Any Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "declare": "This unit can use this ability even if it has been destroyed. Pick any number of Soulburned enemy units to be the targets.",
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": []
+        },
+        {
+          "name": "Spirit-scouring Flames",
+          "activation": "Once Per Turn (Army), Any Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Spirit‑scouring Flames to be the target.",
+          "effect": "The target has the Soulburned keyword for the rest of the battle.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Priest (2)",
+        "Fly",
+        "Order",
+        "Stormcast Eternals"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/fb75a99c-5841-4e7f-8caf-ea53b1c1c53f",
+      "baseSize": "100mm",
+      "points": 420,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Karazai the Scarred",
+      "move": "12\"",
+      "health": "20",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Blazing Tempest",
+            "range": "12\"",
+            "attacks": "1",
+            "hit": "2+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "D3+3",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Drake-lord’s Talons",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Annihilating Jaws",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "4",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Ancient Master of War",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit within this unit’s combat range to be the target.",
+          "effect": "Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Calamitous Tail Sweep",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "Fires of Retribution",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons. \n\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Fly",
+        "Order",
+        "Stormcast Eternals"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/b7b8f570-646f-4571-b029-39e771fa5d50",
+      "baseSize": "160mm",
+      "points": 500,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Knight-Draconis",
+      "move": "12\"",
+      "health": "11",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Draconic Flamestream",
+            "range": "10\"",
+            "attacks": "4",
+            "hit": "2+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat", "Companion"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Aeonfire Blade",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Draconith’s Fangs and Talons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Arcane Heritage",
+          "activation": "Reaction: Opponent declared a Spell ability",
+          "phases": ["Hero Phase"],
+          "effect": "If this unit or a friendly Stormdrake Guard unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability.",
+          "keywords": []
+        },
+        {
+          "name": "Wrath of the Draconith",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick a friendly Stormdrake Guard unit within this unit’s combat range to be the target.",
+          "effect": "Roll a dice. On a 2+, add 1 to the Attacks characteristic of both this unit’s and the target’s Draconith’s Fangs and Talons for the rest of the turn.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "Extremis Chamber",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Monster",
+        "Fly",
+        "Order",
+        "Stormcast Eternals",
+        "Extremis Chamber"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/35169e5b-80f6-4a12-8a30-6a8b345e71c4",
+      "baseSize": "105 x 70mm",
+      "points": 280,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Stormdrake Guard",
+      "move": "12\"",
+      "health": "9",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Draconic Flamestream",
+            "range": "10\"",
+            "attacks": "4",
+            "hit": "2+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat", "Companion"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Drakerider’s Lance",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
+          },
+          {
+            "name": "Draconith’s Fangs and Talons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Drakerider’s Warblade",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Dispersed Formation",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "This unit has a coherency range of 2\".",
+          "keywords": []
+        },
+        {
+          "name": "Draconic Onslaught",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "Extremis Chamber",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Champion",
+        "Fly",
+        "Order",
+        "Stormcast Eternals",
+        "Extremis Chamber"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c54a99f0-c5cf-4f30-9726-3b5740d76419",
+      "baseSize": "105 x 70mm",
+      "points": 360,
+      "modelCount": 2,
+      "notes": ""
+    },
+    {
+      "name": "Stormdrake Guard (1 model)",
+      "move": "12\"",
+      "health": "9",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Draconic Flamestream",
+            "range": "10\"",
+            "attacks": "4",
+            "hit": "2+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat", "Companion"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Draconith’s Fangs and Talons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Drakerider’s Warblade",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Drakerider’s Lance",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Dispersed Formation",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "This unit has a coherency range of 2\".",
+          "keywords": []
+        },
+        {
+          "name": "Draconic Onslaught",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "Extremis Chamber",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Champion",
+        "Fly",
+        "Order",
+        "Stormcast Eternals",
+        "Extremis Chamber"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c54a99f0-c5cf-4f30-9726-3b5740d76419",
+      "baseSize": "105 x 70mm",
+      "points": 180,
+      "modelCount": 1,
+      "notes": "You can include 1 unit of this type for each Knight-Draconis in your army."
+    }
+  ]
+}

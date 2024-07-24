@@ -1,0 +1,317 @@
+{
+  "name": "The Swords of Chaos",
+  "battle_traits": [
+    {
+      "name": "Knights of the First Circle",
+      "activation": "Deployment Phase",
+      "phases": ["Start of Turn"],
+      "declare": "If there are more friendly Swords of Chaos units on the battlefield than there are set up in reserve, pick a friendly Swords of Chaos unit that has not been deployed.",
+      "effect": "Set up that unit in reserve in the Ruinous Skies. It has now been deployed.",
+      "keywords": ["Deploy"]
+    },
+    {
+      "name": "Demands of the Dark Gods",
+      "activation": "Once Per Turn (Army), Start of Battle Round",
+      "phases": ["Start of Turn"],
+      "effect": "Pick 1 of the following effects:\n\nDemand of Khorne: For the rest of the battle round, add 1 to the Rend characteristic of melee weapons used by friendly Swords of Chaos units.\n\nDemand of Tzeentch: Pick 1 visible enemy unit within 9\" of a friendly Swords of Chaos unit that is not in combat and roll a D6. On a 3+, inflict an amount of mortal damage on that enemy unit equal to the roll.\n\nDemand of Nurgle: Heal (D3) each friendly Swords of Chaos unit. Then pick a friendly Swords of Chaos unit that healed any damage points this turn. Until the start of the next battle round, that unit has Ward (6+).\n\nDemand of Slaanesh: Add 2\" to the Move characteristic of friendly Swords of Chaos units until the start of the next battle round.",
+      "keywords": []
+    },
+    {
+      "name": "Descent From Ruinous Skies",
+      "activation": "Your Movement Phase",
+      "phases": ["Movement Phase"],
+      "declare": "Pick a friendly Swords of Chaos unit that is in the Ruinous Skies.",
+      "effect": "Set up that unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "keywords": []
+    }
+  ],
+  "warscrolls": [
+    {
+      "name": "Nexus Chaotica",
+      "move": "-",
+      "health": "12",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "-",
+      "banishment": "",
+      "weapons": {},
+      "abilities": [
+        {
+          "name": "Infernal Sorcery",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "If this terrain feature has 3 or more power points, pick a friendly Slaves to Darkness Wizard within 3\" of this terrain feature to be the target.",
+          "effect": "Remove 3 power points from this terrain feature, then add 1 to casting rolls for the target for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Corrupt The Realms",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "If this terrain feature has 9 or more power points, pick an objective or terrain feature within 24\" of this terrain feature to be the source. Then, pick any number of enemy units within 3\" of the source to be the targets.",
+          "effect": "Remove 9 power points from this terrain feature, then roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": []
+        },
+        {
+          "name": "Draw Power",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "Roll a dice. Give a number of power points to this terrain feature equal to the roll. This terrain feature can have a maximum of 12 power points at once.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Faction Terrain", "Chaos", "Slaves to Darkness"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c35d3d29-1b2f-4437-a0c8-7809ee9eab37",
+      "baseSize": "Use model",
+      "points": 0,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Abraxia, Spear of the Everchosen",
+      "move": "10\"",
+      "health": "14",
+      "save": "3+",
+      "ward": "5+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "The Thanatorg’s Claws and Fangs",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Gorbolga",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": true,
+            "abilities": ["Anti-Hero (+1 Rend)", "Charge (+1 Damage)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Gorbolga is 3.",
+          "keywords": []
+        },
+        {
+          "name": "Gorbolga the Accurs'd",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "If this unit is in combat, roll a dice and apply the corresponding effect:\n\n1 - Uncontrollable Power\nAllocate 1 damage point to this unit.\n\n2 - The Spear Slumbers\nNo effect.\n\n3-5 - White-hot Varanite\nAdd 1 to the Damage characteristic of this unit’s Gorbolga for the rest of the turn.\n\n6 - Rampant Mutation\nThe effect of ‘White-hot Varanite’ applies and this unit’s Gorbolga has Crit (Mortal) for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Roar of Domination",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy Hero in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "Blood of Molten Varanite",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Roll a dice each time a damage point inflicted by a combat attack is allocated to this unit. On a 4+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "keywords": []
+        },
+        {
+          "name": "Warlord of the First Circle",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "If a friendly Varanguard unit uses the ‘Relentless Killers’ ability while it is wholly within 12\" of this unit, that unit does not have Strike-last as a result of that ability.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Hero",
+        "Monster",
+        "Ward (5+)",
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Warriors of Chaos"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/207cdbec-406e-47fd-8e83-a686710f2ab6",
+      "baseSize": "100mm",
+      "points": 360,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Varanguard",
+      "move": "10\"",
+      "health": "5",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Daemonforged Blades",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (Mortal)", "Charge (+1 Damage)"]
+          },
+          {
+            "name": "Steed’s Tearing Fangs",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Relentless Killers",
+          "activation": "Once Per Battle, Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Cavalry",
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/1381314a-67ee-44a0-a390-e2c0847ea5a9",
+      "baseSize": "75 x 42mm",
+      "points": 310,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Archaon, the Everchosen",
+      "move": "14\"",
+      "health": "25",
+      "save": "3+",
+      "ward": "5+",
+      "wizardLevel": "2",
+      "priestLevel": "",
+      "control": "10",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Dorghar’s Heads",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "5",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Dorghar’s Claws and Tails",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": true,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "The Slayer of Kings",
+            "attacks": "4",
+            "hit": "2+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "The Favoured Warlord",
+          "activation": "Deployment Phase",
+          "phases": ["Start of Turn"],
+          "effect": "Pick 1 of the following keywords: Khorne, Tzeentch, Nurgle or Slaanesh. This unit has that keyword in addition to Undivided.",
+          "keywords": []
+        },
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Dorghar’s Claws and Tails is 4.",
+          "keywords": []
+        },
+        {
+          "name": "The Eye of Sheerian",
+          "activation": "Once Per Battle, Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "effect": "Roll a dice. This roll replaces the priority roll of the next battle round. On a 1-3, your opponent must take the first turn of that battle round. On a 4-6, you must take the first turn of that battle round. This ability cannot be used if there is an enemy Archaon on the battlefield.",
+          "keywords": []
+        },
+        {
+          "name": "Three-headed Titan",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "effect": "Pick 1 of the following effects:\n\nFilth-spewer: Pick an enemy unit within 6\" of this unit and roll a number of dice equal to the number of models in that unit, to a maximum of 7. For each 3+, inflict 1 mortal damage on that unit.\n\nSkull-gorger: Pick an enemy unit in combat with this unit and roll a dice. If the roll exceeds that unit’s Health characteristic, 1 model in that unit is slain and you can Heal (X) this unit, where X is that unit’s Health characteristic.\n\nSpell-eater: Pick a Manifestation within 12\" of this unit and roll a dice. On a 2+, it is banished and inflict D3 mortal damage on the unit that summoned it.",
+          "keywords": ["Rampage"]
+        },
+        {
+          "name": "The Slayer of Kings",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "Each time this unit uses a Fight ability, if the unmodified wound roll for 2 or more attacks made with The Slayer of Kings that target the same Hero is 6, that Hero is automatically destroyed.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard (2)",
+        "Fly",
+        "Ward (5+)",
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon",
+        "Undivided",
+        "Warriors of Chaos"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c0293840-98c1-46f5-a7ab-8dc6ffe34396",
+      "baseSize": "160mm",
+      "points": 890,
+      "modelCount": 1,
+      "notes": ""
+    }
+  ]
+}

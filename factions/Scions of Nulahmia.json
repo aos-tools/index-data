@@ -1,0 +1,464 @@
+{
+  "name": "Scions of Nulahmia",
+  "battle_traits": [
+    {
+      "name": "Recruitment Drive",
+      "activation": "Once Per Turn (Army), Your Hero Phase",
+      "phases": ["Hero Phase"],
+      "declare": "You can only use this ability if you have not used any Exquisite Plot abilities this turn. Pick a friendly unit to be the hunter and an enemy unit with 5 or more models to be the target.",
+      "effect": "For the rest of the turn, add 1 to hit rolls for the hunter’s combat attacks that target that enemy unit. In addition, if the target is destroyed this turn by the hunter, add 1 to the Attacks characteristic of the hunter’s melee weapons for the rest of the battle.",
+      "keywords": ["Exquisite Plot"]
+    },
+    {
+      "name": "Seek Worthy Blood",
+      "activation": "Once Per Turn (Army), Your Hero Phase",
+      "phases": ["Hero Phase"],
+      "declare": "You can only use this ability if you have not used any Exquisite Plot abilities this turn. Pick a friendly unit to be the target.",
+      "effect": "For the rest of the turn, the target’s weapons have Anti-Hero (+1 Rend). In addition, if the target destroys any enemy Heroes this turn, the target’s weapons have Anti-Hero (+1 Rend) for the rest of the battle.",
+      "keywords": ["Exquisite Plot"]
+    },
+    {
+      "name": "The Queen's Prize",
+      "activation": "Once Per Turn (Army), Your Hero Phase",
+      "phases": ["Hero Phase"],
+      "declare": "You can only use this ability if you have not used any Exquisite Plot abilities this turn. Pick a friendly unit to be the target.",
+      "effect": "For the rest of the turn, add 5 to the target’s control score.\n\nIn addition, at the end of this turn, after determining control of objectives, if the target is contesting an objective that you control and that was controlled by your opponent at the start of this turn, add 5 to the target’s control score for the rest of the battle.",
+      "keywords": ["Exquisite Plot"]
+    },
+    {
+      "name": "Thaumic Realignment",
+      "activation": "Once Per Turn (Army), Your Hero Phase",
+      "phases": ["Hero Phase"],
+      "declare": "You can only use this ability if you have not used any Exquisite Plot abilities this turn. Pick a friendly Wizard to be the target.",
+      "effect": "For the rest of the turn, add 1 to casting rolls for the target. In addition, at the end of this turn, if the target successfully cast any spells this turn, add 1 to its power level for the rest of the battle.",
+      "keywords": ["Exquisite Plot"]
+    }
+  ],
+  "heroic_traits": [
+    {
+      "name": "Keeper of the Royal Menagerie",
+      "activation": "Your Hero Phase",
+      "phases": ["Hero Phase"],
+      "declare": "Pick a friendly Dire Wolves or Fell Bats unit that has been destroyed to be the target.",
+      "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Amulet of Leeches",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "While this unit is within the combat range of a friendly Dire Wolves or Fell Bats unit:\n\n• This unit has Ward (5+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Dire Wolves or Fell Bats unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+      "keywords": []
+    }
+  ],
+  "spell_lore": {
+    "Scions of Nulahmia Spell Lore": [
+      {
+        "name": "Invocation of Nulahmia",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Scions of Nulahmia Wizard to cast this spell, pick a visible friendly Dire Wolves or Fell Bats unit wholly within 18\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "You can return 1 slain model to that unit.",
+        "casting_value": 6,
+        "keywords": ["Spell", "Unlimited"]
+      },
+      {
+        "name": "Scarlet Thirst",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Scions of Nulahmia Wizard to cast this spell, then make a casting roll of 2D6.",
+        "effect": "For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Scions of Nulahmia Vampire units while they are wholly within 12\" of the caster.",
+        "casting_value": 7,
+        "keywords": ["Spell"]
+      },
+      {
+        "name": "Thrall Drain",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Scions of Nulahmia Wizard to cast this spell, pick a friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+        "effect": "D3 models in the target are slain. Then, remove all damage points from the caster.",
+        "casting_value": 7,
+        "keywords": ["Spell"]
+      }
+    ]
+  },
+  "warscrolls": [
+    {
+      "name": "Fell Bats",
+      "move": "12\"",
+      "health": "3",
+      "save": "6+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Chiropteran Fangs",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Fleet and Fell",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities.",
+          "keywords": []
+        },
+        {
+          "name": "Beast",
+          "activation": "Passive",
+          "phases": null,
+          "effect": "This unit has a maximum control score of 1.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Beast",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Soulblight Gravelords",
+        "Deadwalkers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/47d4d827-100a-44ed-8c25-f9e7197f4405",
+      "baseSize": "40mm",
+      "points": 90,
+      "modelCount": 3,
+      "notes": ""
+    },
+    {
+      "name": "Vampire Lord",
+      "move": "6\"",
+      "health": "5",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Dynastic War-relic",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)", "Anti-Hero (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Sanguine Blur",
+          "activation": "Once Per Turn (Army), Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "effect": "Roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy non-Hero units and more than 3\" from all enemy Heroes.",
+          "keywords": ["Core"]
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Soulblight Gravelords",
+        "Vampire"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/a7e332ad-a966-414b-a0b3-9b6d7989d1b8",
+      "baseSize": "40mm",
+      "points": 160,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Coven Throne",
+      "move": "10\"",
+      "health": "12",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Spectral Host’s Blades",
+            "attacks": "10",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          },
+          {
+            "name": "Matriarch’s Stiletto",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          },
+          {
+            "name": "Acolytes’ Poniards",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Scrying Pool",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "If a friendly Soulblight Gravelords unit wholly within 12\" of this unit uses the ‘Redeploy’ command, you can pick another friendly Soulblight Gravelords unit wholly within 12\" of this unit that has not used a command this phase to use the ‘Redeploy’ command immediately after the first has been resolved (this is an exception to Commands, 1.2). No command point is spent the second time that command is used.",
+          "keywords": []
+        },
+        {
+          "name": "Tactical Insight",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Friendly Deathrattle and Deadwalkers units have Ward (5+) while they are wholly within 6\" of this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "War Machine",
+        "Wizard (1)",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Soulblight Gravelords",
+        "Vampire"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/0e7c2f0f-213b-420d-b096-9e3012d3e671",
+      "baseSize": "120 x 92mm",
+      "points": 270,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Dire Wolves",
+      "move": "10\"",
+      "health": "2",
+      "save": "5+",
+      "ward": "6+",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Rotting Fangs and Claws",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "On The Hunt",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can use a Run ability and still use Charge abilities later in the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Beast",
+          "activation": "Passive",
+          "phases": null,
+          "effect": "This unit has a maximum control score of 1.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Beast",
+        "Champion (1/10)",
+        "Ward (6+)",
+        "Death",
+        "Soulblight Gravelords",
+        "Deadwalkers"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/ed734a2d-f8d5-48d2-b5d2-f05f4488c920",
+      "baseSize": "60 x 35mm",
+      "points": 140,
+      "modelCount": 10,
+      "notes": ""
+    },
+    {
+      "name": "Sekhar, Fang of Nulahmia",
+      "move": "6\"",
+      "health": "6",
+      "save": "3+",
+      "ward": "6+",
+      "wizardLevel": "2",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Nulahmian Warglaive",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          },
+          {
+            "name": "Ouboroth’s Godhusk Fangs",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Death's Construction",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+          "effect": "Until the start of your next turn, this unit, and any friendly Soulblight Gravelords units while they are wholly within 6\" of this unit, cannot be picked to be the target of abilities used by the target other than Fight abilities.",
+          "casting_value": 7,
+          "keywords": ["Spell"]
+        },
+        {
+          "name": "The Time-Swallowers Maw",
+          "activation": "Once Per Battle, Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick each enemy unit in combat with this unit to be the targets.",
+          "effect": "This unit cannot use the ‘Serpentine Agility’ ability for the rest of the battle. Roll 2D6 for each target. If the roll exceeds the target’s Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the roll and its Move characteristic.",
+          "keywords": []
+        },
+        {
+          "name": "Serpentine Agility",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Hero",
+        "Wizard (2)",
+        "Infantry",
+        "Ward (6+)",
+        "Death",
+        "Soulblight Gravelords",
+        "Vampire"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/e227d92a-e9d5-438c-bc82-c199d8d555df",
+      "baseSize": "60 x 35mm",
+      "points": 260,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Bloodseeker Palanquin",
+      "move": "10\"",
+      "health": "12",
+      "save": "4+",
+      "ward": "6+",
+      "wizardLevel": "1",
+      "priestLevel": "",
+      "control": "5",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Sanguinarch’s Stiletto",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Crit (2 Hits)"]
+          },
+          {
+            "name": "Spectral Host’s Blades",
+            "attacks": "10",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Companion"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "A Promising Concoction",
+          "activation": "Once Per Battle (Army), Your Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick up to 3 friendly Vampire units wholly within 12\" of this unit to be the targets.",
+          "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Wails of the Damned",
+          "activation": "Passive",
+          "phases": null,
+          "effect": "Subtract 3 from the control scores of enemy units while they are within 12\" of this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "War Machine",
+        "Wizard (1)",
+        "Fly",
+        "Ward (6+)",
+        "Death",
+        "Soulblight Gravelords",
+        "Vampire"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/037641ff-efde-4ffa-be72-b23fa9cd8d45",
+      "baseSize": "120 x 92mm",
+      "points": 250,
+      "modelCount": 1,
+      "notes": ""
+    }
+  ]
+}

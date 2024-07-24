@@ -1,0 +1,768 @@
+{
+  "name": "King Brodd's Stomp",
+  "battle_traits": [
+    {
+      "name": "Smash It All To Bits",
+      "activation": "Once Per Turn (Army), Any Shooting Phase",
+      "phases": ["Shooting Phase"],
+      "declare": "Pick a friendly Mega-Gargant that has not used a Rampage ability this turn to use this ability, then pick a terrain feature within its combat range. Then, pick a visible enemy unit within 18\" of that Mega-Gargant to be the target.",
+      "effect": "Roll a D3 for each friendly and enemy unit on the terrain feature that was picked. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. After rolling for all those units, roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
+      "keywords": ["Rampage"]
+    },
+    {
+      "name": "Wrath of Brodd",
+      "activation": "Once Per Battle (Army), Your Charge Phase",
+      "phases": ["Charge Phase"],
+      "declare": "Pick a friendly Mega‑Gargant that has not used a Rampage ability this turn to use this ability.",
+      "effect": "If the unit using this ability charged this turn, roll a dice. On a 3+, that unit can move 3D6\" but must end that move in combat.",
+      "keywords": ["Rampage"]
+    },
+    {
+      "name": "Double Stomp",
+      "activation": "Once Per Turn (Army), Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "declare": "Pick a friendly Mega‑Gargant that has not used a Rampage ability this turn to use this ability.",
+      "effect": "Roll a D6. On a 3+, for the rest of the turn, add the result to the Attacks characteristic of the Almighty Stomp or Almightier Stomp of the unit using this ability.",
+      "keywords": ["Rampage"]
+    },
+    {
+      "name": "Watch This!",
+      "activation": "Once Per Turn (Army), Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "declare": "Pick a friendly Mega‑Gargant that has not used a Rampage ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.",
+      "effect": "If the target is a Hero, Beast, Monster or War Machine, roll 6 dice. Otherwise, roll a dice for each model in the target unit. For each roll that is equal to or greater than the target’s Save characteristic, inflict 1 mortal damage on the target.\n\nThe Mega‑Gargant using this Rampage has Strike‑last for the rest of the turn.",
+      "keywords": ["Rampage"]
+    },
+    {
+      "name": "Crafty Creepers",
+      "activation": "Once Per Turn (Army), Any Combat Phase",
+      "phases": ["Combat Phase"],
+      "declare": "Pick a friendly Mega‑Gargant that has not used a Rampage ability this turn to use this ability. Then, pick an enemy Hero that has an artefact of power and is in combat with that Mega‑Gargant to be the target.",
+      "effect": "Roll a dice. On a 3+, the target no longer has that artefact of power.",
+      "keywords": ["Rampage"]
+    },
+    {
+      "name": "Timberrrrr!",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "Each time a friendly Mega‐Gargant or Gargant model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model.",
+      "keywords": []
+    },
+    {
+      "name": "The World Titan's Prophet",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "While any other friendly Brodd’s Stomp units are within a friendly King Brodd’s combat range:\n\n• That friendly King Brodd has Ward (5+).\n• Each time you make a successful ward roll for that friendly King Brodd, allocate 1 damage point to another friendly Brodd’s Stomp unit within its combat range after the damage sequence for that friendly King Brodd has been resolved (ward rolls cannot be made for those damage points).",
+      "keywords": []
+    }
+  ],
+  "heroic_traits": [
+    {
+      "name": "I Can Do That Better",
+      "activation": "Once Per Battle (Army), Reaction: You declared the ‘Wrath of Brodd’ ability for a friendly unit",
+      "phases": ["Combat Phase"],
+      "effect": "This unit can use the ‘Wrath of Brodd’ ability immediately after the ‘Wrath of Brodd’ ability used by the other friendly unit has been resolved. This unit can do so even if it has used another Rampage ability this turn.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Lucky Shiny Hat",
+      "activation": "Passive",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "This unit has Ward (4+) against damage points inflicted by Spell and Prayer abilities and by abilities used by Manifestations.",
+      "keywords": []
+    }
+  ],
+  "prayer_lore": {
+    "King Brodd's Stomp Prayer Lore": [
+      {
+        "name": "High Expectations",
+        "activation": "Your Hero Phase",
+        "phases": ["Hero Phase"],
+        "declare": "Pick a friendly Brodd’s Stomp Priest to chant this prayer, then make a chanting roll of D6.",
+        "effect": "Until the start of your next turn, add 1 to the Attacks characteristic of melee weapons used by friendly Brodd’s Stomp units while they are wholly within 12\" of the chanter. If the chanting roll was 9+, add 2 to the Attacks characteristic instead.",
+        "chanting_value": 4,
+        "keywords": ["Prayer"]
+      }
+    ]
+  },
+  "warscrolls": [
+    {
+      "name": "Gatebreaker Mega-Gargant",
+      "move": "10\"",
+      "health": "35",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "20",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Hurled Boulder",
+            "range": "18\"",
+            "attacks": "1",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "3",
+            "damage": "4",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Almighty Stomp",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          },
+          {
+            "name": "Death Grip",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Anti-Hero (+1 Rend)"]
+          },
+          {
+            "name": "Fortcrusha Flail",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "4",
+            "battleDamaged": true,
+            "abilities": ["Anti-Faction Terrain (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Fortcrusha Flail is 4 and this unit has a Control characteristic of 10.",
+          "keywords": []
+        },
+        {
+          "name": "Longshanks",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
+          "keywords": []
+        },
+        {
+          "name": "Pulverising Strike",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "This unit can make a pile-in move. Then, roll a dice. On a 4+, inflict 4D6 mortal damage on the target.",
+          "keywords": ["Core", "Attack", "Fight"]
+        },
+        {
+          "name": "Smash Down",
+          "activation": "Once Per Turn (Army), Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick a terrain feature within 3\" of this unit to be the target.",
+          "effect": "If the target is Faction Terrain, inflict D3+3 mortal damage on it. Then, roll a D3 for each non-Monster unit (friendly and enemy) within 3\" of the target. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+          "keywords": []
+        },
+        {
+          "name": "Sons of Behemat",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Monster",
+        "Destruction",
+        "Sons of Behemat",
+        "Mega-Gargant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/18d33e9d-ba2c-471e-8d5f-6872af5bea6c",
+      "baseSize": "130mm",
+      "points": 500,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as an Eager Lout."
+    },
+    {
+      "name": "Mancrusher Gargant",
+      "move": "8\"",
+      "health": "12",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "10",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Throwin’ Rocks",
+            "range": "12\"",
+            "attacks": "1",
+            "hit": "5+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "’Eadbutt",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "4",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Mighty Kick",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Massive Club",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Keep Up!",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn.",
+          "keywords": []
+        },
+        {
+          "name": "Stuff 'Em In Me Bag",
+          "activation": "Once Per Turn, Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Monster", "Destruction", "Sons of Behemat", "Gargant"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/ff15af97-1525-4c04-a635-852ad4b95802",
+      "baseSize": "90 x 52mm",
+      "points": 160,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Warstomper Mega-Gargant",
+      "move": "10\"",
+      "health": "35",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "20",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Almightier Stomp",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          },
+          {
+            "name": "Death Grip",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Anti-Hero (+1 Rend)"]
+          },
+          {
+            "name": "Titanic Boulderclub",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": true,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Titanic Boulderclub is 3 and this unit has a Control characteristic of 10.",
+          "keywords": []
+        },
+        {
+          "name": "Longshanks",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
+          "keywords": []
+        },
+        {
+          "name": "Hurled Body",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in that unit is slain and you can pick a visible enemy unit within 12\" of this unit. Inflict an amount of mortal damage on that unit equal to the target’s Health characteristic.",
+          "keywords": []
+        },
+        {
+          "name": "Titanic Boulderclub",
+          "activation": "Passive",
+          "phases": ["Combat Phase"],
+          "effect": "If all of the attacks made with this unit’s Titanic Boulderclub target the same enemy unit, for every 5 models in the target unit, add 2 to its Attacks characteristic for the rest of the phase.",
+          "keywords": []
+        },
+        {
+          "name": "Son of Behemat",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Monster",
+        "Destruction",
+        "Sons of Behemat",
+        "Mega-Gargant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/6a7c8fed-00a5-4203-8be7-7ac9d409548c",
+      "baseSize": "130mm",
+      "points": 460,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as an Eager Lout."
+    },
+    {
+      "name": "Kraken-eater Mega-Gargant",
+      "move": "10\"",
+      "health": "35",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "20",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Hurled Debris",
+            "range": "24\"",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Death Grip",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Anti-Hero (+1 Rend)"]
+          },
+          {
+            "name": "Almighty Stomp",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          },
+          {
+            "name": "Shipwrecka Warclub",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "4",
+            "battleDamaged": true,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Shipwrecka Warclub is 3 and this unit has a Control characteristic of 10.",
+          "keywords": []
+        },
+        {
+          "name": "Get Orf Me Land!",
+          "activation": "Once Per Turn (Army), Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick an objective within 1\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 2+, move the target 2D6\" to a new position on the battlefield more than 1\" from all models, terrain features and other objectives.",
+          "keywords": []
+        },
+        {
+          "name": "Longshanks",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
+          "keywords": []
+        },
+        {
+          "name": "Stuff 'Em In Me Net",
+          "activation": "Once Per Turn, Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll 3 dice. For each roll that is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
+          "keywords": []
+        },
+        {
+          "name": "Sons of Behemat",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Monster",
+        "Destruction",
+        "Sons of Behemat",
+        "Mega-Gargant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/f00c706d-afcf-4e1c-9c4a-fcd4e4873092",
+      "baseSize": "130mm",
+      "points": 470,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as an Eager Lout."
+    },
+    {
+      "name": "Mancrusher Mob",
+      "move": "8\"",
+      "health": "12",
+      "save": "5+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "10",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Throwin’ Rocks",
+            "range": "12\"",
+            "attacks": "1",
+            "hit": "5+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Massive Club",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Mighty Kick",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "’Eadbutt",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "4",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "'Oo's Under The Heel Now?",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "Each time this unit uses the ‘Gargant Charge’ ability, add 1 to the amount of mortal damage inflicted, if any, for each model in this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Keep Up!",
+          "activation": "Passive",
+          "phases": ["Charge Phase"],
+          "effect": "While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn.",
+          "keywords": []
+        },
+        {
+          "name": "Stuff 'Em In Me Bag",
+          "activation": "Once Per Turn, Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
+          "keywords": []
+        }
+      ],
+      "keywords": ["Monster", "Destruction", "Sons of Behemat", "Gargant"],
+      "image": "https://dhss9aar8ocw.cloudfront.net/927ec8fa-1798-4feb-b6c6-5dac8209eb3d",
+      "baseSize": "90 x 52mm",
+      "points": 420,
+      "modelCount": 3,
+      "notes": "This unit cannot be reinforced."
+    },
+    {
+      "name": "Beast-smasher Mega-Gargant",
+      "move": "10\"",
+      "health": "35",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "20",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Death Grip",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Anti-Hero (+1 Rend)"]
+          },
+          {
+            "name": "Menhir Club",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "5",
+            "battleDamaged": true,
+            "abilities": ["Anti-Monster (+1 Rend)"]
+          },
+          {
+            "name": "Almighty Stomp",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Menhir Club is 3 and this unit has a Control characteristic of 10.",
+          "keywords": []
+        },
+        {
+          "name": "Longshanks",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
+          "keywords": []
+        },
+        {
+          "name": "Beast-breaking Strike",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy Monster in combat with this unit to be the target.",
+          "effect": "This unit can make a pile-in move. Then, roll a dice. On a 4+, inflict 5D6 mortal damage on the target.",
+          "keywords": ["Core", "Attack", "Fight"]
+        },
+        {
+          "name": "Behemoth Brawler",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Subtract 1 from the Attacks characteristic of enemy Monsters while they are in combat with this unit.",
+          "keywords": []
+        },
+        {
+          "name": "Son of Behemat",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Monster",
+        "Destruction",
+        "Sons of Behemat",
+        "Mega-Gargant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/c59f3bd1-45a4-4364-a065-6b0b0b69b1be",
+      "baseSize": "130mm",
+      "points": 470,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as an Eager Lout."
+    },
+    {
+      "name": "King Brodd",
+      "move": "10\"",
+      "health": "40",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "1",
+      "control": "20",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Obelisk of Tor Crania",
+            "attacks": "6",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "5",
+            "battleDamaged": true,
+            "abilities": []
+          },
+          {
+            "name": "Death Grip",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D6",
+            "battleDamaged": false,
+            "abilities": ["Anti-Hero (+1 Rend)"]
+          },
+          {
+            "name": "Almighty Stomp",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)"]
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Obelisk of Tor Crania is 4 and this unit has a Control characteristic of 10.",
+          "keywords": []
+        },
+        {
+          "name": "Power of Behemat",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Make a chanting roll of D6.",
+          "effect": "Pick 1 of the following effects. If the chanting roll was 10+, pick 2 instead:\n\nShatter the Mountains: Add 2\" to the Move characteristic of friendly Sons of Behemat units for the rest of the turn.\n\nMight of the Earth: Heal (D3) each friendly Sons of Behemat unit.\n\nPummel All to Dust: For the rest of the turn, add 1 to the Rend characteristic of the Obelisk of Tor Crania, Menhir Club, Fortcrusha Flail, Shipwrecka Warclub, Titanic Boulderclub and Massive Club used by friendly Sons of Behemat units.",
+          "chanting_value": 5,
+          "keywords": ["Prayer"]
+        },
+        {
+          "name": "Longshanks",
+          "activation": "Passive",
+          "phases": ["Movement Phase"],
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
+          "keywords": []
+        },
+        {
+          "name": "Creepers",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "This unit cannot be picked to be the target of enemy Rampage abilities.",
+          "keywords": []
+        },
+        {
+          "name": "Sons of Behemat",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Priest (1)",
+        "Destruction",
+        "Sons of Behemat",
+        "Mega-Gargant"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/722498ba-60f1-4338-a192-de0c6a8b3265",
+      "baseSize": "130mm",
+      "points": 520,
+      "modelCount": 1,
+      "notes": ""
+    }
+  ]
+}

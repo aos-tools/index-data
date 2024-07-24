@@ -1,0 +1,646 @@
+{
+  "name": "Grundstok Expeditionary Force",
+  "battle_traits": [
+    {
+      "name": "Transport Skyfarers",
+      "activation": "Reaction: You declared a non-Charge Move ability for a friendly Skyvessel",
+      "phases": ["Movement Phase"],
+      "effect": "Pick a number of units up to that Skyvessel’s Transport Capacity (see its warscroll) that are wholly within 6\" of it to be the targets. Units that have been transported this turn cannot be targets.\n\nRemove the targets from the battlefield. After the Skyvessel ends its move, you must set up each target unit on the battlefield, wholly within 6\" of that Skyvessel and not in combat. Those units have been transported. A unit cannot use Charge abilities if it was transported in the same turn.",
+      "keywords": []
+    },
+    {
+      "name": "Grudgefire Rounds",
+      "activation": "Once Per Turn (Army), Any Shooting Phase",
+      "phases": ["Shooting Phase"],
+      "declare": "Pick a friendly Expeditionary Force Infantry unit to be the target.",
+      "effect": "Roll a dice. On a 3+, pick 1 of the target’s ranged weapons. Add 1 to the Attacks characteristic of that weapon for the rest of the phase.",
+      "keywords": []
+    },
+    {
+      "name": "Gun Butt Low Blow",
+      "activation": "Passive",
+      "phases": ["Combat Phase"],
+      "effect": "While a friendly Expeditionary Force Infantry unit is contesting an objective that you control, its melee weapons have Crit (Mortal).",
+      "keywords": []
+    },
+    {
+      "name": "No Safe Haven",
+      "activation": "End of Any Turn",
+      "phases": null,
+      "declare": "Pick an enemy unit to be the target.",
+      "effect": "Subtract 1 from the control score of that unit for each damage point allocated to it this turn by a shooting attack made by a friendly Expeditionary Force unit, to a maximum of 10 damage points.",
+      "keywords": []
+    }
+  ],
+  "heroic_traits": [
+    {
+      "name": "Entrenchment Expert",
+      "activation": "Reaction: You declared the ‘All-out Defence’ command for a friendly unit wholly within 12\" of this Hero",
+      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+      "effect": "That friendly unit has Ward (5+) for the rest of the turn.",
+      "keywords": []
+    }
+  ],
+  "artefacts_of_power": [
+    {
+      "name": "Aetheric Nullifier",
+      "activation": "Reaction: Opponent declared a Shoot or Fight ability for a Manifestation within 9\" of the bearer",
+      "phases": ["Start of Turn"],
+      "effect": "Roll 2D6. If the roll equals or exceeds the banishment value listed on the Manifestation’s warscroll, it is banished and removed from play. You cannot pick the same Manifestation to be the target of this ability more than once per phase.",
+      "keywords": []
+    }
+  ],
+  "warscrolls": [
+    {
+      "name": "Endrinmaster with Dirigible Suit",
+      "move": "12\"",
+      "health": "8",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Dirigible Suit Weapon Battery",
+            "range": "12\"",
+            "attacks": "6",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          },
+          {
+            "name": "Aethercannon",
+            "range": "18\"",
+            "attacks": "1",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Upgraded Aethermatic Saw",
+            "attacks": "4",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "2",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Endrinmaster",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
+          "effect": "Roll a dice. On a 2+, Heal (3) the target.",
+          "keywords": []
+        },
+        {
+          "name": "By Grungni, I Have My Eye On You!",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "Add 1 to field repairs rolls for friendly Endrinriggers units while they are wholly within 12\" of this unit.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Fly",
+        "Order",
+        "Kharadron Overlords",
+        "Duardin",
+        "Skyfarer"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/13cc325f-ede9-4d1d-b30b-e1d0da1ec8c6",
+      "baseSize": "40mm",
+      "points": 220,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Guild Officer."
+    },
+    {
+      "name": "Aetheric Navigator",
+      "move": "4\"",
+      "health": "5",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Ranging Pistol",
+            "range": "10\"",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Zephyrscope",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Read the Winds",
+          "activation": "Once per Turn (Army), Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Roll 6 dice. For each 1, pick a visible enemy unit within 18\" of this unit to be an enemy target. For each 6, pick a visible friendly Skyvessel within 18\" of this unit to be a friendly target.",
+          "effect": "Inflict D3 mortal damage on each enemy target. If any damage points are allocated to an enemy target by this ability, halve its Move characteristic until the start of your next turn.\n\nAdd 3\" to the Move characteristic of each friendly target until the start of your next turn.",
+          "keywords": ["Core"]
+        },
+        {
+          "name": "Aethersight",
+          "activation": "Passive",
+          "phases": ["Hero Phase"],
+          "effect": "This unit can use Unbind abilities as if it had Wizard (1).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Order",
+        "Kharadron Overlords",
+        "Duardin",
+        "Skyfarer"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/54116bd9-fcdf-455d-a7c6-6dc2ccc3bb82",
+      "baseSize": "32mm",
+      "points": 130,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Guild Officer."
+    },
+    {
+      "name": "Arkanaut Admiral",
+      "move": "4\"",
+      "health": "6",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Masterwork Volley Pistol",
+            "range": "10\"",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Skalfhammer",
+            "attacks": "3",
+            "hit": "3+",
+            "wound": "2+",
+            "rend": "1",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "The Admiral's Flagship",
+          "activation": "Once Per Battle (Army), Deployment Phase",
+          "phases": ["Start of Turn"],
+          "declare": "Pick an Arkanaut Ironclad or Arkanaut Frigate in this unit’s regiment to be the target.",
+          "effect": "For the rest of the battle, each time the target uses the ‘All-out Attack’ command while this unit is wholly within 12\" of it, no command points are spent.",
+          "keywords": []
+        },
+        {
+          "name": "Always Take What You Are Owed",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Arkanaut Company unit wholly within 12\" of this unit to be the target.",
+          "effect": "Add D6 to the target’s control score until the start of your next turn.",
+          "keywords": []
+        },
+        {
+          "name": "'Bring Every Gun to Bear'",
+          "activation": "Once Per Battle (Army), Your Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "declare": "Pick a friendly Skyvessel wholly within 24\" of this unit that is not in combat to be the target.",
+          "effect": "Add 1 to the Attacks characteristic of the target’s ranged weapons for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Order",
+        "Kharadron Overlords",
+        "Duardin",
+        "Skyfarer"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/fec03433-0385-497b-99f1-43421bd6cfdd",
+      "baseSize": "32mm",
+      "points": 180,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Endrinmaster with Endrinharness",
+      "move": "4\"",
+      "health": "6",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "melee": [
+          {
+            "name": "Aethermight Hammer",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "2+",
+            "rend": "2",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "'Aye Aye, Captain!'",
+          "activation": "Once Per Turn (Army), Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
+          "effect": "Roll a dice. On a 2+, for the rest of the turn:\n• The target can use a Retreat or Run ability and still use Shoot abilities later in the turn.\n• No mortal damage is inflicted on the target by Retreat abilities.",
+          "keywords": []
+        },
+        {
+          "name": "Endrinmaster",
+          "activation": "Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
+          "effect": "Roll a dice. On a 2+, Heal (3) the target.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Order",
+        "Kharadron Overlords",
+        "Duardin",
+        "Skyfarer"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/aaaa80a3-a2f9-4a6b-b769-cbdf9f640b2d",
+      "baseSize": "32mm",
+      "points": 130,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Guild Officer."
+    },
+    {
+      "name": "Codewright",
+      "move": "4\"",
+      "health": "5",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Aethershot Pistol",
+            "range": "10\"",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Battletome",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Advisory Role",
+          "activation": "Once Per Turn (Army), Your Hero Phase",
+          "phases": ["Hero Phase"],
+          "declare": "Pick up to 3 visible friendly Kharadron Overlords units to be the targets.",
+          "effect": "Roll a dice for each target. On a 3+, pick 1 of the following effects to apply to that target for the rest of the turn:\n\nSeek New Prospects: Add 2 to the target’s control score.\n\nDon’t Argue With the Wind: Add 1 to run rolls and charge rolls for the target.\n\nThere’s No Trading With Some People: No mortal damage is inflicted on the target by Retreat abilities.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Order",
+        "Kharadron Overlords",
+        "Duardin",
+        "Skyfarer"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/25e3a413-4c13-4f6b-b118-5e2a7c6f0783",
+      "baseSize": "32mm",
+      "points": 110,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Guild Officer."
+    },
+    {
+      "name": "Aether-Khemist",
+      "move": "4\"",
+      "health": "5",
+      "save": "4+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Atmospheric Anatomiser",
+            "range": "8\"",
+            "attacks": "3D6",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "2",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Heavy Instruments",
+            "attacks": "3",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Aetheric Augmentation",
+          "activation": "Once Per Turn (Army), Your Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "declare": "Pick a friendly Kharadron Overlords Infantry unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn.",
+          "keywords": []
+        },
+        {
+          "name": "Atmospheric Isolation",
+          "activation": "Any Combat Phase",
+          "phases": ["Combat Phase"],
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Hero",
+        "Infantry",
+        "Order",
+        "Kharadron Overlords",
+        "Duardin",
+        "Skyfarer"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/15e403a0-212a-44a5-a86e-e3dccab8c921",
+      "baseSize": "32mm",
+      "points": 140,
+      "modelCount": 1,
+      "notes": "This Hero can join an eligible regiment as a Guild Officer."
+    },
+    {
+      "name": "Grundstock Gunhauler",
+      "move": "12\"",
+      "health": "10",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "2",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Drill Cannon",
+            "range": "15\"",
+            "attacks": "1",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "3",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Aethershot Carbine",
+            "range": "12\"",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "2",
+            "battleDamaged": false,
+            "abilities": ["Shoot in Combat"]
+          },
+          {
+            "name": "Sky Cannon",
+            "range": "15\"",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "3",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Boarding Weapons",
+            "attacks": "4",
+            "hit": "4+",
+            "wound": "4+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Transport Capacity",
+          "activation": "Passive",
+          "phases": ["Start of Turn"],
+          "effect": "This unit can transport 1 friendly Kharadron Overlords Infantry unit with a model count of up to 5 (see Battle Traits).",
+          "keywords": []
+        },
+        {
+          "name": "Light Bomb Racks",
+          "activation": "Your Movement Phase",
+          "phases": ["Movement Phase"],
+          "declare": "Pick an enemy unit that does not have Fly and that this unit passed across this phase to be the target.",
+          "effect": "Roll 4 dice. For each 4+, inflict 1 mortal damage on the target.",
+          "keywords": []
+        },
+        {
+          "name": "Escort Vessel",
+          "activation": "Passive",
+          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "effect": "While any friendly Arkanaut Ironclads or Arkanaut Frigates are within this unit’s combat range, both this unit and those friendly units have Ward (6+).",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "War Machine",
+        "Fly",
+        "Order",
+        "Kharadron Overlords",
+        "Duardin",
+        "Skyvessel"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/98156907-cc17-487e-b65a-f2453720cce3",
+      "baseSize": "105 x 70mm",
+      "points": 200,
+      "modelCount": 1,
+      "notes": ""
+    },
+    {
+      "name": "Grundstok Thunderers",
+      "move": "4\"",
+      "health": "2",
+      "save": "3+",
+      "ward": "",
+      "wizardLevel": "",
+      "priestLevel": "",
+      "control": "1",
+      "banishment": "",
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Grundstok Mortar or Aethercannon",
+            "range": "18\"",
+            "attacks": "2",
+            "hit": "4+",
+            "wound": "3+",
+            "rend": "1",
+            "damage": "D3",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Aethershot Rifle",
+            "range": "18\"",
+            "attacks": "2",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          },
+          {
+            "name": "Aetheric Fumigator or Decksweeper",
+            "range": "10\"",
+            "attacks": "5",
+            "hit": "3+",
+            "wound": "4+",
+            "rend": "1",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": ["Anti-Infantry (+1 Rend)", "Shoot in Combat"]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Heavy Gun Butt",
+            "attacks": "1",
+            "hit": "4+",
+            "wound": "5+",
+            "rend": "-",
+            "damage": "1",
+            "battleDamaged": false,
+            "abilities": []
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Hold This Position",
+          "activation": "Your Shooting Phase",
+          "phases": ["Shooting Phase"],
+          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s ranged weapons have Shoot in Combat for the rest of the turn.",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Champion",
+        "Standard Bearer (1/5)",
+        "Order",
+        "Kharadron Overlords",
+        "Duardin",
+        "Skyfarer"
+      ],
+      "image": "https://dhss9aar8ocw.cloudfront.net/277da958-7109-47a4-8910-3988a290e128",
+      "baseSize": "32mm",
+      "points": 140,
+      "modelCount": 5,
+      "notes": ""
+    }
+  ]
+}
