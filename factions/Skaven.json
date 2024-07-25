@@ -4,7 +4,7 @@
     {
       "name": "The Lurking Vermintide",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick a friendly Skaven unit that has not been deployed.",
       "effect": "Set up that unit in reserve in the tunnels below. It has now been deployed.",
       "keywords": ["Deploy"]
@@ -55,6 +55,7 @@
     "Virulent Procession": {
       "name": "Corrupted Earth",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick up to 3 friendly Pestilens units to be the targets.",
       "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
@@ -104,6 +105,7 @@
     {
       "name": "Foulhide",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "Heal (D3) this unit."
     }
   ],
@@ -316,6 +318,7 @@
         {
           "name": "Seething Swarm",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "You can return D3 slain models to this unit."
         }
       ],
@@ -420,7 +423,7 @@
         {
           "name": "Slinking Advance",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
@@ -458,6 +461,7 @@
         {
           "name": "Seething Swarm",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "You can return D3 slain models to this unit."
         }
       ],
@@ -614,6 +618,7 @@
         {
           "name": "Regenerating Monstrosity",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (D6) this unit."
         }
       ],
@@ -889,6 +894,7 @@
         {
           "name": "The Endless Vermintide",
           "activation": "Once Per Turn (Army), End of Your Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a friendly non-Hero Skaven Infantry unit that has been destroyed to be the target.",
           "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a friendly Gnawhole and more than 3\" from all enemy units.",
           "command_point_cost": 1
@@ -1426,6 +1432,7 @@
         {
           "name": "More-more Rats",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (D6) this Manifestation."
         }
       ],
@@ -1471,6 +1478,7 @@
         {
           "name": "Killing Blow",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a damaged enemy unit in combat with this unit to be the target.",
           "effect": "Roll a dice. If the roll is less than the number of damage points the target has, inflict an amount of mortal damage on the target equal to the roll.",
           "keywords": ["Rampage"]
@@ -1619,6 +1627,7 @@
         {
           "name": "Lord of Flesh-grafting",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick another friendly Moulder unit wholly within 13\" of this unit to be the target.",
           "effect": "Heal (3) the target."
         }
@@ -2308,6 +2317,7 @@
         {
           "name": "Warp-amulet",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (D3) this unit."
         }
       ],

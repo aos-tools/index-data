@@ -4,7 +4,7 @@
     {
       "name": "The Unquiet Dead",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick a friendly Deathrattle or Deadwalkers unit that has not been deployed.",
       "effect": "Set up that unit in reserve in the grave. It has now been deployed. You cannot set up more friendly units in the grave than there are on the battlefield.",
       "keywords": ["Deploy"]
@@ -34,6 +34,7 @@
     {
       "name": "The Hunger",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick each friendly Vampire unit that used a Fight ability this turn to be the targets.",
       "effect": "Heal (D3) each target. Heal (2D3) the target instead if it destroyed an enemy unit this turn using a Fight ability."
     }
@@ -54,6 +55,7 @@
     "Deathstench Drove": {
       "name": "Dragged Down and Torn Apart",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick up to 3 friendly Deadwalkers units in combat to be the targets.",
       "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
@@ -213,6 +215,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -461,6 +464,7 @@
         {
           "name": "Skeleton Legion",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "You can return D3 slain models to this unit."
         }
       ],
@@ -620,6 +624,7 @@
         {
           "name": "First of the Vyrkos",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to the control scores of friendly Radukar the Wolf, Radukar the Beast, Ivya Volga, Lady Annika, Kritza, Vyrkos Blood-born and Vargskyr units while they are wholly within 18\" of this unit."
         },
         {
@@ -728,7 +733,7 @@
         {
           "name": "The Mortarch of Blood",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick up to 3 friendly Deathrattle Infantry or Deadwalkers Infantry units to be the targets.",
           "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase."
         },
@@ -750,6 +755,7 @@
         {
           "name": "The Adevore",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy Hero that was allocated any damage points inflicted by this unit’s Akmet-har this turn to be the target.",
           "effect": "Roll a dice. On a 5+, the target is automatically destroyed.",
           "keywords": ["Rampage"]
@@ -856,6 +862,7 @@
         {
           "name": "Saint of Slaughter",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a friendly non-Monster Vampire unit that destroyed a unit this turn using a Fight ability and is wholly within 12\" of this unit to be the target.",
           "effect": "Pick 1 of the following effects to apply for the rest of the battle:\n\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to the Attacks characteristic of the target’s melee weapons.\n• Add 1 to the Damage characteristic of the target’s melee weapons.\n\nMore than 1 effect can apply to a unit at the same time; however, each effect can only be applied to a unit once."
         }
@@ -1070,6 +1077,7 @@
         {
           "name": "Festering Feast",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a visible friendly non‑Hero Soulblight Gravelords Monster that destroyed an enemy unit this turn and that is wholly within 12\" of this unit to be the target.",
           "effect": "Heal (6) the target."
         },
@@ -1222,6 +1230,7 @@
         {
           "name": "Shadowfast",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Roll a dice. On a 3+, this unit can use a Move ability as if it were your movement phase."
         },
         {
@@ -1267,6 +1276,7 @@
         {
           "name": "Restless Dead",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "You can return D3 slain models to this unit."
         }
       ],
@@ -1421,6 +1431,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -1667,7 +1678,7 @@
         {
           "name": "Death on Tattered Wings",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve high above the battlefield. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -1896,6 +1907,7 @@
         {
           "name": "Bloodthirsty Dominance",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
           "effect": "Roll a number of dice equal to the target’s Health characteristic. For each 6, inflict 1 mortal damage on the target.",
           "keywords": ["Rampage"]
@@ -1903,6 +1915,7 @@
         {
           "name": "That Which Should Not Be",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "If this unit charged this turn, for the rest of the turn, subtract 1 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
@@ -1969,6 +1982,7 @@
         {
           "name": "The Beast Will Out",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If this unit is not in combat, it can move D6\". It can move into combat.",
           "keywords": ["Rampage"]
         }
@@ -2069,6 +2083,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -2267,6 +2282,7 @@
         {
           "name": "Wails of the Damned",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Subtract 3 from the control scores of enemy units while they are within 12\" of this unit."
         }
       ],
@@ -2483,6 +2499,7 @@
         {
           "name": "Hand of Dust",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
           "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
           "keywords": ["Rampage"]
@@ -2575,7 +2592,7 @@
         {
           "name": "Supernatural Speed",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve lying in wait. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -2590,6 +2607,7 @@
         {
           "name": "Kiss of the Blade Proboscian",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit that was allocated any damage points inflicted by this unit’s combat attacks this turn to be the target.",
           "effect": "Roll a dice. On a 2+, subtract 1 from save rolls for the target for the rest of the battle."
         }

@@ -68,7 +68,7 @@
     {
       "name": "Amberbone Whetstone",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "effect": "Pick 1 of this unit’s weapons. Add 1 to the Rend characteristic of that weapon for the rest of the battle."
     },
     {
@@ -80,6 +80,7 @@
     {
       "name": "Trophy Skulls",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "Add 10 to this unit’s control score."
     }
   ],
@@ -382,6 +383,7 @@
         {
           "name": "You Messin'?",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Enemy models with a Health characteristic of 1 or 2 cannot contest objectives while they are in combat with this unit."
         }
       ],
@@ -515,6 +517,7 @@
         {
           "name": "Strength From Victory",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If any damage points were allocated to an enemy unit by this unit’s combat attacks this turn and that enemy unit has been destroyed, give this unit a Waaagh! token, to a maximum of 3.\n\nUntil the end of the next turn, add 1 to the Attacks characteristic of this unit’s weapons for each Waaagh! token it has."
         }
       ],
@@ -635,6 +638,7 @@
         {
           "name": "Strength From Victory",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If any damage points were allocated to an enemy unit by this unit’s combat attacks this turn and that enemy unit has been destroyed, give this unit a Waaagh! token, to a maximum of 3.\n\nUntil the end of the next turn, add 1 to the Attacks characteristic of this unit’s weapons for each Waaagh! token it has."
         }
       ],
@@ -993,6 +997,7 @@
         {
           "name": "Strength From Victory",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If any damage points were allocated to an enemy unit by this unit’s combat attacks this turn and that enemy unit has been destroyed, give this unit a Waaagh! token, to a maximum of 3.\n\nUntil the end of the next turn, add 1 to the Attacks characteristic of this unit’s weapons for each Waaagh! token it has."
         }
       ],
@@ -1024,6 +1029,7 @@
         {
           "name": "Rhythm of Destruction",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If any enemy models were slain this turn by this unit’s combat attacks, give this unit D3 ritual points."
         }
       ],

@@ -19,6 +19,7 @@
     "Moonclan Skrap": {
       "name": "Spreading Loonacy",
       "activation": "Once Per Turn (Army), End of Your Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick up to 3 friendly non‑Squig Moonclan units in combat to be the targets.",
       "effect": "For each target:\n\n• Make a pile-in move with the target.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
@@ -71,6 +72,7 @@
     {
       "name": "Backstabber's Blade",
       "activation": "Once Per Battle, End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick an enemy Hero in combat with this unit to be the target.",
       "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
     },
@@ -254,7 +256,7 @@
         {
           "name": "A Prod in the Right Direction",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
@@ -410,6 +412,7 @@
         {
           "name": "Gobbled Up",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit within 1\" of this unit to be the target.",
           "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain."
         }
@@ -849,6 +852,7 @@
         {
           "name": "Scuttle Away!",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "If this unit is in combat, pick this unit and up to 1 friendly Spider Riders unit that is in combat and wholly within 12\" of this unit to be the targets.",
           "effect": "The targets can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on them."
         }
@@ -906,7 +910,7 @@
         {
           "name": "The Looncourt's Quest",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick an objective or terrain feature within enemy territory to be the object of this unit’s quest."
         },
         {
@@ -1051,7 +1055,7 @@
         {
           "name": "Hidden Loons",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve hidden among the mobs. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -1109,7 +1113,7 @@
         {
           "name": "Secret Tunnels",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve in a secret tunnel. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -1415,6 +1419,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -1782,6 +1787,7 @@
         {
           "name": "Moonclan Lairs",
           "activation": "Once Per Turn (Army), End of Your Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a friendly non-Hero non-Monster non‑War Machine Gloomspite Gitz unit that has been destroyed to be the target.",
           "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this terrain feature and more than 3\" from all enemy units.",
           "command_point_cost": 1
@@ -2105,7 +2111,7 @@
         {
           "name": "Realmweb Lurker",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve skittering through tunnels in reality. It has now been deployed.",
           "keywords": ["Deploy"]

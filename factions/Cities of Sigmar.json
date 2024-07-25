@@ -95,6 +95,7 @@
     {
       "name": "Brazier of Holy Flame",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick a friendly non-Hero Cities of Sigmar Infantry unit that is not in combat and wholly within 12\" of this unit.",
       "effect": "You can return up to D3 slain models to that unit."
     }
@@ -624,6 +625,7 @@
         {
           "name": "Sever One Head, Another Takes Its Place",
           "activation": "Once Per Turn, End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (6) this unit."
         }
       ],
@@ -1529,7 +1531,7 @@
         {
           "name": "Expert Trackers",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
@@ -1573,6 +1575,7 @@
         {
           "name": "'I Thought Duardin Were Made Of Sterner Stuff!'",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 2 to the control scores of friendly Cities of Sigmar Duardin units, excluding Longbeards units, while they are wholly within 12\" of this unit."
         }
       ],
@@ -1653,6 +1656,7 @@
         {
           "name": "Feed on Life Force",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any enemy models are slain by this ability, place a dark sorcery token next to this unit for the rest of the battle, to a maximum of 3 tokens.",
           "keywords": ["Rampage"]
@@ -1893,6 +1897,7 @@
         {
           "name": "Abyssal Howl",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a dice. On a 3+, subtract 5 from the target’s control score for the rest of the turn.",
           "keywords": ["Rampage"]
@@ -2235,6 +2240,7 @@
         {
           "name": "Sow Havoc",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a dice. On a 3+:\n\n• Inflict D3 mortal damage on the target.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
         }
@@ -2417,7 +2423,7 @@
         {
           "name": "Hidden Agents",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit and a friendly Callis and Toll unit in the same regiment as this unit if those units have not been deployed.",
           "effect": "Set up those units in reserve in the shadows. Those units have now been deployed.",
           "keywords": ["Deploy"]
@@ -2604,7 +2610,7 @@
         {
           "name": "Magic of the Realms",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick a Spell ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that Spell ability."
         }
       ],
@@ -2866,6 +2872,7 @@
         {
           "name": "Rousing Orator",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to the control scores of other friendly Cities of Sigmar Human units while they are wholly within 12\" of this unit."
         }
       ],
@@ -2976,6 +2983,7 @@
         {
           "name": "Flamewood Stakes",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the damage inflicted (if any) on the target if it has the Death, Daemon or Wizard keyword."
         }

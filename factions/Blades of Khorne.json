@@ -442,6 +442,7 @@
         {
           "name": "Taker of Heads",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If this unit is in combat, Heal (3) this unit."
         }
       ],
@@ -837,7 +838,7 @@
         {
           "name": "Prey of the Blood God",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick an enemy Hero to be this unit’s quarry (see ‘Stalk the Prey’). You can pick a Hero in reserve."
         },
         {
@@ -944,6 +945,7 @@
         {
           "name": "The Thinning Veil",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If this unit is in combat, you can return D3 slain models to this unit."
         }
       ],
@@ -1080,7 +1082,7 @@
         {
           "name": "Borne On Wings Of Blood",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve soaring above the battlefield. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -1141,6 +1143,7 @@
         {
           "name": "Grisly Trophies",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If this unit is in a Blades of Khorne army and any enemy models were slain this turn by this unit’s attacks, you gain 1 blood tithe point."
         }
       ],
@@ -1180,6 +1183,7 @@
         {
           "name": "Trial of Skulls",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "If this unit destroyed an enemy unit this turn, add 8 to this unit’s control score. If this unit did not destroy an enemy unit this turn, it has a control score of 1 that cannot be modified."
         }
       ],
@@ -1528,6 +1532,7 @@
         {
           "name": "First of the Gorechosen",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If any damage points were allocated to an enemy unit by this unit’s combat attacks this turn and that enemy unit has been destroyed, Heal (5) this unit and give this unit a glorious ascent token."
         }
       ],
@@ -1687,7 +1692,7 @@
         {
           "name": "The Scent of Blood",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
@@ -1828,6 +1833,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -1936,6 +1942,7 @@
         {
           "name": "Gruesome Bombardment",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "If any damage points are allocated to an enemy unit by a Shoot ability used by this unit, subtract 3 from that enemy unit’s control score for the rest of the turn."
         }
       ],

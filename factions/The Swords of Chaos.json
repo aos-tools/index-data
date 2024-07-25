@@ -4,7 +4,7 @@
     {
       "name": "Knights of the First Circle",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "If there are more friendly Swords of Chaos units on the battlefield than there are set up in reserve, pick a friendly Swords of Chaos unit that has not been deployed.",
       "effect": "Set up that unit in reserve in the Ruinous Skies. It has now been deployed.",
       "keywords": ["Deploy"]
@@ -224,7 +224,7 @@
         {
           "name": "The Favoured Warlord",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick 1 of the following keywords: Khorne, Tzeentch, Nurgle or Slaanesh. This unit has that keyword in addition to Undivided."
         },
         {

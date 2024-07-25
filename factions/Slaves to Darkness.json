@@ -10,6 +10,7 @@
     {
       "name": "Eye of the Gods",
       "activation": "Once Per Turn, End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Each friendly Slaves to Darkness unit that destroyed an enemy unit this turn is a target. Friendly Beasts and non-Hero Monsters cannot be targeted by this ability.",
       "effect": "Make a reward roll of D6 for each target and apply the corresponding effect below. You can re-roll the reward roll for the target, but if you do so and you roll a 1, inflict D3 mortal damage on the target.\n\n1 - Snubbed by the Gods\nNo effect.\n\n2 - Mutative Regrowth\nHeal (3) the target.\n\n3 - Unnatural Grace\nAdd 1 to hit rolls for the target’s combat attacks for the rest of the battle.\n\n4 - Lurid Aura\nThe target has Ward (6+) for the rest of the battle. If the target already has Ward (6+), it has Ward (5+) instead.\n\n5 - Slaughterer’s Might\nAdd 1 to the Rend characteristic of the target’s melee weapons for the rest of the battle.\n\n6 - Champion of Chaos\nPick any other effect.\n\nThe same effect can be applied multiple times to a unit, and more than 1 effect can apply to a unit at the same time."
     }
@@ -31,12 +32,14 @@
     "Godswrath Warband": {
       "name": "Ironclad Onslaught",
       "activation": "Once Per Turn (Army), End of Your Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick an objective that is contested by any friendly units to be the target.",
       "effect": "Place a defiled token next to the target objective. Then, roll a D3 for each enemy unit contesting an objective that has a defiled token. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
     "Legion of Chaos": {
       "name": "United in Darkness",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "While there is at least 1 friendly Warriors of Chaos Hero and 1 other friendly Daemon Hero or Darkoath Hero on the battlefield, add 2 to the control scores of friendly Slaves to Darkness units while they are contesting an objective that is wholly outside friendly territory."
     }
   },
@@ -44,7 +47,7 @@
     {
       "name": "Favoured of the Pantheon",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "effect": "This unit can use the ‘Eye of the Gods’ ability as if it were the end of the turn and it had destroyed an enemy unit this turn."
     },
     {
@@ -79,6 +82,7 @@
     {
       "name": "The Conqueror's Crown",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "Subtract 5 from the control scores of enemy Infantry units while they are in combat with this unit."
     }
   ],
@@ -398,6 +402,7 @@
         {
           "name": "Iron-willed Overlord",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 2 to the control scores of friendly Warriors of Chaos units while they are wholly within 12\" of this unit."
         }
       ],
@@ -489,6 +494,7 @@
         {
           "name": "Oath of Murder",
           "activation": "Once Per Battle, End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If this unit destroyed an enemy Hero or Monster this turn, this unit has Strike-first for the rest of the battle."
         }
       ],
@@ -899,6 +905,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -1153,6 +1160,7 @@
         {
           "name": "Oath of Bloodshed",
           "activation": "Once Per Battle, End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "This unit can only use this ability if any enemy Heroes were slain by this unit’s combat attacks this turn.",
           "effect": "Friendly Gunnar’s Oathsworn units have Ward (4+) for the rest of the battle."
         }
@@ -1207,7 +1215,7 @@
         {
           "name": "Minions of the Silver Tower",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick a friendly unit that has not been deployed to be the target.",
           "effect": "The target is set up in reserve in a Silver Tower. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -1391,6 +1399,7 @@
         {
           "name": "Oath of Murder",
           "activation": "Once Per Battle, End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If this unit destroyed an enemy Hero or Monster this turn, this unit has Strike-first for the rest of the battle."
         }
       ],
@@ -1599,7 +1608,7 @@
         {
           "name": "Sigils of  Domination",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick a friendly Slaves to Darkness Hero within this unit’s combat range to be this unit’s master.",
           "effect": "For the rest of the battle, while this unit is within its master’s combat range, add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
         },
@@ -1733,6 +1742,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -1784,6 +1794,7 @@
         {
           "name": "Creeping Summons",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Roll a dice. On a 2+, you can return D3 slain Spider Swarms to this unit."
         }
       ],
@@ -1844,7 +1855,7 @@
         {
           "name": "Minions of the Silver Tower",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick a friendly unit that has not been deployed to be the target.",
           "effect": "The target is set up in reserve in a Silver Tower. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -2018,7 +2029,7 @@
         {
           "name": "Shadow-lurkers",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve lurking in the shadows. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -2088,6 +2099,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -2132,6 +2144,7 @@
         {
           "name": "Slithering Serpents",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "If this unit’s Serpents are on the battlefield, pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a D3. On a 1, remove this unit’s Serpents from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
@@ -2309,7 +2322,7 @@
         {
           "name": "The Favoured Warlord",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick 1 of the following keywords: Khorne, Tzeentch, Nurgle or Slaanesh. This unit has that keyword in addition to Undivided."
         },
         {
@@ -2578,12 +2591,13 @@
         {
           "name": "Unleash The Beast",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
           "name": "Jagged Harpoon",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "If this unit includes a First Fang, pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a D3. If the target is a Beast or Monster, roll a dice instead. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
@@ -2983,6 +2997,7 @@
         {
           "name": "Brutal Momentum",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add 3\" to the distance this unit can move as part of that ability."
         }
       ],

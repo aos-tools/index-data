@@ -109,6 +109,7 @@
     {
       "name": "Helm of Tyranny",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit."
     },
     {
@@ -303,6 +304,7 @@
         {
           "name": "Repair Construct",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a friendly Ossiarch Bonereapers unit wholly within 12\" of this unit to be the target.",
           "effect": "Return a number of slain models to the target with a combined Health characteristic equal to the number of bone-tithe points this unit has. Then, reset this unit’s bone-tithe points to 0."
         }
@@ -385,6 +387,7 @@
         {
           "name": "Death Incarnate",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If this Manifestation was destroyed or banished this turn and the unit that summoned it is on the battlefield, roll a dice. On a 4+, set up this Manifestation again, wholly within 12\" of the unit that summoned it and more than 9\" from all enemy units."
         }
       ],
@@ -555,7 +558,7 @@
         {
           "name": "Predator's Cunning",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve outflanking the enemy. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -603,6 +606,7 @@
         {
           "name": "Aviarch Sentry",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Subtract 5 from the control scores of enemy Infantry units while they are within 6\" of this Manifestation."
         }
       ],
@@ -857,6 +861,7 @@
         {
           "name": "Prime Necrophoros",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to the control scores of other friendly Ossiarch Bonereapers units while they are wholly within 18\" of this unit."
         }
       ],
@@ -1262,6 +1267,7 @@
         {
           "name": "Hand of Dust",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
           "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
           "keywords": ["Rampage"]

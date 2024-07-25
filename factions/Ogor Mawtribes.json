@@ -17,6 +17,7 @@
     {
       "name": "Feast on Flesh",
       "activation": "Once Per Battle (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick each friendly Ogor unit that is in combat or that used a Fight ability this turn to be the targets.",
       "effect": "Roll a D3 for each target. On a 2+:\n\n• Heal (X) the target, where X is an amount equal to the roll.\n• Pick an enemy unit in combat with the target. You cannot pick the same enemy unit more than once. Inflict an amount of mortal damage on that enemy unit equal to the roll."
     }
@@ -63,6 +64,7 @@
     {
       "name": "Booming Roar",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "Subtract 5 from the control scores of enemy Infantry units while they are in combat with this unit."
     }
   ],
@@ -228,6 +230,7 @@
         {
           "name": "Insatiable Gluttony",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit."
         }
       ],
@@ -804,6 +807,7 @@
         {
           "name": "Everwinter's Assault",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
           "effect": "Roll a dice. On a 3+, for the rest of the turn:\n\n• If the target is a Monster, subtract 3 from its control score.\n• If the target is a non-Monster unit, subtract 5 from its control score.",
           "keywords": ["Rampage"]
@@ -985,6 +989,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         },
         {
@@ -1633,7 +1638,7 @@
         {
           "name": "Masters of Ambush",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit and up to 2 friendly Frost Sabres units if those units have not been deployed.",
           "effect": "Set up those units in reserve outflanking the prey. They have now been deployed.",
           "keywords": ["Deploy"]
@@ -1789,7 +1794,7 @@
         {
           "name": "Troglodytic Lurkers",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve lurking on the fringes. It has now been deployed.",
           "keywords": ["Deploy"]

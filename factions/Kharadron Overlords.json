@@ -60,7 +60,7 @@
     {
       "name": "Grudgebearer",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick an enemy unit to be the target.",
       "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target that enemy unit for the rest of the battle."
     },
@@ -300,7 +300,7 @@
         {
           "name": "Great Endrinworks",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick 1 of the following effects to apply to this unit for the rest of the battle:\n\nMagnificent Omniscope: Add 2\" to this unit’s Move characteristic.\n\nCollapsible Compartments: Add 1 to the total number of units and 10 to the total number of models this unit can transport.\n\nAetheric Repulsion Field: This unit can use the ‘Unbind’ ability as if it had Wizard (1)."
         },
         {
@@ -647,6 +647,7 @@
         {
           "name": "Moustache-mounted Aetherblasters",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
@@ -728,6 +729,7 @@
         {
           "name": "Emergency Field Repairs",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
           "effect": "Make a field repairs roll of D6 for each model in this unit. For each 4-5, Heal (1) the target. For each 6, Heal (2) the target."
         }
@@ -929,7 +931,7 @@
         {
           "name": "Captain of the Aelsling",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick a friendly Arkanaut Frigate in this unit’s regiment to be the target.",
           "effect": "The target has the Aelsling keyword. Add 1 to the Damage characteristic of the target’s melee weapons for the rest of the battle."
         },
@@ -942,6 +944,7 @@
         {
           "name": "Auxiliary Skyhook",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
           "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
@@ -1081,6 +1084,7 @@
         {
           "name": "Timed Charges",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
         }

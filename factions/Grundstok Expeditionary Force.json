@@ -23,6 +23,7 @@
     {
       "name": "No Safe Haven",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick an enemy unit to be the target.",
       "effect": "Subtract 1 from the control score of that unit for each damage point allocated to it this turn by a shooting attack made by a friendly Expeditionary Force unit, to a maximum of 10 damage points."
     }

@@ -45,6 +45,7 @@
     "Soul-raid Ambushers": {
       "name": "Fade Like Mist",
       "activation": "Once Per Turn, End of Your Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick a friendly Idoneth Deepkin Infantry or Cavalry unit wholly within 3\" of a terrain feature.",
       "effect": "Remove that unit from the battlefield and set it up in reserve travelling the ethersea (see the ‘Raiders from the Deep’ ability)."
     }
@@ -59,6 +60,7 @@
     {
       "name": "Nightmare Legacy",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick a visible enemy unit that had any damage points allocated to it this turn by an ability used by this unit to be the target.",
       "effect": "Subtract D6 from the target’s control score for the rest of the turn."
     },
@@ -282,6 +284,7 @@
         {
           "name": "Catalogue of Souls",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to the control scores of friendly Idoneth Deepkin units while they are wholly within 12\" of this unit."
         }
       ],
@@ -310,7 +313,7 @@
         {
           "name": "Rise From The Depths",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Set up this faction terrain either as 1 terrain feature consisting of 2 scenery pieces (that must be set up within 3\" of each other) or as 2 separate terrain features. Set up each terrain feature wholly within friendly territory and more than 3\" from all objectives and other terrain features. After you have done so, it has been deployed.\n\nIf this faction terrain is set up as 1 terrain feature consisting of 2 scenery pieces, it has a Health characteristic of 14 instead of 7.",
           "keywords": ["Deploy Terrain"]
         },
@@ -569,6 +572,7 @@
         {
           "name": "Elathain's Lurelight",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Roll a D3. On a 2+, return a number of slain models to this unit equal to the roll."
         }
       ],
@@ -730,6 +734,7 @@
         {
           "name": "Tranquillity of the Abyss",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Ignore negative modifiers to the control scores of friendly Idoneth Deepkin units while they are wholly within 12\" of this unit."
         }
       ],
@@ -850,6 +855,7 @@
         {
           "name": "Lurelight",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick up to 3 different friendly Namarti units wholly within 12\" of this unit to be the targets. You cannot pick the same unit to be the target of this ability more than once per turn. Make a lurelight roll of D3 for each target unit.",
           "effect": "On a 2+, return a number of slain models to the target unit equal to the roll."
         }

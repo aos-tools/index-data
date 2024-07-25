@@ -50,6 +50,7 @@
     {
       "name": "Mastery Over Monsters",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "While this unit is contesting an objective, enemy Monsters contesting that objective each have a maximum control score of 2."
     }
   ],
@@ -105,7 +106,7 @@
         {
           "name": "Magmic Tunnelling",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit and up to 1 unit in its regiment if neither unit has been deployed.",
           "effect": "Set up those units in reserve underground. They have now been deployed.",
           "keywords": ["Deploy"]
@@ -204,6 +205,7 @@
         {
           "name": "Dominating Roar",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy Monster in combat with this unit to be the target",
           "effect": "If this unit has fewer damage points than the target, subtract 10 from the target’s control score for the rest of the turn.",
           "keywords": ["Rampage"]

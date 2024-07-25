@@ -4,7 +4,7 @@
     {
       "name": "The Celestial Realm",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "If there are more friendly Stormcast Eternals units on the battlefield than there are set up in reserve, pick a friendly Stormcast Eternals unit that has not been deployed.",
       "effect": "Set up that unit in reserve in the Celestial Realm. It has now been deployed.",
       "keywords": ["Deploy"]
@@ -43,6 +43,7 @@
     "Sacrosanct Convocation": {
       "name": "Cycle of the Storm",
       "activation": "Once Per Turn (Army), End of Your Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick a friendly Sacrosanct Chamber unit that had models slain in this turn to be the target.",
       "effect": "Return 1 slain model to the target unit."
     },
@@ -78,6 +79,7 @@
     {
       "name": "Staunch Defender",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "While this unit is contesting an objective in friendly territory, add 3 to the control scores of all friendly Stormcast Eternals units contesting that objective."
     },
     {
@@ -97,6 +99,7 @@
     {
       "name": "Null Pendant",
       "activation": "Once Per Battle, End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "effect": "Subtract 5 from the target’s control score for the rest of the turn."
     },
@@ -426,6 +429,7 @@
         {
           "name": "Memorian",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit’s Memorian is a token. Add 3 to the control scores of friendly Ruination Chamber units wholly within 12\" of this unit while its Memorian is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Memorian from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         },
         {
@@ -1428,6 +1432,7 @@
         {
           "name": "Stalwart Defenders",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
         },
         {
@@ -1840,6 +1845,7 @@
         {
           "name": "Dazzling Radiance",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Ignore negative modifiers to the control scores of friendly Stormcast Eternals units while they are wholly within 12\" of this unit."
         }
       ],
@@ -2385,6 +2391,7 @@
         {
           "name": "Healing Light",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a visible friendly Sacrosanct Chamber unit that is not in combat and is within 12\" of this unit to be the target.",
           "effect": "If the target is damaged, Heal (D6) the target. If the target is not damaged, return a slain model to it."
         }
@@ -2485,7 +2492,7 @@
         {
           "name": "Castellan of Azyr",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick up to 3 friendly Stormcast Eternals Infantry units to be the targets.",
           "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase."
         },
@@ -2498,6 +2505,7 @@
         {
           "name": "Mantle of the First Storm",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If any enemy models were slain by this unit’s attacks this turn, Heal (4) this unit."
         }
       ],
@@ -2985,6 +2993,7 @@
         {
           "name": "Redemptor Casket",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Models cannot be returned to enemy units within 12\" of this unit."
         }
       ],
@@ -3076,7 +3085,7 @@
         {
           "name": "Soul-bonded",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick a friendly Stormcast Eternals Hero to be this unit’s soulbonded charge for the rest of the battle."
         },
         {
@@ -3265,6 +3274,7 @@
         {
           "name": "Lord of the Hammerhands",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to the control scores of friendly Warrior Chamber units while they are wholly within 12\" of this unit."
         }
       ],
@@ -3775,6 +3785,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -4000,6 +4011,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -4629,6 +4641,7 @@
         {
           "name": "Celestial Blaze",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability."
         }
       ],
@@ -4856,6 +4869,7 @@
         {
           "name": "Magical Mending",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a visible friendly Manifestation wholly within 12\" of this unit to be the target.",
           "effect": "Heal (D6) the target."
         }
@@ -4905,6 +4919,7 @@
         {
           "name": "Stalwart Defenders",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
         }
       ],

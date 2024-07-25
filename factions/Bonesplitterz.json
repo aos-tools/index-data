@@ -515,6 +515,7 @@
         {
           "name": "The Savage Hordes",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 10 to the control score of this unit while it is in combat with any enemy units that charged this turn."
         }
       ],
@@ -565,6 +566,7 @@
         {
           "name": "Wild Enthusiasm",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit can use the ‘Power Through’ command even if it has not charged this turn. In addition, when you pick a target for that command, the target does not have to have a lower Health characteristic than this unit."
         }
       ],

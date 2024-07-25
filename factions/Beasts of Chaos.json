@@ -4,7 +4,7 @@
     {
       "name": "Masters of the Wilderness",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick a friendly Beasts of Chaos unit that has not been deployed.",
       "effect": "Set up that unit in reserve in ambush. It has now been deployed.\n\nDesigner’s Note: Any number of friendly Beasts of Chaos units can start the battle in reserve – even your entire Beasts of Chaos army!",
       "keywords": ["Deploy"]
@@ -33,6 +33,7 @@
     "Hungering Warherd": {
       "name": "Bloodgreed",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick each friendly Warherd unit that used a Fight ability this turn to be the targets.",
       "effect": "Heal (3) each target."
     },
@@ -270,6 +271,7 @@
         {
           "name": "Harbingers of Dark Omens",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Subtract 5 from the control scores of enemy units while they are within 12\" of this unit."
         }
       ],
@@ -326,6 +328,7 @@
         {
           "name": "Beneath The Tempest",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick each enemy unit in combat with this unit to be the targets.",
           "effect": "Roll a dice. On a 2+, Heal (X) this unit, where X is an amount equal to the roll. Then, roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
           "keywords": ["Rampage"]
@@ -516,6 +519,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -548,6 +552,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         },
         {
@@ -823,6 +828,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -1130,6 +1136,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],

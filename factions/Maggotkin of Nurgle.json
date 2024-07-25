@@ -10,11 +10,13 @@
     {
       "name": "Wracked with Disease",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "Roll a D3 for each Diseased enemy unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
     },
     {
       "name": "Blessed by the Plaguefather",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "Pick 1 of the following effects:\n\nInfect: Pick an enemy unit that is in combat with a friendly Maggotkin of Nurgle unit to be the target. The target has the Diseased keyword.\n\nSpread: Pick a Diseased enemy unit to be the target. Each other enemy unit within the target’s combat range has the Diseased keyword.\n\nMutate: If all enemy units on the battlefield have the Diseased keyword, inflict 1 mortal damage on each of them."
     }
   ],
@@ -41,6 +43,7 @@
     "Tallyband of Nurgle": {
       "name": "Disease and Pestilence Personified",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "From the second battle round onwards, add 1 to the amount of mortal damage inflicted, if any, by the ‘Wracked with Disease’ ability."
     }
   },
@@ -60,6 +63,7 @@
     {
       "name": "Grandfather's Blessing",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "If this unit is in combat with a Diseased enemy unit, Heal (D6) this unit."
     }
   ],
@@ -190,6 +194,7 @@
         {
           "name": "Riddled With Disease",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit within 6\" of this terrain feature to be the target.",
           "effect": "Roll a dice. On a 4+, the target has the Diseased keyword."
         }
@@ -445,6 +450,7 @@
         {
           "name": "Bloated with Corruption",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "If this unit is damaged, pick up to 3 enemy units in combat with this unit to be the targets.",
           "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
           "keywords": ["Rampage"]
@@ -498,6 +504,7 @@
         {
           "name": "Virulent Concoctions",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "When using the ‘Blessed by the Plaguefather’ ability, if you choose to infect an enemy unit, you can pick an enemy unit that had any damage points allocated to it by this unit’s shooting attacks this turn to be the target even if that unit is not in combat with a friendly Maggotkin of Nurgle unit."
         }
       ],
@@ -594,6 +601,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -684,6 +692,7 @@
         {
           "name": "Endless Swarm",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (3) this unit."
         }
       ],
@@ -812,6 +821,7 @@
         {
           "name": "Gigantic Nurgling-kin",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (X) this unit, where X is half the number of damage points this unit has (rounding up)."
         }
       ],
@@ -891,6 +901,7 @@
         {
           "name": "Horrific Opponent",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Subtract 3 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
@@ -1250,7 +1261,7 @@
         {
           "name": "Master of the Slime Fleet",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick a regiment led by this unit to be the target if it has not been deployed.",
           "effect": "Each unit in the target regiment is set up in reserve aboard the Slime Fleet. Those units have now been deployed.",
           "keywords": ["Deploy"]
@@ -1547,6 +1558,7 @@
         {
           "name": "Bloated Bulk",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to this unit’s control score while each model in this unit is contesting an objective you control."
         }
       ],

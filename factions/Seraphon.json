@@ -62,6 +62,7 @@
     "Sunclaw Starhost": {
       "name": "Vengeance of Azyr",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick up to 3 friendly Saurus or Kroxigor units that are in combat to be the targets.",
       "effect": "For each target:\n\n• Make a pile-in move.\n\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
@@ -262,6 +263,7 @@
         {
           "name": "Primal Rage",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "This unit must use this ability each turn.\n\nIf this unit used any Fight abilities this turn, place a rage token next to it, to a maximum of 3. If this unit did not use any Fight abilities this turn, remove all rage tokens it has.\n\nAdd 1 to the Attacks characteristic of this unit’s Companion weapons for each rage token it has until the end of the next turn."
         }
       ],
@@ -329,6 +331,7 @@
         {
           "name": "Dead for Innumerable Ages",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "This unit must use this ability each turn while it is damaged. Roll 3D6 and add the number of damage points this unit has to the roll. On a 20+, this unit is destroyed. Otherwise, Heal (18) this unit."
         }
       ],
@@ -398,7 +401,7 @@
         {
           "name": "Hidden Hunters",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve in ambush. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -516,7 +519,7 @@
         {
           "name": "Hidden Hunters",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve in ambush. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -707,6 +710,7 @@
         {
           "name": "Maim and Tear",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
           "effect": "Roll a number of dice equal to the number of damage points the target has. For each 5+, inflict 1 mortal damage on the target.",
           "keywords": ["Rampage"]
@@ -714,6 +718,7 @@
         {
           "name": "Terror",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
@@ -795,6 +800,7 @@
         {
           "name": "Terror",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
@@ -1258,6 +1264,7 @@
         {
           "name": "Primal Rage",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "This unit must use this ability each turn.\n\nIf this unit used any Fight abilities this turn, place a rage token next to it, to a maximum of 3. If this unit did not use any Fight abilities this turn, remove all rage tokens it has.\n\nAdd 1 to the Attacks characteristic of this unit’s Companion weapons for each rage token it has until the end of the next turn."
         }
       ],
@@ -1304,6 +1311,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -1403,6 +1411,7 @@
         {
           "name": "Sun Acolytes",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a crew of 3 Sun Acolytes that are tokens.\n\nAdd 1 to this unit’s control score for each Sun Acolyte it has. If this unit has no Sun Acolytes, it has a maximum control score of 1 for the rest of the battle.\n\nEach time you make an unmodified save roll of 1 for this unit, remove 1 of its Sun Acolytes from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         }
       ],
@@ -2015,11 +2024,13 @@
         {
           "name": "Troglodon Regeneration",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (D3) this unit."
         },
         {
           "name": "Terror",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
         }
       ],

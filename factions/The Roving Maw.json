@@ -149,6 +149,7 @@
         {
           "name": "Insatiable Gluttony",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit."
         }
       ],
@@ -570,7 +571,7 @@
         {
           "name": "Troglodytic Lurkers",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve lurking on the fringes. It has now been deployed.",
           "keywords": ["Deploy"]

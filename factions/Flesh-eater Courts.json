@@ -39,6 +39,7 @@
     "Cannibal Court": {
       "name": "A Hunger For Glory",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "Give 1 noble deeds point to each friendly Flesh-eater Courts Hero wholly outside friendly territory."
     },
     "Ghoul Patrol": {
@@ -97,6 +98,7 @@
     {
       "name": "The Grim Garland",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit."
     }
   ],
@@ -314,6 +316,7 @@
         {
           "name": "Off With Their Head!",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy Infantry Hero that had any damage points allocated to it this turn by this unit’s attacks to be the target.",
           "effect": "Roll a dice. On a 5+, the target is automatically destroyed."
         }
@@ -585,7 +588,7 @@
         {
           "name": "Vantage Point",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve high above the battlefield. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -661,6 +664,7 @@
         {
           "name": "Victory Feast",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "If any models were slain by this unit this turn:\n\n• Heal (D6) this unit.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
         }
       ],
@@ -998,6 +1002,7 @@
         {
           "name": "Dinner is Served",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a friendly Flesh-eater Courts Hero wholly within 12\" of this unit to be the target.",
           "effect": "Heal (X) the target, where X is the number of prime cut points this unit has. Then, reset this unit’s prime cut points to 0."
         }
@@ -1169,6 +1174,7 @@
         {
           "name": "Overflowing Gore",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a friendly Flesh-eater Courts unit wholly within 18\" of this Manifestation to be the target.",
           "effect": "Add the number of blood points this Manifestation has to the target’s control score for the rest of the turn. Then, reset this Manifestation’s blood points to 0."
         }
@@ -1815,6 +1821,7 @@
         {
           "name": "Hand of Dust",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
           "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
           "keywords": ["Rampage"]

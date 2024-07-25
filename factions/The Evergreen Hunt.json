@@ -112,7 +112,7 @@
         {
           "name": "Deploy Wyldwood",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Set up this terrain feature wholly within friendly territory, more than 3\" from all objectives and other terrain features. This terrain feature has now been deployed.",
           "keywords": ["Deploy Terrain"]
         },
@@ -184,6 +184,7 @@
         {
           "name": "Thrumming with Life",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (3) this unit."
         }
       ],
@@ -316,6 +317,7 @@
         {
           "name": "Thrumming With Life",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Heal (3) this unit."
         }
       ],

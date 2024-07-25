@@ -34,6 +34,7 @@
     {
       "name": "Fearless Fliers",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "If this unit is not in combat, it can immediately make a D6\" move and can end that move in combat."
     }
   ],
@@ -41,6 +42,7 @@
     {
       "name": "Celestium Ensign",
       "activation": "Once Per Battle (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "Heal (3) each friendly Draconith Skywing unit wholly within 12\" of this unit."
     }
   ],

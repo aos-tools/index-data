@@ -24,6 +24,7 @@
     {
       "name": "Laden with Prophecy",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick a friendly empty Cauldron of Blood.",
       "effect": "If any enemy models were slain this turn by that Cauldron of Blood’s combat attacks, it becomes full."
     },
@@ -46,6 +47,7 @@
     {
       "name": "Blade of Prophetic Doom",
       "activation": "Once Per Turn, End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "effect": "Roll a dice. On a 2+:\n\n• If the target is not damaged, inflict 1 mortal damage on it.\n• If the target is damaged, inflict an amount of mortal damage on it equal to the roll."
     }

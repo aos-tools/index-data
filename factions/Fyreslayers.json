@@ -48,6 +48,7 @@
     "Lords of the Lodge": {
       "name": "Martial Pride and Stubborn Will",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "Add 3 to the control scores of friendly Fyreslayers Heroes. In addition, the control scores of Fyreslayers Heroes cannot be modified by enemy abilities."
     },
     "Scales of Vulcatrix": {
@@ -249,6 +250,7 @@
         {
           "name": "Icon of Grimnir",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Ignore negative modifiers to the control scores of friendly Fyreslayers units while they are wholly within 12\" of this unit."
         }
       ],
@@ -288,7 +290,7 @@
         {
           "name": "Magmic Tunnelling",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit and up to 1 unit in its regiment if neither unit has been deployed.",
           "effect": "Set up those units in reserve underground. They have now been deployed.",
           "keywords": ["Deploy"]
@@ -432,6 +434,7 @@
         {
           "name": "Dominating Roar",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy Monster in combat with this unit to be the target",
           "effect": "If this unit has fewer damage points than the target, subtract 10 from the target’s control score for the rest of the turn.",
           "keywords": ["Rampage"]
@@ -744,6 +747,7 @@
         {
           "name": "Commanding Presence",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "Add the current battle round number to the control scores of friendly Fyreslayers Infantry units wholly within 12\" of this unit for the rest of the turn."
         }
       ],
@@ -916,6 +920,7 @@
         {
           "name": "Smouldering Braziers",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
@@ -1055,7 +1060,7 @@
         {
           "name": "Grimwrath Oaths",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick 1 of the following oaths for this unit to swear:\n\n‘I will guard them with my life!’: While this unit is wholly within 6\" of another friendly Fyreslayers Hero:\n\n• Add 1 to hit rolls for this unit’s attacks.\n• Add 1 to ward rolls for this unit.\n\nIf a friendly Fyreslayers Hero wholly within 6\" of this unit is destroyed, this effect no longer applies.\n\n‘I will not be stopped!’: Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the ‘Retreat’ or ‘Rally’ abilities, this effect no longer applies."
         },
         {
@@ -1141,6 +1146,7 @@
         {
           "name": "Flamescarred",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this Manifestation’s attacks to be the target.",
           "effect": "Subtract 1 from wound rolls for the target’s combat attacks until the end of your next turn."
         }
@@ -1218,7 +1224,7 @@
         {
           "name": "Oathbound",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick an enemy unit to be this unit’s quarry. You can pick a unit that has been deployed in reserve.",
           "effect": "Add 1 to hit rolls and wound rolls for attacks made by this unit that target its quarry.\nIf this unit is destroyed while it is in combat with its quarry, inflict 3 mortal damage on this unit’s quarry immediately after the ability that destroyed this unit has been resolved."
         },

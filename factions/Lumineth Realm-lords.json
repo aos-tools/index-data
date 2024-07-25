@@ -216,13 +216,14 @@
         {
           "name": "Independent Operative",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "If this unit has not been deployed, set it up anywhere on the battlefield not in combat with any enemy units. This unit has now been deployed.\n\nDesigner’s Note: Enemy units that deploy after this unit can deploy in combat with it.",
           "keywords": ["Deploy"]
         },
         {
           "name": "Lone Agent",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 5 to this unit’s control score while it is more than 9\" from all other friendly units."
         }
       ],
@@ -939,6 +940,7 @@
         {
           "name": "Absorb Despair",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Ignore negative modifiers to the control scores of friendly Lumineth Realm-lords units while they are wholly within 12\" of this unit."
         }
       ],
@@ -1221,6 +1223,7 @@
         {
           "name": "Sudden Translocation",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "This unit can use this ability if any enemy models were slain by it this turn. Heal (D6) this unit. Then, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. When using the ‘Equal Prodigies’ ability in your next turn, you must pick Ellania to take the lead."
         }
       ],
@@ -1419,6 +1422,7 @@
         {
           "name": "World Banner",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "Add 3 to the control scores of other friendly Lumineth Realm‑lords units while they are wholly within 18\" of this unit."
         }
       ],

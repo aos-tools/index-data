@@ -20,6 +20,7 @@
     "Cauldron Guard": {
       "name": "Frenzied Devotees",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick up to 3 friendly Daughters of Khaine Infantry or War Machine units that are in combat to be the targets.",
       "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
@@ -53,11 +54,13 @@
     {
       "name": "Bathed in Blood",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "Heal (3) this unit if it is in combat."
     },
     {
       "name": "Master of Poisons",
       "activation": "End of Any Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.",
       "effect": "For the rest of the battle:\n\n• The target cannot be healed.\n• Slain models cannot be returned to the target unit."
     }
@@ -80,6 +83,7 @@
     {
       "name": "Crown of Woe",
       "activation": "Passive",
+      "phases": ["End of Turn"],
       "effect": "Subtract 2 from the control scores of enemy units while they are within 9\" of this unit."
     }
   ],
@@ -1410,7 +1414,7 @@
         {
           "name": "Circling in the Skies Above",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve in the skies. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -1509,7 +1513,7 @@
         {
           "name": "Circling in the Skies Above",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve in the skies. It has now been deployed.",
           "keywords": ["Deploy"]

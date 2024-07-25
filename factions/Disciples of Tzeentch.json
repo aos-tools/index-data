@@ -4,7 +4,7 @@
     {
       "name": "Masters of Destiny",
       "activation": "Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "effect": "Roll 9 dice and place them to one side. These are your destiny dice. Destiny dice can be spent during the battle to change certain dice rolls. You can never have more than 9 destiny dice at once.\n\nDuring the battle, instead of making a roll from the list below for a friendly Disciples of Tzeentch unit, you can spend your destiny dice. The roll you would have made is replaced with the roll on the destiny dice you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of destiny dice equal to the number before ‘D6’. Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities (but they can be modified by enemy abilities). You cannot spend destiny dice to replace re-rolls.\n\nDestiny dice can be spent in place of the following dice rolls:\n• Casting rolls\n• Unbinding rolls\n• Banishment rolls\n• Run rolls\n• Charge rolls in your turn\n• Hit rolls\n• Wound rolls\n• Save rolls"
     },
     {
@@ -23,6 +23,7 @@
     {
       "name": "Burning Wyrdflame",
       "activation": "Once Per Turn (Army), End of Any Turn",
+      "phases": ["End of Turn"],
       "effect": "Roll a D3 for each Burning enemy unit. On a 2-3, inflict an amount of mortal damage on that unit equal to the roll. On a 1, that unit no longer has the Burning keyword."
     }
   ],
@@ -36,6 +37,7 @@
     "Change Host": {
       "name": "Twist of Fate",
       "activation": "Once Per Battle (Army), End of Your Turn",
+      "phases": ["End of Turn"],
       "declare": "Pick a friendly Disciples of Tzeentch Daemon unit that is in combat to be the target.",
       "effect": "Roll a dice. On a 3+, remove the target from the battlefield and set it up again on the battlefield. Each model in the target unit must be set up in combat with any of the enemy units that the target was in combat with before it was removed from the battlefield."
     },
@@ -211,7 +213,7 @@
         {
           "name": "A Twisted Fate",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "This unit must be deployed using this ability.",
           "effect": "Set up this unit in reserve as a potential fate. It has now been deployed.\n\nDesigner’s Note: This unit can only be set up on the battlefield using the ‘Transformed to Spawn’ spell.",
           "keywords": ["Deploy"]
@@ -225,6 +227,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -450,6 +453,7 @@
         {
           "name": "Fuelling the Inferno",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick up to 3 Burning enemy units within 12\" of this unit to be the targets.",
           "effect": "Inflict 1 mortal damage on each target."
         }
@@ -552,7 +556,7 @@
         {
           "name": "Minions of the Silver Tower",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick a friendly unit that has not been deployed to be the target.",
           "effect": "The target is set up in reserve in a Silver Tower. It has now been deployed.",
           "keywords": ["Deploy"]
@@ -992,6 +996,7 @@
         {
           "name": "Keeper of the Pandaemonium",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "effect": "You can return D3 slain models to this unit."
         }
       ],
@@ -1034,7 +1039,7 @@
         {
           "name": "Arch-Deceiver",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units."
         },
         {
@@ -1255,6 +1260,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
+          "phases": ["End of Turn"],
           "effect": "This unit has a maximum control score of 1."
         }
       ],
@@ -1370,6 +1376,7 @@
         {
           "name": "Mutagenic Sorcery",
           "activation": "End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit within 12\" of this unit to be the enemy target. Then, pick a friendly Tzaangors unit in combat with that enemy unit to be the friendly target.",
           "effect": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the enemy target equal to the roll.\n• Return a number of slain models to the friendly target equal to the roll."
         }
@@ -1569,6 +1576,7 @@
         {
           "name": "Burning Fury",
           "activation": "Once Per Turn (Army), End of Any Turn",
+          "phases": ["End of Turn"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.",
           "effect": "The target has the Burning keyword."
         }
@@ -1909,7 +1917,7 @@
         {
           "name": "Minions of the Silver Tower",
           "activation": "Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick a friendly unit that has not been deployed to be the target.",
           "effect": "The target is set up in reserve in a Silver Tower. It has now been deployed.",
           "keywords": ["Deploy"]
