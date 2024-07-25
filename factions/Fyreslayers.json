@@ -740,7 +740,7 @@
         {
           "name": "Royal Retinue",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick a friendly non-Hero Fyreslayers Infantry unit within this unit’s combat range to be the royal retinue.",
           "effect": "For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has Ward (4+)."
         },

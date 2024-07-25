@@ -206,7 +206,7 @@
         {
           "name": "The Admiral's Flagship",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick an Arkanaut Ironclad or Arkanaut Frigate in this unit’s regiment to be the target.",
           "effect": "For the rest of the battle, each time the target uses the ‘All-out Attack’ command while this unit is wholly within 12\" of it, no command points are spent."
         },

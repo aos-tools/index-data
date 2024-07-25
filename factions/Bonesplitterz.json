@@ -4,7 +4,7 @@
     {
       "name": "Take Da Bait",
       "activation": "Once Per Battle, Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick up to 3 friendly Bonesplitterz units to be the targets.",
       "effect": "For the rest of the battle, add 1 to the Attacks characteristic of each target’s melee weapons while it is in combat with an enemy unit that charged in the same turn, and so long as the target has not charged during the battle."
     },
@@ -34,7 +34,7 @@
     "Brutal Rukk": {
       "name": "Tireless Trackers",
       "activation": "Once Per Battle, Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "effect": "Half the friendly non-Hero Bonesplitterz Infantry units on the battlefield (rounding up) can immediately use the ‘Normal Move’ ability as if it were your movement phase."
     },
     "Kop Rukk": {

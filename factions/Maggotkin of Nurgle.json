@@ -24,7 +24,7 @@
     "Affliction Cyst": {
       "name": "From Noxious Skies",
       "activation": "Once Per Battle (Army), Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick up to 2 friendly Maggotkin of Nurgle units that have Fly.",
       "effect": "Remove the targets from the battlefield and set them up again on the battlefield more than 9\" from all enemy units."
     },

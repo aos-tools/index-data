@@ -62,7 +62,7 @@
     "Taker Tribe": {
       "name": "More Stuff For Me Collection",
       "activation": "Once Per Battle, Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick a friendly non-Unique Sons of Behemat Hero that does not have an artefact of power.",
       "effect": "Give that Hero 1 artefact of power from ‘Titanic Trophies’.\n\nDesigner’s Note: This artefact of power is given to the unit during the deployment phase, not during army composition."
     }
@@ -91,7 +91,7 @@
     {
       "name": "Glowy Lantern",
       "activation": "Once Per Battle, Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "effect": "Pick 1 manifestation lore available to your faction. This unit can use Summon abilities from that manifestation lore as if it had Wizard (1)."
     },
     {

@@ -4,7 +4,7 @@
     {
       "name": "Ethersea Voyagers",
       "activation": "Once Per Battle (Army), Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick a friendly regiment led by an Idoneth Deepkin Hero. No units in that regiment can have already been deployed.",
       "effect": "Set up those units in reserve travelling the ethersea. They have now been deployed.",
       "keywords": ["Deploy"]

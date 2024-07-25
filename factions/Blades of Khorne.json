@@ -598,7 +598,7 @@
         {
           "name": "Tempered By Fury",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick another friendly Bloodbound Hero within 8\" of this unit to be the target.",
           "effect": "Pick 1 of the target’s melee weapons. Add 1 to the Rend characteristic of that weapon for the rest of the battle."
         },

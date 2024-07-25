@@ -4,7 +4,7 @@
     {
       "name": "The Great Plan",
       "activation": "Once Per Battle, Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick an Asterism ability.",
       "effect": "That Asterism ability can be used for the rest of the battle, but the others cannot, unless allowed by the ‘Further the Great Plan’ ability."
     },
@@ -467,7 +467,7 @@
         {
           "name": "Blot Toad",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
           "effect": "Place a Blot Toad next to each target."
         },
@@ -585,7 +585,7 @@
         {
           "name": "Blot Toad",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
           "effect": "Place a Blot Toad next to each target."
         },
@@ -1116,7 +1116,7 @@
         {
           "name": "Blot Toad",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
           "effect": "Place a Blot Toad next to each target."
         },

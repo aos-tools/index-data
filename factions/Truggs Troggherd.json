@@ -4,7 +4,7 @@
     {
       "name": "Living Landmark",
       "activation": "Once Per Battle (Army), Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick a friendly Trugg’s Troggherd unit that has not been deployed.",
       "effect": "Set up that unit in reserve as a living landmark. It has now been deployed.",
       "keywords": ["Deploy"]

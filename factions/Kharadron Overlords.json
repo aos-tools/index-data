@@ -4,7 +4,7 @@
     {
       "name": "Flying High",
       "activation": "Once Per Battle, Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick a friendly Skyvessel that is part of a regiment from which no units have been deployed, then pick a number of units up to its Transport Capacity (see its warscroll) that are in its regiment.",
       "effect": "Set up all of those units in reserve in the clouds. They have now been deployed.",
       "keywords": ["Deploy"]
@@ -39,7 +39,7 @@
     "Endrineers Guild Expeditionary Force": {
       "name": "Special Procurement",
       "activation": "Once Per Battle, Deployment Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Deployment Phase"],
       "declare": "Pick a friendly non-Unique Kharadron Overlords Hero that does not have an artefact of power.",
       "effect": "Give that Hero 1 artefact of power from the ‘Inventions of the Sky‑ports’.\n\nDesigner’s Note: This artefact of power is given to the unit during the deployment phase, not during army composition."
     },
@@ -369,7 +369,7 @@
         {
           "name": "The Admiral's Flagship",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick an Arkanaut Ironclad or Arkanaut Frigate in this unit’s regiment to be the target.",
           "effect": "For the rest of the battle, each time the target uses the ‘All-out Attack’ command while this unit is wholly within 12\" of it, no command points are spent."
         },

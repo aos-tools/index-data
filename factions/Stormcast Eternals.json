@@ -241,7 +241,7 @@
         {
           "name": "Astral Compass",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "declare": "Pick an enemy unit to be the target.",
           "effect": "The target has the Hunted keyword for the rest of the battle."
         },
@@ -2806,7 +2806,7 @@
         {
           "name": "Ordained Quest",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
         },
         {
@@ -3539,7 +3539,7 @@
         {
           "name": "Ordained Quest",
           "activation": "Once Per Battle (Army), Deployment Phase",
-          "phases": ["Start of Turn"],
+          "phases": ["Deployment Phase"],
           "effect": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
         },
         {
