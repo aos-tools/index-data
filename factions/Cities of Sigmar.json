@@ -22,8 +22,7 @@
       "activation": "Any Charge Phase",
       "phases": ["Charge Phase"],
       "declare": "Pick a friendly Cities of Sigmar Hero that has not used an Officar’s Order ability this turn to use this ability, then pick a friendly Cities of Sigmar unit that charged this turn that is wholly within 12\" of that Hero to be the target.",
-      "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.\n\nIn addition, if the target is an Aelf unit, add 1 to hit rolls for the target’s combat attacks for the rest of the turn.",
-      "keywords": []
+      "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.\n\nIn addition, if the target is an Aelf unit, add 1 to hit rolls for the target’s combat attacks for the rest of the turn."
     },
     {
       "name": "Hold The Line",
@@ -32,14 +31,6 @@
       "declare": "Pick a friendly Cities of Sigmar Hero that has not used an Officar’s Order ability this turn to use this ability, then pick a friendly Cities of Sigmar unit wholly within 12\" of that Hero and that did not charge this turn to be the target.",
       "effect": "The target has Strike-last and Ward (5+) for the rest of the turn.\n\nIn addition, if the target is Duardin, subtract 1 from hit rolls for combat attacks that target that unit for the rest of the turn.",
       "keywords": ["Officar's Orders"]
-    },
-    {
-      "name": "The Officar's Order",
-      "activation": "Once Per Battle, Start of Battle Round",
-      "phases": ["Start of Turn"],
-      "declare": "Pick a battle tactic card in your hand and place it face-down separately next to your other battle tactic cards. The information on it is still hidden from your opponent but make it clear which card is separate. The card stays separate until you use the command on it or score the battle tactic on it as described below.",
-      "effect": "When you use the command on that card, it is not discarded but returns to your hand. Your opponent can check the information on it before it returns to your hand. The card goes back to being a normal battle tactic card, with the exception that you cannot use the command on it in the same phase it went back into your hand.\n\nIf you did not use the command on the card you separated, you can still score the battle tactic on it at the end of your turn as normal if you met its conditions. If you do so, discard it as normal. If you neither used the command nor scored the battle tactic on the card, it automatically returns to your hand at the end of your turn.\n\nDesigner’s Note: This ability essentially lets you use a command ‘for free’, but you have to choose the command at the start of the battle round, so it requires some planning ahead!",
-      "keywords": []
     }
   ],
   "battle_formations": {
@@ -47,29 +38,25 @@
       "name": "Eldritch Expertise",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "Add 1 to casting rolls for friendly Cities of Sigmar Wizards.",
-      "keywords": []
+      "effect": "Add 1 to casting rolls for friendly Cities of Sigmar Wizards."
     },
     "Dawnbringer Crusade": {
       "name": "'Forwards, Dawners!'",
       "activation": "Passive",
       "phases": ["Movement Phase"],
-      "effect": "Add 2\" to the Move characteristic of friendly Cities of Sigmar units in the first battle round.",
-      "keywords": []
+      "effect": "Add 2\" to the Move characteristic of friendly Cities of Sigmar units in the first battle round."
     },
     "Fortress-city Defenders": {
       "name": "Bulwark Zone",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Friendly Cities of Sigmar units that have the ‘Fortify Position’ ability start the first battle round in a fortified position.\n\nIn addition, in the first battle round, subtract 1 from wound rolls for attacks that target friendly Cities of Sigmar units while they are wholly within friendly territory.",
-      "keywords": []
+      "effect": "Friendly Cities of Sigmar units that have the ‘Fortify Position’ ability start the first battle round in a fortified position.\n\nIn addition, in the first battle round, subtract 1 from wound rolls for attacks that target friendly Cities of Sigmar units while they are wholly within friendly territory."
     },
     "Ironweld Guild Army": {
       "name": "Faith and Firepower",
       "activation": "Passive",
       "phases": ["Shooting Phase"],
-      "effect": "Add 3\" to the Range characteristic of ranged weapons used by friendly Cities of Sigmar units.",
-      "keywords": []
+      "effect": "Add 3\" to the Range characteristic of ranged weapons used by friendly Cities of Sigmar units."
     }
   },
   "heroic_traits": [
@@ -77,22 +64,19 @@
       "name": "Master of Ballistics",
       "activation": "Passive",
       "phases": ["Shooting Phase"],
-      "effect": "If a friendly Cities of Sigmar unit uses the ‘All-out Attack’ command in the shooting phase while it is within this unit’s combat range, add 1 to wound rolls for that unit’s shooting attacks in that phase. This effect is in addition to the effect of ‘All-out Attack’.",
-      "keywords": []
+      "effect": "If a friendly Cities of Sigmar unit uses the ‘All-out Attack’ command in the shooting phase while it is within this unit’s combat range, add 1 to wound rolls for that unit’s shooting attacks in that phase. This effect is in addition to the effect of ‘All-out Attack’."
     },
     {
       "name": "Fiery Temper",
       "activation": "Passive",
       "phases": ["Charge Phase"],
-      "effect": "If this unit charged this turn, you can re-roll charge rolls for friendly Cities of Sigmar units while they are wholly within 18\" of this unit.",
-      "keywords": []
+      "effect": "If this unit charged this turn, you can re-roll charge rolls for friendly Cities of Sigmar units while they are wholly within 18\" of this unit."
     },
     {
       "name": "Grizzled Veteran",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "If the unmodified wound roll for an attack that targets this unit is a 1-3, the attack fails and the attack sequence ends.",
-      "keywords": []
+      "effect": "If the unmodified wound roll for an attack that targets this unit is a 1-3, the attack fails and the attack sequence ends."
     }
   ],
   "artefacts_of_power": [
@@ -100,23 +84,19 @@
       "name": "Sacred Tome",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "If this unit is not a Priest, it has Priest (1). If this unit is already a Priest, add 1 to chanting rolls for this unit.\n\nIf this unit is a Wizard, it cannot use Spell abilities and Prayer abilities in the same phase.",
-      "keywords": []
+      "effect": "If this unit is not a Priest, it has Priest (1). If this unit is already a Priest, add 1 to chanting rolls for this unit.\n\nIf this unit is a Wizard, it cannot use Spell abilities and Prayer abilities in the same phase."
     },
     {
       "name": "Glimmering",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Each phase, you can re-roll 1 hit roll, or 1 wound roll, or 1 save roll for this unit.",
-      "keywords": []
+      "effect": "Each phase, you can re-roll 1 hit roll, or 1 wound roll, or 1 save roll for this unit."
     },
     {
       "name": "Brazier of Holy Flame",
       "activation": "End of Any Turn",
-      "phases": null,
       "declare": "Pick a friendly non-Hero Cities of Sigmar Infantry unit that is not in combat and wholly within 12\" of this unit.",
-      "effect": "You can return up to D3 slain models to that unit.",
-      "keywords": []
+      "effect": "You can return up to D3 slain models to that unit."
     }
   ],
   "spell_lore": {
@@ -187,11 +167,8 @@
       "move": "5\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -200,9 +177,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -211,8 +186,7 @@
           "name": "Runic Crucible",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Pick a friendly Cities of Sigmar Human unit wholly within 12\" of this unit and roll a dice. On a 3+, add 1 to save rolls for that unit until the start of your next turn.",
-          "keywords": []
+          "effect": "Pick a friendly Cities of Sigmar Human unit wholly within 12\" of this unit and roll a dice. On a 3+, add 1 to save rolls for that unit until the start of your next turn."
         }
       ],
       "keywords": [
@@ -226,19 +200,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0e051662-dec0-4a9a-b482-2d423f3a99fd",
       "baseSize": "32mm",
       "points": 110,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Assassin",
       "move": "6\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -248,7 +217,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)", "Crit (Mortal)"]
           }
         ]
@@ -258,15 +226,13 @@
           "name": "In For The Kill",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "This unit has Strike-first if it charged in the same turn.",
-          "keywords": []
+          "effect": "This unit has Strike-first if it charged in the same turn."
         },
         {
           "name": "Hidden Murderer",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is within the combat range of a friendly Infantry unit that has 5 or more models and this unit is not in combat, this unit is not visible to enemy units.",
-          "keywords": []
+          "effect": "While this unit is within the combat range of a friendly Infantry unit that has 5 or more models and this unit is not in combat, this unit is not visible to enemy units."
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Cities of Sigmar", "Aelf"],
@@ -281,11 +247,8 @@
       "move": "8\"",
       "health": "12",
       "save": "4+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -295,9 +258,7 @@
             "hit": "2+",
             "wound": "✹",
             "rend": "✹",
-            "damage": "✹",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "✹"
           }
         ],
         "melee": [
@@ -308,7 +269,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -317,9 +277,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -328,15 +286,13 @@
           "name": "Searing Beam of Light",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit attacks with its Searing Beam of Light, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across.",
-          "keywords": []
+          "effect": "Each time this unit attacks with its Searing Beam of Light, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across."
         },
         {
           "name": "Aura of Protection",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Friendly Cities of Sigmar units have Ward (6+) while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Friendly Cities of Sigmar units have Ward (6+) while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -350,19 +306,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ac074b34-8930-49a4-ad13-89b1cf6ec039",
       "baseSize": "120 x 92mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Steam Tank Commander",
       "move": "8\"",
       "health": "12",
       "save": "2+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -372,9 +323,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+2"
           },
           {
             "name": "Commander’s Rifle",
@@ -383,9 +332,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Steam Gun",
@@ -394,9 +341,7 @@
             "hit": "2+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -407,7 +352,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -416,9 +360,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -427,35 +369,28 @@
           "name": "More Pressure!",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n\nPower the Wheels: This unit can use a Run ability and still use Shoot and/or Charge abilities later in the turn.\n\nPower the Guns: Add 3 to the Attacks characteristic of this unit’s Steam Gun.",
-          "keywords": []
+          "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n\nPower the Wheels: This unit can use a Run ability and still use Shoot and/or Charge abilities later in the turn.\n\nPower the Guns: Add 3 to the Attacks characteristic of this unit’s Steam Gun."
         },
         {
           "name": "Division Commander",
           "activation": "Once Per Battle, Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick up to 2 friendly Steam Tank units to be the targets.",
-          "effect": "For the rest of the turn, add 1 to hit rolls for shooting attacks made by this unit and by each target.",
-          "keywords": []
+          "effect": "For the rest of the turn, add 1 to hit rolls for shooting attacks made by this unit and by each target."
         }
       ],
       "keywords": ["Hero", "War Machine", "Order", "Cities of Sigmar", "Human"],
       "image": "https://dhss9aar8ocw.cloudfront.net/995c3c2f-0c1b-4cdf-8adc-626fb6c27c17",
       "baseSize": "120 x 92mm",
       "points": 340,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Freeguild Fusiliers",
       "move": "5\"",
       "health": "1",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -466,7 +401,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           },
           {
@@ -476,9 +410,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -488,9 +420,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -506,15 +436,13 @@
           "name": "Blackpowder Squire",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "This unit has a Blackpowder Squire token. Each time this unit uses a Shoot ability, if this unit’s Blackpowder Squire is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s Blackpowder Squire from the battlefield.",
-          "keywords": []
+          "effect": "This unit has a Blackpowder Squire token. Each time this unit uses a Shoot ability, if this unit’s Blackpowder Squire is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s Blackpowder Squire from the battlefield."
         },
         {
           "name": "Fusiliers, Fire!",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit uses a Shoot ability, if it is in a fortified position, use the Fortified Position weapon characteristics for all the attacks it makes with its Fusil-cannon. If it is not in a fortified position, use the Mobile weapon characteristics.",
-          "keywords": []
+          "effect": "Each time this unit uses a Shoot ability, if it is in a fortified position, use the Fortified Position weapon characteristics for all the attacks it makes with its Fusil-cannon. If it is not in a fortified position, use the Mobile weapon characteristics."
         }
       ],
       "keywords": [
@@ -528,19 +456,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/46094ff2-3a6d-49d5-b8cc-bc1bab402def",
       "baseSize": "28.5mm",
       "points": 120,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Darkshards",
       "move": "6\"",
       "health": "1",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -551,7 +474,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ],
@@ -562,9 +484,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -573,8 +493,7 @@
           "name": "Storm of Iron-tipped Bolts",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to the Attacks characteristic of this unit’s Master‑crafted Repeater Crossbows for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to the Attacks characteristic of this unit’s Master‑crafted Repeater Crossbows for the rest of the turn."
         }
       ],
       "keywords": [
@@ -589,19 +508,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e8d6f75d-f19f-4050-a5df-4dd1a95be0a2",
       "baseSize": "25mm",
       "points": 140,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Battlemage on Griffon",
       "move": "12\"",
       "health": "15",
       "save": "4+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -612,7 +527,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ],
@@ -633,9 +547,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -644,8 +556,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Griffon’s Razor Claws and Twin Beaks is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Griffon’s Razor Claws and Twin Beaks is 4."
         },
         {
           "name": "Ghurish Ferocity",
@@ -667,19 +578,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/dbb2e524-a7a6-49fb-99b7-3767e310ac5a",
       "baseSize": "120 x 92mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "War Hydra",
       "move": "8\"",
       "health": "12",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -690,7 +596,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -702,7 +607,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Companion"]
           },
           {
@@ -711,9 +615,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -729,28 +631,21 @@
         {
           "name": "Sever One Head, Another Takes Its Place",
           "activation": "Once Per Turn, End of Any Turn",
-          "phases": null,
-          "effect": "Heal (6) this unit.",
-          "keywords": []
+          "effect": "Heal (6) this unit."
         }
       ],
       "keywords": ["Monster", "Order", "Cities of Sigmar", "Aelf"],
       "image": "https://dhss9aar8ocw.cloudfront.net/3c43063f-cbf3-4d7d-bca0-8ff880f18e58",
       "baseSize": "120 x 92mm",
       "points": 220,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Fusil-Major on Ogor Warhulk",
       "move": "5\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -761,7 +656,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)", "Crit (Auto-wound)"]
           }
         ],
@@ -772,9 +666,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -791,8 +683,7 @@
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that was targeted by this unit’s shooting attacks this turn to be the target.",
-          "effect": "Add 1 to hit rolls for shooting attacks made by friendly Cities of Sigmar Human units that target that unit for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for shooting attacks made by friendly Cities of Sigmar Human units that target that unit for the rest of the turn."
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Cities of Sigmar", "Human"],
@@ -807,11 +698,8 @@
       "move": "4\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -820,9 +708,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -831,8 +717,7 @@
           "name": "Runes of Spellbreaking",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit can use the ‘Unbind’ ability as if it had Wizard (1).",
-          "keywords": []
+          "effect": "This unit can use the ‘Unbind’ ability as if it had Wizard (1)."
         },
         {
           "name": "Forgefire",
@@ -855,19 +740,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/38bb62ea-3b01-432f-99bc-d38c1b606dd8",
       "baseSize": "25mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Hammerers",
       "move": "4\"",
       "health": "1",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -876,9 +756,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -887,8 +765,7 @@
           "name": "Oathsworn",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Cities of Sigmar Duardin Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly Cities of Sigmar Duardin Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -903,19 +780,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e7d49a82-acd5-4d7b-9401-b3a3665c5208",
       "baseSize": "25mm",
       "points": 150,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Drakespawn Knights",
       "move": "10\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -925,7 +797,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -935,7 +806,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -945,8 +815,7 @@
           "name": "Bestial Instincts",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "For the rest of the turn, add 1 to the Attacks characteristic of this unit’s Drakespawn’s Ferocious Jaws while it is in combat with any damaged enemy units or while it is in combat with any enemy units that have had any models slain.",
-          "keywords": []
+          "effect": "For the rest of the turn, add 1 to the Attacks characteristic of this unit’s Drakespawn’s Ferocious Jaws while it is in combat with any damaged enemy units or while it is in combat with any enemy units that have had any models slain."
         }
       ],
       "keywords": [
@@ -961,8 +830,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/687992ba-bf01-4d0f-b863-880afb0d650a",
       "baseSize": "60 x 35mm",
       "points": 180,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Pontifex Zenestra, Matriarch of the Great Wheel",
@@ -970,10 +838,8 @@
       "health": "9",
       "save": "5+",
       "ward": "4+",
-      "wizardLevel": "",
       "priestLevel": "2",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -982,9 +848,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Acolytes' Club and Axe",
@@ -992,9 +856,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1003,8 +865,7 @@
           "name": "Voice of the God-king",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit can use the ‘Unbind’ ability as if it had Wizard (1).",
-          "keywords": []
+          "effect": "This unit can use the ‘Unbind’ ability as if it had Wizard (1)."
         },
         {
           "name": "Vessel of Sigmar",
@@ -1029,19 +890,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/3832937c-9175-4d90-ac80-02587a71b96e",
       "baseSize": "90 x 52mm",
       "points": 240,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Freeguild Command Corps",
       "move": "5\"",
       "health": "3",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1050,9 +906,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Sigmarite Great Weapon",
@@ -1060,9 +914,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Enchanted Rapier",
@@ -1071,7 +923,6 @@
             "wound": "4+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -1081,7 +932,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1091,23 +941,20 @@
           "name": "Dispatch Spies",
           "activation": "Once Per Battle (Army), Reaction: Opponent declared a command for a unit within 12\" of this unit",
           "phases": ["Start of Turn"],
-          "effect": "Unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
-          "keywords": []
+          "effect": "Unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost."
         },
         {
           "name": "Freeguild Adjutant",
           "activation": "Once Per Battle Round (Army), Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Cities of Sigmar Human unit wholly within 12\" of this unit to be the target.",
-          "effect": "For the rest of the turn, the first time the target uses the ‘Redeploy’, ‘Rally’, ‘Covering Fire’ or ‘Countercharge’ command, you can pick another friendly Cities of Sigmar Human unit wholly within 12\" of this unit and that has not used a command this phase to use the same command immediately after the first has been resolved (this is an exception to Commands, 1.2). You must still spend command points as normal to use the command a second time.",
-          "keywords": []
+          "effect": "For the rest of the turn, the first time the target uses the ‘Redeploy’, ‘Rally’, ‘Covering Fire’ or ‘Countercharge’ command, you can pick another friendly Cities of Sigmar Human unit wholly within 12\" of this unit and that has not used a command this phase to use the same command immediately after the first has been resolved (this is an exception to Commands, 1.2). You must still spend command points as normal to use the command a second time."
         },
         {
           "name": "The Marshal's Retinue",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Freeguild Marshal and Relic Envoy units are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly Freeguild Marshal and Relic Envoy units are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -1128,11 +975,7 @@
       "move": "10\"",
       "health": "8",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1143,7 +986,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ],
@@ -1155,7 +997,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -1165,7 +1006,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1175,27 +1015,21 @@
           "name": "Lay The Beast Low",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target enemy Monsters.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target enemy Monsters."
         }
       ],
       "keywords": ["War Machine", "Order", "Cities of Sigmar", "Aelf"],
       "image": "https://dhss9aar8ocw.cloudfront.net/ba9c3d44-039f-4f0e-a936-b682832fc585",
       "baseSize": "120 x 92mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Freeguild Marshal on Griffon",
       "move": "12\"",
       "health": "15",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1205,7 +1039,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -1225,15 +1058,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Griffon’s Razor Claws and Deadly Beak is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Griffon’s Razor Claws and Deadly Beak is 4."
         },
         {
           "name": "Tactical Acumen",
           "activation": "Reaction: You declared the ‘Redeploy’ command for a friendly Cities of Sigmar Human unit wholly within 12\" of this unit",
           "phases": ["Movement Phase"],
-          "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
-          "keywords": []
+          "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead."
         },
         {
           "name": "Piercing Bloodroar",
@@ -1255,19 +1086,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9ae467fb-20f1-4ff5-9151-4b928efa28b5",
       "baseSize": "120 x 92mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Celestial Hurricanum",
       "move": "8\"",
       "health": "10",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1277,7 +1103,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1288,35 +1113,28 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to D3 visible friendly Cities of Sigmar Human units wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 1 to hit rolls for the targets’ combat attacks until the start of your next turn.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for the targets’ combat attacks until the start of your next turn."
         },
         {
           "name": "Storm of Shemtek",
           "activation": "Once Per Turn (Army), Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
-          "effect": "Make a number of D3 rolls equal to the current battle round number. For each 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Make a number of D3 rolls equal to the current battle round number. For each 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": ["War Machine", "Order", "Cities of Sigmar", "Human"],
       "image": "https://dhss9aar8ocw.cloudfront.net/f3ac61f3-5a4c-4034-96fd-df2459cd460d",
       "baseSize": "120 x 92mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Black Ark Fleetmaster",
       "move": "6\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1326,7 +1144,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1336,8 +1153,7 @@
           "name": "'At Them, You Curs!'",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly Black Ark Corsairs unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target.\n\nThe target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly Black Ark Corsairs unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target.\n\nThe target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Cities of Sigmar", "Aelf"],
@@ -1352,11 +1168,7 @@
       "move": "10\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1366,7 +1178,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -1376,7 +1187,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1387,8 +1197,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a dice for each model in this unit that is in combat. For each 4+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice for each model in this unit that is in combat. For each 4+, inflict 1 mortal damage on the target."
         }
       ],
       "keywords": [
@@ -1402,19 +1211,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c3201ce2-c4c1-4021-800e-dc714ccb93d9",
       "baseSize": "60 x 35mm",
       "points": 170,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Bleakswords",
       "move": "6\"",
       "health": "1",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1424,7 +1228,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1434,8 +1237,7 @@
           "name": "Merciless Consequences",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons while it is contesting an objective you do not control.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons while it is contesting an objective you do not control."
         }
       ],
       "keywords": [
@@ -1450,19 +1252,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5ea4a945-ffe4-478d-a1ad-4380e51a9aa5",
       "baseSize": "25mm",
       "points": 100,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Doralia ven Denst",
       "move": "5\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1473,7 +1270,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)"]
           }
         ],
@@ -1484,9 +1280,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1495,8 +1289,7 @@
           "name": "Weapons of Banishment",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations.",
-          "keywords": []
+          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations."
         }
       ],
       "keywords": [
@@ -1509,7 +1302,6 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/48fa5efe-e1e8-4c22-83ab-d271e2a220b7",
       "baseSize": "28.5mm",
-      "points": 0,
       "modelCount": 1,
       "notes": "This unit can only be taken in Galen ven Denst’s regiment."
     },
@@ -1518,11 +1310,7 @@
       "move": "12\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1532,9 +1320,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -1544,9 +1330,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1556,8 +1340,7 @@
           "activation": "Once Per Battle, Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "If this unit used a Move ability this phase, pick an enemy unit that does not have Fly and that this unit passed across this turn to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -1570,19 +1353,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/dbd1e40e-8d7e-490b-abb3-4b5ef8d85828",
       "baseSize": "50mm",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Freeguild Steelhelms",
       "move": "5\"",
       "health": "1",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1591,9 +1369,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1603,8 +1379,7 @@
           "activation": "Once Per Turn (Army), Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice.",
-          "effect": "On a 3+, that objective is considered by you to be consecrated. While each model in a friendly Cities of Sigmar Human unit is contesting a consecrated objective, that unit has Ward (5+). If your opponent gains control of a consecrated objective, it is no longer consecrated.",
-          "keywords": []
+          "effect": "On a 3+, that objective is considered by you to be consecrated. While each model in a friendly Cities of Sigmar Human unit is contesting a consecrated objective, that unit has Ward (5+). If your opponent gains control of a consecrated objective, it is no longer consecrated."
         }
       ],
       "keywords": [
@@ -1619,19 +1394,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/95aa7ff8-8f45-4533-9737-f67b409e0cf9",
       "baseSize": "25mm",
       "points": 100,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Ironweld Great Cannon",
       "move": "3\"",
       "health": "8",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1641,9 +1411,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Great Cannon: Cannonball",
@@ -1652,9 +1420,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+2"
           }
         ],
         "melee": [
@@ -1664,9 +1430,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1682,27 +1446,22 @@
           "name": "Shot and Shell",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit uses a Shoot ability, if it is in a fortified position, pick either the Cannonball or Grapeshot weapon characteristics for all the attacks it makes with its Great Cannon. If it is not in a fortified position, use the Grapeshot weapon characteristics.",
-          "keywords": []
+          "effect": "Each time this unit uses a Shoot ability, if it is in a fortified position, pick either the Cannonball or Grapeshot weapon characteristics for all the attacks it makes with its Great Cannon. If it is not in a fortified position, use the Grapeshot weapon characteristics."
         }
       ],
       "keywords": ["War Machine", "Order", "Cities of Sigmar", "Human"],
       "image": "https://dhss9aar8ocw.cloudfront.net/75c578b1-00cd-4bad-bfc2-300dcc3009b1",
       "baseSize": "90mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Sorceress",
       "move": "6\"",
       "health": "5",
       "save": "6+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1711,9 +1470,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1723,16 +1480,14 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Cities of Sigmar Aelf unit wholly within 6\" of this unit to be the target.",
-          "effect": "Add 1 to casting rolls for this unit for the rest of the turn. Then, roll a dice. On a 4+, 1 model in the target unit is slain.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for this unit for the rest of the turn. Then, roll a dice. On a 4+, 1 model in the target unit is slain."
         },
         {
           "name": "Word of Pain",
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls and wound rolls for the target’s attacks until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls and wound rolls for the target’s attacks until the start of your next turn."
         }
       ],
       "keywords": [
@@ -1746,19 +1501,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/bc8cd5ce-d898-4310-8e87-1f96e6bfb282",
       "baseSize": "25mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Wildercorps Hunters",
       "move": "5\"",
       "health": "1",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1768,9 +1518,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Hunting Arbalest",
@@ -1779,9 +1527,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -1792,7 +1538,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1801,9 +1546,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1812,15 +1555,13 @@
           "name": "Expert Trackers",
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
-          "keywords": []
+          "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
           "name": "Hidden and Dangerous",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "This unit is not visible to enemy units more than 12\" from it while it is affected by the ‘Cover’ terrain ability. In addition, add 1 to hit rolls for this unit’s shooting attacks while it is wholly within 3\" of a terrain feature.",
-          "keywords": []
+          "effect": "This unit is not visible to enemy units more than 12\" from it while it is affected by the ‘Cover’ terrain ability. In addition, add 1 to hit rolls for this unit’s shooting attacks while it is wholly within 3\" of a terrain feature."
         }
       ],
       "keywords": [
@@ -1841,11 +1582,7 @@
       "move": "4\"",
       "health": "1",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1854,9 +1591,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1864,9 +1599,7 @@
         {
           "name": "'I Thought Duardin Were Made Of Sterner Stuff!'",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Add 2 to the control scores of friendly Cities of Sigmar Duardin units, excluding Longbeards units, while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 2 to the control scores of friendly Cities of Sigmar Duardin units, excluding Longbeards units, while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -1881,19 +1614,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/8c1021b7-00e6-4d02-9aff-25c00c4a0686",
       "baseSize": "25mm",
       "points": 120,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Sorceress on Black Dragon",
       "move": "12\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1904,7 +1633,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -1915,9 +1643,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Black Dragon’s Fearsome Jaws and Claws",
@@ -1936,28 +1662,24 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Black Dragon’s Fearsome Jaws and Claws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Black Dragon’s Fearsome Jaws and Claws is 4."
         },
         {
           "name": "Dark Sorcery",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to casting rolls for this unit for each dark sorcery token it has.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for this unit for each dark sorcery token it has."
         },
         {
           "name": "Command Underlings",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to 3 friendly Cities of Sigmar Aelf Infantry units wholly within 12\" of this unit to be targets.",
-          "effect": "Add 3\" to the Move characteristic of each target for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 3\" to the Move characteristic of each target for the rest of the turn."
         },
         {
           "name": "Feed on Life Force",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any enemy models are slain by this ability, place a dark sorcery token next to this unit for the rest of the battle, to a maximum of 3 tokens.",
           "keywords": ["Rampage"]
@@ -1975,19 +1697,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f38e7699-4b15-48f3-8554-41edb320cbdc",
       "baseSize": "105 x 70mm",
       "points": 300,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Drakespawn Chariot",
       "move": "10\"",
       "health": "8",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1997,7 +1714,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -2007,7 +1723,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2018,27 +1733,21 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": ["War Machine", "Order", "Cities of Sigmar", "Aelf"],
       "image": "https://dhss9aar8ocw.cloudfront.net/b2c00403-1027-4f63-a3d6-1d13552d6346",
       "baseSize": "120 x 92mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Cogsmith",
       "move": "4\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2048,9 +1757,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -2060,9 +1767,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2072,8 +1777,7 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to 3 visible friendly Gyrocopter or Gyrobomber units wholly within 18\" of this unit to be the targets.",
-          "effect": "Roll a dice for each target. On a 3+, add 1 to hit rolls for the target’s attacks until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice for each target. On a 3+, add 1 to hit rolls for the target’s attacks until the start of your next turn."
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Cities of Sigmar", "Duardin"],
@@ -2089,10 +1793,7 @@
       "health": "5",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2103,7 +1804,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)", "Shoot in Combat"]
           }
         ],
@@ -2115,7 +1815,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)"]
           }
         ]
@@ -2125,22 +1824,19 @@
           "name": "Right Tools For The Job",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations.",
-          "keywords": []
+          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations."
         },
         {
           "name": "Get It Done",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly Toll’s Companions unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly Toll’s Companions unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         },
         {
           "name": "Wily to the Last",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit has 2 models and would be automatically destroyed, it is not automatically destroyed. Instead, 1 model in this unit is slain.",
-          "keywords": []
+          "effect": "If this unit has 2 models and would be automatically destroyed, it is not automatically destroyed. Instead, 1 model in this unit is slain."
         }
       ],
       "keywords": [
@@ -2163,11 +1859,7 @@
       "move": "6\"",
       "health": "1",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2176,9 +1868,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2187,8 +1877,7 @@
           "name": "Steel and Sorcery",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Cities of Sigmar Aelf Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly Cities of Sigmar Aelf Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -2203,19 +1892,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5b82361b-948e-42b6-8745-9d5897934992",
       "baseSize": "25mm",
       "points": 130,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Kharibdyss",
       "move": "8\"",
       "health": "12",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2225,7 +1909,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2234,9 +1917,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2244,7 +1925,6 @@
         {
           "name": "Abyssal Howl",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a dice. On a 3+, subtract 5 from the target’s control score for the rest of the turn.",
           "keywords": ["Rampage"]
@@ -2254,19 +1934,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5daafc72-1b3a-4c62-92f0-1064e2b464ad",
       "baseSize": "120 x 92mm",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Irondrakes",
       "move": "4\"",
       "health": "1",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2277,7 +1952,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -2288,7 +1962,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ],
@@ -2299,9 +1972,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2311,8 +1982,7 @@
           "activation": "Once Per Turn (Army), Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "If this unit is not in combat, pick a visible enemy unit within 6\" of it to be the target.",
-          "effect": "Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -2327,19 +1997,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/20c65b15-5011-463f-b2c6-0312ff2e52fb",
       "baseSize": "25mm",
       "points": 150,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Flagellants",
       "move": "6\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2348,9 +2013,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2359,8 +2022,7 @@
           "name": "Glorious Martyrs",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Pontifex Zenestra. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Pontifex Zenestra. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -2373,8 +2035,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/94dad8ef-0078-4428-bc29-c268699dca62",
       "baseSize": "25mm",
       "points": 100,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Tahlia Vedra, Lioness of the Parch",
@@ -2382,10 +2043,7 @@
       "health": "15",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2395,7 +2053,6 @@
             "wound": "2+",
             "rend": "3",
             "damage": "D3+3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2404,9 +2061,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Infernadine’s Leonine Jaws",
@@ -2425,23 +2080,20 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Infernadine’s Leonine Jaws is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Infernadine’s Leonine Jaws is 2."
         },
         {
           "name": "Unparalleled Tactician",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "When this unit uses an Officar’s Order ability, you can pick an additional friendly Cities of Sigmar unit wholly within 12\" of this unit to be a target of that ability.",
-          "keywords": []
+          "effect": "When this unit uses an Officar’s Order ability, you can pick an additional friendly Cities of Sigmar unit wholly within 12\" of this unit to be a target of that ability."
         },
         {
           "name": "Lead From The Front",
           "activation": "Once Per Battle (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this unit is in combat, pick up to 3 other friendly Cities of Sigmar units wholly within 12\" of this unit to be the targets.",
-          "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to 3.",
-          "keywords": []
+          "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to 3."
         },
         {
           "name": "Paralysing Venom",
@@ -2466,19 +2118,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1f07952d-b961-4d6a-8e97-4d5294be79ed",
       "baseSize": "100mm",
       "points": 310,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Black Ark Corsairs",
       "move": "6\"",
       "health": "1",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2489,7 +2136,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -2500,9 +2146,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2511,8 +2155,7 @@
           "name": "Skilled Swashbucklers",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -2527,19 +2170,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ecedb0cb-8b0c-4929-be66-43fee97b56f3",
       "baseSize": "25mm",
       "points": 120,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Battlemage on Celestial Hurricanum",
       "move": "8\"",
       "health": "12",
       "save": "4+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2549,7 +2188,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2558,9 +2196,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -2570,16 +2206,14 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to D3 visible friendly Cities of Sigmar Human units wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 1 to hit rolls for the targets’ combat attacks until the start of your next turn.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for the targets’ combat attacks until the start of your next turn."
         },
         {
           "name": "Storm of Shemtek",
           "activation": "Once Per Turn (Army), Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
-          "effect": "Make a number of D3 rolls equal to the current battle round number. For each 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Make a number of D3 rolls equal to the current battle round number. For each 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -2593,19 +2227,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/a6c90409-43dd-4769-b25d-d72c25f1bfcb",
       "baseSize": "120 x 92mm",
       "points": 240,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Dark Riders",
       "move": "12\"",
       "health": "3",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2616,7 +2245,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ],
@@ -2628,7 +2256,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2638,7 +2265,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -2647,10 +2273,8 @@
         {
           "name": "Sow Havoc",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+:\n\n• Inflict D3 mortal damage on the target.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+:\n\n• Inflict D3 mortal damage on the target.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
         }
       ],
       "keywords": [
@@ -2665,19 +2289,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5e9d39e6-180a-4ec2-a4a7-6a368e1f42eb",
       "baseSize": "60 x 35mm",
       "points": 150,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Dreadlord on Black Dragon",
       "move": "12\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2688,7 +2307,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           },
           {
@@ -2699,7 +2317,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ],
@@ -2711,7 +2328,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -2731,15 +2347,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Black Dragon’s Fearsome Jaws and Claws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Black Dragon’s Fearsome Jaws and Claws is 4."
         },
         {
           "name": "Under the Shadow of Black Wings",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to charge rolls for friendly Cities of Sigmar Aelf Cavalry units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to charge rolls for friendly Cities of Sigmar Aelf Cavalry units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Indiscriminate Slaughter",
@@ -2761,19 +2375,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/64a6b210-e940-49ea-8753-1737950ac8a9",
       "baseSize": "105 x 70mm",
       "points": 290,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Galen ven Denst",
       "move": "5\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2784,7 +2393,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -2796,7 +2404,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)"]
           }
         ]
@@ -2806,15 +2413,13 @@
           "name": "Guardian and Mentor",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While a friendly Doralia ven Denst is wholly within this unit’s combat range, this unit has Strike-first and both this unit and that Doralia ven Denst have Ward (5+).",
-          "keywords": []
+          "effect": "While a friendly Doralia ven Denst is wholly within this unit’s combat range, this unit has Strike-first and both this unit and that Doralia ven Denst have Ward (5+)."
         },
         {
           "name": "Weapons of Banishment",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations.",
-          "keywords": []
+          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations."
         }
       ],
       "keywords": [
@@ -2828,19 +2433,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/95518db2-002a-4b4c-b76f-53a0c9f1c654",
       "baseSize": "28.5mm",
       "points": 210,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Toll's Companions",
       "move": "5\"",
       "health": "3",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2850,7 +2450,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)"]
           }
         ]
@@ -2869,21 +2468,18 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is in the shadows.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the Callis and Toll unit that was set up in the shadows with this unit wholly within 6\" of it and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the Callis and Toll unit that was set up in the shadows with this unit wholly within 6\" of it and more than 9\" from all enemy units."
         },
         {
           "name": "Saviours of Cinderfall",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While a friendly Callis and Toll unit is wholly within this unit’s combat range, both this unit and that Callis and Toll unit have Ward (5+).",
-          "keywords": []
+          "effect": "While a friendly Callis and Toll unit is wholly within this unit’s combat range, both this unit and that Callis and Toll unit have Ward (5+)."
         }
       ],
       "keywords": ["Unique", "Infantry", "Order", "Cities of Sigmar", "Human"],
       "image": "https://dhss9aar8ocw.cloudfront.net/1d14679e-9bb0-4ab4-8634-2156d9e73cff",
       "baseSize": "40mm [1], 28.5mm [3]",
-      "points": 0,
       "modelCount": 4,
       "notes": "This unit can only be taken in Callis and Toll’s regiment. This unit cannot be reinforced."
     },
@@ -2892,11 +2488,7 @@
       "move": "6\"",
       "health": "1",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2906,7 +2498,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-charge (+1 Rend)"]
           }
         ]
@@ -2916,8 +2507,7 @@
           "name": "Coven Guard",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit did not charge this turn, add 1 to wound rolls for this unit’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit did not charge this turn, add 1 to wound rolls for this unit’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -2932,19 +2522,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/06ca59d2-16d1-48af-bfa4-22c79673103d",
       "baseSize": "25mm",
       "points": 110,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Gyrobomber",
       "move": "12\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2954,9 +2539,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -2966,9 +2549,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -2978,8 +2559,7 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "If this unit used a Move ability this phase, pick an enemy unit that does not have Fly and that this unit passed across this turn to be the target.",
-          "effect": "Pick 1 of the following effects:\n\nTactical Bombing: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nDrop It All!: Make 2 rolls of D3. For each 2+, inflict an amount of mortal damage on the target equal to the roll. Then, roll a D3 for each unit (friendly and enemy) within the target’s combat range that does not have Fly. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Once the ‘Drop It All!’ effect of this ability has been resolved, this unit cannot use this ability again for the rest of the battle.",
-          "keywords": []
+          "effect": "Pick 1 of the following effects:\n\nTactical Bombing: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nDrop It All!: Make 2 rolls of D3. For each 2+, inflict an amount of mortal damage on the target equal to the roll. Then, roll a D3 for each unit (friendly and enemy) within the target’s combat range that does not have Fly. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Once the ‘Drop It All!’ effect of this ability has been resolved, this unit cannot use this ability again for the rest of the battle."
         }
       ],
       "keywords": [
@@ -2992,19 +2572,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/8c38589b-9a7b-4ff9-aa22-3100edc05004",
       "baseSize": "50mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Ironbreakers",
       "move": "4\"",
       "health": "1",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3015,7 +2590,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -3026,9 +2600,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -3037,8 +2609,7 @@
           "name": "Gromril Shieldwall",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is affected by the ‘Hold the Line’ Officar’s Order ability, it has Ward (4+) instead of Ward (5+).",
-          "keywords": []
+          "effect": "While this unit is affected by the ‘Hold the Line’ Officar’s Order ability, it has Ward (4+) instead of Ward (5+)."
         }
       ],
       "keywords": [
@@ -3053,19 +2624,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c77a1028-2ceb-4433-8838-1599a6056778",
       "baseSize": "25mm",
       "points": 130,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Battlemage",
       "move": "5\"",
       "health": "5",
       "save": "6+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3074,9 +2641,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -3085,8 +2650,7 @@
           "name": "Magic of the Realms",
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "Pick a Spell ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that Spell ability.",
-          "keywords": []
+          "effect": "Pick a Spell ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that Spell ability."
         }
       ],
       "keywords": [
@@ -3100,19 +2664,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/fd3c8921-300a-4486-b57a-7d148fce7f7c",
       "baseSize": "25mm",
       "points": 110,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Warden King",
       "move": "4\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3121,9 +2680,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -3133,34 +2690,27 @@
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick an enemy unit in your opponent’s army to bear a grudge against. You can pick an enemy unit that is in reserve.",
-          "effect": "For the rest of the battle, add 1 to wound rolls for combat attacks made by friendly Cities of Sigmar Duardin units that target that unit.",
-          "keywords": []
+          "effect": "For the rest of the battle, add 1 to wound rolls for combat attacks made by friendly Cities of Sigmar Duardin units that target that unit."
         },
         {
           "name": "Fearless Leader",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Cities of Sigmar Duardin unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Cities of Sigmar Duardin unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Cities of Sigmar", "Duardin"],
       "image": "https://dhss9aar8ocw.cloudfront.net/a1420c19-c816-43c6-9c04-1c2db0836e5d",
       "baseSize": "25mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Steam Tank",
       "move": "8\"",
       "health": "12",
       "save": "2+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3170,9 +2720,7 @@
             "hit": "2+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Steam Cannon",
@@ -3181,9 +2729,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+2"
           }
         ],
         "melee": [
@@ -3194,7 +2740,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -3204,27 +2749,21 @@
           "name": "More Pressure!",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n\nPower the Wheels: This unit can use a Run ability and still use Shoot and/or Charge abilities later in the turn.\n\nPower the Guns: Add 3 to the Attacks characteristic of this unit’s Steam Gun.",
-          "keywords": []
+          "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n\nPower the Wheels: This unit can use a Run ability and still use Shoot and/or Charge abilities later in the turn.\n\nPower the Guns: Add 3 to the Attacks characteristic of this unit’s Steam Gun."
         }
       ],
       "keywords": ["War Machine", "Order", "Cities of Sigmar", "Human"],
       "image": "https://dhss9aar8ocw.cloudfront.net/7a01389d-76cc-4359-9c71-43dea761d1cc",
       "baseSize": "120 x 92mm",
       "points": 300,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Executioners",
       "move": "6\"",
       "health": "1",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3234,7 +2773,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -3244,8 +2782,7 @@
           "name": "Severing Strike",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit charged this turn, this unit’s attacks score critical hits on unmodified hit rolls of 5+.",
-          "keywords": []
+          "effect": "If this unit charged this turn, this unit’s attacks score critical hits on unmodified hit rolls of 5+."
         }
       ],
       "keywords": [
@@ -3260,19 +2797,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/29015bc6-9d1c-459c-838d-272cc6cf3852",
       "baseSize": "25mm",
       "points": 140,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Freeguild Cavalier-Marshal",
       "move": "10\"",
       "health": "7",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3283,7 +2815,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -3295,7 +2826,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -3304,9 +2834,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -3315,35 +2843,28 @@
           "name": "'For Sigmar, Charge!'",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to charge rolls for this unit and for friendly Freeguild Cavaliers units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to charge rolls for this unit and for friendly Freeguild Cavaliers units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Run Down The Foe",
           "activation": "Once Per Battle (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this unit charged this turn, pick a friendly Cities of Sigmar Human Cavalry unit that charged this turn and is wholly within 12\" of this unit to be the target.",
-          "effect": "This unit and the target have Strike-first for the rest of the turn.",
-          "keywords": []
+          "effect": "This unit and the target have Strike-first for the rest of the turn."
         }
       ],
       "keywords": ["Hero", "Cavalry", "Order", "Cities of Sigmar", "Human"],
       "image": "https://dhss9aar8ocw.cloudfront.net/99083c7d-4157-4a07-8589-131c5d24891d",
       "baseSize": "75 x 42mm",
       "points": 170,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Freeguild Marshal and Relic Envoy",
       "move": "5\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3354,7 +2875,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -3365,9 +2885,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           },
           {
             "name": "Master-forged Longsword",
@@ -3375,9 +2893,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Silvered Shortsword",
@@ -3385,9 +2901,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -3397,34 +2911,26 @@
           "activation": "Start of Battle Round",
           "phases": ["Start of Turn"],
           "declare": "Pick a friendly Cities of Sigmar Human wholly within 18\" of this unit to be the target.",
-          "effect": "Place this unit’s Relic Envoy next to the target (if this unit’s Relic Envoy is currently next to a different friendly unit, move it next to the target).\n\nWhile the target has a Relic Envoy next to it, it can be picked to be the target of an Officar’s Order ability even if it is not wholly within 12\" of the friendly Hero using that ability.\n\nIf this unit is destroyed, remove its Relic Envoy from the battlefield.",
-          "keywords": []
+          "effect": "Place this unit’s Relic Envoy next to the target (if this unit’s Relic Envoy is currently next to a different friendly unit, move it next to the target).\n\nWhile the target has a Relic Envoy next to it, it can be picked to be the target of an Officar’s Order ability even if it is not wholly within 12\" of the friendly Hero using that ability.\n\nIf this unit is destroyed, remove its Relic Envoy from the battlefield."
         },
         {
           "name": "Rousing Orator",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Add 3 to the control scores of other friendly Cities of Sigmar Human units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 3 to the control scores of other friendly Cities of Sigmar Human units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Cities of Sigmar", "Human"],
       "image": "https://dhss9aar8ocw.cloudfront.net/ba67a9d3-0882-4720-b512-a5b270885f6b",
       "baseSize": "32mm [1], 28.5mm [1]",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Luminark of Hysh",
       "move": "8\"",
       "health": "10",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3434,9 +2940,7 @@
             "hit": "2+",
             "wound": "✹",
             "rend": "✹",
-            "damage": "✹",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "✹"
           }
         ],
         "melee": [
@@ -3447,7 +2951,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -3457,23 +2960,20 @@
           "name": "Searing Beam of Light",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit attacks with its Searing Beam of Light, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across.",
-          "keywords": []
+          "effect": "Each time this unit attacks with its Searing Beam of Light, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across."
         },
         {
           "name": "Aura of Protection",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Friendly Cities of Sigmar units have Ward (6+) while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Friendly Cities of Sigmar units have Ward (6+) while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": ["War Machine", "Order", "Cities of Sigmar", "Human"],
       "image": "https://dhss9aar8ocw.cloudfront.net/a6549a9f-9f38-40a9-a9d9-bb9e438eebda",
       "baseSize": "120 x 92mm",
       "points": 250,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Hexbane's Hunters",
@@ -3481,10 +2981,7 @@
       "health": "2",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3495,7 +2992,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)", "Shoot in Combat"]
           },
           {
@@ -3506,7 +3002,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)"]
           }
         ],
@@ -3518,7 +3013,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)"]
           }
         ]
@@ -3529,16 +3023,13 @@
           "activation": "Start of First Battle Round",
           "phases": ["Start of Turn"],
           "declare": "Pick an enemy Hero or Wizard to be hunted by the Order. You must pick a Wizard Hero if there is one in your opponent’s army.",
-          "effect": "Add 1 to the damage inflicted by this unit’s attacks that target the unit picked to be hunted by the Order.\n\nDesigner’s Note: You can pick an enemy unit that is in reserve.",
-          "keywords": []
+          "effect": "Add 1 to the damage inflicted by this unit’s attacks that target the unit picked to be hunted by the Order.\n\nDesigner’s Note: You can pick an enemy unit that is in reserve."
         },
         {
           "name": "Flamewood Stakes",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the damage inflicted (if any) on the target if it has the Death, Daemon or Wizard keyword.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the damage inflicted (if any) on the target if it has the Death, Daemon or Wizard keyword."
         }
       ],
       "keywords": [
@@ -3561,11 +3052,7 @@
       "move": "5\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3575,7 +3062,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -3585,8 +3071,7 @@
           "name": "Pater Filius",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Pater Filius is on the battlefield, it has Priest (1).",
-          "keywords": []
+          "effect": "While this unit’s Pater Filius is on the battlefield, it has Priest (1)."
         },
         {
           "name": "Bolt From the Blue",
@@ -3601,8 +3086,7 @@
           "name": "Crackling with Faith",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time a combat attack made by this unit scores a critical hit, you can pick an enemy unit within 6\" of this unit that was not the target of that combat attack. Inflict 1 mortal damage on that enemy unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time a combat attack made by this unit scores a critical hit, you can pick an enemy unit within 6\" of this unit that was not the target of that combat attack. Inflict 1 mortal damage on that enemy unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [

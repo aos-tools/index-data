@@ -21,33 +21,27 @@
       "name": "Exemplars of Fury",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to the Attacks characteristic of Companion weapons used by friendly Draconith Skywing Heroes while they are within 6\" of 2 or more friendly Stormdrake Guard units.",
-      "keywords": []
+      "effect": "Add 1 to the Attacks characteristic of Companion weapons used by friendly Draconith Skywing Heroes while they are within 6\" of 2 or more friendly Stormdrake Guard units."
     },
     {
       "name": "Shields of the Warden",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "While any friendly Stormdrake Guard units are within a friendly Ionus Cryptborn’s combat range:\n\n• That friendly Ionus Cryptborn has Ward (4+).\n• Each time you make a successful ward roll for that friendly Ionus Cryptborn, allocate 1 damage point to a friendly Stormdrake Guard unit within its combat range after the damage sequence for that friendly Ionus Cryptborn has been resolved (ward rolls cannot be made for those damage points).",
-      "keywords": []
+      "effect": "While any friendly Stormdrake Guard units are within a friendly Ionus Cryptborn’s combat range:\n\n• That friendly Ionus Cryptborn has Ward (4+).\n• Each time you make a successful ward roll for that friendly Ionus Cryptborn, allocate 1 damage point to a friendly Stormdrake Guard unit within its combat range after the damage sequence for that friendly Ionus Cryptborn has been resolved (ward rolls cannot be made for those damage points)."
     }
   ],
   "heroic_traits": [
     {
       "name": "Fearless Fliers",
       "activation": "End of Any Turn",
-      "phases": null,
-      "effect": "If this unit is not in combat, it can immediately make a D6\" move and can end that move in combat.",
-      "keywords": []
+      "effect": "If this unit is not in combat, it can immediately make a D6\" move and can end that move in combat."
     }
   ],
   "artefacts_of_power": [
     {
       "name": "Celestium Ensign",
       "activation": "Once Per Battle (Army), End of Any Turn",
-      "phases": null,
-      "effect": "Heal (3) each friendly Draconith Skywing unit wholly within 12\" of this unit.",
-      "keywords": []
+      "effect": "Heal (3) each friendly Draconith Skywing unit wholly within 12\" of this unit."
     }
   ],
   "spell_lore": {
@@ -105,11 +99,8 @@
       "move": "12\"",
       "health": "20",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -120,7 +111,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3+3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -131,9 +121,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Apex Maw",
@@ -152,15 +140,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Apex Maw is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Apex Maw is 2."
         },
         {
           "name": "Regalia Fulmentarus",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 2 to casting rolls for this unit.",
-          "keywords": []
+          "effect": "Add 2 to casting rolls for this unit."
         },
         {
           "name": "Atavistic Tempest",
@@ -193,19 +179,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/6aca29be-956d-44b1-a647-8c054ab961d9",
       "baseSize": "160mm",
       "points": 540,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Ionus Cryptborn, Warden of Lost Souls",
       "move": "12\"",
       "health": "16",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "2",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -216,7 +198,6 @@
             "wound": "4+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -227,9 +208,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Cthorak’s Ancient Claws",
@@ -248,8 +227,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Cthorak’s Ancient Claws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Cthorak’s Ancient Claws is 4."
         },
         {
           "name": "Lightning Tempest",
@@ -265,16 +243,14 @@
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "This unit can use this ability even if it has been destroyed. Pick any number of Soulburned enemy units to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Spirit-scouring Flames",
           "activation": "Once Per Turn (Army), Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Spirit‑scouring Flames to be the target.",
-          "effect": "The target has the Soulburned keyword for the rest of the battle.",
-          "keywords": []
+          "effect": "The target has the Soulburned keyword for the rest of the battle."
         }
       ],
       "keywords": [
@@ -290,19 +266,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/fb75a99c-5841-4e7f-8caf-ea53b1c1c53f",
       "baseSize": "100mm",
       "points": 420,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Karazai the Scarred",
       "move": "12\"",
       "health": "20",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -313,7 +284,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3+3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -324,9 +294,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Annihilating Jaws",
@@ -335,7 +303,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "4",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -346,8 +313,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit within this unit’s combat range to be the target.",
-          "effect": "Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn."
         },
         {
           "name": "Calamitous Tail Sweep",
@@ -361,8 +327,7 @@
           "name": "Fires of Retribution",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons. \n\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead.",
-          "keywords": []
+          "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons. \n\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead."
         }
       ],
       "keywords": [
@@ -377,19 +342,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b7b8f570-646f-4571-b029-39e771fa5d50",
       "baseSize": "160mm",
       "points": 500,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Knight-Draconis",
       "move": "12\"",
       "health": "11",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -400,7 +360,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -411,9 +370,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Draconith’s Fangs and Talons",
@@ -422,7 +379,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -432,8 +388,7 @@
           "name": "Arcane Heritage",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If this unit or a friendly Stormdrake Guard unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability.",
-          "keywords": []
+          "effect": "If this unit or a friendly Stormdrake Guard unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability."
         },
         {
           "name": "Wrath of the Draconith",
@@ -447,8 +402,7 @@
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -462,19 +416,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/35169e5b-80f6-4a12-8a30-6a8b345e71c4",
       "baseSize": "105 x 70mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Stormdrake Guard",
       "move": "12\"",
       "health": "9",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -485,7 +434,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -497,7 +445,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
           },
           {
@@ -507,7 +454,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -516,9 +462,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -527,8 +471,7 @@
           "name": "Dispersed Formation",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit has a coherency range of 2\".",
-          "keywords": []
+          "effect": "This unit has a coherency range of 2\"."
         },
         {
           "name": "Draconic Onslaught",
@@ -541,8 +484,7 @@
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -556,19 +498,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c54a99f0-c5cf-4f30-9726-3b5740d76419",
       "baseSize": "105 x 70mm",
       "points": 360,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Stormdrake Guard (1 model)",
       "move": "12\"",
       "health": "9",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -579,7 +516,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -591,7 +527,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -600,9 +535,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Drakerider’s Lance",
@@ -611,7 +544,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
           }
         ]
@@ -621,8 +553,7 @@
           "name": "Dispersed Formation",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit has a coherency range of 2\".",
-          "keywords": []
+          "effect": "This unit has a coherency range of 2\"."
         },
         {
           "name": "Draconic Onslaught",
@@ -635,8 +566,7 @@
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [

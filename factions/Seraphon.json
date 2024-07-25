@@ -6,16 +6,14 @@
       "activation": "Once Per Battle, Deployment Phase",
       "phases": ["Start of Turn"],
       "declare": "Pick an Asterism ability.",
-      "effect": "That Asterism ability can be used for the rest of the battle, but the others cannot, unless allowed by the ‘Further the Great Plan’ ability.",
-      "keywords": []
+      "effect": "That Asterism ability can be used for the rest of the battle, but the others cannot, unless allowed by the ‘Further the Great Plan’ ability."
     },
     {
       "name": "Further the Great Plan",
       "activation": "Once Per Battle, Start of the Third Battle Round",
       "phases": ["Start of Turn"],
       "declare": "You can use this ability if you meet the condition below that corresponds to the Asterism you picked in the deployment phase.\n\nItzl the Tamer: 3 or more enemy units have been destroyed.\n\nQuetzl the Preserver: There are no enemy units wholly within friendly territory.\n\nSotek the Deliverer: The enemy general is in combat or has been destroyed.\n\nTepok the Seer: There are any friendly Slann units on the battlefield and no friendly Slann units are in combat or have been destroyed.",
-      "effect": "Pick a different Asterism ability. It can be used in addition to the one you picked in the deployment phase.",
-      "keywords": []
+      "effect": "Pick a different Asterism ability. It can be used in addition to the one you picked in the deployment phase."
     },
     {
       "name": "Tepok the Seer",
@@ -44,14 +42,6 @@
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
       "effect": "Subtract 1 from the Rend characteristic of melee weapons for attacks that target friendly Seraphon units that are wholly within friendly territory.",
       "keywords": ["Asterism"]
-    },
-    {
-      "name": "Beast of the Dark Jungles",
-      "activation": "Any Combat Phase",
-      "phases": ["Combat Phase"],
-      "declare": "Pick your general to use this ability if they are in combat.",
-      "effect": "Pick 1 of the following:\n\nGargantuan Jaws: Pick an enemy unit in combat with your general and roll a dice. If the roll exceeds that unit’s Health characteristic, 1 model in that unit is slain.\n\nRoar: Pick an enemy unit in combat with your general. Subtract D6 from that unit’s control score this turn.",
-      "keywords": []
     }
   ],
   "battle_formations": {
@@ -60,31 +50,26 @@
       "activation": "Once Per Turn (Army), Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Seraphon unit wholly within 12\" of a friendly Seraphon Wizard to use this ability.",
-      "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-      "keywords": []
+      "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
     },
     "Shadowstrike Starhost": {
       "name": "Nimble and Quick",
       "activation": "Once Per Turn (Army), Your Shooting Phase",
       "phases": ["Shooting Phase"],
       "declare": "Pick up to 3 friendly Skink Infantry or Skink Cavalry units that are not in combat to be the targets.",
-      "effect": "Each target can move D6\". Each target cannot move into combat during any part of that move.",
-      "keywords": []
+      "effect": "Each target can move D6\". Each target cannot move into combat during any part of that move."
     },
     "Sunclaw Starhost": {
       "name": "Vengeance of Azyr",
       "activation": "Once Per Turn (Army), End of Any Turn",
-      "phases": null,
       "declare": "Pick up to 3 friendly Saurus or Kroxigor units that are in combat to be the targets.",
-      "effect": "For each target:\n\n• Make a pile-in move.\n\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
-      "keywords": []
+      "effect": "For each target:\n\n• Make a pile-in move.\n\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
     "Thunderquake Starhost": {
       "name": "Scaly Monstrosities",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Add 2 to the Health characteristic of friendly Seraphon Monster units.",
-      "keywords": []
+      "effect": "Add 2 to the Health characteristic of friendly Seraphon Monster units."
     }
   },
   "heroic_traits": [
@@ -92,22 +77,19 @@
       "name": "Beastmaster",
       "activation": "Passive",
       "phases": ["Charge Phase"],
-      "effect": "Add 2\" to the Move characteristic of friendly Seraphon Cavalry and Seraphon Monster units for the rest of the phase if they are wholly within 12\" of this unit at the start of the move.",
-      "keywords": []
+      "effect": "Add 2\" to the Move characteristic of friendly Seraphon Cavalry and Seraphon Monster units for the rest of the phase if they are wholly within 12\" of this unit at the start of the move."
     },
     {
       "name": "Reptilian Cunning",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "If this unit charged this turn, if a friendly unit wholly within 12\" of this unit uses the ‘All-out Attack’ command in the combat phase, no command points are spent.",
-      "keywords": []
+      "effect": "If this unit charged this turn, if a friendly unit wholly within 12\" of this unit uses the ‘All-out Attack’ command in the combat phase, no command points are spent."
     },
     {
       "name": "Being of the Stars",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Ignore modifiers to save rolls for this unit (positive and negative).",
-      "keywords": []
+      "effect": "Ignore modifiers to save rolls for this unit (positive and negative)."
     }
   ],
   "artefacts_of_power": [
@@ -115,22 +97,19 @@
       "name": "Incandescent Rectrices",
       "activation": "Any Hero Phase",
       "phases": ["Hero Phase"],
-      "effect": "Heal (D3) this unit.",
-      "keywords": []
+      "effect": "Heal (D3) this unit."
     },
     {
       "name": "Coatl Familiar",
       "activation": "Once Per Battle, Reaction: You declared a Spell ability for a friendly Seraphon Wizard within this unit’s combat range",
       "phases": ["Hero Phase"],
-      "effect": "Add D6 to the casting roll for that spell.",
-      "keywords": []
+      "effect": "Add D6 to the casting roll for that spell."
     },
     {
       "name": "Bloodrage Pendant",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons. Add 2 instead if the number of damage points allocated to this unit is equal to or greater than half of this unit’s Health characteristic (rounding up).",
-      "keywords": []
+      "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons. Add 2 instead if the number of damage points allocated to this unit is equal to or greater than half of this unit’s Health characteristic (rounding up)."
     }
   ],
   "spell_lore": {
@@ -199,11 +178,7 @@
       "move": "14\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -214,7 +189,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -226,7 +200,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -237,34 +210,27 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
-          "effect": "Roll a dice for each model in this unit, and add 2 to each roll if this unit is within the combat ranges of any friendly Terradon Chief units. For each 5+:\n\n• Inflict 1 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have Fly, the target cannot use Run abilities until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice for each model in this unit, and add 2 to each roll if this unit is within the combat ranges of any friendly Terradon Chief units. For each 5+:\n\n• Inflict 1 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have Fly, the target cannot use Run abilities until the start of your next turn."
         },
         {
           "name": "Attack From on High",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
         }
       ],
       "keywords": ["Cavalry", "Champion", "Fly", "Order", "Seraphon", "Skink"],
       "image": "https://dhss9aar8ocw.cloudfront.net/552d3947-5447-4043-b2c5-a1d05ba37e0a",
       "baseSize": "50mm",
       "points": 110,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Saurus Scar-Veteran on Aggradon",
       "move": "10\"",
       "health": "8",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -274,7 +240,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -284,7 +249,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -294,23 +258,19 @@
           "name": "Alpha Roar",
           "activation": "Once Per Battle (Army), Any Combat Phase.",
           "phases": ["Combat Phase"],
-          "effect": "Place a rage token next to this unit and each friendly Aggradon Lancers unit wholly within 12\" of this unit, to a maximum of 3 per unit.",
-          "keywords": []
+          "effect": "Place a rage token next to this unit and each friendly Aggradon Lancers unit wholly within 12\" of this unit, to a maximum of 3 per unit."
         },
         {
           "name": "Primal Rage",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "This unit must use this ability each turn.\n\nIf this unit used any Fight abilities this turn, place a rage token next to it, to a maximum of 3. If this unit did not use any Fight abilities this turn, remove all rage tokens it has.\n\nAdd 1 to the Attacks characteristic of this unit’s Companion weapons for each rage token it has until the end of the next turn.",
-          "keywords": []
+          "effect": "This unit must use this ability each turn.\n\nIf this unit used any Fight abilities this turn, place a rage token next to it, to a maximum of 3. If this unit did not use any Fight abilities this turn, remove all rage tokens it has.\n\nAdd 1 to the Attacks characteristic of this unit’s Companion weapons for each rage token it has until the end of the next turn."
         }
       ],
       "keywords": ["Hero", "Cavalry", "Order", "Seraphon", "Saurus"],
       "image": "https://dhss9aar8ocw.cloudfront.net/0f10d6d2-de1f-4720-acad-8b0ef2973d5f",
       "baseSize": "90 x 52mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lord Kroak",
@@ -319,9 +279,7 @@
       "save": "4+",
       "ward": "4+",
       "wizardLevel": "3",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -332,7 +290,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -344,7 +301,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -355,15 +311,13 @@
           "activation": "Once Per Turn, Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Skink Wizard wholly within 18\" of this unit to be the target.",
-          "effect": "Measure the range and visibility of the next Spell ability used by this unit from the target instead of from this unit.",
-          "keywords": []
+          "effect": "Measure the range and visibility of the next Spell ability used by this unit from the target instead of from this unit."
         },
         {
           "name": "Supreme Master of Order",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 2 to casting rolls for this unit. In addition, this unit can use an Unbind ability if an enemy Wizard anywhere on the battlefield uses a Spell ability instead of an enemy Wizard within 30\" of this unit, and when using the ‘Banish Manifestation’ ability, this unit can pick a manifestation anywhere on the battlefield instead of within 30\" of it.",
-          "keywords": []
+          "effect": "Add 2 to casting rolls for this unit. In addition, this unit can use an Unbind ability if an enemy Wizard anywhere on the battlefield uses a Spell ability instead of an enemy Wizard within 30\" of this unit, and when using the ‘Banish Manifestation’ ability, this unit can pick a manifestation anywhere on the battlefield instead of within 30\" of it."
         },
         {
           "name": "Celestial Deliverance",
@@ -377,9 +331,7 @@
         {
           "name": "Dead for Innumerable Ages",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "This unit must use this ability each turn while it is damaged. Roll 3D6 and add the number of damage points this unit has to the roll. On a 20+, this unit is destroyed. Otherwise, Heal (18) this unit.",
-          "keywords": []
+          "effect": "This unit must use this ability each turn while it is damaged. Roll 3D6 and add the number of damage points this unit has to the roll. On a 20+, this unit is destroyed. Otherwise, Heal (18) this unit."
         }
       ],
       "keywords": [
@@ -396,8 +348,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c30cb04b-6cd8-4701-bcb9-0efe21715157",
       "baseSize": "80mm",
       "points": 460,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Hunters of Huanchi with Starstone Bolas",
@@ -405,10 +356,7 @@
       "health": "1",
       "save": "6+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -418,9 +366,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Starstone Bolas",
@@ -429,9 +375,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -441,9 +385,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Moonstone Club",
@@ -451,9 +393,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -471,16 +411,14 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is in ambush.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units."
         },
         {
           "name": "Starstone Bolas",
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that was targeted by this unit’s Starstone Bolas this turn to be the target.",
-          "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
         }
       ],
       "keywords": [
@@ -503,11 +441,7 @@
       "move": "14\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -517,7 +451,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Cavalry (+1 Rend)"]
           },
           {
@@ -527,7 +460,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Companion"]
           }
         ]
@@ -538,15 +470,13 @@
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
-          "effect": "Place a Blot Toad next to each target.",
-          "keywords": []
+          "effect": "Place a Blot Toad next to each target."
         },
         {
           "name": "Toad Rage",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of this unit’s Ripperdactyl’s Tearing Jaws while it is in combat with any units that have a Blot Toad.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of this unit’s Ripperdactyl’s Tearing Jaws while it is in combat with any units that have a Blot Toad."
         }
       ],
       "keywords": ["Cavalry", "Champion", "Fly", "Order", "Seraphon", "Skink"],
@@ -562,10 +492,7 @@
       "health": "1",
       "save": "6+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -576,7 +503,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -587,9 +513,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -607,16 +531,14 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is in ambush.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units."
         },
         {
           "name": "Star-venom",
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Dartpipe to be the target.",
-          "effect": "Roll a dice. On a 2+, subtract 1 from wound rolls for the target’s combat attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, subtract 1 from wound rolls for the target’s combat attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -639,11 +561,7 @@
       "move": "14\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -653,7 +571,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Companion"]
           },
           {
@@ -663,7 +580,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -674,41 +590,33 @@
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
-          "effect": "Place a Blot Toad next to each target.",
-          "keywords": []
+          "effect": "Place a Blot Toad next to each target."
         },
         {
           "name": "Ripperdactyl Assault",
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of Moonstone Warspears used by friendly Ripperdactyl Riders units wholly within 12\" of this unit for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of Moonstone Warspears used by friendly Ripperdactyl Riders units wholly within 12\" of this unit for the rest of the turn."
         },
         {
           "name": "Toad Rage",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of this unit’s Ripperdactyl’s Tearing Jaws while it is in combat with any units that have a Blot Toad.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of this unit’s Ripperdactyl’s Tearing Jaws while it is in combat with any units that have a Blot Toad."
         }
       ],
       "keywords": ["Hero", "Cavalry", "Fly", "Order", "Seraphon", "Skink"],
       "image": "https://dhss9aar8ocw.cloudfront.net/d76f1094-91e3-4cd1-bcef-c9dcbb5449f6",
       "baseSize": "50mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bastiladon with Solar Engine",
       "move": "5\"",
       "health": "12",
       "save": "2+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -719,7 +627,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -730,7 +637,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -742,7 +648,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -761,19 +666,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ff8fc786-549f-4e19-b382-39a21e33e76f",
       "baseSize": "120 x 92mm",
       "points": 290,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Saurus Scar-Veteran on Carnosaur",
       "move": "10\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -792,9 +692,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Carnosaur’s Clawed Forelimbs",
@@ -803,7 +701,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -813,13 +710,11 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Carnosaur’s Massive Jaws is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Carnosaur’s Massive Jaws is 2."
         },
         {
           "name": "Maim and Tear",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
           "effect": "Roll a number of dice equal to the number of damage points the target has. For each 5+, inflict 1 mortal damage on the target.",
           "keywords": ["Rampage"]
@@ -827,28 +722,21 @@
         {
           "name": "Terror",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
       "keywords": ["Hero", "Monster", "Order", "Seraphon", "Saurus"],
       "image": "https://dhss9aar8ocw.cloudfront.net/2c983181-9c38-4f67-906a-d996862190a9",
       "baseSize": "120 x 92mm",
       "points": 270,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Saurus Oldblood on Carnosaur",
       "move": "10\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -859,7 +747,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -881,7 +768,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -891,7 +777,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -901,15 +786,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Carnosaur’s Massive Jaws is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Carnosaur’s Massive Jaws is 2."
         },
         {
           "name": "Spearhead of the Charge",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "If this unit charged this turn, add 1 to charge rolls for friendly Saurus units while they are wholly within 18\" of this unit for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit charged this turn, add 1 to charge rolls for friendly Saurus units while they are wholly within 18\" of this unit for the rest of the turn."
         },
         {
           "name": "Blood Frenzy",
@@ -921,28 +804,21 @@
         {
           "name": "Terror",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
       "keywords": ["Hero", "Monster", "Order", "Seraphon", "Saurus"],
       "image": "https://dhss9aar8ocw.cloudfront.net/582778ba-05f7-4e79-8a04-907e002213c5",
       "baseSize": "120 x 92mm",
       "points": 330,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Stegadon",
       "move": "8\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -953,7 +829,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -964,7 +839,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Infantry (+1 Rend)"]
           },
           {
@@ -975,7 +849,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -997,8 +870,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stegadon’s Horns and Jaws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stegadon’s Horns and Jaws is 4."
         },
         {
           "name": "Unstoppable Stampede",
@@ -1013,19 +885,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/3de18bcd-fb71-4833-89da-3df07b10a61a",
       "baseSize": "120 x 92mm",
       "points": 240,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Raptadon Chargers",
       "move": "12\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1035,7 +902,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -1045,7 +911,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1055,8 +920,7 @@
           "name": "Cold-blooded Unity",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to hit rolls for this unit’s combat attacks if they target an enemy unit that was targeted by shooting attacks made by a friendly Raptadon Hunters unit in the same turn.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for this unit’s combat attacks if they target an enemy unit that was targeted by shooting attacks made by a friendly Raptadon Hunters unit in the same turn."
         }
       ],
       "keywords": [
@@ -1071,19 +935,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/01fa248d-ffe3-453c-9e6e-aff3d3830434",
       "baseSize": "60 x 35mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Skinks",
       "move": "8\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1094,7 +953,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1105,9 +963,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1116,27 +972,21 @@
           "name": "Swift and Nimble",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "When this unit uses the ‘Redeploy’ command, when determining the distance this unit can move, you can roll 2 dice instead of 1 and pick either result.",
-          "keywords": []
+          "effect": "When this unit uses the ‘Redeploy’ command, when determining the distance this unit can move, you can roll 2 dice instead of 1 and pick either result."
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Seraphon", "Skink"],
       "image": "https://dhss9aar8ocw.cloudfront.net/32e84bc8-78db-4a7b-bd86-a3ac2d56cc62",
       "baseSize": "25mm",
       "points": 100,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Realmshaper Engine",
       "move": "-",
       "health": "15",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
@@ -1144,34 +994,26 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If there are any friendly Seraphon Wizards within 3\" of this terrain feature, pick another terrain feature within 24\" of this terrain feature, then pick up to 3 enemy units within 3\" of that terrain feature to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If that terrain feature has a Health characteristic, inflict D3 mortal damage on it.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If that terrain feature has a Health characteristic, inflict D3 mortal damage on it."
         },
         {
           "name": "Fierce Guardians",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to hit rolls for combat attacks made by friendly Saurus or Kroxigor units that target an enemy unit while that enemy unit is within 9\" of this terrain feature.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for combat attacks made by friendly Saurus or Kroxigor units that target an enemy unit while that enemy unit is within 9\" of this terrain feature."
         }
       ],
       "keywords": ["Faction Terrain", "Order", "Seraphon"],
       "image": "https://dhss9aar8ocw.cloudfront.net/bbe40a31-8180-40a4-9147-61fb5845d973",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Kroxigor Warspawned",
       "move": "5\"",
       "health": "6",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1181,7 +1023,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -1191,7 +1032,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ]
@@ -1201,34 +1041,27 @@
           "name": "Spawn of Sotek",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit is wholly within 12\" of any friendly Skink Infantry or Skink Cavalry units in combat.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit is wholly within 12\" of any friendly Skink Infantry or Skink Cavalry units in combat."
         },
         {
           "name": "Heavy-scaled Skin",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from the Rend characteristic of ranged weapons used for shooting attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from the Rend characteristic of ranged weapons used for shooting attacks that target this unit."
         }
       ],
       "keywords": ["Infantry", "Order", "Seraphon", "Kroxigor"],
       "image": "https://dhss9aar8ocw.cloudfront.net/28736620-79a2-4f2f-aa5c-31a1a37c4045",
       "baseSize": "50mm",
       "points": 220,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Saurus Oldblood",
       "move": "5\"",
       "health": "7",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1237,9 +1070,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1248,34 +1079,27 @@
           "name": "Wrath of the Seraphon",
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Saurus Infantry units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Saurus Infantry units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Predatory Exemplar",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Saurus Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Saurus Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Seraphon", "Saurus"],
       "image": "https://dhss9aar8ocw.cloudfront.net/dda4fa61-e272-45c2-98e9-8a574ac1bb7e",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Ripperdactyl Riders",
       "move": "14\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1285,7 +1109,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Companion"]
           },
           {
@@ -1295,7 +1118,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Cavalry (+1 Rend)"]
           }
         ]
@@ -1306,34 +1128,27 @@
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
-          "effect": "Place a Blot Toad next to each target.",
-          "keywords": []
+          "effect": "Place a Blot Toad next to each target."
         },
         {
           "name": "Toad Rage",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of this unit’s Ripperdactyl’s Tearing Jaws while it is in combat with any units that have a Blot Toad.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of this unit’s Ripperdactyl’s Tearing Jaws while it is in combat with any units that have a Blot Toad."
         }
       ],
       "keywords": ["Cavalry", "Champion", "Fly", "Order", "Seraphon", "Skink"],
       "image": "https://dhss9aar8ocw.cloudfront.net/6c700a67-7f63-4fa8-969a-fd6e1f5c72b7",
       "baseSize": "50mm",
       "points": 120,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Terradon Riders (2 models)",
       "move": "14\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1344,7 +1159,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -1356,7 +1170,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1367,15 +1180,13 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
-          "effect": "Roll a dice for each model in this unit, and add 2 to each roll if this unit is within the combat ranges of any friendly Terradon Chief units. For each 5+:\n\n• Inflict 1 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have Fly, the target cannot use Run abilities until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice for each model in this unit, and add 2 to each roll if this unit is within the combat ranges of any friendly Terradon Chief units. For each 5+:\n\n• Inflict 1 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have Fly, the target cannot use Run abilities until the start of your next turn."
         },
         {
           "name": "Attack From on High",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
         }
       ],
       "keywords": ["Cavalry", "Champion", "Fly", "Order", "Seraphon", "Skink"],
@@ -1390,11 +1201,7 @@
       "move": "14\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1404,7 +1211,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1414,7 +1220,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1425,34 +1230,27 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
-          "effect": "Roll a dice and add 2 to the roll if this unit is within the combat ranges of any friendly Terradon Riders units. On a 5+:\n\n• Inflict D3 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have Fly, the target cannot use Run abilities until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice and add 2 to the roll if this unit is within the combat ranges of any friendly Terradon Riders units. On a 5+:\n\n• Inflict D3 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have Fly, the target cannot use Run abilities until the start of your next turn."
         },
         {
           "name": "Attack from on High",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
         }
       ],
       "keywords": ["Hero", "Cavalry", "Fly", "Order", "Seraphon", "Skink"],
       "image": "https://dhss9aar8ocw.cloudfront.net/afe401ea-e38e-4fcb-8f07-dca0904662e6",
       "baseSize": "50mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Aggradon Lancers",
       "move": "10\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1462,7 +1260,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Anti-Monster (+1 Rend)"]
           },
           {
@@ -1472,7 +1269,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1481,9 +1277,7 @@
         {
           "name": "Primal Rage",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "This unit must use this ability each turn.\n\nIf this unit used any Fight abilities this turn, place a rage token next to it, to a maximum of 3. If this unit did not use any Fight abilities this turn, remove all rage tokens it has.\n\nAdd 1 to the Attacks characteristic of this unit’s Companion weapons for each rage token it has until the end of the next turn.",
-          "keywords": []
+          "effect": "This unit must use this ability each turn.\n\nIf this unit used any Fight abilities this turn, place a rage token next to it, to a maximum of 3. If this unit did not use any Fight abilities this turn, remove all rage tokens it has.\n\nAdd 1 to the Attacks characteristic of this unit’s Companion weapons for each rage token it has until the end of the next turn."
         }
       ],
       "keywords": [
@@ -1498,19 +1292,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/cc11ee5f-f3bd-44de-95cb-c552e84c814a",
       "baseSize": "75 x 42mm",
       "points": 210,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Terrawings",
       "move": "12\"",
       "health": "2",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1520,7 +1309,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1531,15 +1319,12 @@
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit within 10\" of this unit to be the target.",
-          "effect": "Roll a D3. If the roll exceeds the target’s Control characteristic, the target cannot use commands for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a D3. If the roll exceeds the target’s Control characteristic, the target cannot use commands for the rest of the turn."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": ["Beast", "Fly", "Order", "Seraphon"],
@@ -1554,11 +1339,7 @@
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1567,9 +1348,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1578,8 +1357,7 @@
           "name": "Selfless Protectors",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Slann units are within this unit’s combat range, both this unit and those Slann units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly Slann units are within this unit’s combat range, both this unit and those Slann units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -1594,19 +1372,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9dc04831-5c96-4bba-81a1-0e36e47d1a3f",
       "baseSize": "32mm",
       "points": 110,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Spawn of Chotec",
       "move": "5\"",
       "health": "8",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1617,7 +1390,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3+3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1628,7 +1400,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Companion"]
           }
         ],
@@ -1640,7 +1411,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1650,34 +1420,26 @@
           "name": "Acid-fuelled Flame",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit uses a Shoot ability, you must pick either its Glob of Flame Acid or its Stream of Fire ranged weapon.\n\nIn addition, after resolving shooting attacks made with this unit’s Glob of Flame Acid, if any damage points were allocated to an enemy unit by those attacks, subtract 1 from save rolls for that enemy unit for the rest of the turn.",
-          "keywords": []
+          "effect": "Each time this unit uses a Shoot ability, you must pick either its Glob of Flame Acid or its Stream of Fire ranged weapon.\n\nIn addition, after resolving shooting attacks made with this unit’s Glob of Flame Acid, if any damage points were allocated to an enemy unit by those attacks, subtract 1 from save rolls for that enemy unit for the rest of the turn."
         },
         {
           "name": "Sun Acolytes",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a crew of 3 Sun Acolytes that are tokens.\n\nAdd 1 to this unit’s control score for each Sun Acolyte it has. If this unit has no Sun Acolytes, it has a maximum control score of 1 for the rest of the battle.\n\nEach time you make an unmodified save roll of 1 for this unit, remove 1 of its Sun Acolytes from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
-          "keywords": []
+          "effect": "This unit has a crew of 3 Sun Acolytes that are tokens.\n\nAdd 1 to this unit’s control score for each Sun Acolyte it has. If this unit has no Sun Acolytes, it has a maximum control score of 1 for the rest of the battle.\n\nEach time you make an unmodified save roll of 1 for this unit, remove 1 of its Sun Acolytes from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         }
       ],
       "keywords": ["Beast", "Order", "Seraphon", "Skink"],
       "image": "https://dhss9aar8ocw.cloudfront.net/bf133aa8-ca0b-4c30-83ca-e76371538173",
       "baseSize": "90mm [1], 25mm [3]",
       "points": 170,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Saurus Warriors",
       "move": "5\"",
       "health": "2",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1686,9 +1448,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1697,8 +1457,7 @@
           "name": "Ordered Cohorts",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Add 1 to save rolls for this unit while each model in this unit is contesting an objective you control.",
-          "keywords": []
+          "effect": "Add 1 to save rolls for this unit while each model in this unit is contesting an objective you control."
         }
       ],
       "keywords": [
@@ -1713,19 +1472,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/7129abd7-0c87-4391-992d-9f35f5215f9e",
       "baseSize": "32mm",
       "points": 170,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Skink Starseer",
       "move": "5\"",
       "health": "6",
       "save": "4+",
-      "ward": "",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1734,9 +1489,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1745,8 +1498,7 @@
           "name": "Scry the Stars",
           "activation": "Once Per Battle (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll a number of dice equal to the current battle round number. For each 3+, pick a friendly Seraphon unit wholly within 18\" of this unit. That unit has Ward (5+) until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a number of dice equal to the current battle round number. For each 3+, pick a friendly Seraphon unit wholly within 18\" of this unit. That unit has Ward (5+) until the start of your next turn."
         },
         {
           "name": "Celestial Doom",
@@ -1770,19 +1522,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/14e3ea0d-e5ff-4f18-a9cc-c7039acac046",
       "baseSize": "50mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Raptadon Hunters",
       "move": "12\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1792,9 +1539,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "2",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1804,9 +1549,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Raptadon’s Serrated Fangs",
@@ -1815,7 +1558,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1826,8 +1568,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit is not in combat, pick a friendly Raptadon Chargers unit that charged this turn and is within 12\" of this unit to be the target.",
-          "effect": "This unit can use a Shoot ability as if it were your shooting phase. It must target a visible enemy unit in combat with the target.",
-          "keywords": []
+          "effect": "This unit can use a Shoot ability as if it were your shooting phase. It must target a visible enemy unit in combat with the target."
         }
       ],
       "keywords": [
@@ -1842,19 +1583,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/2ccaa7dd-fe5e-4967-8620-1cc9fb2ce929",
       "baseSize": "60 x 35mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Skink Starpriest",
       "move": "8\"",
       "health": "5",
       "save": "6+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1863,9 +1600,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1875,8 +1610,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a visible friendly Seraphon unit wholly within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, the target’s melee weapons have Crit (Auto-wound) until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, the target’s melee weapons have Crit (Auto-wound) until the start of your next turn."
         }
       ],
       "keywords": [
@@ -1898,11 +1632,7 @@
       "move": "8\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1913,7 +1643,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1935,16 +1664,14 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stegadon's Horns and Jaws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stegadon's Horns and Jaws is 4."
         },
         {
           "name": "Cosmic Engine",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick if this unit will harness or reserve the power of its cosmic engine.",
-          "effect": "If it will reserve the power, place a cosmic power token next to this unit.\n\nIf it will harness the power, roll a dice and add the number of cosmic power tokens this unit has to the roll. Then, remove all cosmic power tokens this unit has and pick 1 of the following effects (if possible).\n\nHealing Light: On a 3+, you can Heal (D3) all friendly Seraphon units wholly within 12\" of this unit. \n\nStarlight Summons: On a 5+, you can pick up to 3 friendly Seraphon units wholly within 12\" of this unit. Return 1 slain model to each unit.\n\nTime Slows: On a 6+, you can pick up to 3 friendly Seraphon units wholly within 12\" of this unit. Those units have Strikefirst for the rest of the turn.",
-          "keywords": []
+          "effect": "If it will reserve the power, place a cosmic power token next to this unit.\n\nIf it will harness the power, roll a dice and add the number of cosmic power tokens this unit has to the roll. Then, remove all cosmic power tokens this unit has and pick 1 of the following effects (if possible).\n\nHealing Light: On a 3+, you can Heal (D3) all friendly Seraphon units wholly within 12\" of this unit. \n\nStarlight Summons: On a 5+, you can pick up to 3 friendly Seraphon units wholly within 12\" of this unit. Return 1 slain model to each unit.\n\nTime Slows: On a 6+, you can pick up to 3 friendly Seraphon units wholly within 12\" of this unit. Those units have Strikefirst for the rest of the turn."
         },
         {
           "name": "Crest of Horns",
@@ -1959,8 +1686,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ba19d70d-1939-4482-8370-a53ad8a3fc2f",
       "baseSize": "120 x 92mm",
       "points": 210,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Slann Starmaster",
@@ -1969,9 +1695,7 @@
       "save": "5+",
       "ward": "6+",
       "wizardLevel": "3",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1981,7 +1705,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1992,23 +1715,20 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Seraphon unit that started the battle with 3 or more models and that has been destroyed to be the target.",
-          "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units."
         },
         {
           "name": "Arcane Vassal",
           "activation": "Once Per Turn, Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Skink Wizard wholly within 18\" of this unit to be the target.",
-          "effect": "Measure the range and visibility of the next Spell ability used by this unit from the target instead of from this unit.",
-          "keywords": []
+          "effect": "Measure the range and visibility of the next Spell ability used by this unit from the target instead of from this unit."
         },
         {
           "name": "Masters of Order",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to casting rolls for this unit. In addition, this unit can use an Unbind ability if an enemy Wizard anywhere on the battlefield uses a Spell ability instead of an enemy Wizard within 30\" of this unit, and when using the ‘Banish Manifestation’ ability, this unit can pick a manifestation anywhere on the battlefield instead of within 30\" of it.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for this unit. In addition, this unit can use an Unbind ability if an enemy Wizard anywhere on the battlefield uses a Spell ability instead of an enemy Wizard within 30\" of this unit, and when using the ‘Banish Manifestation’ ability, this unit can pick a manifestation anywhere on the battlefield instead of within 30\" of it."
         },
         {
           "name": "Celestial Equilibrium",
@@ -2034,19 +1754,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ed42a044-4079-4f3d-8e55-f7a8499a37c2",
       "baseSize": "50mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Kroxigor",
       "move": "5\"",
       "health": "6",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2056,7 +1771,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           },
           {
@@ -2066,7 +1780,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -2076,27 +1789,21 @@
           "name": "Brutal Blows",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target an enemy unit that has 10 or more models.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target an enemy unit that has 10 or more models."
         }
       ],
       "keywords": ["Infantry", "Order", "Seraphon", "Kroxigor"],
       "image": "https://dhss9aar8ocw.cloudfront.net/3f7755d2-5628-40cb-b04d-c042951612b0",
       "baseSize": "50mm",
       "points": 220,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Saurus Astrolith Bearer",
       "move": "5\"",
       "health": "6",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2105,9 +1812,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2116,15 +1821,13 @@
           "name": "Celestial Conduit",
           "activation": "Reaction: You declared a Spell ability for a friendly Seraphon Wizard wholly within 12\" of this unit",
           "phases": ["Hero Phase"],
-          "effect": "If that spell is successfully cast, add 3 to the control scores of friendly Seraphon units wholly within 12\" of this unit for the rest of the turn.",
-          "keywords": []
+          "effect": "If that spell is successfully cast, add 3 to the control scores of friendly Seraphon units wholly within 12\" of this unit for the rest of the turn."
         },
         {
           "name": "Revivifying Energies",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Friendly Seraphon Infantry units have Ward (6+) while they are wholly within 12\" of this unit. If a unit already has Ward (6+), it has Ward (5+) instead.",
-          "keywords": []
+          "effect": "Friendly Seraphon Infantry units have Ward (6+) while they are wholly within 12\" of this unit. If a unit already has Ward (6+), it has Ward (5+) instead."
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Seraphon", "Saurus"],
@@ -2139,11 +1842,7 @@
       "move": "8\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2154,7 +1853,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -2165,7 +1863,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Infantry (+1 Rend)"]
           },
           {
@@ -2176,7 +1873,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -2197,9 +1893,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2208,15 +1902,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stegadon’s Horns and Jaws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stegadon’s Horns and Jaws is 4."
         },
         {
           "name": "Skink Coordination",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "If a friendly non-Monster Skink unit uses the ‘Redeploy’ command while it is wholly within 18\" of this unit, no command points are spent.",
-          "keywords": []
+          "effect": "If a friendly non-Monster Skink unit uses the ‘Redeploy’ command while it is wholly within 18\" of this unit, no command points are spent."
         },
         {
           "name": "Crushing Stomps",
@@ -2231,19 +1923,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/87e1cd53-e391-4673-ad98-653c866b3293",
       "baseSize": "120 x 92mm",
       "points": 260,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bastiladon with Ark of Sotek",
       "move": "5\"",
       "health": "12",
       "save": "2+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2254,7 +1941,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -2266,7 +1952,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Companion"]
           },
           {
@@ -2276,7 +1961,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2295,19 +1979,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/df17fc51-99c3-48ff-8a90-24f105637009",
       "baseSize": "120 x 92mm",
       "points": 270,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Skink Oracle on Troglodon",
       "move": "10\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2318,7 +1997,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -2329,9 +2007,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Troglodon’s Talons",
@@ -2340,7 +2016,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2360,8 +2035,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Troglodon’s Jaws is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Troglodon’s Jaws is 2."
         },
         {
           "name": "Noxious Roar",
@@ -2374,16 +2048,12 @@
         {
           "name": "Troglodon Regeneration",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "Heal (D3) this unit.",
-          "keywords": []
+          "effect": "Heal (D3) this unit."
         },
         {
           "name": "Terror",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
       "keywords": [
@@ -2397,19 +2067,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ba716b5a-10e5-44fc-a0ed-e49f418e9083",
       "baseSize": "120 x 92mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Starblood Stalkers",
       "move": "8\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2418,9 +2083,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Relic Celestite Weapon",
@@ -2428,9 +2091,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2439,23 +2100,20 @@
           "name": "Kixi-Taka the Diviner",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Kixi-Taka, the Diviner, is on the battlefield, it has Wizard (1).",
-          "keywords": []
+          "effect": "While this unit’s Kixi-Taka, the Diviner, is on the battlefield, it has Wizard (1)."
         },
         {
           "name": "Otapatl's Dartpipe",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "If this unit’s Otapatl is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 4+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, inflict 1 mortal damage on the target."
         },
         {
           "name": "Klaq-Trok",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit’s Klaq-Trok is on the battlefield, ignore the first damage point that would be allocated to this unit each phase.",
-          "keywords": []
+          "effect": "While this unit’s Klaq-Trok is on the battlefield, ignore the first damage point that would be allocated to this unit each phase."
         }
       ],
       "keywords": [

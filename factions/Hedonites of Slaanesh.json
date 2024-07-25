@@ -5,16 +5,14 @@
       "name": "Euphoric Killers",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "While a friendly unit has the Euphoric keyword:\n\n• That unit’s weapons have Crit (2 Hits).\n• That unit can use a Run ability and still use Shoot and/or Charge abilities later in the turn.",
-      "keywords": []
+      "effect": "While a friendly unit has the Euphoric keyword:\n\n• That unit’s weapons have Crit (2 Hits).\n• That unit can use a Run ability and still use Shoot and/or Charge abilities later in the turn."
     },
     {
       "name": "An Excess of Depravity",
       "activation": "Start of Battle Round",
       "phases": ["Start of Turn"],
       "declare": "Pick up to 3 friendly Hedonites of Slaanesh units to be the targets.",
-      "effect": "The targets have the Euphoric keyword for the rest of the battle round.\n\nIn addition, for each friendly unit you pick, give your opponent 1 temptation dice. Your opponent can use 1 temptation dice to replace 1 wound roll, 1 save roll, 1 ward roll or 1 run roll for a unit in their army with a 6, or they can use 2 temptation dice to replace 2 of the dice in a charge roll for a unit in their army with two 6s.\n\nEach time your opponent uses a temptation dice, they must roll it. On a 1-2, inflict D3 mortal damage on the unit for which the roll was replaced immediately after the ability used by that unit has been resolved.\n\nAt the end of the battle round, any temptation dice that have not been used are lost.",
-      "keywords": []
+      "effect": "The targets have the Euphoric keyword for the rest of the battle round.\n\nIn addition, for each friendly unit you pick, give your opponent 1 temptation dice. Your opponent can use 1 temptation dice to replace 1 wound roll, 1 save roll, 1 ward roll or 1 run roll for a unit in their army with a 6, or they can use 2 temptation dice to replace 2 of the dice in a charge roll for a unit in their army with two 6s.\n\nEach time your opponent uses a temptation dice, they must roll it. On a 1-2, inflict D3 mortal damage on the unit for which the roll was replaced immediately after the ability used by that unit has been resolved.\n\nAt the end of the battle round, any temptation dice that have not been used are lost."
     }
   ],
   "battle_formations": {
@@ -22,29 +20,24 @@
       "name": "The Ecstatic Throngs",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to hit rolls for friendly Sybarite Infantry units while they are damaged or if they had any models slain in the same turn.",
-      "keywords": []
+      "effect": "Add 1 to hit rolls for friendly Sybarite Infantry units while they are damaged or if they had any models slain in the same turn."
     },
     "Epicurean Revellers": {
       "name": "Exquisite Palate",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "Each time a friendly non-Hero Hedonites of Slaanesh Daemon uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
-      "keywords": []
+      "effect": "Each time a friendly non-Hero Hedonites of Slaanesh Daemon uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
     },
     "Seeker Cavalcade": {
       "name": "Reckless Haste",
       "activation": "Passive",
       "phases": ["Movement Phase"],
-      "effect": "Friendly Hedonites of Slaanesh Cavalry units can use a Retreat ability and still use Charge abilities later in the turn. In addition, no mortal damage is inflicted on Hedonites of Slaanesh Cavalry units by Retreat abilities.",
-      "keywords": []
+      "effect": "Friendly Hedonites of Slaanesh Cavalry units can use a Retreat ability and still use Charge abilities later in the turn. In addition, no mortal damage is inflicted on Hedonites of Slaanesh Cavalry units by Retreat abilities."
     },
     "Supreme Sybarites": {
       "name": "Godly Ambitions",
       "activation": "Passive",
-      "phases": null,
-      "effect": "Add 3 to the control scores of friendly non‑Hero Hedonites of Slaanesh units while they are within the combat ranges of any friendly Hedonites of Slaanesh Heroes.",
-      "keywords": []
+      "effect": "Add 3 to the control scores of friendly non‑Hero Hedonites of Slaanesh units while they are within the combat ranges of any friendly Hedonites of Slaanesh Heroes."
     }
   },
   "heroic_traits": [
@@ -52,22 +45,19 @@
       "name": "Glory Hog",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "If an enemy Hero is destroyed by this unit, this unit has the Euphoric keyword for the rest of the battle.",
-      "keywords": []
+      "effect": "If an enemy Hero is destroyed by this unit, this unit has the Euphoric keyword for the rest of the battle."
     },
     {
       "name": "Strongest Alone",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to hit rolls and wound rolls for this unit’s attacks while it is more than 6\" from all other friendly units.",
-      "keywords": []
+      "effect": "Add 1 to hit rolls and wound rolls for this unit’s attacks while it is more than 6\" from all other friendly units."
     },
     {
       "name": "Into the Fray",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "If this unit charged this turn and the unmodified charge roll was 8+, this unit has Strike-first for the rest of the turn.",
-      "keywords": []
+      "effect": "If this unit charged this turn and the unmodified charge roll was 8+, this unit has Strike-first for the rest of the turn."
     }
   ],
   "artefacts_of_power": [
@@ -75,23 +65,19 @@
       "name": "Threnody Voicebox",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
-      "effect": "For the rest of the turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.",
-      "keywords": []
+      "effect": "For the rest of the turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit."
     },
     {
       "name": "Icon of Infinite Excess",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
       "declare": "Pick a non-Hero Hedonites of Slaanesh unit wholly within 12\" of this unit to be the target.",
-      "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-      "keywords": []
+      "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
     },
     {
       "name": "Pendant of Slaanesh",
       "activation": "End of Any Turn",
-      "phases": null,
-      "effect": "If any damage points were allocated to this unit this turn, Heal (3) this unit.",
-      "keywords": []
+      "effect": "If any damage points were allocated to this unit this turn, Heal (3) this unit."
     }
   ],
   "spell_lore": {
@@ -165,11 +151,7 @@
       "move": "6\"",
       "health": "2",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -178,9 +160,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -189,15 +169,13 @@
           "name": "Ego-driven Excess",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit did not charge this turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "If this unit did not charge this turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit."
         },
         {
           "name": "Fiendish Reflexes",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit did not charge this turn, it has Ward (5+) while it is in combat.",
-          "keywords": []
+          "effect": "If this unit did not charge this turn, it has Ward (5+) while it is in combat."
         }
       ],
       "keywords": [
@@ -210,19 +188,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/adcaf345-664f-482a-bab7-5c82385ef9ec",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Blissbarb Seekers",
       "move": "12\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -232,9 +205,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -245,7 +216,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -254,9 +224,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -265,8 +233,7 @@
           "name": "Glory Shots",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for attacks that target units contesting an objective you do not control.",
-          "keywords": []
+          "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for attacks that target units contesting an objective you do not control."
         }
       ],
       "keywords": [
@@ -279,19 +246,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/7b1d1896-d46b-4611-a088-403a1d4c1138",
       "baseSize": "75 x 42mm",
       "points": 160,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "The Dread Pageant",
       "move": "6\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -300,9 +262,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -319,8 +279,7 @@
           "name": "Slicing Fervour",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "This unit has Strike-first while it is in combat with a blissmarked unit.",
-          "keywords": []
+          "effect": "This unit has Strike-first while it is in combat with a blissmarked unit."
         }
       ],
       "keywords": [
@@ -343,10 +302,7 @@
       "health": "3",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -356,7 +312,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Cavalry (+1 Rend)"]
           },
           {
@@ -366,7 +321,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -376,8 +330,7 @@
           "name": "Quicksilver Speed",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead.",
-          "keywords": []
+          "effect": "When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead."
         }
       ],
       "keywords": [
@@ -393,8 +346,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/51907da3-6b0a-405c-9497-96e56bd7c891",
       "baseSize": "60 x 35mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Wheels of Excrutiation",
@@ -402,9 +354,6 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -414,9 +363,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -426,8 +373,7 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 3 enemy units that this Manifestation passed across this turn to be the targets.",
-          "effect": "Roll 6 dice for each target. For each roll that is less than the target’s Save characteristic, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll 6 dice for each target. For each roll that is less than the target’s Save characteristic, inflict 1 mortal damage on the target."
         }
       ],
       "keywords": [
@@ -440,20 +386,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/8269688c-46cd-4dad-b33c-95f1a5dbe4ff",
       "baseSize": "Use Model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Hellstriders",
       "move": "12\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -463,7 +403,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -473,7 +412,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
           }
         ]
@@ -482,9 +420,7 @@
         {
           "name": "Maiming Charge",
           "activation": "Passive",
-          "phases": null,
-          "effect": "If this unit charged this turn, subtract 3 from the control scores of enemy Infantry units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "If this unit charged this turn, subtract 3 from the control scores of enemy Infantry units while they are in combat with this unit."
         }
       ],
       "keywords": [
@@ -499,8 +435,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/7b7696ec-f230-4803-bbc0-1d74559a59d7",
       "baseSize": "60 x 35mm",
       "points": 150,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Dreadful Visage",
@@ -508,9 +443,6 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -520,9 +452,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -532,8 +462,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this Manifestation to be the target.",
-          "effect": "Roll 6 dice. For each 4+, inflict 1 mortal damage on the target. If any models are slain by this ability, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll 6 dice. For each 4+, inflict 1 mortal damage on the target. If any models are slain by this ability, the target has Strike-last for the rest of the turn."
         }
       ],
       "keywords": [
@@ -546,20 +475,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/9f879cf9-a480-4185-8df9-223a6d055494",
       "baseSize": "90 x 52mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Myrmidesh Painbringers",
       "move": "6\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -568,9 +491,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -579,8 +500,7 @@
           "name": "Paragons of Battle",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is contesting an objective you do not control.",
-          "keywords": []
+          "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is contesting an objective you do not control."
         }
       ],
       "keywords": [
@@ -593,19 +513,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/235f27fe-6abd-40ef-a97e-776d125b3cd1",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Slickblade Seekers",
       "move": "12\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -615,7 +530,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -625,7 +539,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -635,8 +548,7 @@
           "name": "Unrivalled Velocity",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "You can re-roll charge rolls for this unit.",
-          "keywords": []
+          "effect": "You can re-roll charge rolls for this unit."
         }
       ],
       "keywords": [
@@ -649,8 +561,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1ca10f52-3b79-445c-8ce5-9efe14c8fba6",
       "baseSize": "75 x 42mm",
       "points": 180,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Shardspeaker of Slaanesh",
@@ -659,9 +570,7 @@
       "save": "5+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -671,7 +580,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -680,9 +588,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -691,16 +597,14 @@
           "name": "Mist Lurkers",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "If this unit successfully casts a spell, until the start of your next turn, it can attack with its Shadowcloaked Claws.",
-          "keywords": []
+          "effect": "If this unit successfully casts a spell, until the start of your next turn, it can attack with its Shadowcloaked Claws."
         },
         {
           "name": "Twisted Mirror",
           "activation": "Once Per Turn (Army), Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit within 8\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 4+, subtract 1 from save rolls for the target until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, subtract 1 from save rolls for the target until the start of your next turn."
         }
       ],
       "keywords": [
@@ -715,8 +619,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0b2842e5-7308-4443-9bd7-011a67afa25f",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Contorted Epitome",
@@ -725,9 +628,7 @@
       "save": "5+",
       "ward": "4+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -736,9 +637,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -747,15 +646,13 @@
           "name": "Horrible Fascination",
           "activation": "Reaction: Opponent declared a command Passive or Retreat ability for a unit in combat with this unit",
           "phases": ["Start of Turn"],
-          "effect": "Inflict D3 mortal damage on that enemy unit.",
-          "keywords": []
+          "effect": "Inflict D3 mortal damage on that enemy unit."
         },
         {
           "name": "Swallow Energy",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If you make a successful ward roll for this unit, add 1 to this unit’s power level until the end of your next turn.",
-          "keywords": []
+          "effect": "If you make a successful ward roll for this unit, add 1 to this unit’s power level until the end of your next turn."
         }
       ],
       "keywords": [
@@ -770,8 +667,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f8b8b3f3-f16d-4312-a4b0-5f9805b764d3",
       "baseSize": "75 x 42mm",
       "points": 200,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Keeper of Secrets",
@@ -780,9 +676,7 @@
       "save": "4+",
       "ward": "5+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -792,8 +686,7 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           },
           {
             "name": "Impaling Claws",
@@ -801,9 +694,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           }
         ]
       },
@@ -812,16 +703,14 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Elegant Greatblade is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Elegant Greatblade is 4."
         },
         {
           "name": "Locus of Slaanesh",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Hedonites of Slaanesh Daemon unit that started the battle with 3 or more models and has been destroyed to be the target.",
-          "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units."
         },
         {
           "name": "Cacophonic Choir",
@@ -844,8 +733,7 @@
           "name": "Supernatural Grace",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for combat attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for combat attacks that target this unit."
         }
       ],
       "keywords": [
@@ -860,8 +748,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/786966c6-36a1-4048-8b4f-3145fcb55094",
       "baseSize": "100mm",
       "points": 440,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Synessa, the Voice of Slaanesh",
@@ -870,9 +757,7 @@
       "save": "5+",
       "ward": "5+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -883,7 +768,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -894,9 +778,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -905,8 +787,7 @@
           "name": "Progeny of Slaanesh",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While a friendly Dexcessa is on the battlefield, add 1 to this unit’s power level.",
-          "keywords": []
+          "effect": "While a friendly Dexcessa is on the battlefield, add 1 to this unit’s power level."
         },
         {
           "name": "Whispers of Doubt",
@@ -928,10 +809,8 @@
         {
           "name": "Voice of Slaanesh",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick a visible unit within 18\" of this unit to be the target.",
-          "effect": "If the target is a friendly unit, add 5 to the target’s control score for the rest of the turn. If the target is an enemy unit, subtract 5 from the target’s control score for the rest of the turn.",
-          "keywords": []
+          "effect": "If the target is a friendly unit, add 5 to the target’s control score for the rest of the turn. If the target is an enemy unit, subtract 5 from the target’s control score for the rest of the turn."
         }
       ],
       "keywords": [
@@ -958,10 +837,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -971,9 +847,7 @@
             "hit": "2+",
             "wound": "3+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -983,9 +857,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -994,8 +866,7 @@
           "name": "Discordant Disruption",
           "activation": "Once Per Turn (Army), Reaction: Opponent declared a Spell ability for a Wizard within 18\" of this unit",
           "phases": ["Hero Phase"],
-          "effect": "The casting roll for that spell must be re-rolled. If 2 or more dice in the re-rolled casting roll have the same value or if 1 of the dice is a 6, inflict D3 mortal damage on that Wizard after the effect of that spell has been resolved.",
-          "keywords": []
+          "effect": "The casting roll for that spell must be re-rolled. If 2 or more dice in the re-rolled casting roll have the same value or if 1 of the dice is a 6, inflict D3 mortal damage on that Wizard after the effect of that spell has been resolved."
         }
       ],
       "keywords": [
@@ -1018,10 +889,7 @@
       "health": "4",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1031,7 +899,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)", "Companion"]
           }
         ]
@@ -1041,23 +908,19 @@
           "name": "Disruptive Song",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Subtract 1 from casting rolls and unbinding rolls for enemy Wizards while they are within 12\" of this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from casting rolls and unbinding rolls for enemy Wizards while they are within 12\" of this unit."
         },
         {
           "name": "Soporific Musk",
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 4+, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, the target has Strike-last for the rest of the turn."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": [
@@ -1071,8 +934,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1ebdcc78-3dd8-4155-88de-49711d060c48",
       "baseSize": "75 x 42mm",
       "points": 150,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Viceleader, Herald of Slaanesh",
@@ -1081,9 +943,7 @@
       "save": "5+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1092,9 +952,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1103,15 +961,13 @@
           "name": "Lithe and Swift",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of this unit’s Ravaging Claws for the rest of the turn if this unit charged in the same turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of this unit’s Ravaging Claws for the rest of the turn if this unit charged in the same turn."
         },
         {
           "name": "Lust For Violence",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly Daemonettes unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly Daemonettes unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": [
@@ -1127,8 +983,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/00caac27-a0c5-4ba6-8754-0f25da5cba4a",
       "baseSize": "25mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bladebringer, Herald on Exalted Chariot",
@@ -1137,9 +992,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1149,7 +1002,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1158,9 +1010,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1170,16 +1020,14 @@
           "activation": "Once Per Turn (Army), Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 3 friendly non‑Unique Hedonites of Slaanesh War Machines wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn. This ability also affects Companion weapons.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn. This ability also affects Companion weapons."
         },
         {
           "name": "Mutilating Blades",
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -1194,19 +1042,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/3ff3baee-a32d-40a6-b947-8e0ec3e59bb6",
       "baseSize": "120 x 92mm",
       "points": 220,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Slaangor Fiendbloods",
       "move": "6\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1215,9 +1058,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1226,8 +1067,7 @@
           "name": "Slaughter At Any Cost",
           "activation": "Enemy Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If any damage points were allocated to this unit this turn, this unit can use the ‘Normal Move’ ability as if it were your movement phase.",
-          "keywords": []
+          "effect": "If any damage points were allocated to this unit this turn, this unit can use the ‘Normal Move’ ability as if it were your movement phase."
         }
       ],
       "keywords": [
@@ -1240,8 +1080,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f9fcc417-740e-43b8-9f93-43b79f2369ba",
       "baseSize": "40mm",
       "points": 140,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Sigvald, Prince of Slaanesh",
@@ -1249,10 +1088,7 @@
       "health": "7",
       "save": "3+",
       "ward": "4+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1261,9 +1097,7 @@
             "hit": "2+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1272,22 +1106,19 @@
           "name": "Shardslash",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Ward rolls cannot be made for damage points inflicted by this unit’s combat attacks.",
-          "keywords": []
+          "effect": "Ward rolls cannot be made for damage points inflicted by this unit’s combat attacks."
         },
         {
           "name": "The Glorious Reborn",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "This unit has Strike-first if it charged in the same turn.",
-          "keywords": []
+          "effect": "This unit has Strike-first if it charged in the same turn."
         },
         {
           "name": "Powered By Vainglory",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit charged this turn and the unmodified charge roll was 6+, the Attacks characteristic of this unit’s Shardslash is equal to the unmodified charge roll.",
-          "keywords": []
+          "effect": "If this unit charged this turn and the unmodified charge roll was 6+, the Attacks characteristic of this unit’s Shardslash is equal to the unmodified charge roll."
         }
       ],
       "keywords": [
@@ -1303,8 +1134,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e2d3b5da-a268-402c-bada-025689cf9fb5",
       "baseSize": "60mm",
       "points": 260,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lord of Pain",
@@ -1312,10 +1142,7 @@
       "health": "5",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1324,9 +1151,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1335,15 +1160,13 @@
           "name": "Disciples In Torment",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit is contesting an objective, add 1 to wound rolls for combat attacks made by friendly Sybarite units wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "While this unit is contesting an objective, add 1 to wound rolls for combat attacks made by friendly Sybarite units wholly within 12\" of this unit."
         },
         {
           "name": "Share The Pain",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make a successful ward roll for this unit for a damage point inflicted by a combat attack, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make a successful ward roll for this unit for a damage point inflicted by a combat attack, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1367,9 +1190,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1379,7 +1200,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1389,7 +1209,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Companion"]
           },
           {
@@ -1398,9 +1217,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1410,23 +1227,20 @@
           "activation": "Any Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has Ward (5+) for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has Ward (5+) for the rest of the turn."
         },
         {
           "name": "Threshing Doom",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used.",
-          "keywords": []
+          "effect": "When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used."
         },
         {
           "name": "Slavering For Sensation",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 2 friendly Hellflayer units wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 2\" to the Move characteristic of this unit and each target for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 2\" to the Move characteristic of this unit and each target for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1441,8 +1255,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/657cb306-d884-4225-9f66-b9a1fdfada94",
       "baseSize": "120 x 92mm",
       "points": 200,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Masque",
@@ -1450,10 +1263,7 @@
       "health": "5",
       "save": "5+",
       "ward": "4+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1462,9 +1272,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1473,15 +1281,13 @@
           "name": "The Endless Dance",
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units.",
-          "keywords": []
+          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units."
         },
         {
           "name": "Staff of Masks",
           "activation": "Any Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Pick 1 of the following effects:\n\n• Add 3 to the Attacks characteristic of this unit’s Razor-edged Claws for the rest of the turn.\n• Heal (3) this unit.",
-          "keywords": []
+          "effect": "Pick 1 of the following effects:\n\n• Add 3 to the Attacks characteristic of this unit’s Razor-edged Claws for the rest of the turn.\n• Heal (3) this unit."
         }
       ],
       "keywords": [
@@ -1505,10 +1311,7 @@
       "health": "3",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1517,9 +1320,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1528,15 +1329,13 @@
           "name": "Indulgence Given Form",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Each time an enemy unit uses a command while it is within 12\" of this unit, give 1 indulgence point to this unit, to a maximum of 6.",
-          "keywords": []
+          "effect": "Each time an enemy unit uses a command while it is within 12\" of this unit, give 1 indulgence point to this unit, to a maximum of 6."
         },
         {
           "name": "Sublime Harmonies",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Vashtiss is on the battlefield, it has Wizard (1). In addition, each time you make a casting roll for this unit, you can spend any number of indulgence points it has. For each point spent, add 1 to the casting roll.",
-          "keywords": []
+          "effect": "While this unit’s Vashtiss is on the battlefield, it has Wizard (1). In addition, each time you make a casting roll for this unit, you can spend any number of indulgence points it has. For each point spent, add 1 to the casting roll."
         }
       ],
       "keywords": [
@@ -1560,10 +1359,7 @@
       "health": "5",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1572,9 +1368,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1584,16 +1378,14 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Your opponent must decide whether the target will accept or decline this unit’s challenge.\n\nAccept: The target has Strike-first for the rest of the turn. If this unit is in combat with the target when the target is picked to use a Fight ability, all of the target’s attacks must target this unit.\n\nDecline: The target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Your opponent must decide whether the target will accept or decline this unit’s challenge.\n\nAccept: The target has Strike-first for the rest of the turn. If this unit is in combat with the target when the target is picked to use a Fight ability, all of the target’s attacks must target this unit.\n\nDecline: The target has Strike-last for the rest of the turn."
         },
         {
           "name": "Only The Best Will Suffice",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a friendly Myrmidesh Painbringers or Symbaresh Twinsouls unit that is in combat and is wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, for the rest of the turn, each time a model in the target unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. For each 4+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, for the rest of the turn, each time a model in the target unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. For each 4+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1617,9 +1409,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1628,9 +1418,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Steeds’ Poisoned Tongues",
@@ -1639,7 +1427,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1650,16 +1437,14 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Thrillseeking Cavalcade",
           "activation": "Your Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick up to 3 friendly Seeker Chariot units wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 1 to charge rolls for this unit and the targets for the rest of the turn. In addition, for the rest of the turn, when this unit and the targets use the ‘Mutilating Blades’ ability, add 1 to the amount of mortal damage inflicted (if any).",
-          "keywords": []
+          "effect": "Add 1 to charge rolls for this unit and the targets for the rest of the turn. In addition, for the rest of the turn, when this unit and the targets use the ‘Mutilating Blades’ ability, add 1 to the amount of mortal damage inflicted (if any)."
         }
       ],
       "keywords": [
@@ -1674,8 +1459,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ed77f9f5-83bf-41d5-8006-f69a7a2b5a0c",
       "baseSize": "120 x 92mm",
       "points": 170,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Dexcessa, The Talon of Slaanesh",
@@ -1683,10 +1467,7 @@
       "health": "10",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1695,9 +1476,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1706,8 +1485,7 @@
           "name": "Fleeting Dance of Death",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities.",
-          "keywords": []
+          "effect": "This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities."
         },
         {
           "name": "Redolence of Violence",
@@ -1720,16 +1498,13 @@
         {
           "name": "Joyous Battle Fury",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "If any enemy models were slain by this unit’s combat attacks this turn, Heal (D3) this unit, then place a battle fury token next to it.\n\nAdd 1 to the Attacks characteristic of this unit’s Impaling Talons for each battle fury token it has until the end of the next turn.",
-          "keywords": []
+          "effect": "If any enemy models were slain by this unit’s combat attacks this turn, Heal (D3) this unit, then place a battle fury token next to it.\n\nAdd 1 to the Attacks characteristic of this unit’s Impaling Talons for each battle fury token it has until the end of the next turn."
         },
         {
           "name": "Scion of Slaanesh",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While a friendly Synessa is on the battlefield, subtract 1 from hit rolls for attacks that target this unit.",
-          "keywords": []
+          "effect": "While a friendly Synessa is on the battlefield, subtract 1 from hit rolls for attacks that target this unit."
         }
       ],
       "keywords": [
@@ -1756,9 +1531,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "4",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1767,9 +1540,7 @@
             "hit": "2+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Axe of Dominion",
@@ -1777,9 +1548,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -1798,15 +1567,13 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a friendly non-Hero Sybarite unit and a friendly non-Hero Hedonites of Slaanesh Daemon unit to be the targets. Both units must be wholly within 12\" of this unit.",
-          "effect": "For the rest of the turn, if either target uses the ‘All-out Attack’ or ‘All-out Defence’ command, the other target can also use the same command in the same phase and no command points are spent to use the command a second time.",
-          "keywords": []
+          "effect": "For the rest of the turn, if either target uses the ‘All-out Attack’ or ‘All-out Defence’ command, the other target can also use the same command in the same phase and no command points are spent to use the command a second time."
         },
         {
           "name": "The Vengeful Allegiance",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1823,8 +1590,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/084b2caf-2040-46ed-a9ac-198a31a64146",
       "baseSize": "50mm",
       "points": 250,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Daemonettes",
@@ -1832,10 +1598,7 @@
       "health": "1",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1844,9 +1607,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1855,8 +1616,7 @@
           "name": "Lithe and Swift",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of this unit’s Piercing Claws for the rest of the turn if this unit charged in the same turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of this unit’s Piercing Claws for the rest of the turn if this unit charged in the same turn."
         }
       ],
       "keywords": [
@@ -1872,8 +1632,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/bb132853-2193-425e-96f7-c538875b665f",
       "baseSize": "25mm",
       "points": 110,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Glutos Orscollion, Lord of Gluttony",
@@ -1882,9 +1641,7 @@
       "save": "4+",
       "ward": "5+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1895,7 +1652,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "6",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1917,7 +1673,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1927,15 +1682,13 @@
           "name": "The Grand Gourmand",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "A different effect applies to friendly Sybarite units each battle round while they are wholly within 12\" of this unit, as shown below. The effects of all previous battle rounds also apply to those units while they are wholly within 12\" of this unit.\n\nBattle Round 1:\nStarter: Add 1 to run rolls and charge rolls for those units.\n\nBattle Round 2:\nMain: Add 3 to those units’ control scores.\n\nBattle Round 3:\nDessert: Add 1 to hit rolls for those unit’s attacks.\n\nBattle Round 4+:\nDigestif: Add 1 to the Rend characteristic of those units’ melee weapons.",
-          "keywords": []
+          "effect": "A different effect applies to friendly Sybarite units each battle round while they are wholly within 12\" of this unit, as shown below. The effects of all previous battle rounds also apply to those units while they are wholly within 12\" of this unit.\n\nBattle Round 1:\nStarter: Add 1 to run rolls and charge rolls for those units.\n\nBattle Round 2:\nMain: Add 3 to those units’ control scores.\n\nBattle Round 3:\nDessert: Add 1 to hit rolls for those unit’s attacks.\n\nBattle Round 4+:\nDigestif: Add 1 to the Rend characteristic of those units’ melee weapons."
         },
         {
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Greatblade and Claws is 6.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Greatblade and Claws is 6."
         },
         {
           "name": "Crippling Famishment",
@@ -1949,10 +1702,8 @@
         {
           "name": "Gorge on Excess",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick a friendly Sybarite unit wholly within 12\" of this unit to be the target.",
-          "effect": "Heal (6) the target.",
-          "keywords": []
+          "effect": "Heal (6) the target."
         }
       ],
       "keywords": [
@@ -1969,8 +1720,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/67d8052d-40c5-4d92-9bb9-679ede7cce96",
       "baseSize": "170 x 105mm",
       "points": 470,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Seeker Chariot",
@@ -1978,10 +1728,7 @@
       "health": "6",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1990,9 +1737,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Steeds’ Poisoned Tongues",
@@ -2001,7 +1746,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2012,8 +1756,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -2026,8 +1769,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4c00b97b-86c6-4a4b-ba60-ab6ab4351bef",
       "baseSize": "120 x 92mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Shalaxi Helbane",
@@ -2036,9 +1778,7 @@
       "save": "4+",
       "ward": "5+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2057,9 +1797,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           }
         ]
       },
@@ -2068,8 +1806,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Soulpiercer is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Soulpiercer is 4."
         },
         {
           "name": "Refine Senses",
@@ -2092,15 +1829,13 @@
           "activation": "Once Per Battle, Your Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a friendly non-Hero Hedonites of Slaanesh unit wholly within 12\" of this unit to be the target.",
-          "effect": "The target can use 2 Fight abilities this turn. After the first is used, however, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "The target can use 2 Fight abilities this turn. After the first is used, however, the target has Strike-last for the rest of the turn."
         },
         {
           "name": "Supernatural Grace",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for combat attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for combat attacks that target this unit."
         }
       ],
       "keywords": [
@@ -2117,8 +1852,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1028a96c-ed11-4361-8058-59b08665239e",
       "baseSize": "100mm",
       "points": 490,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Exalted Chariot",
@@ -2126,10 +1860,7 @@
       "health": "9",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2139,7 +1870,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2148,9 +1878,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2160,8 +1888,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a number of dice equal to the unmodified charge roll for that Charge ability. For each roll that exceeds the target’s Save characteristic, the target suffers 1 mortal damage.",
-          "keywords": []
+          "effect": "Roll a number of dice equal to the unmodified charge roll for that Charge ability. For each roll that exceeds the target’s Save characteristic, the target suffers 1 mortal damage."
         }
       ],
       "keywords": [
@@ -2183,9 +1910,6 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -2194,15 +1918,13 @@
           "activation": "Any Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick an enemy unit within 6\" of this Manifestation to be the target.",
-          "effect": "Inflict D3 mortal damage on the target. Then, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Inflict D3 mortal damage on the target. Then, add 1 to hit rolls for the target’s attacks for the rest of the turn."
         },
         {
           "name": "Irresistible Lure",
           "activation": "Reaction: Opponent declared a Move ability for a unit wholly within 12\" of this Manifestation",
           "phases": ["Movement Phase"],
-          "effect": "If that enemy unit does not end the move closer to this Manifestation than it was at the start of the move, inflict D3 mortal damage on it after the Move ability has been resolved.",
-          "keywords": []
+          "effect": "If that enemy unit does not end the move closer to this Manifestation than it was at the start of the move, inflict D3 mortal damage on it after the Move ability has been resolved."
         }
       ],
       "keywords": [
@@ -2214,9 +1936,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/ba6cf341-ba12-4bc1-95a1-16f818d1a670",
       "baseSize": "90 x 52mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Fane of Slaanesh",
@@ -2224,10 +1944,7 @@
       "health": "10",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
@@ -2235,8 +1952,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Hedonites of Slaanesh unit wholly within 12\" of this terrain feature to be the target.",
-          "effect": "Allocate D3 damage points to the target (ward rolls cannot be made for those damage points). Then, pick 1 of the following effects to apply until the start of your next turn:\n\n• Add 1 to wound rolls for the target’s combat attacks.\n• Add 1 to run rolls and charge rolls for the target.\n• Add 1 to casting rolls and unbinding rolls for the target.",
-          "keywords": []
+          "effect": "Allocate D3 damage points to the target (ward rolls cannot be made for those damage points). Then, pick 1 of the following effects to apply until the start of your next turn:\n\n• Add 1 to wound rolls for the target’s combat attacks.\n• Add 1 to run rolls and charge rolls for the target.\n• Add 1 to casting rolls and unbinding rolls for the target."
         }
       ],
       "keywords": [
@@ -2247,20 +1963,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/ee16de80-7792-4fa6-b2db-b374c3da1267",
       "baseSize": "Use Model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Blissbarb Archers",
       "move": "6\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2270,9 +1980,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -2282,9 +1990,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2293,8 +1999,7 @@
           "name": "Blissbrew Homonculus",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "This unit’s Blissbrew Homonculus is a token. There is 1 Blissbrew Homonculus for every 10 models in this unit.\n\nSubtract 1 from hit rolls for shooting attacks that target this unit while it has a Blissbrew Homonculus. If you make an unmodified save roll of 1 for this unit, remove the Blissbrew Homonculus from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
-          "keywords": []
+          "effect": "This unit’s Blissbrew Homonculus is a token. There is 1 Blissbrew Homonculus for every 10 models in this unit.\n\nSubtract 1 from hit rolls for shooting attacks that target this unit while it has a Blissbrew Homonculus. If you make an unmodified save roll of 1 for this unit, remove the Blissbrew Homonculus from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         }
       ],
       "keywords": [
@@ -2307,8 +2012,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9b3562ca-b2ca-4738-b100-6f4da9f90c82",
       "baseSize": "28.5mm [10], 25mm [1]",
       "points": 140,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Hellflayer",
@@ -2316,10 +2020,7 @@
       "health": "7",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2328,9 +2029,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Steeds’ Poisoned Tongues",
@@ -2339,7 +2038,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2349,7 +2047,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Companion"]
           }
         ]
@@ -2360,15 +2057,13 @@
           "activation": "Any Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has Ward (5+) for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has Ward (5+) for the rest of the turn."
         },
         {
           "name": "Threshing Doom",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used.",
-          "keywords": []
+          "effect": "When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used."
         }
       ],
       "keywords": [
@@ -2381,8 +2076,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d9892478-4d08-40b3-9f62-5590a67e369e",
       "baseSize": "120 x 92mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     }
   ]
 }

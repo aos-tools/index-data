@@ -5,8 +5,7 @@
       "name": "Pledges to the Dark Gods",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "Each time a friendly Snow Peaks unit uses 1 of the following abilities, gain 1 oath point.\n\n• ‘Oath of Bloodshed’\n• ‘Oath of Murder’\n• ‘Oath of Supremacy’\n• ‘Oath of the Marauder’\n• ‘Oath of the Raider’\n• ‘Oath of Conquest’\n\nDesigner’s Note: The abilities listed above are abilities on Darkoath warscrolls. By using those abilities (i.e. completing the oaths), the player gains oath points, which can then be spent to use the Oath abilities in these Army of Renown rules.",
-      "keywords": []
+      "effect": "Each time a friendly Snow Peaks unit uses 1 of the following abilities, gain 1 oath point.\n\n• ‘Oath of Bloodshed’\n• ‘Oath of Murder’\n• ‘Oath of Supremacy’\n• ‘Oath of the Marauder’\n• ‘Oath of the Raider’\n• ‘Oath of Conquest’\n\nDesigner’s Note: The abilities listed above are abilities on Darkoath warscrolls. By using those abilities (i.e. completing the oaths), the player gains oath points, which can then be spent to use the Oath abilities in these Army of Renown rules."
     },
     {
       "name": "Speed of the Blood Crow",
@@ -43,7 +42,6 @@
     {
       "name": "Messengers of the Gods",
       "activation": "Once Per Phase (Army), End of Any Turn",
-      "phases": null,
       "declare": "If you have 1 or more oath points, pick a friendly Snow Peaks Darkoath Marauders or Fellriders unit that has been destroyed and has not used an Oath ability this turn to be the target.",
       "effect": "Spend 2 oath points. Set up a replacement unit with half the number of models from the target unit (rounding up) on the battlefield, wholly within 6\" of a battlefield edge and more than 3\" from all enemy units.",
       "keywords": ["Oath"]
@@ -61,8 +59,7 @@
       "name": "Oath of Kinship",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "While this unit is within the combat range of another friendly Snow Peaks unit, add 1 to hit rolls for this unit’s attacks.",
-      "keywords": []
+      "effect": "While this unit is within the combat range of another friendly Snow Peaks unit, add 1 to hit rolls for this unit’s attacks."
     }
   ],
   "artefacts_of_power": [
@@ -71,8 +68,7 @@
       "activation": "Once Per Battle (Army), Any Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Snow Peaks Wilderfiend within 9\" of this unit to be the target.",
-      "effect": "Give the target D6 sacrifice points.",
-      "keywords": []
+      "effect": "Give the target D6 sacrifice points."
     }
   ],
   "warscrolls": [
@@ -81,11 +77,7 @@
       "move": "-",
       "health": "12",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
@@ -93,42 +85,33 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If this terrain feature has 3 or more power points, pick a friendly Slaves to Darkness Wizard within 3\" of this terrain feature to be the target.",
-          "effect": "Remove 3 power points from this terrain feature, then add 1 to casting rolls for the target for the rest of the turn.",
-          "keywords": []
+          "effect": "Remove 3 power points from this terrain feature, then add 1 to casting rolls for the target for the rest of the turn."
         },
         {
           "name": "Corrupt The Realms",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If this terrain feature has 9 or more power points, pick an objective or terrain feature within 24\" of this terrain feature to be the source. Then, pick any number of enemy units within 3\" of the source to be the targets.",
-          "effect": "Remove 9 power points from this terrain feature, then roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Remove 9 power points from this terrain feature, then roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Draw Power",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll a dice. Give a number of power points to this terrain feature equal to the roll. This terrain feature can have a maximum of 12 power points at once.",
-          "keywords": []
+          "effect": "Roll a dice. Give a number of power points to this terrain feature equal to the roll. This terrain feature can have a maximum of 12 power points at once."
         }
       ],
       "keywords": ["Faction Terrain", "Chaos", "Slaves to Darkness"],
       "image": "https://dhss9aar8ocw.cloudfront.net/c35d3d29-1b2f-4437-a0c8-7809ee9eab37",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Darkoath Chieftain",
       "move": "5\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -138,7 +121,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -148,15 +130,12 @@
           "name": "Tribal Warleader",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Darkoath Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Darkoath Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
         },
         {
           "name": "Oath of Murder",
           "activation": "Once Per Battle, End of Any Turn",
-          "phases": null,
-          "effect": "If this unit destroyed an enemy Hero or Monster this turn, this unit has Strike-first for the rest of the battle.",
-          "keywords": []
+          "effect": "If this unit destroyed an enemy Hero or Monster this turn, this unit has Strike-first for the rest of the battle."
         }
       ],
       "keywords": [
@@ -178,11 +157,7 @@
       "move": "12\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -193,7 +168,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -205,7 +179,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -214,9 +187,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -225,15 +196,13 @@
           "name": "Swift As The Wind",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Only critical hits score successful hits for shooting attacks that target this unit.",
-          "keywords": []
+          "effect": "Only critical hits score successful hits for shooting attacks that target this unit."
         },
         {
           "name": "Uncanny Shot",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Add 1 to the Rend characteristic of this unit’s Singri’s Warbow for attacks that target enemy units that are within 6\" of a friendly Gunnar Brand.",
-          "keywords": []
+          "effect": "Add 1 to the Rend characteristic of this unit’s Singri’s Warbow for attacks that target enemy units that are within 6\" of a friendly Gunnar Brand."
         }
       ],
       "keywords": [
@@ -248,7 +217,6 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/b2c3e531-6ba1-4de9-95b6-cd809f962f42",
       "baseSize": "60mm x 35mm",
-      "points": 0,
       "modelCount": 1,
       "notes": "This unit can only be taken in Gunnar Brand’s regiment."
     },
@@ -257,11 +225,7 @@
       "move": "5\"",
       "health": "6",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -271,7 +235,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -282,16 +245,13 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "This unit can only use this ability if it is in combat with an enemy Hero.",
-          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn. This unit can only use the second Fight ability if it is in combat with an enemy Hero, and if it does so, it must pick an enemy Hero to be the target of all of its attacks.",
-          "keywords": []
+          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn. This unit can only use the second Fight ability if it is in combat with an enemy Hero, and if it does so, it must pick an enemy Hero to be the target of all of its attacks."
         },
         {
           "name": "Oath of Bloodshed",
           "activation": "Once Per Battle, End of Any Turn",
-          "phases": null,
           "declare": "This unit can only use this ability if any enemy Heroes were slain by this unit’s combat attacks this turn.",
-          "effect": "Friendly Gunnar’s Oathsworn units have Ward (4+) for the rest of the battle.",
-          "keywords": []
+          "effect": "Friendly Gunnar’s Oathsworn units have Ward (4+) for the rest of the battle."
         }
       ],
       "keywords": [
@@ -307,19 +267,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e33100bf-2d2c-45b5-bf78-e98b9a5d6c22",
       "baseSize": "32mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Darkoath Marauders",
       "move": "5\"",
       "health": "1",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -328,9 +283,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -339,15 +292,13 @@
           "name": "Oath of the Marauder",
           "activation": "Once Per Battle, Any Charge Phase",
           "phases": ["Charge Phase"],
-          "effect": "If this unit charged this phase and the unmodified charge roll was 8+, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle.",
-          "keywords": []
+          "effect": "If this unit charged this phase and the unmodified charge roll was 8+, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle."
         },
         {
           "name": "Glorious Death",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit is wholly within 12\" of any friendly Darkoath Heroes, each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "While this unit is wholly within 12\" of any friendly Darkoath Heroes, each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -363,19 +314,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/876ae5c0-0994-4d2c-bb34-aa16c7f4d8c4",
       "baseSize": "28.5mm",
       "points": 100,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Darkoath Chieftain on Warsteed",
       "move": "12\"",
       "health": "7",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -385,7 +331,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -395,7 +340,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -405,15 +349,12 @@
           "name": "Cavalry Warleader",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "You can re-roll charge rolls for friendly Darkoath Cavalry units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "You can re-roll charge rolls for friendly Darkoath Cavalry units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Oath of Murder",
           "activation": "Once Per Battle, End of Any Turn",
-          "phases": null,
-          "effect": "If this unit destroyed an enemy Hero or Monster this turn, this unit has Strike-first for the rest of the battle.",
-          "keywords": []
+          "effect": "If this unit destroyed an enemy Hero or Monster this turn, this unit has Strike-first for the rest of the battle."
         }
       ],
       "keywords": [
@@ -427,19 +368,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/a34a7dd7-86cd-4ee5-851f-1921e218549d",
       "baseSize": "75 x 42mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Darkoath Fellriders",
       "move": "12\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -449,9 +385,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "-",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -462,7 +396,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -471,9 +404,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Warsteed’s Hooves",
@@ -482,7 +413,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -492,15 +422,13 @@
           "name": "Oath of the Raider",
           "activation": "Once Per Battle, Any Charge Phase",
           "phases": ["Charge Phase"],
-          "effect": "If this unit charged this phase and is only in combat with 1 enemy unit, and that enemy unit is only in combat with this unit, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle.",
-          "keywords": []
+          "effect": "If this unit charged this phase and is only in combat with 1 enemy unit, and that enemy unit is only in combat with this unit, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle."
         },
         {
           "name": "Swift Attackers",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
         }
       ],
       "keywords": [
@@ -516,8 +444,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/6ae11da9-2ff7-46f8-9b72-e8ab6bb39658",
       "baseSize": "60 x 35mm",
       "points": 150,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Darkoath Wilderfiend",
@@ -525,10 +452,7 @@
       "health": "9",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -538,7 +462,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -548,7 +471,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -558,22 +480,18 @@
           "name": "Feed on Flesh",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Each time a model (friendly or enemy) is slain within 12\" of this unit, give this unit a sacrifice point, to a maximum of 6. If there are more than 1 friendly Darkoath Wilderfiend units within 12\" of the slain model, only 1 of them can be given a sacrifice point for that slain model.",
-          "keywords": []
+          "effect": "Each time a model (friendly or enemy) is slain within 12\" of this unit, give this unit a sacrifice point, to a maximum of 6. If there are more than 1 friendly Darkoath Wilderfiend units within 12\" of the slain model, only 1 of them can be given a sacrifice point for that slain model."
         },
         {
           "name": "Primal Sorcery",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Pick 1 of the following effects:\n\nMind Shroud: Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of sacrifice points this unit has. If any of the rolls are a 5+, the target cannot use commands for the rest of the turn.\n\nWarping Balefire: Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of sacrifice points this unit has. For each 3+, inflict 1 mortal damage on the target.\n\nDark Might: Heal (X) this unit, where X is the number of sacrifice points this unit has.\n\nAfter applying the effect you picked, reset this unit’s sacrifice points to 0.",
-          "keywords": []
+          "effect": "Pick 1 of the following effects:\n\nMind Shroud: Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of sacrifice points this unit has. If any of the rolls are a 5+, the target cannot use commands for the rest of the turn.\n\nWarping Balefire: Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of sacrifice points this unit has. For each 3+, inflict 1 mortal damage on the target.\n\nDark Might: Heal (X) this unit, where X is the number of sacrifice points this unit has.\n\nAfter applying the effect you picked, reset this unit’s sacrifice points to 0."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": [
@@ -587,19 +505,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/7cf0bbc2-0c58-48c7-b62e-a1ee41bf04b4",
       "baseSize": "60mm",
       "points": 190,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Oathsworn Kin",
       "move": "5\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -608,9 +521,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Heavy Darkoath Weapon",
@@ -619,7 +530,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -629,8 +539,7 @@
           "name": "Broken Nadja",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Broken Nadja is on the battlefield, it has Wizard (1).",
-          "keywords": []
+          "effect": "While this unit’s Broken Nadja is on the battlefield, it has Wizard (1)."
         },
         {
           "name": "Withering Death",
@@ -653,7 +562,6 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/a4b8863b-19c9-405e-9afe-d9d7cc608411",
       "baseSize": "32mm",
-      "points": 0,
       "modelCount": 3,
       "notes": "This unit can only be taken in Gunnar Brand’s regiment. This unit cannot be reinforced."
     },
@@ -663,10 +571,7 @@
       "health": "5",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -676,7 +581,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -687,15 +591,13 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick an objective that this unit is contesting.",
-          "effect": "Roll a dice. On a 3+, for the rest of the turn, other friendly Darkoath units have Ward (5+) while they are contesting that objective.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, for the rest of the turn, other friendly Darkoath units have Ward (5+) while they are contesting that objective."
         },
         {
           "name": "Oath of Supremacy",
           "activation": "Once Per Battle, Any Charge Phase",
           "phases": ["Charge Phase"],
-          "effect": "If this unit is wholly within enemy territory and charged this phase, for the rest of the battle, add 1 to hit rolls for combat attacks made by friendly Darkoath units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "If this unit is wholly within enemy territory and charged this phase, for the rest of the battle, add 1 to hit rolls for combat attacks made by friendly Darkoath units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -710,19 +612,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9308efbb-fbd0-4ef7-9a16-83bce691d4c9",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Darkoath Savagers",
       "move": "5\"",
       "health": "1",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -732,7 +629,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -742,8 +638,7 @@
           "name": "Oath of Conquest",
           "activation": "Once Per Battle, Any Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "If this unit is contesting an objective you control that is wholly within enemy territory, this unit has Ward (5+) for the rest of the battle.",
-          "keywords": []
+          "effect": "If this unit is contesting an objective you control that is wholly within enemy territory, this unit has Ward (5+) for the rest of the battle."
         }
       ],
       "keywords": [

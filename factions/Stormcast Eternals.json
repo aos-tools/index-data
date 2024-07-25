@@ -14,8 +14,7 @@
       "activation": "Once Per Turn (Army), Your Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick a friendly Stormcast Eternals unit that has not used this ability this battle to use this ability.",
-      "effect": "For the rest of the turn, add 1 to wound rolls for that unit’s combat attacks and add 1 to save rolls for that unit.",
-      "keywords": []
+      "effect": "For the rest of the turn, add 1 to wound rolls for that unit’s combat attacks and add 1 to save rolls for that unit."
     },
     {
       "name": "Heavens-sent",
@@ -23,39 +22,14 @@
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly non-Unique Stormcast Eternals Infantry or Cavalry unit that started the battle with 2 or more models and that has been destroyed to be the target.",
       "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9\" from all enemy units.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Scions of the Storm",
       "activation": "Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Stormcast Eternals unit that is in the Celestial Realm.",
-      "effect": "Set up that unit anywhere on the battlefield more than 9\" from all enemy units.",
-      "keywords": []
-    },
-    {
-      "name": "Lightning-Strike Arrival",
-      "activation": "Your Movement Phase",
-      "phases": ["Movement Phase"],
-      "effect": "Set up this unit anywhere on the battlefield more than 6\" from all enemy units.",
-      "keywords": ["Core"]
-    },
-    {
-      "name": "Shield of Azyr",
-      "activation": "Once Per Battle, Your Hero Phase",
-      "phases": ["Hero Phase"],
-      "declare": "Pick a friendly unit.",
-      "effect": "Until the start of your next turn, that unit has Ward (5+).",
-      "keywords": []
-    },
-    {
-      "name": "Storm Charge",
-      "activation": "Once Per Battle, Your Charge Phase",
-      "phases": ["Charge Phase"],
-      "declare": "Pick a friendly unit that is not in combat.",
-      "effect": "That unit can use Charge abilities this turn even if it used a Run ability in the same turn.",
-      "keywords": []
+      "effect": "Set up that unit anywhere on the battlefield more than 9\" from all enemy units."
     }
   ],
   "battle_formations": {
@@ -64,39 +38,33 @@
       "activation": "Once Per Turn (Army), Any Combat Phase",
       "phases": ["Combat Phase"],
       "declare": "Pick a friendly Extremis Chamber unit that charged this turn.",
-      "effect": "Roll a dice. On a 3+, that unit has Strike-first for the rest of the turn.",
-      "keywords": []
+      "effect": "Roll a dice. On a 3+, that unit has Strike-first for the rest of the turn."
     },
     "Sacrosanct Convocation": {
       "name": "Cycle of the Storm",
       "activation": "Once Per Turn (Army), End of Your Turn",
-      "phases": null,
       "declare": "Pick a friendly Sacrosanct Chamber unit that had models slain in this turn to be the target.",
-      "effect": "Return 1 slain model to the target unit.",
-      "keywords": []
+      "effect": "Return 1 slain model to the target unit."
     },
     "Sentinels of the Bleak Citadels": {
       "name": "Ancient Aura",
       "activation": "Once Per Turn (Army), Any Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick a friendly Ruination Chamber unit.",
-      "effect": "That unit has Ward (5+) for the rest of the turn.",
-      "keywords": []
+      "effect": "That unit has Ward (5+) for the rest of the turn."
     },
     "Thunderhead Host": {
       "name": "Synchronised Strikes",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to hit rolls for combat attacks made by friendly Warrior Chamber units while they are wholly within 12\" of any friendly non-Hero Stormcast Eternals units that do not have the Warrior Chamber keyword.",
-      "keywords": []
+      "effect": "Add 1 to hit rolls for combat attacks made by friendly Warrior Chamber units while they are wholly within 12\" of any friendly non-Hero Stormcast Eternals units that do not have the Warrior Chamber keyword."
     },
     "Vanguard Wing": {
       "name": "Peerless Manouvres",
       "activation": "Once Per Turn (Army), Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Vanguard Chamber unit that is not in combat.",
-      "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again anywhere on the battlefield more than 9\" from all enemy units.",
-      "keywords": []
+      "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again anywhere on the battlefield more than 9\" from all enemy units."
     }
   },
   "heroic_traits": [
@@ -105,22 +73,18 @@
       "activation": "Your Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "If a friendly unit was destroyed in the previous turn, pick a visible friendly Stormcast Eternals unit wholly within 12\" of this unit to be the target.",
-      "effect": "The target has Ward (5+) until the start of your next turn.",
-      "keywords": []
+      "effect": "The target has Ward (5+) until the start of your next turn."
     },
     {
       "name": "Staunch Defender",
       "activation": "Passive",
-      "phases": null,
-      "effect": "While this unit is contesting an objective in friendly territory, add 3 to the control scores of all friendly Stormcast Eternals units contesting that objective.",
-      "keywords": []
+      "effect": "While this unit is contesting an objective in friendly territory, add 3 to the control scores of all friendly Stormcast Eternals units contesting that objective."
     },
     {
       "name": "Shock and Awe",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Each time a friendly Stormcast Eternals unit is set up wholly within 12\" of this unit using the ‘Scions of the Storm’ ability, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round.",
-      "keywords": []
+      "effect": "Each time a friendly Stormcast Eternals unit is set up wholly within 12\" of this unit using the ‘Scions of the Storm’ ability, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round."
     }
   ],
   "artefacts_of_power": [
@@ -128,23 +92,19 @@
       "name": "Quicksilver Draught",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
-      "effect": "This unit has Strike-first for the rest of the turn.",
-      "keywords": []
+      "effect": "This unit has Strike-first for the rest of the turn."
     },
     {
       "name": "Null Pendant",
       "activation": "Once Per Battle, End of Any Turn",
-      "phases": null,
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
-      "effect": "Subtract 5 from the target’s control score for the rest of the turn.",
-      "keywords": []
+      "effect": "Subtract 5 from the target’s control score for the rest of the turn."
     },
     {
       "name": "Mirrorshield",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "This unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it.",
-      "keywords": []
+      "effect": "This unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it."
     }
   ],
   "spell_lore": {
@@ -249,11 +209,7 @@
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -264,7 +220,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -275,9 +230,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -287,22 +240,19 @@
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick an enemy unit to be the target.",
-          "effect": "The target has the Hunted keyword for the rest of the battle.",
-          "keywords": []
+          "effect": "The target has the Hunted keyword for the rest of the battle."
         },
         {
           "name": "Star-marked",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Add 2\" to this unit’s Move characteristic while a Hunted enemy unit is on the battlefield. In addition, add 1 to hit rolls for this unit’s attacks that target a Hunted enemy unit.",
-          "keywords": []
+          "effect": "Add 2\" to this unit’s Move characteristic while a Hunted enemy unit is on the battlefield. In addition, add 1 to hit rolls for this unit’s attacks that target a Hunted enemy unit."
         },
         {
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         }
       ],
       "keywords": [
@@ -315,18 +265,13 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e316d924-713b-4cfc-a4f5-d936a74ca32d",
       "baseSize": "40mm",
       "points": 130,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Dais Arcanum",
       "move": "8\"",
       "health": "-",
       "save": "-",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -334,8 +279,7 @@
           "name": "Arcane Enhamcement",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While the unit that was picked to be the target of the ‘Summon Dais Arcanum’ ability is on the platform of this Manifestation:\n\n• That unit has Ward (5+).\n• If that unit is a Wizard, add 1 to that unit’s power level.\n• That unit cannot use Move abilities and remains on this Manifestation each time it moves.\n• Instead of measuring range or visibility to that unit, measure to this Manifestation instead.\n• This Manifestation cannot be picked to be the target of abilities other than Banish abilities.\n\nIf this Manifestation is banished, before removing it from the battlefield, set up the unit on its platform on the battlefield within 3\" of it. That unit can only be set up in combat with units it was already in combat with when this Manifestation was banished. If it is not possible to set up that unit, it is destroyed. \n\nIf the unit on the platform is destroyed, immediately remove this Manifestation from play.",
-          "keywords": []
+          "effect": "While the unit that was picked to be the target of the ‘Summon Dais Arcanum’ ability is on the platform of this Manifestation:\n\n• That unit has Ward (5+).\n• If that unit is a Wizard, add 1 to that unit’s power level.\n• That unit cannot use Move abilities and remains on this Manifestation each time it moves.\n• Instead of measuring range or visibility to that unit, measure to this Manifestation instead.\n• This Manifestation cannot be picked to be the target of abilities other than Banish abilities.\n\nIf this Manifestation is banished, before removing it from the battlefield, set up the unit on its platform on the battlefield within 3\" of it. That unit can only be set up in combat with units it was already in combat with when this Manifestation was banished. If it is not possible to set up that unit, it is destroyed. \n\nIf the unit on the platform is destroyed, immediately remove this Manifestation from play."
         }
       ],
       "keywords": [
@@ -347,20 +291,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/277ca4e7-822b-4e35-9caa-6fbeeef6cbff",
       "baseSize": "50mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Farstriders",
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -371,7 +309,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -382,9 +319,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -393,16 +328,14 @@
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         },
         {
           "name": "Star Falcon",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "If this unit’s Sanson Farstrider is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, inflict 1 mortal damage on the target."
         }
       ],
       "keywords": [
@@ -425,10 +358,7 @@
       "health": "6",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -438,7 +368,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -449,15 +378,13 @@
           "activation": "Once Per Battle, Your Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick up to 3 visible friendly Stormcast Eternals Infantry units wholly within 6\" of this unit to be the targets.",
-          "effect": "For the rest of the turn:\n• Add 1 to charge rolls for the targets.\n• Add 1 to the Attacks characteristic of the targets’ melee weapons.",
-          "keywords": []
+          "effect": "For the rest of the turn:\n• Add 1 to charge rolls for the targets.\n• Add 1 to the Attacks characteristic of the targets’ melee weapons."
         },
         {
           "name": "Aura of Purity",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit charged this turn, for the rest of the turn, friendly Stormcast Eternals units have Ward (5+) while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "If this unit charged this turn, for the rest of the turn, friendly Stormcast Eternals units have Ward (5+) while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -472,19 +399,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b56e498a-d1b3-420c-b5ec-292ace103882",
       "baseSize": "50mm",
       "points": 200,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lord-Terminos",
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -494,7 +416,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -504,22 +425,18 @@
           "name": "Earn an Honourable Death",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Ruination Chamber Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Ruination Chamber Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
         },
         {
           "name": "Memorian",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit’s Memorian is a token. Add 3 to the control scores of friendly Ruination Chamber units wholly within 12\" of this unit while its Memorian is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Memorian from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
-          "keywords": []
+          "effect": "This unit’s Memorian is a token. Add 3 to the control scores of friendly Ruination Chamber units wholly within 12\" of this unit while its Memorian is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Memorian from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         },
         {
           "name": "Ruination Chamber",
           "activation": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-Core ability",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
-          "keywords": []
+          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
       "keywords": [
@@ -532,19 +449,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/8e9fcfab-8f5b-4e8b-b8ed-d993819a48ea",
       "baseSize": "40mm [1], 25mm [1]",
       "points": 170,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vanguard-Raptors with Hurricane Crossbows",
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -555,7 +467,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Infantry (+1 Rend)"]
           }
         ],
@@ -566,9 +477,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -577,15 +486,13 @@
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         },
         {
           "name": "Coordinated Strike",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Add 1 to wound rolls for this unit’s shooting attacks if the target is in combat with any friendly Vanguard Chamber units.",
-          "keywords": []
+          "effect": "Add 1 to wound rolls for this unit’s shooting attacks if the target is in combat with any friendly Vanguard Chamber units."
         }
       ],
       "keywords": [
@@ -598,8 +505,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/345e2daf-7664-476e-a105-c552af57c80f",
       "baseSize": "40mm",
       "points": 130,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Everblaze Comet",
@@ -607,9 +513,6 @@
       "health": "5",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "6+",
       "weapons": {},
       "abilities": [
@@ -618,15 +521,13 @@
           "activation": "Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If this Manifestation was summoned this phase, pick any number of enemy units within 6\" of it to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Arcane Disruption",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Subtract 1 from casting rolls for enemy Wizards while they are within 12\" of this Manifestation.",
-          "keywords": []
+          "effect": "Subtract 1 from casting rolls for enemy Wizards while they are within 12\" of this Manifestation."
         }
       ],
       "keywords": [
@@ -638,20 +539,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/7855fc03-9b9c-4531-8d2a-ad77ed7fdb58",
       "baseSize": "65mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Evocators on Celestial Dracolines",
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -661,7 +556,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -671,7 +565,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -681,15 +574,13 @@
           "name": "Warrior Mages",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit can use Unbind abilities as if it had Wizard (1).",
-          "keywords": []
+          "effect": "This unit can use Unbind abilities as if it had Wizard (1)."
         },
         {
           "name": "Dracoline Fury",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit is contesting an objective you do not control, it has Strike-first.",
-          "keywords": []
+          "effect": "While this unit is contesting an objective you do not control, it has Strike-first."
         }
       ],
       "keywords": [
@@ -710,11 +601,7 @@
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -725,7 +612,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -737,7 +623,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -747,7 +632,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -758,15 +642,13 @@
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -778,19 +660,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/3216a306-3b9a-4cb7-be9b-99aea9affbd6",
       "baseSize": "90 x 52mm",
       "points": 250,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Knight-Incantor",
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -799,9 +677,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -817,8 +693,7 @@
           "name": "Aetheric Destabilisation",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use Summon abilities.",
-          "keywords": []
+          "effect": "While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use Summon abilities."
         }
       ],
       "keywords": [
@@ -840,11 +715,7 @@
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -854,7 +725,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -865,8 +735,7 @@
           "activation": "Once Per Turn (Army), Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a visible friendly Sacrosanct Chamber War Machine wholly within 12\" of this unit to be the target.",
-          "effect": "The target’s attacks score critical hits on unmodified hit rolls of 4+ for the rest of the phase.",
-          "keywords": []
+          "effect": "The target’s attacks score critical hits on unmodified hit rolls of 4+ for the rest of the phase."
         }
       ],
       "keywords": [
@@ -887,11 +756,8 @@
       "move": "12\"",
       "health": "20",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -902,7 +768,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3+3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -913,9 +778,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Apex Maw",
@@ -934,15 +797,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Apex Maw is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Apex Maw is 2."
         },
         {
           "name": "Regalia Fulmentarus",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 2 to casting rolls for this unit.",
-          "keywords": []
+          "effect": "Add 2 to casting rolls for this unit."
         },
         {
           "name": "Atavistic Tempest",
@@ -975,19 +836,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/6aca29be-956d-44b1-a647-8c054ab961d9",
       "baseSize": "160mm",
       "points": 540,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Dracothian Guard Tempestors",
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -998,7 +854,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -1009,7 +864,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -1021,7 +875,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1030,9 +883,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1042,15 +893,13 @@
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Volleystorm Crossbows to be the target.",
-          "effect": "Roll a dice. On a 2+, the target cannot use the ‘All-out Defence’ command in the following combat phase.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, the target cannot use the ‘All-out Defence’ command in the following combat phase."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1062,19 +911,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d34cb802-4a72-4d99-8592-cf7c9850362b",
       "baseSize": "90 x 52mm",
       "points": 210,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Ionus Cryptborn, Warden of Lost Souls",
       "move": "12\"",
       "health": "16",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "2",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1085,7 +930,6 @@
             "wound": "4+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -1096,9 +940,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Cthorak’s Ancient Claws",
@@ -1117,8 +959,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Cthorak’s Ancient Claws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Cthorak’s Ancient Claws is 4."
         },
         {
           "name": "Lightning Tempest",
@@ -1134,16 +975,14 @@
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "This unit can use this ability even if it has been destroyed. Pick any number of Soulburned enemy units to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Spirit-scouring Flames",
           "activation": "Once Per Turn (Army), Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Spirit‑scouring Flames to be the target.",
-          "effect": "The target has the Soulburned keyword for the rest of the battle.",
-          "keywords": []
+          "effect": "The target has the Soulburned keyword for the rest of the battle."
         }
       ],
       "keywords": [
@@ -1159,8 +998,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/fb75a99c-5841-4e7f-8caf-ea53b1c1c53f",
       "baseSize": "100mm",
       "points": 420,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Celestian Vortex",
@@ -1168,9 +1006,6 @@
       "health": "7",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -1181,7 +1016,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1191,8 +1025,7 @@
           "name": "Tornado of Magic",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for shooting attacks made by enemy  units while they are within 12\" of this Manifestation.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for shooting attacks made by enemy  units while they are within 12\" of this Manifestation."
         }
       ],
       "keywords": [
@@ -1205,20 +1038,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/6e4e4acb-a549-4dbf-97b9-973d59cb55c0",
       "baseSize": "65mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vanquishers",
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1228,7 +1055,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -1238,8 +1064,7 @@
           "name": "Lightning Strikes",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s Celestial Greatswords for attacks that target an enemy unit that has 5 or more models.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s Celestial Greatswords for attacks that target an enemy unit that has 5 or more models."
         }
       ],
       "keywords": [
@@ -1254,19 +1079,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e4d8ef00-e126-4d41-b545-535a359a1796",
       "baseSize": "40mm",
       "points": 110,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Knight-Zephyros",
       "move": "7\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1277,7 +1097,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           }
         ],
@@ -1289,7 +1108,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Hero (+1 Rend)"]
           }
         ]
@@ -1299,15 +1117,13 @@
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         },
         {
           "name": "Tireless Hunter",
           "activation": "Once Per Turn (Army), Your Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
         }
       ],
       "keywords": [
@@ -1328,11 +1144,7 @@
       "move": "7\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1343,7 +1155,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1355,7 +1166,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1365,15 +1175,13 @@
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         },
         {
           "name": "Justice From Azyr",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s Whirlwind Axes for attacks that target Heroes.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s Whirlwind Axes for attacks that target Heroes."
         },
         {
           "name": "Windrider",
@@ -1396,19 +1204,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d174ea6c-905d-4d0c-9775-c3134691f236",
       "baseSize": "40mm",
       "points": 360,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Retributors",
       "move": "4\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1418,7 +1221,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -1428,7 +1230,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1438,8 +1239,7 @@
           "name": "Crushing Counter-blow",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit is damaged or if any models in this unit were slain this turn, add 1 to hit rolls for this unit’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit is damaged or if any models in this unit were slain this turn, add 1 to hit rolls for this unit’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1460,11 +1260,7 @@
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1475,7 +1271,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -1487,7 +1282,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           },
           {
@@ -1497,7 +1291,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1507,15 +1300,13 @@
           "name": "Cleaving Blow",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s Thunderaxes if the target unit has 10 or more models.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s Thunderaxes if the target unit has 10 or more models."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1527,19 +1318,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f912fbef-d0b7-4227-920b-5dc908c5a88b",
       "baseSize": "90 x 52mm",
       "points": 230,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Lord-Imperatant",
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1549,7 +1335,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1560,15 +1345,13 @@
           "activation": "Once Per Battle, Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 3 friendly Stormcast Eternals units wholly within 12\" of this unit that were set up this turn using the ‘Scions of the Storm’ ability to be the targets.",
-          "effect": "Each target can immediately move D3\". The targets cannot move into combat during any part of that move.",
-          "keywords": []
+          "effect": "Each target can immediately move D3\". The targets cannot move into combat during any part of that move."
         },
         {
           "name": "Loyal Gryph-hound",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "This unit’s Gryph-hound is a token. This unit has Ward (5+) while its Gryph-hound is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Gryph-hound from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
-          "keywords": []
+          "effect": "This unit’s Gryph-hound is a token. This unit has Ward (5+) while its Gryph-hound is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Gryph-hound from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         }
       ],
       "keywords": [
@@ -1581,19 +1364,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/2fc8b00c-7447-41bd-8bc9-2f82c459e308",
       "baseSize": "40mm [1], 32mm [1]",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Domitan’s Stormcoven",
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1603,9 +1382,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -1615,9 +1392,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1626,8 +1401,7 @@
           "name": "Gather the Aether",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to this unit’s power level while it is contesting an objective.",
-          "keywords": []
+          "effect": "Add 1 to this unit’s power level while it is contesting an objective."
         },
         {
           "name": "Aethershock",
@@ -1658,11 +1432,7 @@
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1672,7 +1442,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1681,16 +1450,13 @@
         {
           "name": "Stalwart Defenders",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory.",
-          "keywords": []
+          "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
         },
         {
           "name": "Heroic Guard",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn.",
-          "keywords": []
+          "effect": "Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn."
         }
       ],
       "keywords": [
@@ -1714,9 +1480,7 @@
       "save": "4+",
       "ward": "5+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1725,9 +1489,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1744,8 +1506,7 @@
           "name": "Aquatic Illusions",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for attacks that target this unit."
         }
       ],
       "keywords": [
@@ -1760,7 +1521,6 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/9a5eedc9-effb-4eb2-aa0e-a61e83461001",
       "baseSize": "40mm",
-      "points": 0,
       "modelCount": 1,
       "notes": "This unit can only be taken in Neave Blacktalon’s regiment."
     },
@@ -1769,11 +1529,7 @@
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1784,7 +1540,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -1796,7 +1551,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -1806,7 +1560,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1817,15 +1570,13 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1837,19 +1588,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/79844dfe-5f0e-4809-80b9-32a49d1e3d53",
       "baseSize": "90 x 52mm",
       "points": 230,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Dracothian Guard Fulminators (1 model)",
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1860,7 +1606,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -1872,7 +1617,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1882,7 +1626,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -1893,15 +1636,13 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1921,11 +1662,7 @@
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1936,7 +1673,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -1948,7 +1684,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1958,7 +1693,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -1968,15 +1702,13 @@
           "name": "Cleaving Blow",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s Thunderaxes if the target unit has 10 or more models.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s Thunderaxes if the target unit has 10 or more models."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1996,11 +1728,7 @@
       "move": "4\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2010,7 +1738,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -2020,7 +1747,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -2030,8 +1756,7 @@
           "name": "Decimating Blow",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s Decimator Thunderaxes if the target unit has 10 or more models.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s Decimator Thunderaxes if the target unit has 10 or more models."
         }
       ],
       "keywords": [
@@ -2052,11 +1777,8 @@
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2065,9 +1787,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2077,8 +1797,7 @@
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, subtract 1 from ward rolls made by the target for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, subtract 1 from ward rolls made by the target for the rest of the turn."
         }
       ],
       "keywords": [
@@ -2092,8 +1811,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/87965fdb-19c2-49a7-9f58-5102292e7d16",
       "baseSize": "40mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Yndrasta, the Celestial Spear",
@@ -2101,10 +1819,7 @@
       "health": "8",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2115,7 +1830,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "4",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ],
@@ -2127,7 +1841,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -2136,9 +1849,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -2147,22 +1858,18 @@
           "name": "On Wings of Brilliance",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
-          "keywords": []
+          "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
         },
         {
           "name": "The Prime Huntress",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Double the Damage characteristic of this unit’s Thengavar for attacks that target Monsters.",
-          "keywords": []
+          "effect": "Double the Damage characteristic of this unit’s Thengavar for attacks that target Monsters."
         },
         {
           "name": "Dazzling Radiance",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Ignore negative modifiers to the control scores of friendly Stormcast Eternals units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Ignore negative modifiers to the control scores of friendly Stormcast Eternals units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -2178,19 +1885,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e275e240-8ad4-4072-bb48-b9a8f6860d89",
       "baseSize": "60mm",
       "points": 340,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Annihilators with Meteoric Grandhammers",
       "move": "4\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2199,9 +1901,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -2211,16 +1911,14 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Force of a Falling Star",
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase and the unmodified charge roll was 8+, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "The target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "The target has Strike-last for the rest of the turn."
         }
       ],
       "keywords": [
@@ -2233,19 +1931,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/71c4fc62-1f80-4a79-ae3a-dd1a3c10bbb7",
       "baseSize": "40mm",
       "points": 220,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Knight-Judicator with Gryph Hounds",
       "move": "6\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2255,9 +1948,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ],
         "melee": [
@@ -2267,9 +1958,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2278,16 +1967,14 @@
           "name": "Faithful Gryph-hounds",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit’s Gryph-hounds are tokens. After setting up this unit on the battlefield for the first time, place both Gryph-hounds next to it.",
-          "keywords": []
+          "effect": "This unit’s Gryph-hounds are tokens. After setting up this unit on the battlefield for the first time, place both Gryph-hounds next to it."
         },
         {
           "name": "Hunting Hounds",
           "activation": "Once Per Turn, Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "If this unit was not set up this turn and any of this unit’s Gryph‑hounds are on the battlefield, pick an enemy unit within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 1, remove 1 of this unit’s Gryph-hounds from the battlefield. On a 2+, pick 1 of this unit’s Gryph-hounds that is next to this unit or next to an enemy unit and place it next to the target instead.\n\nWhile any of this unit’s Gryph-hounds are next to an enemy unit, add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target that unit. If an enemy unit is destroyed or removed from the battlefield while any of this unit’s Gryph-hounds are next to it, place those Gryph-hounds next to this unit.",
-          "keywords": []
+          "effect": "Roll a dice. On a 1, remove 1 of this unit’s Gryph-hounds from the battlefield. On a 2+, pick 1 of this unit’s Gryph-hounds that is next to this unit or next to an enemy unit and place it next to the target instead.\n\nWhile any of this unit’s Gryph-hounds are next to an enemy unit, add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target that unit. If an enemy unit is destroyed or removed from the battlefield while any of this unit’s Gryph-hounds are next to it, place those Gryph-hounds next to this unit."
         }
       ],
       "keywords": [
@@ -2300,19 +1987,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9f4e9e18-233a-453e-9b5a-6bf1aa156e52",
       "baseSize": "90 x 52mm [1], 40mm [2]",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lord-Relictor",
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2322,7 +2005,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -2332,8 +2014,7 @@
           "name": "Mortis Priest",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to chanting rolls for this unit.",
-          "keywords": []
+          "effect": "Add 1 to chanting rolls for this unit."
         }
       ],
       "keywords": [
@@ -2347,19 +2028,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c6274d0d-e967-455e-b91f-4a9fb4102f08",
       "baseSize": "40mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Celestar Ballista",
       "move": "3\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2370,7 +2046,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Monster (+1 Rend)"]
           }
         ],
@@ -2381,9 +2056,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2393,8 +2066,7 @@
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit and that charged this turn to be the target.",
-          "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -2414,11 +2086,7 @@
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2429,7 +2097,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           }
         ],
@@ -2440,9 +2107,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Stormcharged Warhammer",
@@ -2450,9 +2115,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Anda’s Celestial Talons",
@@ -2461,7 +2124,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2471,8 +2133,7 @@
           "name": "Shield of Azyr",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly The Blacktalons Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly The Blacktalons Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -2484,7 +2145,6 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/a5565163-4f00-4f6b-a43d-3bd39c037cbc",
       "baseSize": "40mm",
-      "points": 0,
       "modelCount": 3,
       "notes": "This unit can only be taken in Neave Blacktalon’s regiment. This unit cannot be reinforced."
     },
@@ -2493,11 +2153,7 @@
       "move": "10\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2508,7 +2164,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -2520,7 +2175,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           },
           {
@@ -2530,7 +2184,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2540,15 +2193,13 @@
           "name": "Righteous Avengers",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Extremis Chamber Cavalry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Extremis Chamber Cavalry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -2561,19 +2212,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/33438b9c-a99e-4df7-877f-8a351de9c3d8",
       "baseSize": "90 x 52mm",
       "points": 190,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Protectors",
       "move": "4\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2583,7 +2229,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -2592,9 +2237,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2603,8 +2246,7 @@
           "name": "Shield of the Storm",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Stormcast Eternals Infantry Heroes are within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly Stormcast Eternals Infantry Heroes are within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -2625,11 +2267,7 @@
       "move": "12\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2640,7 +2278,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Monster (+1 Rend)"]
           }
         ],
@@ -2652,7 +2289,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2661,9 +2297,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2697,10 +2331,7 @@
       "health": "10",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2710,9 +2341,7 @@
             "hit": "2+",
             "wound": "*",
             "rend": "*",
-            "damage": "*",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "*"
           }
         ],
         "melee": [
@@ -2723,7 +2352,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "4",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -2734,15 +2362,13 @@
           "activation": "Once Per Battle, Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is in the Celestial Realm.",
-          "effect": "Subtract the current battle round number from 10 to determine this unit’s strike zone. Set up this unit on the battlefield more than a number of inches equal to its strike zone from all enemy units.",
-          "keywords": []
+          "effect": "Subtract the current battle round number from 10 to determine this unit’s strike zone. Set up this unit on the battlefield more than a number of inches equal to its strike zone from all enemy units."
         },
         {
           "name": "Cometstrike Sceptre",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit attacks with its Cometstrike Sceptre, if the attack scores a hit, inflict D3 mortal damage on the target.",
-          "keywords": []
+          "effect": "Each time this unit attacks with its Cometstrike Sceptre, if the attack scores a hit, inflict D3 mortal damage on the target."
         }
       ],
       "keywords": [
@@ -2758,19 +2384,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/66794331-5bca-459b-b101-7d5c73d8e577",
       "baseSize": "100mm",
       "points": 360,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lord-Arcanum on Gryph-charger",
       "move": "12\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2780,7 +2402,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2789,9 +2410,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2800,16 +2419,13 @@
           "name": "On the Winds Aetheric",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
         },
         {
           "name": "Healing Light",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick a visible friendly Sacrosanct Chamber unit that is not in combat and is within 12\" of this unit to be the target.",
-          "effect": "If the target is damaged, Heal (D6) the target. If the target is not damaged, return a slain model to it.",
-          "keywords": []
+          "effect": "If the target is damaged, Heal (D6) the target. If the target is not damaged, return a slain model to it."
         }
       ],
       "keywords": [
@@ -2831,11 +2447,7 @@
       "move": "6\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2845,9 +2457,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -2857,9 +2467,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2868,8 +2476,7 @@
           "name": "Navigators of the Storm",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "If an enemy unit had any damage points allocated to it this turn by this unit’s shooting attacks, add 1 to hit rolls for attacks made by friendly Stormcast Eternals units that target that unit for the rest of the turn.",
-          "keywords": []
+          "effect": "If an enemy unit had any damage points allocated to it this turn by this unit’s shooting attacks, add 1 to hit rolls for attacks made by friendly Stormcast Eternals units that target that unit for the rest of the turn."
         }
       ],
       "keywords": [
@@ -2882,8 +2489,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/edc36dbe-95ed-4e68-b82c-1cb4fed8c1f2",
       "baseSize": "40mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Lord-Commander Bastian Carthalos",
@@ -2891,10 +2497,7 @@
       "health": "8",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2904,9 +2507,7 @@
             "hit": "2+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -2917,7 +2518,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "4",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -2928,22 +2528,18 @@
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick up to 3 friendly Stormcast Eternals Infantry units to be the targets.",
-          "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase.",
-          "keywords": []
+          "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
           "name": "Voice of Thunder",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Each time a friendly Stormcast Eternals unit wholly within 12\" of this unit uses the ‘All-out Attack’ command, no command points are spent.",
-          "keywords": []
+          "effect": "Each time a friendly Stormcast Eternals unit wholly within 12\" of this unit uses the ‘All-out Attack’ command, no command points are spent."
         },
         {
           "name": "Mantle of the First Storm",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "If any enemy models were slain by this unit’s attacks this turn, Heal (4) this unit.",
-          "keywords": []
+          "effect": "If any enemy models were slain by this unit’s attacks this turn, Heal (4) this unit."
         }
       ],
       "keywords": [
@@ -2957,19 +2553,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/6d4e0761-7a33-4b60-b989-9c33fe5f6e54",
       "baseSize": "50mm",
       "points": 270,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Karazai the Scarred",
       "move": "12\"",
       "health": "20",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2980,7 +2571,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3+3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -2991,9 +2581,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Annihilating Jaws",
@@ -3002,7 +2590,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "4",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -3013,8 +2600,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit within this unit’s combat range to be the target.",
-          "effect": "Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn."
         },
         {
           "name": "Calamitous Tail Sweep",
@@ -3028,8 +2614,7 @@
           "name": "Fires of Retribution",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons. \n\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead.",
-          "keywords": []
+          "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons. \n\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead."
         }
       ],
       "keywords": [
@@ -3044,19 +2629,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b7b8f570-646f-4571-b029-39e771fa5d50",
       "baseSize": "160mm",
       "points": 500,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Judicators with Skybolt Bows",
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3067,7 +2647,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -3078,7 +2657,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -3089,9 +2667,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -3101,8 +2677,7 @@
           "activation": "Once Per Turn (Army), Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a visible enemy Monster that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.",
-          "effect": "Roll a dice. On a 3+, the target cannot use Rampage abilities until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target cannot use Rampage abilities until the start of your next turn."
         }
       ],
       "keywords": [
@@ -3123,11 +2698,7 @@
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3137,7 +2708,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -3147,16 +2717,14 @@
           "name": "Warrior Mages",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit can use Unbind abilities as if it had Wizard (1).",
-          "keywords": []
+          "effect": "This unit can use Unbind abilities as if it had Wizard (1)."
         },
         {
           "name": "Empower",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this unit is contesting an objective you control, pick a visible friendly non-Hero Stormcast Eternals Infantry unit within 12\" of this unit to be the target.",
-          "effect": "Add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to wound rolls for the target’s combat attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -3177,11 +2745,7 @@
       "move": "12\"",
       "health": "18",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3192,7 +2756,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ],
@@ -3204,7 +2767,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           },
           {
@@ -3224,15 +2786,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stardrake’s Cavernous Jaws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stardrake’s Cavernous Jaws is 4."
         },
         {
           "name": "Lord of the Host",
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of other friendly Extremis Chamber units wholly within 12\" of this unit for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of other friendly Extremis Chamber units wholly within 12\" of this unit for the rest of the turn."
         },
         {
           "name": "Cavernous Jaws",
@@ -3246,8 +2806,7 @@
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -3261,19 +2820,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f0e0cd00-37a1-4ae3-9872-723c57f10672",
       "baseSize": "170 x 105mm",
       "points": 490,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Questor Soulsworn",
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3282,9 +2836,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -3293,8 +2845,7 @@
           "name": "Ordained Quest",
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked.",
-          "keywords": []
+          "effect": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
         },
         {
           "name": "Relictor Soulguide",
@@ -3308,8 +2859,7 @@
           "name": "His Will Be Done",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is contesting a questmarked objective:\n\n• Add 3 to this unit’s control score.\n• This unit has Ward (5+).",
-          "keywords": []
+          "effect": "While this unit is contesting a questmarked objective:\n\n• Add 3 to this unit’s control score.\n• This unit has Ward (5+)."
         }
       ],
       "keywords": [
@@ -3330,11 +2880,7 @@
       "move": "12\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3344,9 +2890,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -3357,7 +2901,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -3367,22 +2910,19 @@
           "name": "Dispersed Formation",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit has a coherency range of 2\".",
-          "keywords": []
+          "effect": "This unit has a coherency range of 2\"."
         },
         {
           "name": "Heralds of Righteousness",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
-          "keywords": []
+          "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
         },
         {
           "name": "Ruination Chamber",
           "activation": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-Core ability",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
-          "keywords": []
+          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
       "keywords": [
@@ -3396,19 +2936,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d7da16a3-c3b1-4700-aea8-d69672018cca",
       "baseSize": "40mm",
       "points": 140,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Lord-Arcanum on Tauralon",
       "move": "14\"",
       "health": "12",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3417,9 +2953,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Tauralon’s Hooves",
@@ -3428,7 +2962,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -3439,15 +2972,13 @@
           "activation": "Once Per Turn (Army), Enemy Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a visible enemy Wizard that used a Spell ability this phase and is within 30\" of this unit to be the target.",
-          "effect": "Roll X+1 dice, where X is an amount equal to the target’s power level. For each 2+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll X+1 dice, where X is an amount equal to the target’s power level. For each 2+, inflict 1 mortal damage on the target."
         },
         {
           "name": "Trails of Astral Light",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to casting rolls for friendly Stormcast Eternals Wizards while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for friendly Stormcast Eternals Wizards while they are wholly within 12\" of this unit."
         },
         {
           "name": "Starlight Mantle",
@@ -3478,11 +3009,8 @@
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3491,9 +3019,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -3503,15 +3029,12 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a visible enemy Priest within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+:\n\n• If the target has any ritual points, remove a number of ritual points from it equal to the roll.\n• If the target has no ritual points, inflict D3 mortal damage on it.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+:\n\n• If the target has any ritual points, remove a number of ritual points from it equal to the roll.\n• If the target has no ritual points, inflict D3 mortal damage on it."
         },
         {
           "name": "Redemptor Casket",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Models cannot be returned to enemy units within 12\" of this unit.",
-          "keywords": []
+          "effect": "Models cannot be returned to enemy units within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -3533,11 +3056,7 @@
       "move": "12\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3546,9 +3065,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Gryph-stalker’s Beak and Talons",
@@ -3557,7 +3074,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -3568,15 +3084,13 @@
           "activation": "Once Per Battle (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a friendly non-Hero Ruination Chamber unit wholly within 12\" of this unit.",
-          "effect": "That unit can use 2 Fight abilities this phase. After the first is used, however, that unit has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "That unit can use 2 Fight abilities this phase. After the first is used, however, that unit has Strike-last for the rest of the turn."
         },
         {
           "name": "Ruination Chamber",
           "activation": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-Core ability",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
-          "keywords": []
+          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
       "keywords": [
@@ -3589,19 +3103,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0375ef81-3920-4677-8f4b-ad4501d75cc5",
       "baseSize": "90 x 52mm",
       "points": 210,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Praetors",
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3610,9 +3119,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -3621,15 +3128,13 @@
           "name": "Soul-bonded",
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "Pick a friendly Stormcast Eternals Hero to be this unit’s soulbonded charge for the rest of the battle.",
-          "keywords": []
+          "effect": "Pick a friendly Stormcast Eternals Hero to be this unit’s soulbonded charge for the rest of the battle."
         },
         {
           "name": "Soul-forged Guardians",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit’s soul-bonded charge is within this unit’s combat range, both this unit and that soul-bonded charge have Ward (5+).",
-          "keywords": []
+          "effect": "While this unit’s soul-bonded charge is within this unit’s combat range, both this unit and that soul-bonded charge have Ward (5+)."
         }
       ],
       "keywords": [
@@ -3642,19 +3147,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4a6b68ad-96e0-481a-9a90-0e0484109ec4",
       "baseSize": "40mm",
       "points": 150,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Knight-Heraldor",
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3663,9 +3163,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -3674,16 +3172,14 @@
           "name": "Call to Battle",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "If a friendly Warrior Chamber unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
-          "keywords": []
+          "effect": "If a friendly Warrior Chamber unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
         },
         {
           "name": "Thunderblast",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a visible faction terrain feature within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -3704,11 +3200,7 @@
       "move": "12\"",
       "health": "11",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3719,7 +3211,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -3730,9 +3221,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Draconith’s Fangs and Talons",
@@ -3741,7 +3230,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -3751,8 +3239,7 @@
           "name": "Arcane Heritage",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If this unit or a friendly Stormdrake Guard unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability.",
-          "keywords": []
+          "effect": "If this unit or a friendly Stormdrake Guard unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability."
         },
         {
           "name": "Wrath of the Draconith",
@@ -3766,8 +3253,7 @@
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -3781,19 +3267,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/35169e5b-80f6-4a12-8a30-6a8b345e71c4",
       "baseSize": "105 x 70mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vandus Hammerhand",
       "move": "10\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3804,7 +3285,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -3816,7 +3296,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           },
           {
@@ -3826,7 +3305,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -3836,15 +3314,12 @@
           "name": "Vengeance Unleashed",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Warrior Chamber unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Warrior Chamber unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
         },
         {
           "name": "Lord of the Hammerhands",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Add 3 to the control scores of friendly Warrior Chamber units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 3 to the control scores of friendly Warrior Chamber units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -3858,19 +3333,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b135ad61-f512-42b0-8105-5196862a1550",
       "baseSize": "90 x 52mm",
       "points": 230,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lord-Veritant",
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3880,7 +3351,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Wizard (+1 Rend)", "Anti-Priest (+1 Rend)"]
           },
           {
@@ -3889,9 +3359,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -3900,22 +3368,19 @@
           "name": "Staff of Abjuration",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit can use Unbind abilities as if it had Wizard (1).",
-          "keywords": []
+          "effect": "This unit can use Unbind abilities as if it had Wizard (1)."
         },
         {
           "name": "Sense Unholy Sorcery",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit’s Gryph-crow is a token. Subtract 1 from casting rolls and chanting rolls for enemy units within 12\" of this unit while its Gryph-crow is on the battlefield.\nIf you make an unmodified save roll of 1 for this unit, remove its Gryph-crow from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
-          "keywords": []
+          "effect": "This unit’s Gryph-crow is a token. Subtract 1 from casting rolls and chanting rolls for enemy units within 12\" of this unit while its Gryph-crow is on the battlefield.\nIf you make an unmodified save roll of 1 for this unit, remove its Gryph-crow from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         },
         {
           "name": "Ruination Chamber",
           "activation": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-Core ability",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
-          "keywords": []
+          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
       "keywords": [
@@ -3929,19 +3394,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4994898b-9aeb-42f9-9b05-7ae39fdbf1d6",
       "baseSize": "40mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vanguard-Palladors with Shock Handaxes",
       "move": "14\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -3952,7 +3412,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -3964,7 +3423,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -3974,7 +3432,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -3984,15 +3441,13 @@
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         },
         {
           "name": "Shocking Strikes",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s Shock Handaxes, subtract 1 from wound rolls for that enemy unit’s combat attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s Shock Handaxes, subtract 1 from wound rolls for that enemy unit’s combat attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -4006,19 +3461,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/761bebc8-7916-4dae-b10f-98664cd34b60",
       "baseSize": "75 x 42mm",
       "points": 230,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Knight-Vexillor",
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -4027,9 +3477,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -4039,8 +3487,7 @@
           "activation": "Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick D3 friendly Stormcast Eternals units wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 3 to each target’s control score for the rest of the turn. In addition, Heal (D3) each target.",
-          "keywords": []
+          "effect": "Add 3 to each target’s control score for the rest of the turn. In addition, Heal (D3) each target."
         }
       ],
       "keywords": [
@@ -4061,11 +3508,7 @@
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -4075,7 +3518,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -4085,7 +3527,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -4095,23 +3536,20 @@
           "name": "Dutiful Gryph-hound",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit’s Gryph-hound is a token. If this unit’s Gryph-hound has been removed, it can no longer attack with its Gryph-hound’s Beak and it cannot use the ‘Loyal Companion’ ability.",
-          "keywords": []
+          "effect": "This unit’s Gryph-hound is a token. If this unit’s Gryph-hound has been removed, it can no longer attack with its Gryph-hound’s Beak and it cannot use the ‘Loyal Companion’ ability."
         },
         {
           "name": "Warding Lantern",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick an objective within 12\" of this unit to be the target.",
-          "effect": "For the rest of the turn:\n\n• Friendly Stormcast Eternals units have Ward (6+) while they are contesting the target.\n• Ward rolls cannot be made for enemy units while they are contesting the target.",
-          "keywords": []
+          "effect": "For the rest of the turn:\n\n• Friendly Stormcast Eternals units have Ward (6+) while they are contesting the target.\n• Ward rolls cannot be made for enemy units while they are contesting the target."
         },
         {
           "name": "Loyal Companion",
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "For the rest of the turn, this unit has Ward (4+). Remove this unit’s Gryph-hound from the battlefield at the end of the turn.",
-          "keywords": []
+          "effect": "For the rest of the turn, this unit has Ward (4+). Remove this unit’s Gryph-hound from the battlefield at the end of the turn."
         }
       ],
       "keywords": [
@@ -4132,11 +3570,7 @@
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -4146,7 +3580,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)", "Crit (Mortal)"]
           }
         ]
@@ -4156,22 +3589,19 @@
           "name": "Ordained Quest",
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked.",
-          "keywords": []
+          "effect": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
         },
         {
           "name": "Heroic Retribution",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly Questor Soulsworn unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly Questor Soulsworn unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         },
         {
           "name": "His Will Be Done",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is contesting a questmarked objective:\n\n• Add 3 to this unit’s control score.\n• This unit has Ward (5+).",
-          "keywords": []
+          "effect": "While this unit is contesting a questmarked objective:\n\n• Add 3 to this unit’s control score.\n• This unit has Ward (5+)."
         }
       ],
       "keywords": [
@@ -4192,11 +3622,8 @@
       "move": "10\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -4206,7 +3633,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -4216,7 +3642,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -4235,16 +3660,14 @@
           "name": "Thunderous Pounce",
           "activation": "Your Charge Phase",
           "phases": ["Charge Phase"],
-          "effect": "Add 2 to charge rolls for friendly Sacrosanct Chamber Cavalry units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 2 to charge rolls for friendly Sacrosanct Chamber Cavalry units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Soul Energy of the First Host",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a visible friendly Sacrosanct Chamber unit wholly within 12\" of this unit to be the target.",
-          "effect": "Add 1 to wound rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to wound rolls for the target’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -4267,11 +3690,7 @@
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -4282,7 +3701,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)", "Crit (Auto-wound)"]
           }
         ],
@@ -4293,9 +3711,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -4304,15 +3720,13 @@
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         },
         {
           "name": "Headshot",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, for the rest of the turn, this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking targets for its shooting attacks.",
-          "keywords": []
+          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, for the rest of the turn, this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking targets for its shooting attacks."
         }
       ],
       "keywords": [
@@ -4325,19 +3739,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5c6fa39b-567f-4474-88de-40b9f46296aa",
       "baseSize": "60 x 35mm [2], 40mm [1]",
       "points": 170,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Xandire's Truthseekers",
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -4347,9 +3756,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -4360,7 +3767,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Anti-Monster (+1 Rend)"]
           },
           {
@@ -4370,7 +3776,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -4380,16 +3785,14 @@
           "name": "Taros",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit’s Taros is a token. After setting up this unit on the battlefield for the first time, place Taros next to it.",
-          "keywords": []
+          "effect": "This unit’s Taros is a token. After setting up this unit on the battlefield for the first time, place Taros next to it."
         },
         {
           "name": "Harrying Aetherwing",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "If any attacks made with this unit’s Stormcaller Bow scored a critical hit this phase, pick an enemy unit targeted by those attacks to be the target.",
-          "effect": "Until the start of your next turn, place Taros next to the target. While Taros is placed next to an enemy unit, that enemy unit cannot use commands.",
-          "keywords": []
+          "effect": "Until the start of your next turn, place Taros next to the target. While Taros is placed next to an enemy unit, that enemy unit cannot use commands."
         }
       ],
       "keywords": [
@@ -4411,11 +3814,7 @@
       "move": "12\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -4425,7 +3824,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -4435,15 +3833,12 @@
           "name": "Marked for Destruction",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Add 1 to hit rolls for shooting attacks made by friendly Vanguard Chamber units if the target is within 9\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for shooting attacks made by friendly Vanguard Chamber units if the target is within 9\" of this unit."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": [
@@ -4456,19 +3851,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/22d3d8f3-664f-46d2-9b8a-c03428e08ca0",
       "baseSize": "32mm",
       "points": 90,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Reclusians",
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -4478,7 +3868,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -4488,15 +3877,13 @@
           "name": "Memorian Descendants",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit’s Memorians are tokens. There are 2 Memorians for every 3 models in this unit. While any of this unit’s Memorians are on the battlefield, add 1 to this unit’s resistance rolls when using the ‘Ruination Chamber’ ability. Each time you make an unmodified save roll of 1 for this unit, remove 1 of its Memorians from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
-          "keywords": []
+          "effect": "This unit’s Memorians are tokens. There are 2 Memorians for every 3 models in this unit. While any of this unit’s Memorians are on the battlefield, add 1 to this unit’s resistance rolls when using the ‘Ruination Chamber’ ability. Each time you make an unmodified save roll of 1 for this unit, remove 1 of its Memorians from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         },
         {
           "name": "Ruination Chamber",
           "activation": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-Core ability",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
-          "keywords": []
+          "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
       "keywords": [
@@ -4509,19 +3896,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c6ba6a09-bfd5-4a59-924e-257119d6a49d",
       "baseSize": "40mm",
       "points": 150,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Vanguard-Palladors with Starstrike Javelins",
       "move": "14\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -4532,7 +3914,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           },
           {
@@ -4542,9 +3923,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ],
         "melee": [
@@ -4554,9 +3933,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Gryph-charger’s Razor Beak",
@@ -4565,7 +3942,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -4575,16 +3951,14 @@
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         },
         {
           "name": "Charging Volley",
           "activation": "Your Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit in combat with it to be the target.",
-          "effect": "This unit can immediately use a Shoot ability as if it were your shooting phase, but it must target that enemy unit. This unit’s Starstrike Javelins have Shoot in Combat this phase.",
-          "keywords": []
+          "effect": "This unit can immediately use a Shoot ability as if it were your shooting phase, but it must target that enemy unit. This unit’s Starstrike Javelins have Shoot in Combat this phase."
         }
       ],
       "keywords": [
@@ -4598,19 +3972,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9d63d209-c80e-44fc-964d-5dcb91036829",
       "baseSize": "75 x 42mm",
       "points": 230,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Castigators",
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -4621,7 +3990,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Cavalry (+1 Rend)"]
           }
         ],
@@ -4632,9 +4000,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -4643,22 +4009,19 @@
           "name": "Dependable Gryph-hound",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit’s Gryph-hound is a token. If this unit’s Gryph-hound has been removed, it cannot use the ‘Scouting Companion’ ability.",
-          "keywords": []
+          "effect": "This unit’s Gryph-hound is a token. If this unit’s Gryph-hound has been removed, it cannot use the ‘Scouting Companion’ ability."
         },
         {
           "name": "Scouting Companion",
           "activation": "Reaction: You declared a Shoot ability for this unit",
           "phases": ["Shooting Phase"],
-          "effect": "Until the Shoot ability is resolved, add 3\" to the Range characterisic of this unit’s Thunderhead Greatbows and add 1 to hit rolls for this unit’s shooting attacks. Remove this unit’s Gryph hound from the battlefield after the Shoot ability has been resolved.",
-          "keywords": []
+          "effect": "Until the Shoot ability is resolved, add 3\" to the Range characterisic of this unit’s Thunderhead Greatbows and add 1 to hit rolls for this unit’s shooting attacks. Remove this unit’s Gryph hound from the battlefield after the Shoot ability has been resolved."
         },
         {
           "name": "Castigator Aetheric Channelling",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn."
         }
       ],
       "keywords": [
@@ -4679,11 +4042,7 @@
       "move": "9\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -4693,7 +4052,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -4704,34 +4062,26 @@
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit within 12\" of this unit that was set up this turn. Then, pick up to 3 friendly Stormcast Eternals units armed with ranged weapons that are within 12\" of that enemy unit to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": ["Beast", "Champion", "Order", "Stormcast Eternals"],
       "image": "https://dhss9aar8ocw.cloudfront.net/9ce463c4-d4df-4fc1-8dbe-1fbf2dea33bb",
       "baseSize": "40mm",
       "points": 80,
-      "modelCount": 6,
-      "notes": ""
+      "modelCount": 6
     },
     {
       "name": "Lord-Aquilor",
       "move": "14\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -4742,7 +4092,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -4753,9 +4102,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Gryph-charger’s Razor Beak",
@@ -4764,7 +4111,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -4774,16 +4120,14 @@
           "name": "Vanguard Chamber",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
-          "keywords": []
+          "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         },
         {
           "name": "Ride the Winds Aetheric",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "If this unit is not in combat, you can pick up to 2 friendly Vanguard- Palladors units that are not in combat to be the targets.",
-          "effect": "Remove this unit and the targets (if any) from the battlefield. Set this unit up again on the battlefield more than 9\" from all enemy units. Then, set up each target wholly within 12\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Remove this unit and the targets (if any) from the battlefield. Set this unit up again on the battlefield more than 9\" from all enemy units. Then, set up each target wholly within 12\" of this unit and more than 9\" from all enemy units."
         }
       ],
       "keywords": [
@@ -4796,19 +4140,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/3b34fdc8-b54b-4467-91ff-700020d093f3",
       "baseSize": "90 x 52mm",
       "points": 200,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Drakesworn Templar",
       "move": "12\"",
       "health": "18",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -4819,7 +4158,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -4830,7 +4168,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -4852,7 +4189,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)", "Anti-Monster (+1 Rend)"]
           }
         ]
@@ -4862,8 +4198,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stardrake’s Cavernous Jaws is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stardrake’s Cavernous Jaws is 4."
         },
         {
           "name": "Monstrous Challenge",
@@ -4877,8 +4212,7 @@
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -4892,19 +4226,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4bb3b008-7aa2-42ea-93c2-4c1a673743e4",
       "baseSize": "170 x 105mm",
       "points": 460,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Judicator with Boltstorm Crossbows",
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -4915,7 +4244,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           },
           {
@@ -4926,7 +4254,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ],
@@ -4937,9 +4264,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -4949,8 +4274,7 @@
           "activation": "Once Per Turn (Army), Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a visible enemy Infantry unit that does not have Fly and that had any models slain this phase by this unit’s shooting attacks to be the target.",
-          "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
         }
       ],
       "keywords": [
@@ -4971,11 +4295,7 @@
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -4985,7 +4305,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-charge (+1 Rend)"]
           }
         ]
@@ -4995,8 +4314,7 @@
           "name": "Hold the Shieldwall",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has Strike-first for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has Strike-first for the rest of the turn."
         }
       ],
       "keywords": [
@@ -5010,19 +4328,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ddfada43-eba7-4c25-96d1-73d808e71c44",
       "baseSize": "40mm",
       "points": 110,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Annihilators",
       "move": "4\"",
       "health": "3",
       "save": "2+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5031,9 +4344,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -5043,16 +4354,14 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Brace for Impact",
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
-          "effect": "Roll a dice for each model in this unit. If any of the rolls are a 6, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice for each model in this unit. If any of the rolls are a 6, the target has Strike-last for the rest of the turn."
         }
       ],
       "keywords": [
@@ -5065,19 +4374,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/31e704fb-39a4-4a5a-9ec3-5670a9450d1a",
       "baseSize": "40mm",
       "points": 180,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Sequitors",
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5087,7 +4391,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -5097,7 +4400,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -5107,8 +4409,7 @@
           "name": "Sequitor Aetheric Channelling",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit is contesting an objective you control, pick 1 of the following effects to apply for the rest of the turn:\n\n• Other than the Companion weapon ability, weapon abilities for attacks that target this unit have no effect.\n• This unit’s combat attacks score critical hits on unmodified hit rolls of 5+.",
-          "keywords": []
+          "effect": "If this unit is contesting an objective you control, pick 1 of the following effects to apply for the rest of the turn:\n\n• Other than the Companion weapon ability, weapon abilities for attacks that target this unit have no effect.\n• This unit’s combat attacks score critical hits on unmodified hit rolls of 5+."
         }
       ],
       "keywords": [
@@ -5129,11 +4430,7 @@
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5143,7 +4440,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -5153,8 +4449,7 @@
           "name": "Furious Retribution",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Warrior Chamber Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Warrior Chamber Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -5167,19 +4462,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/683ea994-5fd0-461b-800e-5b7b04ad91d9",
       "baseSize": "40mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Dracothian Guard Concussors (1 model)",
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -5190,7 +4480,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -5202,7 +4491,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -5212,7 +4500,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -5223,15 +4510,13 @@
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -5251,11 +4536,8 @@
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5265,7 +4547,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Manifestation (+1 Rend)"]
           }
         ]
@@ -5275,8 +4556,7 @@
           "name": "Indomitable Loreseekers",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Add 1 to casting rolls for this unit when it uses a Summon ability and add 1 to banishment rolls for this unit.\n\nEnemy Manifestations cannot pass through or end any move within this unit’s combat range unless they started that move within this unit’s combat range.\n\nThis unit has Ward (4+) against mortal damage inflicted by Manifestations.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for this unit when it uses a Summon ability and add 1 to banishment rolls for this unit.\n\nEnemy Manifestations cannot pass through or end any move within this unit’s combat range unless they started that move within this unit’s combat range.\n\nThis unit has Ward (4+) against mortal damage inflicted by Manifestations."
         }
       ],
       "keywords": [
@@ -5290,19 +4570,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/729ab2e3-2f43-406e-8a4d-3b0dbe7ca97e",
       "baseSize": "40mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Dracothian Guard Tempestors (1 model)",
       "move": "10\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -5313,7 +4588,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -5324,7 +4598,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ],
@@ -5335,9 +4608,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Dracoth’s Claws and Fangs",
@@ -5346,7 +4617,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -5357,15 +4627,13 @@
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Volleystorm Crossbows to be the target.",
-          "effect": "Roll a dice. On a 2+, the target cannot use the ‘All-out Defence’ command in the following combat phase.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, the target cannot use the ‘All-out Defence’ command in the following combat phase."
         },
         {
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -5385,11 +4653,7 @@
       "move": "10\"",
       "health": "10",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -5400,7 +4664,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Infantry (+1 Rend)"]
           }
         ],
@@ -5412,7 +4675,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -5422,7 +4684,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -5431,9 +4692,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -5443,15 +4702,12 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Celestial Blaze",
           "activation": "Passive",
-          "phases": null,
-          "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability.",
-          "keywords": []
+          "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability."
         }
       ],
       "keywords": [
@@ -5463,19 +4719,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b3d357c3-47f3-4c34-8a25-37d7d561785e",
       "baseSize": "120 x 92mm",
       "points": 170,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Gavriel Sureheart",
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5485,7 +4736,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -5496,15 +4746,13 @@
           "activation": "Your Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick this unit and another visible friendly Warrior Chamber unit within 3\" of it to be the targets.",
-          "effect": "For the rest of the phase, when making charge rolls for the targets, add 1 to the number of dice rolled, then remove 1 dice of your choice and use the remaining dice as the charge roll.",
-          "keywords": []
+          "effect": "For the rest of the phase, when making charge rolls for the targets, add 1 to the number of dice rolled, then remove 1 dice of your choice and use the remaining dice as the charge roll."
         },
         {
           "name": "Sigmarite Thundershield",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -5526,11 +4774,7 @@
       "move": "12\"",
       "health": "9",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -5541,7 +4785,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -5553,7 +4796,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
           },
           {
@@ -5563,7 +4805,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -5572,9 +4813,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -5583,8 +4822,7 @@
           "name": "Dispersed Formation",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit has a coherency range of 2\".",
-          "keywords": []
+          "effect": "This unit has a coherency range of 2\"."
         },
         {
           "name": "Draconic Onslaught",
@@ -5597,8 +4835,7 @@
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -5612,19 +4849,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c54a99f0-c5cf-4f30-9726-3b5740d76419",
       "baseSize": "105 x 70mm",
       "points": 360,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Lord-Arcanum on Celestial Dracoline",
       "move": "10\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5633,9 +4866,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Celestial Dracoline’s Claws",
@@ -5644,7 +4875,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -5655,16 +4885,14 @@
           "activation": "Once Per Turn (Army), Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick a visible friendly Sacrosanct Chamber Cavalry unit that charged this phase and is wholly within 12\" of this unit to be the target.",
-          "effect": "Inflict D3 mortal damage on each enemy unit in combat with the target.",
-          "keywords": []
+          "effect": "Inflict D3 mortal damage on each enemy unit in combat with the target."
         },
         {
           "name": "Pack Alpha",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this unit is in combat, pick this unit and up to 1 other visible friendly Sacrosanct Chamber Cavalry unit within its combat range to be the targets.",
-          "effect": "Add 1 to the Attacks characteristic of the targets’ Companion melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of the targets’ Companion melee weapons for the rest of the turn."
         }
       ],
       "keywords": [
@@ -5686,11 +4914,8 @@
       "move": "5\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5699,9 +4924,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -5710,16 +4933,13 @@
           "name": "Aetheric Manipulation",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to casting rolls for this unit when it uses a Summon ability.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for this unit when it uses a Summon ability."
         },
         {
           "name": "Magical Mending",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick a visible friendly Manifestation wholly within 12\" of this unit to be the target.",
-          "effect": "Heal (D6) the target.",
-          "keywords": []
+          "effect": "Heal (D6) the target."
         }
       ],
       "keywords": [
@@ -5741,11 +4961,7 @@
       "move": "5\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5755,7 +4971,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -5765,7 +4980,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -5774,9 +4988,7 @@
         {
           "name": "Stalwart Defenders",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory.",
-          "keywords": []
+          "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
         }
       ],
       "keywords": [
@@ -5789,19 +5001,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/bb9369be-3a6a-483d-a698-5f822d6ce0db",
       "baseSize": "40mm",
       "points": 120,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Stormdrake Guard (1 model)",
       "move": "12\"",
       "health": "9",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -5812,7 +5019,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -5824,7 +5030,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -5833,9 +5038,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Drakerider’s Lance",
@@ -5844,7 +5047,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
           }
         ]
@@ -5854,8 +5056,7 @@
           "name": "Dispersed Formation",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit has a coherency range of 2\".",
-          "keywords": []
+          "effect": "This unit has a coherency range of 2\"."
         },
         {
           "name": "Draconic Onslaught",
@@ -5868,8 +5069,7 @@
           "name": "Extremis Chamber",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -5891,11 +5091,8 @@
       "move": "14\"",
       "health": "12",
       "save": "3+",
-      "ward": "",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5904,9 +5101,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Loithar’s Stamping Hooves",
@@ -5915,7 +5110,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -5925,8 +5119,7 @@
           "name": "Thunderhead Crown",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Heal (3) this unit.",
-          "keywords": []
+          "effect": "Heal (3) this unit."
         },
         {
           "name": "Pyroelectric Blast",
@@ -5967,11 +5160,7 @@
       "move": "5\"",
       "health": "3",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -5981,7 +5170,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -5991,16 +5179,14 @@
           "name": "Averon Stormsire",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Averon Stormsire is on the battlefield, it has Wizard (1).",
-          "keywords": []
+          "effect": "While this unit’s Averon Stormsire is on the battlefield, it has Wizard (1)."
         },
         {
           "name": "Overwhelming Storm",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this unit is contesting an objective that you control, pick a friendly non-Hero Stormcast Eternals Infantry unit within 12\" of this unit to be the target.",
-          "effect": "For the rest of the phase, add 1 to wound rolls for the target’s combat attacks.",
-          "keywords": []
+          "effect": "For the rest of the phase, add 1 to wound rolls for the target’s combat attacks."
         }
       ],
       "keywords": [

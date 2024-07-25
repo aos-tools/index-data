@@ -2,13 +2,6 @@
   "name": "Kharadron Overlords",
   "battle_traits": [
     {
-      "name": "Ply the Skies",
-      "activation": "Reaction: You declared a non-Charge Move ability for an Arkanaut Frigate",
-      "phases": ["Movement Phase"],
-      "effect": "Pick a friendly Infantry unit that is wholly within the combatrange of that Arkanaut Frigate and not in combat to be transported. Remove that Infantry unit from the battlefield. Then, when the Arkanaut Frigate ends its move, set up the Infantry unit on the battlefield again, wholly within the combat range of the Arkanaut Frigate and not in combat. A unit cannot use Charge abilities if it was transported in the same turn.",
-      "keywords": []
-    },
-    {
       "name": "Flying High",
       "activation": "Once Per Battle, Deployment Phase",
       "phases": ["Start of Turn"],
@@ -20,23 +13,20 @@
       "name": "Transport Skyfarers",
       "activation": "Reaction: You declared a non-Charge Move ability for a friendly Skyvessel",
       "phases": ["Movement Phase"],
-      "effect": "Pick a number of units up to that Skyvessel’s Transport Capacity (see its warscroll) that are wholly within 6\" of it to be the targets. Units that have been transported this turn cannot be targets.\n\nRemove the targets from the battlefield. After the Skyvessel ends its move, you must set up each target unit on the battlefield, wholly within 6\" of that Skyvessel and not in combat. Those units have been transported. A unit cannot use Charge abilities if it was transported in the same turn.",
-      "keywords": []
+      "effect": "Pick a number of units up to that Skyvessel’s Transport Capacity (see its warscroll) that are wholly within 6\" of it to be the targets. Units that have been transported this turn cannot be targets.\n\nRemove the targets from the battlefield. After the Skyvessel ends its move, you must set up each target unit on the battlefield, wholly within 6\" of that Skyvessel and not in combat. Those units have been transported. A unit cannot use Charge abilities if it was transported in the same turn."
     },
     {
       "name": "Descend from the Clouds",
       "activation": "Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Skyvessel in the clouds to use this ability.",
-      "effect": "Set up that Skyvessel anywhere on the battlefield more than 9\" from all enemy units. Then, set up all other units that were set up in the clouds with that Skyvessel wholly within 6\" of it and more than 9\" from all enemy units.",
-      "keywords": []
+      "effect": "Set up that Skyvessel anywhere on the battlefield more than 9\" from all enemy units. Then, set up all other units that were set up in the clouds with that Skyvessel wholly within 6\" of it and more than 9\" from all enemy units."
     },
     {
       "name": "Skyvessel Cover",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Subtract 1 from hit rolls for shooting attacks that target friendly Kharadron Overlords Infantry units while they are wholly within 6\" of a friendly Arkanaut Ironclad or Arkanaut Frigate.",
-      "keywords": []
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target friendly Kharadron Overlords Infantry units while they are wholly within 6\" of a friendly Arkanaut Ironclad or Arkanaut Frigate."
     }
   ],
   "battle_formations": {
@@ -44,30 +34,26 @@
       "name": "Fastest Vessels in the Fleet",
       "activation": "Passive",
       "phases": ["Movement Phase"],
-      "effect": "Add 2\" to the Move characteristic of all friendly Skyvessels.",
-      "keywords": []
+      "effect": "Add 2\" to the Move characteristic of all friendly Skyvessels."
     },
     "Endrineers Guild Expeditionary Force": {
       "name": "Special Procurement",
       "activation": "Once Per Battle, Deployment Phase",
       "phases": ["Start of Turn"],
       "declare": "Pick a friendly non-Unique Kharadron Overlords Hero that does not have an artefact of power.",
-      "effect": "Give that Hero 1 artefact of power from the ‘Inventions of the Sky‑ports’.\n\nDesigner’s Note: This artefact of power is given to the unit during the deployment phase, not during army composition.",
-      "keywords": []
+      "effect": "Give that Hero 1 artefact of power from the ‘Inventions of the Sky‑ports’.\n\nDesigner’s Note: This artefact of power is given to the unit during the deployment phase, not during army composition."
     },
     "Grundcorps Wing": {
       "name": "Grudgesettler Protocols",
       "activation": "Once Per Battle, Your Shooting Phase",
       "phases": ["Shooting Phase"],
-      "effect": "Add 3\" to the Range characteristic of ranged weapons used by friendly Grundstok Thunderers and Grundstok Gunhaulers units for the rest of the turn.",
-      "keywords": []
+      "effect": "Add 3\" to the Range characteristic of ranged weapons used by friendly Grundstok Thunderers and Grundstok Gunhaulers units for the rest of the turn."
     },
     "Iron Sky Attack Squadron": {
       "name": "Meticulously Maintained",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Ignore the first damage point that would be allocated to each friendly Skyvessel in each phase.",
-      "keywords": []
+      "effect": "Ignore the first damage point that would be allocated to each friendly Skyvessel in each phase."
     }
   },
   "heroic_traits": [
@@ -76,22 +62,19 @@
       "activation": "Deployment Phase",
       "phases": ["Start of Turn"],
       "declare": "Pick an enemy unit to be the target.",
-      "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target that enemy unit for the rest of the battle.",
-      "keywords": []
+      "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target that enemy unit for the rest of the battle."
     },
     {
       "name": "Cunning Fleetmaster",
       "activation": "Passive",
       "phases": ["Movement Phase"],
-      "effect": "Each time a friendly Skyvessel wholly within 12\" of this unit uses the ‘Redeploy’ command, roll 2 dice and use the highest result when determining the distance that unit can move.",
-      "keywords": []
+      "effect": "Each time a friendly Skyvessel wholly within 12\" of this unit uses the ‘Redeploy’ command, roll 2 dice and use the highest result when determining the distance that unit can move."
     },
     {
       "name": "Endrinmaestro",
       "activation": "Passive",
       "phases": ["Shooting Phase"],
-      "effect": "Add 2\" to the Range characteristic of ranged weapons used by friendly Kharadron Overlords Infantry units while they are wholly within 12\" of this unit.",
-      "keywords": []
+      "effect": "Add 2\" to the Range characteristic of ranged weapons used by friendly Kharadron Overlords Infantry units while they are wholly within 12\" of this unit."
     }
   ],
   "artefacts_of_power": [
@@ -100,23 +83,20 @@
       "activation": "Once Per Battle, Any Shooting or Combat Phase",
       "phases": ["Start of Turn"],
       "declare": "Pick an enemy Monster within 12\" of this unit to be the target.",
-      "effect": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
-      "keywords": []
+      "effect": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
     },
     {
       "name": "Voidstone Orb",
       "activation": "Once Per Battle, Reaction: Opponent declared a Spell ability for a Wizard within 30\" of this unit",
       "phases": ["Hero Phase"],
-      "effect": "That spell is unbound.",
-      "keywords": []
+      "effect": "That spell is unbound."
     },
     {
       "name": "Celestium Burst-grenade",
       "activation": "Once Per Battle, Your Shooting Phase",
       "phases": ["Shooting Phase"],
       "declare": "Pick an enemy unit within 12\" of this unit to be the target.",
-      "effect": "Ward rolls cannot be made for the target for the rest of the turn.",
-      "keywords": []
+      "effect": "Ward rolls cannot be made for the target for the rest of the turn."
     }
   ],
   "warscrolls": [
@@ -125,11 +105,7 @@
       "move": "12\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -140,7 +116,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           },
           {
@@ -150,9 +125,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ],
         "melee": [
@@ -162,9 +135,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -174,15 +145,13 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
-          "effect": "Roll a dice. On a 2+, Heal (3) the target.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, Heal (3) the target."
         },
         {
           "name": "By Grungni, I Have My Eye On You!",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Add 1 to field repairs rolls for friendly Endrinriggers units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to field repairs rolls for friendly Endrinriggers units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -205,11 +174,7 @@
       "move": "4\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -220,7 +185,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -231,9 +195,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -250,8 +212,7 @@
           "name": "Aethersight",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit can use Unbind abilities as if it had Wizard (1).",
-          "keywords": []
+          "effect": "This unit can use Unbind abilities as if it had Wizard (1)."
         }
       ],
       "keywords": [
@@ -273,11 +234,7 @@
       "move": "10\"",
       "health": "20",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -287,9 +244,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Great Sky Cannon",
@@ -298,9 +253,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+3"
           },
           {
             "name": "Great Volley Cannon",
@@ -310,7 +263,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           },
           {
@@ -332,7 +284,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ],
@@ -343,9 +294,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -354,30 +303,26 @@
           "name": "Great Endrinworks",
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "Pick 1 of the following effects to apply to this unit for the rest of the battle:\n\nMagnificent Omniscope: Add 2\" to this unit’s Move characteristic.\n\nCollapsible Compartments: Add 1 to the total number of units and 10 to the total number of models this unit can transport.\n\nAetheric Repulsion Field: This unit can use the ‘Unbind’ ability as if it had Wizard (1).",
-          "keywords": []
+          "effect": "Pick 1 of the following effects to apply to this unit for the rest of the battle:\n\nMagnificent Omniscope: Add 2\" to this unit’s Move characteristic.\n\nCollapsible Compartments: Add 1 to the total number of units and 10 to the total number of models this unit can transport.\n\nAetheric Repulsion Field: This unit can use the ‘Unbind’ ability as if it had Wizard (1)."
         },
         {
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Aethershot Carbines is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Aethershot Carbines is 4."
         },
         {
           "name": "Transport Capacity",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can transport up to 3 friendly Kharadron Overlords Infantry units with a combined model count of up to 22 (see Battle Traits).",
-          "keywords": []
+          "effect": "This unit can transport up to 3 friendly Kharadron Overlords Infantry units with a combined model count of up to 22 (see Battle Traits)."
         },
         {
           "name": "Heavy Bomb Racks",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick an enemy unit that does not have Fly and that this unit passed across this phase to be the target.",
-          "effect": "Roll 10 dice. For each 4+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll 10 dice. For each 4+, inflict 1 mortal damage on the target."
         }
       ],
       "keywords": [
@@ -391,19 +336,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/8ff1245f-9042-4d6d-9734-f3e0d3e773c2",
       "baseSize": "170 x 105mm",
       "points": 500,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Arkanaut Admiral",
       "move": "4\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -414,7 +354,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -425,9 +364,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "1",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -437,24 +374,21 @@
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick an Arkanaut Ironclad or Arkanaut Frigate in this unit’s regiment to be the target.",
-          "effect": "For the rest of the battle, each time the target uses the ‘All-out Attack’ command while this unit is wholly within 12\" of it, no command points are spent.",
-          "keywords": []
+          "effect": "For the rest of the battle, each time the target uses the ‘All-out Attack’ command while this unit is wholly within 12\" of it, no command points are spent."
         },
         {
           "name": "Always Take What You Are Owed",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Arkanaut Company unit wholly within 12\" of this unit to be the target.",
-          "effect": "Add D6 to the target’s control score until the start of your next turn.",
-          "keywords": []
+          "effect": "Add D6 to the target’s control score until the start of your next turn."
         },
         {
           "name": "'Bring Every Gun to Bear'",
           "activation": "Once Per Battle (Army), Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a friendly Skyvessel wholly within 24\" of this unit that is not in combat to be the target.",
-          "effect": "Add 1 to the Attacks characteristic of the target’s ranged weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of the target’s ranged weapons for the rest of the turn."
         }
       ],
       "keywords": [
@@ -468,19 +402,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/fec03433-0385-497b-99f1-43421bd6cfdd",
       "baseSize": "32mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Endrinmaster with Endrinharness",
       "move": "4\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -489,9 +418,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -501,16 +428,14 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
-          "effect": "Roll a dice. On a 2+, for the rest of the turn:\n• The target can use a Retreat or Run ability and still use Shoot abilities later in the turn.\n• No mortal damage is inflicted on the target by Retreat abilities.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, for the rest of the turn:\n• The target can use a Retreat or Run ability and still use Shoot abilities later in the turn.\n• No mortal damage is inflicted on the target by Retreat abilities."
         },
         {
           "name": "Endrinmaster",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
-          "effect": "Roll a dice. On a 2+, Heal (3) the target.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, Heal (3) the target."
         }
       ],
       "keywords": [
@@ -532,11 +457,7 @@
       "move": "12\"",
       "health": "15",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -546,9 +467,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+1"
           },
           {
             "name": "Aethershot Carbines",
@@ -569,7 +488,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ],
@@ -580,9 +498,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -591,23 +507,20 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has  10 or more damage points, the Attacks characteristic of its Aethershot Carbines is 2.",
-          "keywords": []
+          "effect": "While this unit has  10 or more damage points, the Attacks characteristic of its Aethershot Carbines is 2."
         },
         {
           "name": "Transport Capacity",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can transport up to 2 friendly Kharadron Overlords Infantry units with a combined model count of up to 12 (see Battle Traits).",
-          "keywords": []
+          "effect": "This unit can transport up to 2 friendly Kharadron Overlords Infantry units with a combined model count of up to 12 (see Battle Traits)."
         },
         {
           "name": "Medium Bomb Racks",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick an enemy unit that does not have Fly and that this unit passed across this phase to be the target.",
-          "effect": "Roll 6 dice. For each 4+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll 6 dice. For each 4+, inflict 1 mortal damage on the target."
         },
         {
           "name": "Assault Boat",
@@ -629,19 +542,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/92f8fe50-1790-49c7-9d7e-e6b53dcd4f18",
       "baseSize": "120 x 92mm",
       "points": 320,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Codewright",
       "move": "4\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -652,7 +560,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -663,9 +570,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -675,8 +580,7 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to 3 visible friendly Kharadron Overlords units to be the targets.",
-          "effect": "Roll a dice for each target. On a 3+, pick 1 of the following effects to apply to that target for the rest of the turn:\n\nSeek New Prospects: Add 2 to the target’s control score.\n\nDon’t Argue With the Wind: Add 1 to run rolls and charge rolls for the target.\n\nThere’s No Trading With Some People: No mortal damage is inflicted on the target by Retreat abilities.",
-          "keywords": []
+          "effect": "Roll a dice for each target. On a 3+, pick 1 of the following effects to apply to that target for the rest of the turn:\n\nSeek New Prospects: Add 2 to the target’s control score.\n\nDon’t Argue With the Wind: Add 1 to run rolls and charge rolls for the target.\n\nThere’s No Trading With Some People: No mortal damage is inflicted on the target by Retreat abilities."
         }
       ],
       "keywords": [
@@ -698,11 +602,7 @@
       "move": "12\"",
       "health": "8",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -713,7 +613,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           },
           {
@@ -723,9 +622,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+3"
           }
         ],
         "melee": [
@@ -735,9 +632,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -747,24 +642,20 @@
           "activation": "Once Per Battle, Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 3 visible friendly Skyvessels wholly within 24\" of this unit that are not in combat to be the targets.",
-          "effect": "Each target can use a Run ability and still use Shoot and/or Charge abilities later in the turn.",
-          "keywords": []
+          "effect": "Each target can use a Run ability and still use Shoot and/or Charge abilities later in the turn."
         },
         {
           "name": "First Rule of Grungsson",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick up to 2 other friendly Skyfarer units within this unit’s combat range to be the targets.",
-          "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn."
         },
         {
           "name": "Moustache-mounted Aetherblasters",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -781,19 +672,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/22493c0c-915a-4e75-96eb-58c2759ebfa3",
       "baseSize": "50mm",
       "points": 290,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Endrinriggers",
       "move": "12\"",
       "health": "2",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -804,7 +690,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -815,7 +700,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -826,7 +710,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -837,9 +720,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Gun Butt",
@@ -847,9 +728,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -857,10 +736,8 @@
         {
           "name": "Emergency Field Repairs",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
-          "effect": "Make a field repairs roll of D6 for each model in this unit. For each 4-5, Heal (1) the target. For each 6, Heal (2) the target.",
-          "keywords": []
+          "effect": "Make a field repairs roll of D6 for each model in this unit. For each 4-5, Heal (1) the target. For each 6, Heal (2) the target."
         }
       ],
       "keywords": [
@@ -875,19 +752,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b6768b4c-a9af-44f8-8c84-5a14dd16e1a2",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Thundrik's Profiteers",
       "move": "4\"",
       "health": "2",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -898,7 +770,6 @@
             "wound": "4+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           },
           {
@@ -908,9 +779,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -920,9 +789,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Skypike",
@@ -931,7 +798,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -942,8 +808,7 @@
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "If this unit’s Bjorgen Thundrik is on the battlefield, pick an objective within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+:\n• If the target is controlled by either player, that player loses control of that objective.\n• The target cannot be contested until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+:\n• If the target is controlled by either player, that player loses control of that objective.\n• The target cannot be contested until the start of your next turn."
         }
       ],
       "keywords": [
@@ -965,11 +830,7 @@
       "move": "4\"",
       "health": "1",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -980,7 +841,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -991,7 +851,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -1002,7 +861,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1014,7 +872,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -1023,9 +880,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1034,8 +889,7 @@
           "name": "Glory-seekers",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to hit rolls for this unit’s attacks that target an enemy unit contesting an objective.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for this unit’s attacks that target an enemy unit contesting an objective."
         }
       ],
       "keywords": [
@@ -1049,19 +903,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c5d0ff91-a702-480e-ba7b-e275c52f305b",
       "baseSize": "25mm",
       "points": 110,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Drekki Flynt",
       "move": "4\"",
       "health": "6",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1072,7 +921,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1084,7 +932,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ]
@@ -1095,23 +942,19 @@
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick a friendly Arkanaut Frigate in this unit’s regiment to be the target.",
-          "effect": "The target has the Aelsling keyword. Add 1 to the Damage characteristic of the target’s melee weapons for the rest of the battle.",
-          "keywords": []
+          "effect": "The target has the Aelsling keyword. Add 1 to the Damage characteristic of the target’s melee weapons for the rest of the battle."
         },
         {
           "name": "She Can Handle It!",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "You can re-roll run rolls and charge rolls for the Aelsling while this unit is within its combat range.",
-          "keywords": []
+          "effect": "You can re-roll run rolls and charge rolls for the Aelsling while this unit is within its combat range."
         },
         {
           "name": "Auxiliary Skyhook",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -1126,19 +969,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/6f185568-4ece-4052-9923-8215dad75690",
       "baseSize": "32mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Aether-Khemist",
       "move": "4\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1149,7 +987,6 @@
             "wound": "4+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1160,9 +997,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1172,16 +1007,14 @@
           "activation": "Once Per Turn (Army), Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a friendly Kharadron Overlords Infantry unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn."
         },
         {
           "name": "Atmospheric Isolation",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1203,11 +1036,7 @@
       "move": "12\"",
       "health": "2",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1218,7 +1047,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -1229,7 +1057,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -1240,7 +1067,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1252,7 +1078,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -1261,9 +1086,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1271,10 +1094,8 @@
         {
           "name": "Timed Charges",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
         }
       ],
       "keywords": [
@@ -1289,19 +1110,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/21709957-49d1-470a-abcc-6ab915c2bcf5",
       "baseSize": "32mm",
       "points": 150,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Grundstock Gunhauler",
       "move": "12\"",
       "health": "10",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1311,9 +1127,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "3",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           },
           {
             "name": "Aethershot Carbine",
@@ -1323,7 +1137,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           },
           {
@@ -1333,9 +1146,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ],
         "melee": [
@@ -1345,9 +1156,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1356,23 +1165,20 @@
           "name": "Transport Capacity",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit can transport 1 friendly Kharadron Overlords Infantry unit with a model count of up to 5 (see Battle Traits).",
-          "keywords": []
+          "effect": "This unit can transport 1 friendly Kharadron Overlords Infantry unit with a model count of up to 5 (see Battle Traits)."
         },
         {
           "name": "Light Bomb Racks",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick an enemy unit that does not have Fly and that this unit passed across this phase to be the target.",
-          "effect": "Roll 4 dice. For each 4+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll 4 dice. For each 4+, inflict 1 mortal damage on the target."
         },
         {
           "name": "Escort Vessel",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Arkanaut Ironclads or Arkanaut Frigates are within this unit’s combat range, both this unit and those friendly units have Ward (6+).",
-          "keywords": []
+          "effect": "While any friendly Arkanaut Ironclads or Arkanaut Frigates are within this unit’s combat range, both this unit and those friendly units have Ward (6+)."
         }
       ],
       "keywords": [
@@ -1386,19 +1192,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/98156907-cc17-487e-b65a-f2453720cce3",
       "baseSize": "105 x 70mm",
       "points": 200,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Grundstok Thunderers",
       "move": "4\"",
       "health": "2",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1408,9 +1209,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Aethershot Rifle",
@@ -1419,9 +1218,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Aetheric Fumigator or Decksweeper",
@@ -1431,7 +1228,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Shoot in Combat"]
           }
         ],
@@ -1442,9 +1238,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1453,8 +1247,7 @@
           "name": "Hold This Position",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s ranged weapons have Shoot in Combat for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s ranged weapons have Shoot in Combat for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1469,8 +1262,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/277da958-7109-47a4-8910-3988a290e128",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     }
   ]
 }

@@ -53,31 +53,27 @@
       "phases": ["Charge Phase"],
       "declare": "Pick a friendly unit that is not in combat to use this ability.",
       "effect": "That unit can use a Charge ability as if it were your charge phase.",
-      "command_point_cost": 2,
-      "keywords": []
+      "command_point_cost": 2
     },
     {
       "name": "Forward to Victory",
       "activation": "Reaction: You declared a Charge ability",
       "phases": ["Charge Phase"],
       "effect": "You can re-roll the charge roll.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Guarded Hero",
       "activation": "Passive",
       "phases": ["Shooting Phase"],
-      "effect": "If this Hero is within the combat range of a friendly unit that is not a Hero:\n• Subtract 1 from hit rolls for shooting attacks that target this Hero.\n• If this Hero is Infantry, they cannot be picked as the target of shooting attacks made by units more than 12\" from them.",
-      "keywords": []
+      "effect": "If this Hero is within the combat range of a friendly unit that is not a Hero:\n• Subtract 1 from hit rolls for shooting attacks that target this Hero.\n• If this Hero is Infantry, they cannot be picked as the target of shooting attacks made by units more than 12\" from them."
     },
     {
       "name": "All-out Defence",
       "activation": "Reaction: Opponent declared an Attack ability",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
       "effect": "Add 1 to save rolls for that unit in this phase.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Fight",
@@ -212,36 +208,30 @@
       "name": "Tactical Gambit",
       "activation": "Once Per Battle Round, Start of Your Turn",
       "phases": ["Start of Turn"],
-      "effect": "Pick 1 battle tactic that you have not yet attempted. You can attempt to complete that battle tactic this turn.",
-      "keywords": []
+      "effect": "Pick 1 battle tactic that you have not yet attempted. You can attempt to complete that battle tactic this turn."
     },
     {
       "name": "Musician",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "While this unit contains any musicians, if it uses the ‘Rally’ command, you can make one additional rally roll of D6.",
-      "keywords": []
+      "effect": "While this unit contains any musicians, if it uses the ‘Rally’ command, you can make one additional rally roll of D6."
     },
     {
       "name": "Champion",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to the Attacks characteristic of weapons used by champions in this unit.",
-      "keywords": []
+      "effect": "Add 1 to the Attacks characteristic of weapons used by champions in this unit."
     },
     {
       "name": "Standard Bearer",
       "activation": "Passive",
-      "phases": null,
-      "effect": "While this unit contains any standard bearers, add 1 to this unit’s control score.",
-      "keywords": []
+      "effect": "While this unit contains any standard bearers, add 1 to this unit’s control score."
     },
     {
       "name": "Fly",
       "activation": "Passive",
       "phases": ["Movement Phase"],
-      "effect": "As this unit moves, it ignores other models, terrain features and the combat ranges of enemy units. It cannot end its move in combat unless specified in the ability that allowed it to move. Ignore any vertical distance moved for this unit.",
-      "keywords": []
+      "effect": "As this unit moves, it ignores other models, terrain features and the combat ranges of enemy units. It cannot end its move in combat unless specified in the ability that allowed it to move. Ignore any vertical distance moved for this unit."
     },
     {
       "name": "Redeploy",
@@ -257,13 +247,11 @@
       "activation": "Reaction: You declared a Run ability",
       "phases": ["Start of Turn"],
       "effect": "Do not make a run roll as part of that Run ability. Instead, add 6\" to that unit’s Move characteristic to determine the distance each model in that unit can move as part of that Run ability.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Power Through",
       "activation": "End of Any Turn",
-      "phases": null,
       "declare": "Pick a friendly unit that charged this turn to use this ability, then you must pick an enemy unit in combat with it to be the target. The target must have a lower Health characteristic than the unit using this ability.",
       "effect": "Inflict D3 mortal damage on the target. Then, the unit using this ability can move a distance up to its Move characteristic. It can pass through and end that move within the combat ranges of enemy units that were in combat with it at the start of the move, but not those of other enemy units. It does not have to end the move in combat.",
       "command_point_cost": 1,
@@ -273,8 +261,7 @@
       "name": "Ward Save",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "In step 1 of the damage sequence (see 18.0), make a ward roll of D6 for each damage point in this unit’s damage pool. If the roll equals or exceeds this unit’s ward value, remove that damage point from the damage pool.",
-      "keywords": []
+      "effect": "In step 1 of the damage sequence (see 18.0), make a ward roll of D6 for each damage point in this unit’s damage pool. If the roll equals or exceeds this unit’s ward value, remove that damage point from the damage pool."
     },
     {
       "name": "Rally",
@@ -282,8 +269,7 @@
       "phases": ["Hero Phase"],
       "declare": "Pick a friendly unit that is not in combat to use this ability.",
       "effect": "Make 6 rally rolls of D6. For each 4+, you receive 1 rally point. Rally points can be spent in the following ways:\n\n• For each rally point spent, Heal (1) that unit.\n• You can spend a number of rally points equal to the Health characteristic of that unit to return a slain model to that unit. \n\nYou can spend the rally points in any combination of the above. Unspent rally points are then lost.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Magical Intervention",
@@ -291,8 +277,7 @@
       "phases": ["Hero Phase"],
       "declare": "Pick a friendly Wizard or Priest to use this ability.",
       "effect": "That friendly unit can use a Spell or Prayer ability (as appropriate) as if it were your hero phase. If you do so, subtract 1 from casting rolls or chanting rolls made as part of that ability.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Charge",
@@ -307,8 +292,7 @@
       "activation": "Reaction: You declared an Attack ability",
       "phases": ["Combat Phase"],
       "effect": "Add 1 to hit rolls for attacks made as part of that Attack ability. This also affects weapons that have the Companion weapon ability.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Special Assignment",
@@ -536,9 +520,6 @@
       "health": "10",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -549,7 +530,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -567,9 +547,7 @@
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/ccf39ec4-0840-45bb-9403-5cd04f06ee85",
       "baseSize": "90 x 52mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Quicksilver Swords",
@@ -577,9 +555,6 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -590,7 +565,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -600,16 +574,13 @@
           "name": "Dancing Blades",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Ward rolls cannot be made for damage points inflicted by this Manifestation’s attacks.",
-          "keywords": []
+          "effect": "Ward rolls cannot be made for damage points inflicted by this Manifestation’s attacks."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/3a01f869-3073-4007-b743-c702561d300f",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Shards of Valagharr",
@@ -617,9 +588,6 @@
       "health": "8",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -627,30 +595,25 @@
           "name": "Multiple Parts",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and both its parts are removed from play.",
-          "keywords": []
+          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and both its parts are removed from play."
         },
         {
           "name": "Ensnaring Soul-Drain",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "Each time an enemy unit uses a Move ability while it is within 6\" of any parts of this Manifestation, the effects of the ‘Fly’ ability do not apply to that unit.\n\nEnemy units cannot be set up within 6\" of either part of this Manifestation.",
-          "keywords": []
+          "effect": "Each time an enemy unit uses a Move ability while it is within 6\" of any parts of this Manifestation, the effects of the ‘Fly’ ability do not apply to that unit.\n\nEnemy units cannot be set up within 6\" of either part of this Manifestation."
         },
         {
           "name": "Phantasmal Translocation",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "Pick a part of this Manifestation, remove it from the battlefield and set it up again on the battlefield wholly within 9\" of the other part.",
-          "keywords": []
+          "effect": "Pick a part of this Manifestation, remove it from the battlefield and set it up again on the battlefield wholly within 9\" of the other part."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/bba9f9e3-4f76-44a7-8756-b34d32a0642d",
       "baseSize": "105 x 70mm",
-      "points": 0,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Aethervoid Pendulum",
@@ -658,9 +621,6 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -668,8 +628,7 @@
           "name": "The Pendulum Swings",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This Manifestation cannot use Charge or Fight abilities. In addition, when this Manifestation moves, it must move in a straight line either in the direction in which the tip of the pendulum blade is pointing or in the opposite direction to the direction in which the tip of the pendulum blade is pointing.",
-          "keywords": []
+          "effect": "This Manifestation cannot use Charge or Fight abilities. In addition, when this Manifestation moves, it must move in a straight line either in the direction in which the tip of the pendulum blade is pointing or in the opposite direction to the direction in which the tip of the pendulum blade is pointing."
         },
         {
           "name": "Scything Blade",
@@ -682,9 +641,7 @@
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/98e79426-bfb7-4a54-992e-224f4b4b073f",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Soulscream Bridge",
@@ -692,9 +649,6 @@
       "health": "12",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -702,24 +656,20 @@
           "name": "Multiple Parts",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and both its parts are removed from play.",
-          "keywords": []
+          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and both its parts are removed from play."
         },
         {
           "name": "Deathly Passage",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick a friendly unit wholly within 6\" of one part of this Manifestation to be the target.",
-          "effect": "Remove the target from the battlefield and set it up again on the battlefield wholly within 6\" of the other part of this Manifestation and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Remove the target from the battlefield and set it up again on the battlefield wholly within 6\" of the other part of this Manifestation and more than 9\" from all enemy units."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/26ba53f4-0b92-4be4-ac7c-1b719d2a2376",
       "baseSize": "120 x 92mm",
-      "points": 0,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Prismatic Palisade",
@@ -727,9 +677,6 @@
       "health": "8",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -737,16 +684,13 @@
           "name": "Blinding Light",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "This Manifestation cannot be targeted by shooting attacks. In addition, a unit cannot be targeted by shooting attacks if it is impossible to draw a straight line from a model in the attacking unit to a model in the target unit without that line passing across this Manifestation.",
-          "keywords": []
+          "effect": "This Manifestation cannot be targeted by shooting attacks. In addition, a unit cannot be targeted by shooting attacks if it is impossible to draw a straight line from a model in the attacking unit to a model in the target unit without that line passing across this Manifestation."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/d53ac8e6-6d8e-431b-ab62-a7a9e4324a8e",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Chronomantic Cogs",
@@ -754,9 +698,6 @@
       "health": "6",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -764,16 +705,13 @@
           "name": "Mechanisms of Time",
           "activation": "Once Per Turn, Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "If there are any friendly Wizards within 3\" of this Manifestation, pick 1 of the following effects:\n\nIncrease Time Flow: Until the start of your next turn, you can re roll charge rolls for friendly units while they are wholly within 12\" of this Manifestation.\n\nDecrease Time Flow: Until the start of your next turn, subtract 1 from hit rolls for attacks that target friendly Wizards while they are wholly within 12\" of this Manifestation.",
-          "keywords": []
+          "effect": "If there are any friendly Wizards within 3\" of this Manifestation, pick 1 of the following effects:\n\nIncrease Time Flow: Until the start of your next turn, you can re roll charge rolls for friendly units while they are wholly within 12\" of this Manifestation.\n\nDecrease Time Flow: Until the start of your next turn, subtract 1 from hit rolls for attacks that target friendly Wizards while they are wholly within 12\" of this Manifestation."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/c8dc1fa2-1d1c-4a4d-a833-18c932601520",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Geminids of Uhl-Gysh",
@@ -781,9 +719,6 @@
       "health": "8",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "6+",
       "weapons": {
         "melee": [
@@ -793,9 +728,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -804,23 +737,19 @@
           "name": "Multiple Parts",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and both its parts are removed from play.\n\nEach time this Manifestation moves, both its parts must end within 9\" of each other.\n\nEach part of this Manifestation is armed with Tendrils of Light and Shadow.",
-          "keywords": []
+          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and both its parts are removed from play.\n\nEach time this Manifestation moves, both its parts must end within 9\" of each other.\n\nEach part of this Manifestation is armed with Tendrils of Light and Shadow."
         },
         {
           "name": "Tendrils of Shadow and Light",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Enemy units cannot use commands while they are within 3\" of either part of this Manifestation.",
-          "keywords": []
+          "effect": "Enemy units cannot use commands while they are within 3\" of either part of this Manifestation."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/edca9f6b-8fbd-49ff-bbb7-5ab758262e68",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Horrorghast",
@@ -828,9 +757,6 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "ranged": [
@@ -842,7 +768,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Shoot in Combat"]
           }
         ],
@@ -853,9 +778,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -865,16 +788,13 @@
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that was targeted by this Manifestation’s shooting attacks this phase to be the target.",
-          "effect": "Roll a dice. If the roll is less than the number of models in the target unit that were slain this phase, the target cannot use commands for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. If the roll is less than the number of models in the target unit that were slain this phase, the target cannot use commands for the rest of the turn."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/e7d3293d-84cf-492d-89ce-4895c030f16f",
       "baseSize": "50mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Ravenak’s Gnashing Jaws",
@@ -882,9 +802,6 @@
       "health": "10",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -895,7 +812,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -906,23 +822,19 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this Manifestation charged this turn, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll 10 dice. For each 5+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll 10 dice. For each 5+, inflict 1 mortal damage on the target."
         },
         {
           "name": "Wild Form",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time this Manifestation is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "Each time this Manifestation is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/e8121b7e-a360-4d76-b557-38bc3e1ebef7",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Krondspine Incarnate of Ghur",
@@ -930,9 +842,6 @@
       "health": "12",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "8+",
       "weapons": {
         "melee": [
@@ -943,7 +852,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Manifestation (+1 Rend)"]
           }
         ]
@@ -953,22 +861,18 @@
           "name": "Arcane Predator",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "You can add 1 to the number of dice rolled when making charge rolls for this Manifestation, to a maximum of 3, while it is within 18\" of any enemy Manifestations, but if you do so, it must end the charge move within 1/2\" of an enemy Manifestation.",
-          "keywords": []
+          "effect": "You can add 1 to the number of dice rolled when making charge rolls for this Manifestation, to a maximum of 3, while it is within 18\" of any enemy Manifestations, but if you do so, it must end the charge move within 1/2\" of an enemy Manifestation."
         },
         {
           "name": "Devourer of Magics",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "If this Manifestation destroyed any enemy Manifestations this turn, Heal (6) this Manifestation.",
-          "keywords": []
+          "effect": "If this Manifestation destroyed any enemy Manifestations this turn, Heal (6) this Manifestation."
         },
         {
           "name": "Wild Form",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time this Manifestation is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "Each time this Manifestation is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -980,9 +884,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/18a5b695-e1c8-4aa1-af7d-e2486858568e",
       "baseSize": "130mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Emerald Lifeswarm",
@@ -990,9 +892,6 @@
       "health": "5",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -1003,7 +902,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -1014,23 +912,18 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick a friendly unit within 3\" of this Manifestation to be the target.",
-          "effect": "Heal (3) the target.",
-          "keywords": []
+          "effect": "Heal (3) the target."
         },
         {
           "name": "Restored Vigour",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "Heal (3) this Manifestation.",
-          "keywords": []
+          "effect": "Heal (3) this Manifestation."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/d522e5e5-34df-4cda-9b9f-da11b7e68909",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Malevolent Maelstrom",
@@ -1038,9 +931,6 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -1051,7 +941,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1061,24 +950,19 @@
           "name": "Necrotic Vortex",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Give this Manifestation 1 maelstrom point:\n\n• Each time this Manifestation is set up.\n• Each time a unit successfully casts a spell while it is within 12\" of this Manifestation.\n• Each time a model is slain within 12\" of this Manifestation.\n\nThis Manifestation can have a maximum of 6 maelstrom points at once.",
-          "keywords": []
+          "effect": "Give this Manifestation 1 maelstrom point:\n\n• Each time this Manifestation is set up.\n• Each time a unit successfully casts a spell while it is within 12\" of this Manifestation.\n• Each time a model is slain within 12\" of this Manifestation.\n\nThis Manifestation can have a maximum of 6 maelstrom points at once."
         },
         {
           "name": "Morbid Detonation",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "If this Manifestation has 6 maelstrom points, pick each unit (friendly and enemy) within 9\" of it to be the targets.",
-          "effect": "Roll a dice for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this Manifestation is destroyed.",
-          "keywords": []
+          "effect": "Roll a dice for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this Manifestation is destroyed."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/1a06c7be-8ae6-4481-80e8-266d1eb7fbb0",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Soulsnare Shackles",
@@ -1086,9 +970,6 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -1096,24 +977,20 @@
           "name": "Multiple Parts",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and all its parts are removed from play.",
-          "keywords": []
+          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and all its parts are removed from play."
         },
         {
           "name": "Bound for the Great Oubliette",
           "activation": "Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "For each part of this Manifestation, you can pick an enemy unit within 3\" of that part to be the targets. You cannot pick the same unit to be the target of this ability more than once per turn.",
-          "effect": "Roll a D3 for each target. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract a number of inches equal to the roll from the target’s Move characteristic for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract a number of inches equal to the roll from the target’s Move characteristic for the rest of the turn."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/e2694a0d-6e61-4b77-bf3b-6ab7791e3a7c",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Suffocating Gravetide",
@@ -1121,9 +998,6 @@
       "health": "8",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -1134,7 +1008,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -1151,9 +1024,7 @@
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/6483b40d-f64a-46d2-982e-f7f14feff730",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Umbral Spellportal",
@@ -1161,9 +1032,6 @@
       "health": "8",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "6+",
       "weapons": {},
       "abilities": [
@@ -1171,24 +1039,20 @@
           "name": "Multiple Parts",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and both its parts are removed from play.",
-          "keywords": []
+          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and both its parts are removed from play."
         },
         {
           "name": "Arcane Passage",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Wizard within 3\" of this Manifestation to be the target.",
-          "effect": "The next time the target uses a non-Summon Spell ability this phase, add 1 to the casting value of that spell. When picking targets for that spell, you can measure range and visibility from either part of this Manifestation instead of from the caster, and your opponent can measure range and visibility to either part of this Manifestation instead of to the caster for the purposes of the ‘Unbind’ ability.",
-          "keywords": []
+          "effect": "The next time the target uses a non-Summon Spell ability this phase, add 1 to the casting value of that spell. When picking targets for that spell, you can measure range and visibility from either part of this Manifestation instead of from the caster, and your opponent can measure range and visibility to either part of this Manifestation instead of to the caster for the purposes of the ‘Unbind’ ability."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/b02f05e9-e323-418b-bdf3-c3320526b986",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "The Burning Head",
@@ -1196,9 +1060,6 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "6+",
       "weapons": {
         "ranged": [
@@ -1210,7 +1071,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Anti-War Machine (+1 Rend)"]
           }
         ],
@@ -1222,7 +1082,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-War Machine (+1 Rend)"]
           }
         ]
@@ -1232,16 +1091,13 @@
           "name": "Burning Up",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this Manifestation uses a Shoot ability, after that ability has been resolved, allocate 1 damage point to this Manifestation (ward rolls cannot be made for that damage point).",
-          "keywords": []
+          "effect": "Each time this Manifestation uses a Shoot ability, after that ability has been resolved, allocate 1 damage point to this Manifestation (ward rolls cannot be made for that damage point)."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/fb21ad16-3489-4b34-8d42-16fd257d62d1",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Purple Sun of Shyish",
@@ -1249,9 +1105,6 @@
       "health": "10",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -1262,7 +1115,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1279,23 +1131,19 @@
           "name": "Pull of the Nadir",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Subtract 1 from save rolls for enemy units while they are within 3\" of this Manifestation.",
-          "keywords": []
+          "effect": "Subtract 1 from save rolls for enemy units while they are within 3\" of this Manifestation."
         },
         {
           "name": "Wild Form",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time this Manifestation is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "Each time this Manifestation is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
       "image": "https://dhss9aar8ocw.cloudfront.net/349f0aea-eb68-4975-8fae-2cbacdab4e3c",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     }
   ]
 }

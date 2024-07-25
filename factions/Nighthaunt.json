@@ -21,8 +21,7 @@
       "name": "Wave of Terror",
       "activation": "Once Per Turn (Army), Your Charge Phase",
       "phases": ["Charge Phase"],
-      "effect": "Friendly Nighthaunt units that are in combat can use Charge abilities this phase. However, if a unit that is in combat uses a Charge ability and the charge roll is 3 or less, that unit does not count as having charged that turn.",
-      "keywords": []
+      "effect": "Friendly Nighthaunt units that are in combat can use Charge abilities this phase. However, if a unit that is in combat uses a Charge ability and the charge roll is 3 or less, that unit does not count as having charged that turn."
     },
     {
       "name": "Petrify",
@@ -36,16 +35,14 @@
       "name": "Ethereal",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Ignore all modifiers to save rolls (positive and negative) for friendly Nighthaunt units, excluding Nagash.",
-      "keywords": []
+      "effect": "Ignore all modifiers to save rolls (positive and negative) for friendly Nighthaunt units, excluding Nagash."
     },
     {
       "name": "Discorporate",
       "activation": "Reaction: Opponent declared an Attack ability",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
       "effect": "That unit has Ward (5+) for the rest of the phase.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     }
   ],
   "battle_formations": {
@@ -53,31 +50,26 @@
       "name": "There Is No Escape",
       "activation": "Passive",
       "phases": ["Movement Phase"],
-      "effect": "Friendly Nighthaunt units can use Charge abilities even if they used a Run or Retreat ability in the same turn. In addition, no mortal damage is inflicted on friendly Nighthaunt units by Retreat abilities.",
-      "keywords": []
+      "effect": "Friendly Nighthaunt units can use Charge abilities even if they used a Run or Retreat ability in the same turn. In addition, no mortal damage is inflicted on friendly Nighthaunt units by Retreat abilities."
     },
     "Hunters of The Accursed": {
       "name": "Vengeful Malison",
       "activation": "Once Per Turn (Army), End of Any Turn",
-      "phases": null,
       "declare": "Pick up to 3 enemy Heroes each within 12\" of a different friendly Nighthaunt Hero to be the targets.",
-      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-      "keywords": []
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
     },
     "Procession of Death": {
       "name": "Cavalcade of Death",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Friendly Nighthaunt Infantry units have Ward (5+) while they are wholly within 6\" of a friendly Black Coach.",
-      "keywords": []
+      "effect": "Friendly Nighthaunt Infantry units have Ward (5+) while they are wholly within 6\" of a friendly Black Coach."
     },
     "Vanishing Phantasms": {
       "name": "Ethereal Translocation",
       "activation": "Once Per Turn (Army), Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Nighthaunt unit that is not in combat to use this ability.",
-      "effect": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-      "keywords": []
+      "effect": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
     }
   },
   "heroic_traits": [
@@ -87,22 +79,19 @@
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Nighthaunt unit that started the battle with 3 or more models and that has been destroyed to be the target.",
       "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Cloaked in Shadow",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-3, the attack fails and the attack sequence ends.",
-      "keywords": []
+      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-3, the attack fails and the attack sequence ends."
     },
     {
       "name": "Terrifying Entity",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "This unit can use an Aura of Dread ability even if it has already used one this turn, but it cannot use more than two per turn.",
-      "keywords": []
+      "effect": "This unit can use an Aura of Dread ability even if it has already used one this turn, but it cannot use more than two per turn."
     }
   ],
   "artefacts_of_power": [
@@ -110,22 +99,18 @@
       "name": "Lightshard of the Harvest Moon",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
-      "effect": "If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly Nighthaunt units wholly within 12\" of this unit for the rest of the turn.",
-      "keywords": []
+      "effect": "If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly Nighthaunt units wholly within 12\" of this unit for the rest of the turn."
     },
     {
       "name": "Covetous Familiar",
       "activation": "Reaction: Opponent declared a Fight ability for a unit in combat with this unit",
       "phases": ["Combat Phase"],
-      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
-      "keywords": []
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
     {
       "name": "Soulfire Ring",
       "activation": "End of Any Turn",
-      "phases": null,
-      "effect": "If any enemy models were slain by this unit’s combat attacks this turn, Heal (D6) this unit.",
-      "keywords": []
+      "effect": "If any enemy models were slain by this unit’s combat attacks this turn, Heal (D6) this unit."
     }
   ],
   "spell_lore": {
@@ -201,9 +186,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -213,7 +196,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -223,8 +205,7 @@
           "name": "Nightmare Lantern",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit is in combat, add 1 to wound rolls for combat attacks made by friendly Nighthaunt units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "While this unit is in combat, add 1 to wound rolls for combat attacks made by friendly Nighthaunt units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -239,8 +220,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/a7d28640-0cdc-45ed-9f33-0b8821fb34c2",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Mortalis Terminexus",
@@ -248,9 +228,6 @@
       "health": "6",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -259,8 +236,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a visible friendly Nighthaunt unit within 3\" of this Manifestation to be the target.",
-          "effect": "Roll a dice. On a 2+, pick 1 of the following effects:\n\n• Add 1 to run rolls and charge rolls for target for the rest of the turn.\n• Heal (3) the target.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, pick 1 of the following effects:\n\n• Add 1 to run rolls and charge rolls for target for the rest of the turn.\n• Heal (3) the target."
         }
       ],
       "keywords": [
@@ -273,9 +249,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/eb7f17bb-235c-4690-88e2-91feebc2b034",
       "baseSize": "50mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lord Executioner",
@@ -283,10 +257,7 @@
       "health": "5",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -296,7 +267,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)", "Crit (Auto-wound)"]
           }
         ]
@@ -307,8 +277,7 @@
           "activation": "Once Per Turn, Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn. In addition, if the target is a Hero, subtract 5 from the target’s control score for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn. In addition, if the target is a Hero, subtract 5 from the target’s control score for the rest of the turn."
         }
       ],
       "keywords": [
@@ -331,10 +300,7 @@
       "health": "7",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -344,7 +310,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           },
           {
@@ -354,7 +319,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           }
         ]
@@ -364,8 +328,7 @@
           "name": "If I Cannot Rule, None Shall Rule!",
           "activation": "Once Per Turn, Reaction: Opponent declared a command for a unit within 12\" of this unit",
           "phases": ["Start of Turn"],
-          "effect": "Roll a dice. On a 3+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost."
         }
       ],
       "keywords": [
@@ -380,8 +343,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/06a698c0-4f68-4058-89e3-ecf3aa705efd",
       "baseSize": "60mm",
       "points": 200,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Myrmourn Banshees",
@@ -389,10 +351,7 @@
       "health": "2",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -402,7 +361,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -412,16 +370,14 @@
           "name": "Spell-eaters",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If a friendly Nighthaunt unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the ‘Unbind’ ability as if it had Wizard (1). Add 1 to the unbinding roll for that ability. If the spell is unbound, inflict D3 mortal damage on the caster.",
-          "keywords": []
+          "effect": "If a friendly Nighthaunt unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the ‘Unbind’ ability as if it had Wizard (1). Add 1 to the unbinding roll for that ability. If the spell is unbound, inflict D3 mortal damage on the caster."
         }
       ],
       "keywords": ["Infantry", "Fly", "Ward (6+)", "Death", "Nighthaunt"],
       "image": "https://dhss9aar8ocw.cloudfront.net/4e3aba0f-14f8-4a01-a029-7151a87d90f7",
       "baseSize": "32mm",
       "points": 120,
-      "modelCount": 4,
-      "notes": ""
+      "modelCount": 4
     },
     {
       "name": "Vault of Souls",
@@ -429,9 +385,6 @@
       "health": "6",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "8+",
       "weapons": {},
       "abilities": [
@@ -439,16 +392,13 @@
           "name": "Siphon Souls",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Each time a model (friendly or enemy) is slain within 12\" of this Manifestation, give this Manifestation a soul point, to a maximum of 6.",
-          "keywords": []
+          "effect": "Each time a model (friendly or enemy) is slain within 12\" of this Manifestation, give this Manifestation a soul point, to a maximum of 6."
         },
         {
           "name": "Soul Eruption",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "If this Manifestation has 6 soul points, pick any number of enemy units within 6\" of this unit to be the targets.",
-          "effect": "Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the roll. Then, reset this Manifestation’s soul points to 0.",
-          "keywords": []
+          "effect": "Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the roll. Then, reset this Manifestation’s soul points to 0."
         }
       ],
       "keywords": [
@@ -461,9 +411,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/5a73da1d-798b-40ac-b8aa-ec9c41825584",
       "baseSize": "50mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Krulghast Cruciator",
@@ -471,10 +419,7 @@
       "health": "6",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -485,7 +430,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -497,7 +441,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -507,8 +450,7 @@
           "name": "Empowered Through Excruciation",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Ignore the first damage point that would be allocated to each friendly Nighthaunt unit wholly within 12\" of this unit in each phase.",
-          "keywords": []
+          "effect": "Ignore the first damage point that would be allocated to each friendly Nighthaunt unit wholly within 12\" of this unit in each phase."
         }
       ],
       "keywords": [
@@ -522,8 +464,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/78e84604-744a-4423-ad95-e615178b7e38",
       "baseSize": "40mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Pyregheists",
@@ -531,10 +472,7 @@
       "health": "1",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -545,7 +483,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Crit (Auto-wound)"]
           }
         ],
@@ -557,7 +494,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -566,10 +502,8 @@
         {
           "name": "Light A Pyre",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "If this unit is contesting an objective, pick a visible enemy unit within 6\" of this unit to be the target.",
-          "effect": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Add a number equal to the roll to this unit’s control score for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Add a number equal to the roll to this unit’s control score for the rest of the turn."
         }
       ],
       "keywords": [
@@ -592,10 +526,7 @@
       "health": "3",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -605,7 +536,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           },
           {
@@ -615,7 +545,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Crit (Auto-wound)"]
           }
         ]
@@ -626,8 +555,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -641,8 +569,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/42a7e1df-caf6-4512-a9e0-8a6325c02edc",
       "baseSize": "60 x 35mm",
       "points": 160,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Bladegheist Revenants",
@@ -650,10 +577,7 @@
       "health": "1",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -663,7 +587,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -673,16 +596,14 @@
           "name": "Thrashing Desperation",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit charged this turn, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit charged this turn, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn."
         }
       ],
       "keywords": ["Infantry", "Fly", "Ward (6+)", "Death", "Nighthaunt"],
       "image": "https://dhss9aar8ocw.cloudfront.net/d8c673bc-6a60-421a-b491-c2dc8902b711",
       "baseSize": "32mm",
       "points": 150,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Spirit Hosts",
@@ -690,10 +611,7 @@
       "health": "3",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -703,7 +621,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -713,16 +630,14 @@
           "name": "Drawn to War",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Friendly Nighthaunt Infantry Heroes have Ward (4+) while they are wholly within this unit’s combat range.",
-          "keywords": []
+          "effect": "Friendly Nighthaunt Infantry Heroes have Ward (4+) while they are wholly within this unit’s combat range."
         }
       ],
       "keywords": ["Infantry", "Fly", "Ward (6+)", "Death", "Nighthaunt"],
       "image": "https://dhss9aar8ocw.cloudfront.net/036af652-1a99-4ec4-b99e-ebc16bb8325b",
       "baseSize": "50mm",
       "points": 130,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Craventhrone Guard",
@@ -730,10 +645,7 @@
       "health": "1",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -744,7 +656,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -756,7 +667,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -766,8 +676,7 @@
           "name": "Spectral Bolts",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "This unit can pick enemy units to be the targets of shooting attacks even if they are not visible to this unit. In addition, ignore negative modifiers to hit rolls for this unit’s shooting attacks.",
-          "keywords": []
+          "effect": "This unit can pick enemy units to be the targets of shooting attacks even if they are not visible to this unit. In addition, ignore negative modifiers to hit rolls for this unit’s shooting attacks."
         }
       ],
       "keywords": [
@@ -782,8 +691,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5989da21-113d-4697-a4f2-def3d039e13a",
       "baseSize": "32mm",
       "points": 100,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Scriptor Mortis",
@@ -791,10 +699,7 @@
       "health": "6",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -804,7 +709,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -815,15 +719,12 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a visible enemy unit within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has the Sentenced keyword for the rest of the battle.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target has the Sentenced keyword for the rest of the battle."
         },
         {
           "name": "Judge, Jury and Executioner",
           "activation": "Once Per Turn (Army), End of Your Turn",
-          "phases": null,
-          "effect": "Roll a dice for each Sentenced enemy unit on the battlefield. On a 4+, inflict an amount of mortal damage equal to the current battle round number on that Sentenced unit.",
-          "keywords": []
+          "effect": "Roll a dice for each Sentenced enemy unit on the battlefield. On a 4+, inflict an amount of mortal damage equal to the current battle round number on that Sentenced unit."
         }
       ],
       "keywords": [
@@ -847,9 +748,7 @@
       "save": "4+",
       "ward": "4+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -860,7 +759,6 @@
             "wound": "2+",
             "rend": "3",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -872,7 +770,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           },
           {
@@ -882,7 +779,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           }
         ]
@@ -893,8 +789,7 @@
           "activation": "Once Per Battle, Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick any number of friendly Nighthaunt units on the battlefield to be the targets.",
-          "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to D3+3.",
-          "keywords": []
+          "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to D3+3."
         },
         {
           "name": "Grief-stricken",
@@ -908,9 +803,7 @@
         {
           "name": "Mortarch  of Grief",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Subtract 3 from the control scores of enemy units while they are within 12\" of this unit.",
-          "keywords": []
+          "effect": "Subtract 3 from the control scores of enemy units while they are within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -927,8 +820,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5a724950-ce47-4189-a7f3-0349b5b5dce9",
       "baseSize": "60mm",
       "points": 300,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Grimghast Reapers",
@@ -936,10 +828,7 @@
       "health": "1",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -949,7 +838,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Crit (Auto-wound)"]
           }
         ]
@@ -959,8 +847,7 @@
           "name": "Reaped Like Corn",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "This unit’s combat attacks score critical hits on unmodified hit rolls of 5+ while the target unit has 5 or more models.",
-          "keywords": []
+          "effect": "This unit’s combat attacks score critical hits on unmodified hit rolls of 5+ while the target unit has 5 or more models."
         }
       ],
       "keywords": [
@@ -974,8 +861,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/62c8f4d5-6557-4c23-b48f-e3e7fb181162",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Spirit Torment",
@@ -983,10 +869,7 @@
       "health": "5",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -996,7 +879,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1006,8 +888,7 @@
           "name": "Captured Soul Energy",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Each time a friendly Nighthaunt unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
-          "keywords": []
+          "effect": "Each time a friendly Nighthaunt unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
         }
       ],
       "keywords": [
@@ -1021,8 +902,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/97de22fc-d82f-4e46-a021-ecb42fb614c5",
       "baseSize": "40mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Headsmen's Curse",
@@ -1030,10 +910,7 @@
       "health": "3",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1043,7 +920,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           },
           {
@@ -1052,9 +928,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1064,8 +938,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick an enemy unit within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target is condemned until the start of your next turn. \n\nWhile a unit is condemned:\n\n• Halve that unit’s Move characteristic.\n• That unit cannot use Retreat abilities.\n• Subtract 1 from the number of dice rolled when making charge rolls for that unit, to a minimum of 1.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target is condemned until the start of your next turn. \n\nWhile a unit is condemned:\n\n• Halve that unit’s Move characteristic.\n• That unit cannot use Retreat abilities.\n• Subtract 1 from the number of dice rolled when making charge rolls for that unit, to a minimum of 1."
         }
       ],
       "keywords": [
@@ -1088,10 +961,7 @@
       "health": "5",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1101,7 +971,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1111,8 +980,7 @@
           "name": "Eager Death-dealers",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly Grimghast Reapers while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "While this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly Grimghast Reapers while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -1135,10 +1003,7 @@
       "health": "1",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1148,7 +1013,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1158,15 +1022,13 @@
           "name": "Murderous Bloodlust",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to hit rolls and wound rolls for this unit’s combat attacks while it is in combat with any damaged enemy units or while it is in combat with any enemy units that had any models slain in the same turn.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls and wound rolls for this unit’s combat attacks while it is in combat with any damaged enemy units or while it is in combat with any enemy units that had any models slain in the same turn."
         },
         {
           "name": "Harrowing Shriek",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit charged in the same turn, subtract 1 from wound rolls for attacks made by enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "If this unit charged in the same turn, subtract 1 from wound rolls for attacks made by enemy units while they are in combat with this unit."
         }
       ],
       "keywords": [
@@ -1180,8 +1042,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4bf373d1-e980-4e7b-b78d-cdb251d28e5c",
       "baseSize": "32mm",
       "points": 150,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Glaivewraith Stalkers",
@@ -1189,10 +1050,7 @@
       "health": "1",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1202,7 +1060,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Crit (Auto-wound)"]
           }
         ]
@@ -1213,15 +1070,13 @@
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick an enemy unit to be the target.",
-          "effect": "The target has the Stalked keyword for the rest of the battle.",
-          "keywords": []
+          "effect": "The target has the Stalked keyword for the rest of the battle."
         },
         {
           "name": "Unerring Hunters",
           "activation": "Reaction: You declared a Charge ability for this unit and a Stalked enemy unit is within 12\" of it",
           "phases": ["Charge Phase"],
-          "effect": "Add 2 to charge rolls for this unit made as part of that ability, but this unit must end the move in combat with the Stalked enemy unit.",
-          "keywords": []
+          "effect": "Add 2 to charge rolls for this unit made as part of that ability, but this unit must end the move in combat with the Stalked enemy unit."
         }
       ],
       "keywords": [
@@ -1235,8 +1090,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/32820786-c48b-4ce5-9c47-177ee2288f94",
       "baseSize": "32mm",
       "points": 80,
-      "modelCount": 4,
-      "notes": ""
+      "modelCount": 4
     },
     {
       "name": "Tomb Banshee",
@@ -1244,10 +1098,7 @@
       "health": "5",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1258,7 +1109,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1270,7 +1120,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1281,15 +1130,12 @@
           "activation": "Once Per Turn (Army), Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Piercing Scream to be the target.",
-          "effect": "Roll a dice. On a 2+, the target cannot use commands until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, the target cannot use commands until the start of your next turn."
         },
         {
           "name": "Cacophony of Sorrow",
           "activation": "Passive",
-          "phases": null,
-          "effect": "While there are any friendly Myrmourn Banshees units wholly within 12\" of this unit, ignore positive modifiers to the control scores of enemy units within 12\" of this unit.",
-          "keywords": []
+          "effect": "While there are any friendly Myrmourn Banshees units wholly within 12\" of this unit, ignore positive modifiers to the control scores of enemy units within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -1303,8 +1149,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/7bd255a4-fd05-42b8-b436-0f12a685bdd5",
       "baseSize": "25mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Black Coach",
@@ -1312,10 +1157,7 @@
       "health": "12",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1326,7 +1168,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Crit (Auto-wound)"]
           }
         ],
@@ -1338,7 +1179,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           },
           {
@@ -1348,7 +1188,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           },
           {
@@ -1358,7 +1197,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1376,24 +1214,20 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal on the target equal to the roll."
         },
         {
           "name": "Evocation of Death",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "If this unit destroyed any enemy units this turn, pick a friendly non‑Unique Nighthaunt Hero that has been destroyed.",
-          "effect": "Set up a replacement unit wholly within 12\" of this unit. The replacement unit can only be set up in combat with enemy units that are in combat with this unit.",
-          "keywords": []
+          "effect": "Set up a replacement unit wholly within 12\" of this unit. The replacement unit can only be set up in combat with enemy units that are in combat with this unit."
         }
       ],
       "keywords": ["War Machine", "Fly", "Ward (6+)", "Death", "Nighthaunt"],
       "image": "https://dhss9aar8ocw.cloudfront.net/cf3e51c6-02a6-4ee1-8bee-61cb8bfb979a",
       "baseSize": "170 x 105mm",
       "points": 260,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Shyish Reaper",
@@ -1401,9 +1235,6 @@
       "health": "7",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -1413,9 +1244,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           }
         ]
       },
@@ -1424,8 +1253,7 @@
           "name": "Soul Reaper",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 2 to the Attacks characteristic of this Manifestation’s Almighty Reap if it charged in the same turn.",
-          "keywords": []
+          "effect": "Add 2 to the Attacks characteristic of this Manifestation’s Almighty Reap if it charged in the same turn."
         }
       ],
       "keywords": [
@@ -1438,9 +1266,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/e3b53ca4-258b-4c1e-b280-f9aad4fc610f",
       "baseSize": "105 x 70mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Reikenor the Grimhailer",
@@ -1449,9 +1275,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1461,7 +1285,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Crit (Auto-wound)"]
           },
           {
@@ -1471,7 +1294,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           }
         ]
@@ -1482,8 +1304,7 @@
           "activation": "Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick either this unit or a visible enemy unit within 12\" of this unit to be the target.",
-          "effect": "Allocate 1 damage point to the target.\n\nIf you picked an enemy unit, add 1 to casting rolls for this unit for the rest of the turn.\n\nIf you picked this unit, for the rest of the turn:\n• Add 1 to casting rolls for this unit.\n• Add 1 to this unit’s power level.",
-          "keywords": []
+          "effect": "Allocate 1 damage point to the target.\n\nIf you picked an enemy unit, add 1 to casting rolls for this unit for the rest of the turn.\n\nIf you picked this unit, for the rest of the turn:\n• Add 1 to casting rolls for this unit.\n• Add 1 to this unit’s power level."
         },
         {
           "name": "Wraithstorm",
@@ -1498,8 +1319,7 @@
           "name": "Grim Justice",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to hit rolls and wound rolls for attacks made with this unit’s Fellreaper if the target is a Priest or a Wizard.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls and wound rolls for attacks made with this unit’s Fellreaper if the target is a Priest or a Wizard."
         }
       ],
       "keywords": [
@@ -1515,8 +1335,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/2add38ad-514c-4ff2-807c-dd57ec45c0bc",
       "baseSize": "75 x 42mm",
       "points": 210,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Knight of Shrouds",
@@ -1524,10 +1343,7 @@
       "health": "5",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1537,7 +1353,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1547,15 +1362,13 @@
           "name": "Infantry Overseer",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Nighthaunt Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Nighthaunt Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
         },
         {
           "name": "Stolen Hours",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time this unit uses a Fight ability, after that Fight ability has been resolved, Heal (X) this unit, where X is the number of damage points allocated to enemy units by combat attacks made as part of that Fight ability.",
-          "keywords": []
+          "effect": "Each time this unit uses a Fight ability, after that Fight ability has been resolved, Heal (X) this unit, where X is the number of damage points allocated to enemy units by combat attacks made as part of that Fight ability."
         }
       ],
       "keywords": [
@@ -1569,8 +1382,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ea570364-665e-4b4c-8d5c-dd4640756aef",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Dreadblade Harrows",
@@ -1578,10 +1390,7 @@
       "health": "3",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1591,7 +1400,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           },
           {
@@ -1601,7 +1409,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           }
         ]
@@ -1617,17 +1424,14 @@
         {
           "name": "Curse of Loyalty",
           "activation": "Passive",
-          "phases": null,
-          "effect": "If this unit charged this turn, add 3 to the control scores of friendly Nighthaunt units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "If this unit charged this turn, add 3 to the control scores of friendly Nighthaunt units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": ["Cavalry", "Fly", "Ward (6+)", "Death", "Nighthaunt"],
       "image": "https://dhss9aar8ocw.cloudfront.net/c001e2f5-4f56-475c-aa5a-86c4b8732e38",
       "baseSize": "60 x 35mm",
       "points": 160,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Awlrach the Drowner",
@@ -1635,10 +1439,7 @@
       "health": "7",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1648,7 +1449,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1675,8 +1475,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/081b0945-469f-4b12-8671-0b38ef06f666",
       "baseSize": "80mm",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Nagash, Supreme Lord of the Undead",
@@ -1685,9 +1484,7 @@
       "save": "3+",
       "ward": "5+",
       "wizardLevel": "9",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1696,9 +1493,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           },
           {
             "name": "Alakanash",
@@ -1706,9 +1501,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "D6",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D6"
           }
         ]
       },
@@ -1717,23 +1510,20 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, subtract 3 from its power level.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, subtract 3 from its power level."
         },
         {
           "name": "Supreme Lord of the Undead",
           "activation": "Once Per Battle, Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly non-Hero non-Unique Death unit that has been destroyed to be the target.",
-          "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units."
         },
         {
           "name": "The Staff of Power",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.",
-          "keywords": []
+          "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn."
         },
         {
           "name": "Invocation of Nagash",
@@ -1747,7 +1537,6 @@
         {
           "name": "Hand of Dust",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
           "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
           "keywords": ["Rampage"]
@@ -1767,8 +1556,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e8dc791a-71f5-4263-9750-529fc5da9a77",
       "baseSize": "130mm",
       "points": 880,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Knight of Shrouds on Ethereal Steed",
@@ -1776,10 +1564,7 @@
       "health": "7",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1789,7 +1574,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           },
           {
@@ -1799,7 +1583,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           }
         ]
@@ -1809,15 +1592,13 @@
           "name": "Cavalry Overseer",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Nighthaunt Cavalry or War Machine unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Nighthaunt Cavalry or War Machine unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
         },
         {
           "name": "Stolen Hours",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time this unit uses a Fight ability, after that Fight ability has been resolved, Heal (X) this unit, where X is the number of damage points allocated to enemy units by combat attacks made as part of that Fight ability.",
-          "keywords": []
+          "effect": "Each time this unit uses a Fight ability, after that Fight ability has been resolved, Heal (X) this unit, where X is the number of damage points allocated to enemy units by combat attacks made as part of that Fight ability."
         }
       ],
       "keywords": [
@@ -1831,8 +1612,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4a629315-06f5-4c79-96a9-0345e0c8d4f9",
       "baseSize": "75 x 42mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Chainrasps",
@@ -1840,10 +1620,7 @@
       "health": "1",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1853,7 +1630,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1863,8 +1639,7 @@
           "name": "Chilling Horde",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to wound rolls for this unit’s combat attacks if it charged in the same turn.",
-          "keywords": []
+          "effect": "Add 1 to wound rolls for this unit’s combat attacks if it charged in the same turn."
         }
       ],
       "keywords": [
@@ -1878,8 +1653,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9b6fa552-8b92-4514-8f22-f55703f32dba",
       "baseSize": "25mm",
       "points": 100,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Chainghasts",
@@ -1887,10 +1661,7 @@
       "health": "3",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1900,9 +1671,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "2",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1913,7 +1682,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1923,8 +1691,7 @@
           "name": "Another Link in the Chain",
           "activation": "Your Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of any friendly Spirit Torments. On a 3+, for the rest of the turn, add 1 to hit rolls for combat attacks made by friendly Nighthaunt units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of any friendly Spirit Torments. On a 3+, for the rest of the turn, add 1 to hit rolls for combat attacks made by friendly Nighthaunt units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": ["Infantry", "Fly", "Ward (6+)", "Death", "Nighthaunt"],
@@ -1940,10 +1707,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1954,7 +1718,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1966,7 +1729,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           },
           {
@@ -1976,7 +1738,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1986,16 +1747,14 @@
           "name": "The Briar Queen",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Briar Queen is on the battlefield, it has Wizard (1).",
-          "keywords": []
+          "effect": "While this unit’s Briar Queen is on the battlefield, it has Wizard (1)."
         },
         {
           "name": "Ghostly Howl",
           "activation": "Once Per Turn (Army), Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Piercing Scream to be the target.",
-          "effect": "Roll a dice. On a 2+, the target cannot use commands until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, the target cannot use commands until the start of your next turn."
         }
       ],
       "keywords": [

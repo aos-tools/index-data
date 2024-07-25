@@ -6,54 +6,39 @@
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
       "phases": ["Start of Turn"],
       "declare": "You must use this ability at the start of the battle round. \n\nIf multiple players are commanding a Gloomspite Gitz army, then instead, at the start of the battle round, those players roll off and only the winner declares and uses this ability this battle round.",
-      "effect": "If it is the first battle round, pick a quarter of the battlefield to be the Bad Moon’s starting location.\n\nIf it is the second or subsequent battle round, roll a dice. On a 1-3, the Bad Moon stays at its current location. On a 4+, the Bad Moon moves.\n\nThe first time the Bad Moon moves, it moves to the centre of the battlefield. The second time it moves, it moves to the quarter diagonally opposite the quarter in which it started. The third time it moves, it moves off the battlefield and has no further effect on the battle.",
-      "keywords": []
+      "effect": "If it is the first battle round, pick a quarter of the battlefield to be the Bad Moon’s starting location.\n\nIf it is the second or subsequent battle round, roll a dice. On a 1-3, the Bad Moon stays at its current location. On a 4+, the Bad Moon moves.\n\nThe first time the Bad Moon moves, it moves to the centre of the battlefield. The second time it moves, it moves to the quarter diagonally opposite the quarter in which it started. The third time it moves, it moves off the battlefield and has no further effect on the battle."
     },
     {
       "name": "Under the Light of the Bad Moon",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "During the battle, an area of the battlefield will be the Bad Moon’s location (see ‘The Bad Moon’s Orbit’). The Bad Moon’s location will be either a quarter of the battlefield or the centre of the battlefield.\n\nWhile the Bad Moon’s location is a quarter of the battlefield, all Gloomspite Gitz units (friendly and enemy) wholly within that quarter are under the light of the Bad Moon. While the Bad Moon’s location is the centre of the battlefield, all Gloomspite Gitz units (friendly and enemy) on the battlefield are under the light of the Bad Moon.\n\nWhile a friendly Gloomspite Gitz unit is under the light of the Bad Moon, the appropriate effect below applies to it:\n\nFrothing Zealots: If the unit is a non‑Squig Moonclan unit, add 3 to its control score.\n\nLunar Squigs: If the unit is a Squig unit, you can re-roll the random characteristic roll for its Move characteristic.\n\nMoonlit Hide: If the unit is a Troggoth  unit, add 1 to save rolls for it.\n\nSpiderfang Venom: If the unit is a Spiderfang unit, its combat attacks score critical hits on unmodified hit rolls of 5+. This ability also affects Companion weapons.",
-      "keywords": []
-    },
-    {
-      "name": "Under the Light of the Bad Moon",
-      "activation": "Once Per Battle, Start of the First Battle Round",
-      "phases": ["Start of Turn"],
-      "declare": "Pick a territory (either friendly territory or enemy territory) to be under the Light of the Bad Moon. If both players can use this ability, the players roll off and the winner picks a territory to be under the Light of the Bad Moon.\n\nThe territory picked remains under the Light of the Bad Moon in the first and second battle rounds. In the third and fourth battle rounds, the other territory is under the Light of the Bad Moon.",
-      "effect": "While a friendly unit is wholly within the territory that is under the Light of the Bad Moon, the appropriate effect below applies to it:\n\nFrothing Zealots: If the unit is a Moonclan Stabbas unit, add 3 to its control score.\n\nLunar Squigs: If the unit is a Squig Hoppers unit, no mortal damage is inflicted on it when it uses Retreat abilities.\n\nMoonlit Hide: If the unit is a Rockgut Troggoths unit, add 1 to save rolls for it.",
-      "keywords": []
+      "effect": "During the battle, an area of the battlefield will be the Bad Moon’s location (see ‘The Bad Moon’s Orbit’). The Bad Moon’s location will be either a quarter of the battlefield or the centre of the battlefield.\n\nWhile the Bad Moon’s location is a quarter of the battlefield, all Gloomspite Gitz units (friendly and enemy) wholly within that quarter are under the light of the Bad Moon. While the Bad Moon’s location is the centre of the battlefield, all Gloomspite Gitz units (friendly and enemy) on the battlefield are under the light of the Bad Moon.\n\nWhile a friendly Gloomspite Gitz unit is under the light of the Bad Moon, the appropriate effect below applies to it:\n\nFrothing Zealots: If the unit is a non‑Squig Moonclan unit, add 3 to its control score.\n\nLunar Squigs: If the unit is a Squig unit, you can re-roll the random characteristic roll for its Move characteristic.\n\nMoonlit Hide: If the unit is a Troggoth  unit, add 1 to save rolls for it.\n\nSpiderfang Venom: If the unit is a Spiderfang unit, its combat attacks score critical hits on unmodified hit rolls of 5+. This ability also affects Companion weapons."
     }
   ],
   "battle_formations": {
     "Moonclan Skrap": {
       "name": "Spreading Loonacy",
       "activation": "Once Per Turn (Army), End of Your Turn",
-      "phases": null,
       "declare": "Pick up to 3 friendly non‑Squig Moonclan units in combat to be the targets.",
-      "effect": "For each target:\n\n• Make a pile-in move with the target.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
-      "keywords": []
+      "effect": "For each target:\n\n• Make a pile-in move with the target.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
     "Spiderfang Stalktribe": {
       "name": "Realmweb Ambush",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "Each time a friendly Skitterstrand Arachnarok uses the ‘Realmweb Lurker’ ability, you can pick another friendly Spiderfang unit to also use that ability.\n\nIn addition, each time a friendly Skitterstrand Arachnarok uses the ‘Ambush from Beyond’ ability, you can pick another friendly Spiderfang unit that is skittering through tunnels in reality to also use that ability. That unit must be set up wholly within 12\" of the Skitterstrand Arachnarok using the ability.",
-      "keywords": []
+      "effect": "Each time a friendly Skitterstrand Arachnarok uses the ‘Realmweb Lurker’ ability, you can pick another friendly Spiderfang unit to also use that ability.\n\nIn addition, each time a friendly Skitterstrand Arachnarok uses the ‘Ambush from Beyond’ ability, you can pick another friendly Spiderfang unit that is skittering through tunnels in reality to also use that ability. That unit must be set up wholly within 12\" of the Skitterstrand Arachnarok using the ability."
     },
     "Squigalanche": {
       "name": "Bouncing Fury",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Each time a friendly Squig unit charges, add 1 to the Attacks characteristic of its Fang-filled Gobs, Massive Fang-filled Gobs or Huge Fang-filled Gobs for the rest of the turn.",
-      "keywords": []
+      "effect": "Each time a friendly Squig unit charges, add 1 to the Attacks characteristic of its Fang-filled Gobs, Massive Fang-filled Gobs or Huge Fang-filled Gobs for the rest of the turn."
     },
     "Troggherd": {
       "name": "Herd Healing",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Each time a friendly Troggoth unit uses a Fight ability, after that ability has been resolved, Heal (D3) that unit.",
-      "keywords": []
+      "effect": "Each time a friendly Troggoth unit uses a Fight ability, after that ability has been resolved, Heal (D3) that unit."
     }
   },
   "heroic_traits": [
@@ -61,22 +46,19 @@
       "name": "Loontouched",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "If this unit is not a Wizard, it has Wizard (1). Otherwise, add 1 to casting rolls for this unit.",
-      "keywords": []
+      "effect": "If this unit is not a Wizard, it has Wizard (1). Otherwise, add 1 to casting rolls for this unit."
     },
     {
       "name": "The Clammy Hand",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "Each time a friendly Gloomspite Gitz unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
-      "keywords": []
+      "effect": "Each time a friendly Gloomspite Gitz unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
     },
     {
       "name": "Fight Another Day",
       "activation": "Any Combat Phase",
       "phases": ["Combat Phase"],
-      "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
-      "keywords": []
+      "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
     }
   ],
   "artefacts_of_power": [
@@ -84,23 +66,19 @@
       "name": "Leering Gitshield",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Each time an unmodified hit roll for an attack that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the Attack ability has been resolved.",
-      "keywords": []
+      "effect": "Each time an unmodified hit roll for an attack that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the Attack ability has been resolved."
     },
     {
       "name": "Backstabber's Blade",
       "activation": "Once Per Battle, End of Any Turn",
-      "phases": null,
       "declare": "Pick an enemy Hero in combat with this unit to be the target.",
-      "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-      "keywords": []
+      "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
     },
     {
       "name": "The Clammy Cowl",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Subtract 1 from hit rolls for attacks that target this unit.",
-      "keywords": []
+      "effect": "Subtract 1 from hit rolls for attacks that target this unit."
     }
   ],
   "spell_lore": {
@@ -185,9 +163,6 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -195,8 +170,7 @@
           "name": "Lurid Light",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Friendly Gloomspite Gitz units are under the light of the Bad Moon while they are wholly within 12\" of this Manifestation.",
-          "keywords": []
+          "effect": "Friendly Gloomspite Gitz units are under the light of the Bad Moon while they are wholly within 12\" of this Manifestation."
         }
       ],
       "keywords": [
@@ -209,20 +183,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/40db0d95-d669-4748-96e3-f2c7d70eb214",
       "baseSize": "50mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Squigboss with Gnasha-Squig",
       "move": "5\"",
       "health": "4",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -231,9 +199,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Fang-filled Gob",
@@ -242,7 +208,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -253,8 +218,7 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Squig unit within this unit’s combat range to be the target.",
-          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n\nCrimson Deffcap: Add 3\" to the target’s Move characteristic.\n\nYellow Lurka: The target’s Fang-filled Gobs, Huge Fang-filled Gobs or Massive Fang-filled Gobs have Crit (Mortal).",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n\nCrimson Deffcap: Add 3\" to the target’s Move characteristic.\n\nYellow Lurka: The target’s Fang-filled Gobs, Huge Fang-filled Gobs or Massive Fang-filled Gobs have Crit (Mortal)."
         }
       ],
       "keywords": [
@@ -268,19 +232,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4f95f7da-6543-40dd-b436-51954a11d4c2",
       "baseSize": "32mm",
       "points": 110,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Sporesplatta Fanatics",
       "move": "2D6\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -289,9 +248,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -300,34 +257,27 @@
           "name": "A Prod in the Right Direction",
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
-          "keywords": []
+          "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
           "name": "Puffshroom Frenzy",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly Moonclan units while they are wholly within 12\" of this unit. Subtract 1 from the Attacks characteristic of weapons used by enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly Moonclan units while they are wholly within 12\" of this unit. Subtract 1 from the Attacks characteristic of weapons used by enemy units while they are in combat with this unit."
         }
       ],
       "keywords": ["Infantry", "Destruction", "Gloomspite Gitz", "Moonclan"],
       "image": "https://dhss9aar8ocw.cloudfront.net/6adc2ace-c167-4dae-894d-c4d07b8526d8",
       "baseSize": "32mm",
       "points": 120,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Trugg, the Troggoth King",
       "move": "6\"",
       "health": "16",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -336,9 +286,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           },
           {
             "name": "Mighty Antlers",
@@ -346,9 +294,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+3"
           }
         ]
       },
@@ -357,22 +303,19 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, when it uses the 'Malfunctioning Leystone' ability, roll 1 dice instead of 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, when it uses the 'Malfunctioning Leystone' ability, roll 1 dice instead of 3."
         },
         {
           "name": "Greater Regeneration",
           "activation": "Start of Any Turn",
           "phases": ["Start of Turn"],
-          "effect": "Heal (D6) this unit.",
-          "keywords": []
+          "effect": "Heal (D6) this unit."
         },
         {
           "name": "Malfunctioning Leystone",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll 3 dice. You must pick 1 of those dice and apply the effect that corresponds to its value. Effects 2-6 persist until the start of your next turn.\n\n1 - Glyph of Shyish: Inflict D3 mortal damage on this unit.\n\n2 -  Glyph of Ghur: Add 1 to the Attacks characteristic of melee weapons used by friendly Troggoth units while they are wholly within 12\" of this unit.\n\n3 -  Glyph of Aqshy: Add 1 to the Rend characteristic of melee weapons used by friendly Troggoth units while they are wholly within 12\" of this unit.\n\n4 - Glyph of Hysh: This unit can use Unbind abilities as if it had Wizard (1).\n\n5 - Glyph of Ulgu: Subtract 1 from hit rolls for shooting attacks that target friendly Troggoth units while they are wholly within 12\" of this unit.\n\n6 - Glyph of Chamon: This unit has Ward (5+).",
-          "keywords": []
+          "effect": "Roll 3 dice. You must pick 1 of those dice and apply the effect that corresponds to its value. Effects 2-6 persist until the start of your next turn.\n\n1 - Glyph of Shyish: Inflict D3 mortal damage on this unit.\n\n2 -  Glyph of Ghur: Add 1 to the Attacks characteristic of melee weapons used by friendly Troggoth units while they are wholly within 12\" of this unit.\n\n3 -  Glyph of Aqshy: Add 1 to the Rend characteristic of melee weapons used by friendly Troggoth units while they are wholly within 12\" of this unit.\n\n4 - Glyph of Hysh: This unit can use Unbind abilities as if it had Wizard (1).\n\n5 - Glyph of Ulgu: Subtract 1 from hit rolls for shooting attacks that target friendly Troggoth units while they are wholly within 12\" of this unit.\n\n6 - Glyph of Chamon: This unit has Ward (5+)."
         },
         {
           "name": "Crushing Grip",
@@ -394,8 +337,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5fe85a0a-446e-4260-8b4a-8e30b20103f6",
       "baseSize": "100mm",
       "points": 360,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Scrapskuttle’s Arachnacauldron",
@@ -403,9 +345,6 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -415,9 +354,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "-",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -427,8 +364,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Gloomspite Gitz Wizard within 1\" of this Manifestation to be the target.",
-          "effect": "Add 1 to the target’s power level until the start of your next turn.",
-          "keywords": []
+          "effect": "Add 1 to the target’s power level until the start of your next turn."
         }
       ],
       "keywords": [
@@ -440,20 +376,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/ca5bf212-56a6-4ef9-afdb-362ee288f9f6",
       "baseSize": "75 x 42mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Loonboss with Giant Cave Squig",
       "move": "5\"",
       "health": "6",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -463,7 +393,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -472,9 +401,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -483,16 +410,13 @@
           "name": "Goin' Somewhere?",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "If a friendly Moonclan Infantry unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly Moonclan Infantry units cannot use Retreat abilities while they are within 12\" of this unit.",
-          "keywords": []
+          "effect": "If a friendly Moonclan Infantry unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly Moonclan Infantry units cannot use Retreat abilities while they are within 12\" of this unit."
         },
         {
           "name": "Gobbled Up",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit within 1\" of this unit to be the target.",
-          "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
-          "keywords": []
+          "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain."
         }
       ],
       "keywords": [
@@ -506,19 +430,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9c8e3112-2337-4584-926e-63d33e0c7367",
       "baseSize": "75 x 42mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Rippa's Snarlfangs",
       "move": "12\"",
       "health": "3",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -527,9 +446,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "-",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Wolfgit Weapons",
@@ -538,7 +455,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -549,15 +465,13 @@
           "activation": "Once per Turn (Army), Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "If this unit’s Mean-eye is on the battlefield and not in combat, pick a visible enemy unit within 15\" of this unit to be the target.",
-          "effect": "Roll a dice. Add 1 to the roll if the target is damaged. On a 5+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice. Add 1 to the roll if the target is damaged. On a 5+, inflict 1 mortal damage on the target."
         },
         {
           "name": "Marking Your Territory",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Rend characteristic of this unit’s Wolfgit Weapons while it contests an objective you control that is not contested by any other friendly units.",
-          "keywords": []
+          "effect": "Add 1 to the Rend characteristic of this unit’s Wolfgit Weapons while it contests an objective you control that is not contested by any other friendly units."
         }
       ],
       "keywords": [
@@ -579,11 +493,7 @@
       "move": "12\"",
       "health": "2",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -593,9 +503,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -605,9 +513,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Snarlfang’s Slavering Jaws",
@@ -616,7 +522,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -626,8 +531,7 @@
           "name": "Can't Catch Us",
           "activation": "Once Per Turn (Army), Enemy Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "If this unit is not in combat, this unit can move D6\". It cannot end that move in combat.",
-          "keywords": []
+          "effect": "If this unit is not in combat, this unit can move D6\". It cannot end that move in combat."
         }
       ],
       "keywords": [
@@ -642,19 +546,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/160a65f7-8e6b-47d9-a988-d36a1c847820",
       "baseSize": "60 x 35mm",
       "points": 130,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Moonclan Shootas",
       "move": "5\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -664,9 +563,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -676,9 +573,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -688,8 +583,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -704,19 +598,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/eed72c92-3950-48c0-844a-bfd7306610e2",
       "baseSize": "25mm",
       "points": 160,
-      "modelCount": 20,
-      "notes": ""
+      "modelCount": 20
     },
     {
       "name": "Madcap Shaman",
       "move": "5\"",
       "health": "4",
       "save": "6+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -725,9 +615,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -736,8 +624,7 @@
           "name": "Madcap Mushroom",
           "activation": "Once Per Battle, Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "For the rest of the turn:\n\n• Add 1 to this unit’s power level.\n• If 2 or more dice in a casting roll for this unit have the same value, inflict D3 mortal damage on this unit after the Spell ability has been resolved.",
-          "keywords": []
+          "effect": "For the rest of the turn:\n\n• Add 1 to this unit’s power level.\n• If 2 or more dice in a casting roll for this unit have the same value, inflict D3 mortal damage on this unit after the Spell ability has been resolved."
         }
       ],
       "keywords": [
@@ -751,19 +638,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b87e0bc4-cc6b-43f2-856b-bbd4abde5f0b",
       "baseSize": "25mm",
       "points": 80,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Aleguzzler Gargant",
       "move": "8\"",
       "health": "12",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -773,9 +655,7 @@
             "hit": "5+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -785,9 +665,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "’Eadbutt",
@@ -795,9 +673,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           },
           {
             "name": "Massive Club",
@@ -805,9 +681,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -824,27 +698,21 @@
           "name": "Timberrrrr!",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit.",
-          "keywords": []
+          "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit."
         }
       ],
       "keywords": ["Monster", "Destruction", "Gloomspite Gitz"],
       "image": "https://dhss9aar8ocw.cloudfront.net/1fa82ed7-e4f3-42ab-b8f6-a197e267d606",
       "baseSize": "90 x 52mm",
       "points": 170,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Mollog",
       "move": "6\"",
       "health": "8",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -855,7 +723,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -866,9 +733,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -877,29 +742,25 @@
           "name": "Mollog's Mob",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit’s Bat Squig, Spiteshroom and Stalagsquig are tokens. After setting up this unit on the battlefield for the first time, place its tokens next to it.",
-          "keywords": []
+          "effect": "This unit’s Bat Squig, Spiteshroom and Stalagsquig are tokens. After setting up this unit on the battlefield for the first time, place its tokens next to it."
         },
         {
           "name": "Regeneration",
           "activation": "Start of Any Turn",
           "phases": ["Start of Turn"],
-          "effect": "Heal (D3) this unit.",
-          "keywords": []
+          "effect": "Heal (D3) this unit."
         },
         {
           "name": "Unleash The Critters!",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "Pick 1 of the following effects:\n\nSpore Cloud: Remove this unit’s Spiteshroom. For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n\nBat Squig Attack!: Remove this unit’s Bat Squig. Pick an enemy unit in combat with this unit to be the target and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nRock-hard Skin: Remove this unit’s Stalagsquig. Ignore all modifiers to save rolls for this unit (positive and negative) for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick 1 of the following effects:\n\nSpore Cloud: Remove this unit’s Spiteshroom. For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n\nBat Squig Attack!: Remove this unit’s Bat Squig. Pick an enemy unit in combat with this unit to be the target and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nRock-hard Skin: Remove this unit’s Stalagsquig. Ignore all modifiers to save rolls for this unit (positive and negative) for the rest of the turn."
         },
         {
           "name": "Bitey Distractions",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "This unit has Ward (5+) while any of its tokens are on the battlefield.",
-          "keywords": []
+          "effect": "This unit has Ward (5+) while any of its tokens are on the battlefield."
         }
       ],
       "keywords": [
@@ -913,19 +774,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/73ef0653-a366-49af-ac1d-117ac494b909",
       "baseSize": "50mm [1], 25mm [3]",
       "points": 210,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Fungoid Cave-Shaman",
       "move": "5\"",
       "health": "5",
       "save": "6+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -934,9 +791,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Spore Squig’s Vicious Teeth",
@@ -945,7 +800,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -955,8 +809,7 @@
           "name": "Deffcap Mushroom",
           "activation": "Once Per Battle, Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to this unit’s power level for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to this unit’s power level for the rest of the turn."
         }
       ],
       "keywords": [
@@ -970,19 +823,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/75f51a76-5bad-4468-80bd-c09621c173ef",
       "baseSize": "32mm",
       "points": 100,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Scuttleboss on Gigantic Spider",
       "move": "10\"",
       "health": "7",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -992,7 +840,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Companion"]
           },
           {
@@ -1001,9 +848,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1012,16 +857,13 @@
           "name": "Wall Crawler",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass across terrain features as if it had Fly.",
-          "keywords": []
+          "effect": "This unit can pass across terrain features as if it had Fly."
         },
         {
           "name": "Scuttle Away!",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "If this unit is in combat, pick this unit and up to 1 friendly Spider Riders unit that is in combat and wholly within 12\" of this unit to be the targets.",
-          "effect": "The targets can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on them.",
-          "keywords": []
+          "effect": "The targets can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on them."
         }
       ],
       "keywords": [
@@ -1034,19 +876,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/66b1289c-798c-419e-9649-0bd9b9ec57c2",
       "baseSize": "60mm",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Grinkrak's Looncourt",
       "move": "5\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1057,7 +894,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3+2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -1068,9 +904,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Moon-slicer",
@@ -1078,9 +912,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1089,16 +921,14 @@
           "name": "The Looncourt's Quest",
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "Pick an objective or terrain feature within enemy territory to be the object of this unit’s quest.",
-          "keywords": []
+          "effect": "Pick an objective or terrain feature within enemy territory to be the object of this unit’s quest."
         },
         {
           "name": "Quest's End",
           "activation": "Start of Any Turn",
           "phases": ["Start of Turn"],
           "declare": "This unit can only use this ability if you control the object of this unit’s quest and this unit is contesting it.",
-          "effect": "For the rest of the battle, this unit has Strike-first and Ward (4+).",
-          "keywords": []
+          "effect": "For the rest of the battle, this unit has Strike-first and Ward (4+)."
         }
       ],
       "keywords": [
@@ -1120,11 +950,8 @@
       "move": "10\"",
       "health": "16",
       "save": "4+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1134,9 +961,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1156,9 +981,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Monstrous Spider Fangs",
@@ -1167,7 +990,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Companion"]
           },
           {
@@ -1177,7 +999,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1187,22 +1008,19 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6."
         },
         {
           "name": "Catchweb Spidershrine",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to casting rolls for friendly Spiderfang Wizards while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for friendly Spiderfang Wizards while they are wholly within 12\" of this unit."
         },
         {
           "name": "Wall Crawler",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass across terrain features as if it had Fly.",
-          "keywords": []
+          "effect": "This unit can pass across terrain features as if it had Fly."
         },
         {
           "name": "Ensnaring Webbing",
@@ -1225,19 +1043,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/69392625-f202-4a13-84f1-a1af1b2486c0",
       "baseSize": "160mm",
       "points": 320,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Loonsmasha Fanatics",
       "move": "2D6\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1246,9 +1059,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1266,34 +1077,27 @@
           "activation": "Any Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is hidden among the mobs. Then, pick a friendly Moonclan Shootas or Moonclan Stabbas unit that has 10 or more models to be the target.",
-          "effect": "Set up this unit anywhere on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units."
         },
         {
           "name": "Whirling Death",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "This unit has Strike-first.",
-          "keywords": []
+          "effect": "This unit has Strike-first."
         }
       ],
       "keywords": ["Infantry", "Destruction", "Gloomspite Gitz", "Moonclan"],
       "image": "https://dhss9aar8ocw.cloudfront.net/d8b02084-9fb6-469d-953b-ec05ed0521ac",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Rabble-Rowza",
       "move": "5\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1304,7 +1108,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -1315,9 +1118,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1335,16 +1136,14 @@
           "activation": "Once Per Turn (Army), Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick a visible friendly Monster or Beast unit to be the target.",
-          "effect": "For the rest of the turn, the target can use Charge abilities even if it used a Run ability in the same turn, but each time it uses a Move ability, it must end the move closer to this unit. \n\nIn addition, for the rest of the turn, the first time the target ends a move within this unit’s combat range, inflict D6 mortal damage on this unit.",
-          "keywords": []
+          "effect": "For the rest of the turn, the target can use Charge abilities even if it used a Run ability in the same turn, but each time it uses a Move ability, it must end the move closer to this unit. \n\nIn addition, for the rest of the turn, the first time the target ends a move within this unit’s combat range, inflict D6 mortal damage on this unit."
         },
         {
           "name": "Emerge from the Depths",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is in a secret tunnel.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units."
         }
       ],
       "keywords": [
@@ -1365,11 +1164,7 @@
       "move": "D6+6\"",
       "health": "2",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1379,7 +1174,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -1389,7 +1183,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1400,8 +1193,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase,  pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -1416,19 +1208,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/64c6064c-a6fd-44d9-a489-9bbdad3b2450",
       "baseSize": "32mm",
       "points": 120,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Fellwater Troggoths",
       "move": "6\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1439,7 +1226,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1450,9 +1236,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1461,23 +1245,20 @@
           "name": "Regeneration",
           "activation": "Start of Any Turn",
           "phases": ["Start of Turn"],
-          "effect": "Heal (D3) this unit.",
-          "keywords": []
+          "effect": "Heal (D3) this unit."
         },
         {
           "name": "Noxious Vomit",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s Noxious Vomit, that unit is drenched in vomit until the start of your next turn.\n\nWhile a unit is drenched in vomit:\n• Subtract 1 from save rolls for that unit.\n• Ignore positive modifiers to save rolls for that unit.",
-          "keywords": []
+          "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s Noxious Vomit, that unit is drenched in vomit until the start of your next turn.\n\nWhile a unit is drenched in vomit:\n• Subtract 1 from save rolls for that unit.\n• Ignore positive modifiers to save rolls for that unit."
         }
       ],
       "keywords": ["Infantry", "Destruction", "Gloomspite Gitz", "Troggoth"],
       "image": "https://dhss9aar8ocw.cloudfront.net/8a2381dd-2d7f-4c1d-a834-88a9117b4276",
       "baseSize": "50mm",
       "points": 180,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Rockgut Troggoths",
@@ -1485,10 +1266,7 @@
       "health": "5",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1498,9 +1276,7 @@
             "hit": "5+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -1510,9 +1286,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -1521,8 +1295,7 @@
           "name": "Regeneration",
           "activation": "Start of Any Turn",
           "phases": ["Start of Turn"],
-          "effect": "Heal (D3) this unit.",
-          "keywords": []
+          "effect": "Heal (D3) this unit."
         }
       ],
       "keywords": [
@@ -1535,8 +1308,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/2c68ab1b-0ace-4afc-a1cb-ee55793b219b",
       "baseSize": "50mm",
       "points": 170,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Kragnos, the End of Empires",
@@ -1544,10 +1316,7 @@
       "health": "18",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "15",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1557,7 +1326,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -1566,9 +1334,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "The Dread Mace",
@@ -1577,8 +1343,7 @@
             "wound": "2+",
             "rend": "3",
             "damage": "4",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           }
         ]
       },
@@ -1587,15 +1352,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10."
         },
         {
           "name": "The Shield Inviolate",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per Spell ability.",
-          "keywords": []
+          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per Spell ability."
         },
         {
           "name": "Rampaging Destruction",
@@ -1608,15 +1371,13 @@
           "name": "The End of Empires",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to the number of dice rolled when making charge rolls for friendly Destruction units while they are wholly within 12\" of this unit, to a maximum of 3.",
-          "keywords": []
+          "effect": "Add 1 to the number of dice rolled when making charge rolls for friendly Destruction units while they are wholly within 12\" of this unit, to a maximum of 3."
         },
         {
           "name": "Avatar of Destruction",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -1631,19 +1392,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/23456519-4d38-4688-aa80-f5ae4c5093da",
       "baseSize": "130mm",
       "points": 680,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Squig Herd",
       "move": "D6+3\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1653,7 +1409,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1662,9 +1417,7 @@
             "hit": "5+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1673,22 +1426,18 @@
           "name": "Herding Squigs",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll a dice for each Squig Herder in this unit. For each 2+, you can return D3 slain Cave Squigs to this unit. For each 1, 1 Squig Herder in this unit is slain.",
-          "keywords": []
+          "effect": "Roll a dice for each Squig Herder in this unit. For each 2+, you can return D3 slain Cave Squigs to this unit. For each 1, 1 Squig Herder in this unit is slain."
         },
         {
           "name": "Squigs Gone Wild",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": [
@@ -1701,19 +1450,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/6cc69177-88c5-42d0-9d5a-2f90bbede303",
       "baseSize": "25mm",
       "points": 100,
-      "modelCount": 12,
-      "notes": ""
+      "modelCount": 12
     },
     {
       "name": "Loonboss on Giant Cave Squig",
       "move": "D6+6\"",
       "health": "6",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1723,7 +1467,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -1733,7 +1476,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1743,8 +1485,7 @@
           "name": "Let's Get Bouncin'!",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Squig Cavalry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Squig Cavalry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1759,19 +1500,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/34d74abf-9c56-4b6d-98b0-7ffaa4a1e319",
       "baseSize": "40mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Spider Riders",
       "move": "10\"",
       "health": "2",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1781,9 +1517,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1794,7 +1528,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Companion"]
           },
           {
@@ -1803,9 +1536,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1814,8 +1545,7 @@
           "name": "Wall Crawler",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass across terrain features as if it had Fly.",
-          "keywords": []
+          "effect": "This unit can pass across terrain features as if it had Fly."
         }
       ],
       "keywords": [
@@ -1830,19 +1560,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c15a3838-a101-404e-bdc7-d985f6469aef",
       "baseSize": "60 x 35mm",
       "points": 110,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Moonclan Stabbas",
       "move": "5\"",
       "health": "1",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1851,9 +1576,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1863,8 +1586,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1879,19 +1601,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/45215248-7867-4169-a31b-60b39ed432cc",
       "baseSize": "25mm",
       "points": 140,
-      "modelCount": 20,
-      "notes": ""
+      "modelCount": 20
     },
     {
       "name": "Squig Hoppers",
       "move": "D6+8\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1900,9 +1617,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Fang-filled Gob",
@@ -1911,7 +1626,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1922,8 +1636,7 @@
           "activation": "Any Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
-          "effect": "Roll a dice for each model in this unit that passed across the target. For each 4+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice for each model in this unit that passed across the target. For each 4+, inflict 1 mortal damage on the target."
         }
       ],
       "keywords": [
@@ -1938,8 +1651,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0857abc2-41dc-428c-9a3a-cc2eb13bc292",
       "baseSize": "32mm",
       "points": 170,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Skragrott, the Loonking",
@@ -1948,9 +1660,7 @@
       "save": "6+",
       "ward": "4+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1959,9 +1669,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1970,8 +1678,7 @@
           "name": "The Loonking's Entreaty",
           "activation": "Once Per Battle, Reaction: You declared the ‘The Bad Moon’s Orbit’ ability",
           "phases": ["Start of Turn"],
-          "effect": "You can choose whether the Bad Moon moves to the next location or stays in its current location instead of rolling the dice.",
-          "keywords": []
+          "effect": "You can choose whether the Bad Moon moves to the next location or stays in its current location instead of rolling the dice."
         },
         {
           "name": "Fangz of Da Bad Moon",
@@ -1986,8 +1693,7 @@
           "name": "Babbling Wand",
           "activation": "Reaction: You declared the ‘Redeploy’ command for a friendly Moonclan unit wholly within 12\" of this unit",
           "phases": ["Movement Phase"],
-          "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
-          "keywords": []
+          "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead."
         }
       ],
       "keywords": [
@@ -2004,19 +1710,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c9aca84d-a197-4488-aa41-5afa6c737b0f",
       "baseSize": "60 x 35mm",
       "points": 220,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Arachnarok Spider with Spiderfang Warparty",
       "move": "10\"",
       "health": "16",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2026,9 +1727,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -2048,9 +1747,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Monstrous Spider Fangs",
@@ -2059,7 +1756,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Companion"]
           }
         ]
@@ -2069,15 +1765,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6."
         },
         {
           "name": "Wall Crawler",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass across terrain features as if it had Fly.",
-          "keywords": []
+          "effect": "This unit can pass across terrain features as if it had Fly."
         },
         {
           "name": "Voracious Predator",
@@ -2098,44 +1792,34 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d9169e57-9fab-412a-bff2-2079e47cbac2",
       "baseSize": "160mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bad Moon Loonshrine",
       "move": "-",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
           "name": "Effigy of Da Bad Moon",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Friendly Gloomspite Gitz units are under the light of the Bad Moon while they are wholly within 12\" of this terrain feature.",
-          "keywords": []
+          "effect": "Friendly Gloomspite Gitz units are under the light of the Bad Moon while they are wholly within 12\" of this terrain feature."
         },
         {
           "name": "Moonclan Lairs",
           "activation": "Once Per Turn (Army), End of Your Turn",
-          "phases": null,
           "declare": "Pick a friendly non-Hero non-Monster non‑War Machine Gloomspite Gitz unit that has been destroyed to be the target.",
           "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this terrain feature and more than 3\" from all enemy units.",
-          "command_point_cost": 1,
-          "keywords": []
+          "command_point_cost": 1
         }
       ],
       "keywords": ["Faction Terrain", "Destruction", "Gloomspite Gitz"],
       "image": "https://dhss9aar8ocw.cloudfront.net/a40df3fa-35d5-4658-9f11-73d7c42dc6db",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Loonboss",
@@ -2143,10 +1827,7 @@
       "health": "5",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2155,9 +1836,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -2167,15 +1846,13 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a visible friendly Moonclan Stabbas unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, pick one of the following effects:\n\nGet Back ’Ere!: If the target is not in combat, you can return D6 slain models to it.\n\nStab ’Em Good!: Add 1 to wound rolls for the target’s attacks until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, pick one of the following effects:\n\nGet Back ’Ere!: If the target is not in combat, you can return D6 slain models to it.\n\nStab ’Em Good!: Add 1 to wound rolls for the target’s attacks until the start of your next turn."
         },
         {
           "name": "Let's get Stabbin'!",
           "activation": "Reaction: You declared a Fight ability or this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Moonclan Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Moonclan Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": [
@@ -2197,11 +1874,8 @@
       "move": "5\"",
       "health": "3",
       "save": "6+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2210,9 +1884,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -2221,15 +1893,13 @@
           "name": "Gobbapalooza Know-Wotz",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n\nGlareface Dance: Pick a friendly Gloomspite Gitz unit within this unit’s combat range. Add 1 to run rolls and charge rolls for that unit until the start of your next turn.\n\nNasty Poisons: Pick a friendly Gloomspite Gitz unit within this unit’s combat range. Add 1 to the Rend characteristic of that unit’s weapons until the start of your next turn.\n\nMesmerise: Pick a visible enemy unit within 12\" of this unit. Until the start of your next turn, that unit cannot use commands.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n\nGlareface Dance: Pick a friendly Gloomspite Gitz unit within this unit’s combat range. Add 1 to run rolls and charge rolls for that unit until the start of your next turn.\n\nNasty Poisons: Pick a friendly Gloomspite Gitz unit within this unit’s combat range. Add 1 to the Rend characteristic of that unit’s weapons until the start of your next turn.\n\nMesmerise: Pick a visible enemy unit within 12\" of this unit. Until the start of your next turn, that unit cannot use commands."
         },
         {
           "name": "Hallucinogenic Fungus Brews",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "In the first battle round, this unit has Ward (4+). In the second battle round, this unit has Ward (5+). In the third and subsequent battle rounds, this unit has Ward (6+).",
-          "keywords": []
+          "effect": "In the first battle round, this unit has Ward (4+). In the second battle round, this unit has Ward (5+). In the third and subsequent battle rounds, this unit has Ward (6+)."
         }
       ],
       "keywords": [
@@ -2250,11 +1920,7 @@
       "move": "10\"",
       "health": "16",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2264,9 +1930,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Flinger",
@@ -2276,7 +1940,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ],
@@ -2297,9 +1960,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Monstrous Spider Fangs",
@@ -2308,7 +1969,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Companion"]
           }
         ]
@@ -2318,22 +1978,19 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6."
         },
         {
           "name": "Wall Crawler",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass across terrain features as if it had Fly.",
-          "keywords": []
+          "effect": "This unit can pass across terrain features as if it had Fly."
         },
         {
           "name": "Flinger",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "If any attacks made with this unit’s Flinger score a hit, after the Shoot ability has been resolved, roll a dice. On a 2+, the target unit is entangled until the start of your next turn. Halve the Move characteristic of a unit while it is entangled.",
-          "keywords": []
+          "effect": "If any attacks made with this unit’s Flinger score a hit, after the Shoot ability has been resolved, roll a dice. On a 2+, the target unit is entangled until the start of your next turn. Halve the Move characteristic of a unit while it is entangled."
         },
         {
           "name": "Beast-binding Webbing",
@@ -2354,8 +2011,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/842d9397-cb4f-4d36-9f2f-9148bdb14f7f",
       "baseSize": "160mm",
       "points": 290,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Sneaky Snufflers",
@@ -2363,10 +2019,7 @@
       "health": "2",
       "save": "6+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2375,9 +2028,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Snufflesquig’s Gnashers",
@@ -2386,7 +2037,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2397,8 +2047,7 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If this unit is not in combat, pick a visible friendly Moonclan unit wholly within 12\" of it to be the target.",
-          "effect": "Roll a dice. Add 1 to the roll if this unit is under the light of the Bad Moon. On a 3+, the target has Ward (5+) until the start of your next turn. On a 6+, also add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. Add 1 to the roll if this unit is under the light of the Bad Moon. On a 3+, the target has Ward (5+) until the start of your next turn. On a 6+, also add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn."
         }
       ],
       "keywords": [
@@ -2411,19 +2060,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/10fc5693-579a-462b-8078-0993acee4be8",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 6,
-      "notes": ""
+      "modelCount": 6
     },
     {
       "name": "Dankhold Troggoth",
       "move": "6\"",
       "health": "10",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2432,9 +2076,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+3"
           }
         ]
       },
@@ -2443,15 +2085,13 @@
           "name": "Regeneration",
           "activation": "Start of Any Turn",
           "phases": ["Start of Turn"],
-          "effect": "Heal (D3) this unit.",
-          "keywords": []
+          "effect": "Heal (D3) this unit."
         },
         {
           "name": "Magical Resistance",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.",
-          "keywords": []
+          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit."
         },
         {
           "name": "Wade and Smash",
@@ -2465,19 +2105,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/218bba63-7fb9-4629-928a-dd51b18f34e4",
       "baseSize": "60mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Skitterstrand Arachnarok",
       "move": "10\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2487,7 +2122,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Companion"]
           },
           {
@@ -2515,23 +2149,20 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6."
         },
         {
           "name": "Ambush from Beyond",
           "activation": "Any Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is skittering through tunnels in reality.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units."
         },
         {
           "name": "Wall Crawler",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass across terrain features as if it had Fly.",
-          "keywords": []
+          "effect": "This unit can pass across terrain features as if it had Fly."
         },
         {
           "name": "Scuttling Terror",
@@ -2551,19 +2182,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b3f7b83c-c417-4d73-87bb-b9eb926058c7",
       "baseSize": "160mm",
       "points": 250,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Loonboss on Mangler Squigs",
       "move": "D6+8\"",
       "health": "14",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2583,7 +2209,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2592,9 +2217,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2603,8 +2226,7 @@
           "name": "Squig Rage",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Huge Fang-filled Gobs is 6.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Huge Fang-filled Gobs is 6."
         },
         {
           "name": "Ker-Splat!",
@@ -2619,15 +2241,13 @@
           "activation": "Once Per Battle (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick this unit and all friendly Squig units wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 1 to wound rolls for the targets’ Fang-filled Gobs, Massive Fangfilled Gobs and Huge Fang-filled Gobs for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to wound rolls for the targets’ Fang-filled Gobs, Massive Fangfilled Gobs and Huge Fang-filled Gobs for the rest of the turn."
         },
         {
           "name": "Watch Out!",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit.",
-          "keywords": []
+          "effect": "If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit."
         }
       ],
       "keywords": [
@@ -2642,8 +2262,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ad4a6e5c-1444-4e5c-b18d-39a4a54ca9bc",
       "baseSize": "80mm",
       "points": 260,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Mork’s Mighty Mushroom",
@@ -2651,9 +2270,6 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -2662,8 +2278,7 @@
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick up to 3 enemy units within 6\" of this Manifestation to be the targets.",
-          "effect": "For each target, roll a number of dice equal to the number of models in that unit that are within 6\" of this Manifestation. For each 5+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "For each target, roll a number of dice equal to the number of models in that unit that are within 6\" of this Manifestation. For each 5+, inflict 1 mortal damage on the target."
         }
       ],
       "keywords": [
@@ -2675,9 +2290,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/c0c2f1c8-1e0c-4e26-a5e9-2a47e306453d",
       "baseSize": "60mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Scuttletide",
@@ -2685,9 +2298,6 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -2698,7 +2308,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -2708,15 +2317,13 @@
           "name": "Wall Crawler",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This Manifestation can pass across terrain features as if it had Fly.",
-          "keywords": []
+          "effect": "This Manifestation can pass across terrain features as if it had Fly."
         },
         {
           "name": "Endless Terrors",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "This unit has Ward (4+) while it is wholly within 12\" of any friendly Arachnarok units.",
-          "keywords": []
+          "effect": "This unit has Ward (4+) while it is wholly within 12\" of any friendly Arachnarok units."
         }
       ],
       "keywords": [
@@ -2728,20 +2335,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/bc19ab01-682e-4581-8fa7-0efea31db6b7",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Mangler Squigs",
       "move": "D6+8\"",
       "health": "14",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2751,7 +2352,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2760,9 +2360,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Huge Fang-filled Gobs",
@@ -2781,8 +2379,7 @@
           "name": "Squig Rage",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Huge Fang-filled Gobs is 6.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Huge Fang-filled Gobs is 6."
         },
         {
           "name": "Giant Boing!",
@@ -2795,8 +2392,7 @@
           "name": "Watch Out!",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit.",
-          "keywords": []
+          "effect": "If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit."
         }
       ],
       "keywords": [
@@ -2810,19 +2406,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/a9230000-72b0-402a-bbc7-a145e8d32d02",
       "baseSize": "80mm",
       "points": 220,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Dankhold Troggboss",
       "move": "6\"",
       "health": "12",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2831,9 +2422,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D6",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D6"
           }
         ]
       },
@@ -2842,15 +2431,13 @@
           "name": "Greater Regeneration",
           "activation": "Start of Any Turn",
           "phases": ["Start of Turn"],
-          "effect": "Heal (D6) this unit.",
-          "keywords": []
+          "effect": "Heal (D6) this unit."
         },
         {
           "name": "Magical Resistance",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.",
-          "keywords": []
+          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit."
         },
         {
           "name": "Shepherd of Destruction",
@@ -2880,9 +2467,7 @@
       "save": "6+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2892,7 +2477,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -2912,8 +2496,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Spiderfang unit or terrain feature within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units."
         }
       ],
       "keywords": [
@@ -2928,19 +2511,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0391bd50-8a29-44c8-85ac-c1aa787ef5e5",
       "baseSize": "25mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Zarbag's Gitz",
       "move": "5\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2950,9 +2528,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -2962,9 +2538,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Git Weapons",
@@ -2972,9 +2546,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2983,15 +2555,13 @@
           "name": "Zarbag",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Zarbag is on the battlefield, it has Wizard (1).",
-          "keywords": []
+          "effect": "While this unit’s Zarbag is on the battlefield, it has Wizard (1)."
         },
         {
           "name": "Sniffer Spite",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "If this unit’s Zarbag is on the battlefield and within 3\" of a terrain feature, roll a dice. On a 4+, add 1 to this unit’s power level for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit’s Zarbag is on the battlefield and within 3\" of a terrain feature, roll a dice. On a 4+, add 1 to this unit’s power level for the rest of the turn."
         }
       ],
       "keywords": [

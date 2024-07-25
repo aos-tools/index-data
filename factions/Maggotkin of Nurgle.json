@@ -2,46 +2,20 @@
   "name": "Maggotkin of Nurgle",
   "battle_traits": [
     {
-      "name": "Daemonic Summoning",
-      "activation": "Your Movement Phase",
-      "phases": ["Movement Phase"],
-      "effect": "Set up this unit anywhere on the battlefield more than 6\" from all enemy units.",
-      "keywords": ["Core"]
-    },
-    {
-      "name": "Diseased",
-      "activation": "Passive",
-      "phases": ["Combat Phase"],
-      "effect": "Each time an attack made by a friendly model scores a critical hit, you receive 1 disease point, to a maximum of 7.",
-      "keywords": []
-    },
-    {
-      "name": "Nurgle's Embrace",
-      "activation": "End of Any Turn",
-      "phases": null,
-      "effect": "Spend any number of your disease points. For each disease point you spend, pick an enemy unit that is in combat with any of your units and roll a dice. On a 4+, inflict 1 mortal damage on that unit (you can pick the same enemy unit more than once).",
-      "keywords": []
-    },
-    {
       "name": "Desperate Remedies",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "If a Diseased enemy unit uses an ability that would heal or return slain models to it, instead of healing or returning slain models to it, that unit no longer has the Diseased keyword.",
-      "keywords": []
+      "effect": "If a Diseased enemy unit uses an ability that would heal or return slain models to it, instead of healing or returning slain models to it, that unit no longer has the Diseased keyword."
     },
     {
       "name": "Wracked with Disease",
       "activation": "Once Per Turn (Army), End of Any Turn",
-      "phases": null,
-      "effect": "Roll a D3 for each Diseased enemy unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
-      "keywords": []
+      "effect": "Roll a D3 for each Diseased enemy unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
     },
     {
       "name": "Blessed by the Plaguefather",
       "activation": "Once Per Turn (Army), End of Any Turn",
-      "phases": null,
-      "effect": "Pick 1 of the following effects:\n\nInfect: Pick an enemy unit that is in combat with a friendly Maggotkin of Nurgle unit to be the target. The target has the Diseased keyword.\n\nSpread: Pick a Diseased enemy unit to be the target. Each other enemy unit within the target’s combat range has the Diseased keyword.\n\nMutate: If all enemy units on the battlefield have the Diseased keyword, inflict 1 mortal damage on each of them.",
-      "keywords": []
+      "effect": "Pick 1 of the following effects:\n\nInfect: Pick an enemy unit that is in combat with a friendly Maggotkin of Nurgle unit to be the target. The target has the Diseased keyword.\n\nSpread: Pick a Diseased enemy unit to be the target. Each other enemy unit within the target’s combat range has the Diseased keyword.\n\nMutate: If all enemy units on the battlefield have the Diseased keyword, inflict 1 mortal damage on each of them."
     }
   ],
   "battle_formations": {
@@ -50,29 +24,24 @@
       "activation": "Once Per Battle (Army), Deployment Phase",
       "phases": ["Start of Turn"],
       "declare": "Pick up to 2 friendly Maggotkin of Nurgle units that have Fly.",
-      "effect": "Remove the targets from the battlefield and set them up again on the battlefield more than 9\" from all enemy units.",
-      "keywords": []
+      "effect": "Remove the targets from the battlefield and set them up again on the battlefield more than 9\" from all enemy units."
     },
     "Nurgle's Menagerie": {
       "name": "Tenders of the Garden Grotesque",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "During army composition, you can include 2 Feculent Gnarlmaws in your army instead of 1.",
-      "keywords": []
+      "effect": "During army composition, you can include 2 Feculent Gnarlmaws in your army instead of 1."
     },
     "Plague Cyst": {
       "name": "Vectors of Contagion",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Each time a model in a friendly Rotbringers unit is slain by a combat attack and that model was in combat with the attacking unit, roll a number of dice equal to the slain model’s Health characteristic, to a maximum of 4. For each 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-      "keywords": []
+      "effect": "Each time a model in a friendly Rotbringers unit is slain by a combat attack and that model was in combat with the attacking unit, roll a number of dice equal to the slain model’s Health characteristic, to a maximum of 4. For each 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
     },
     "Tallyband of Nurgle": {
       "name": "Disease and Pestilence Personified",
       "activation": "Passive",
-      "phases": null,
-      "effect": "From the second battle round onwards, add 1 to the amount of mortal damage inflicted, if any, by the ‘Wracked with Disease’ ability.",
-      "keywords": []
+      "effect": "From the second battle round onwards, add 1 to the amount of mortal damage inflicted, if any, by the ‘Wracked with Disease’ ability."
     }
   },
   "heroic_traits": [
@@ -80,22 +49,18 @@
       "name": "Overpowering Stench",
       "activation": "Reaction: Opponent declared a command for a unit in combat with this unit",
       "phases": ["Start of Turn"],
-      "effect": "Roll a dice. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.",
-      "keywords": []
+      "effect": "Roll a dice. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost."
     },
     {
       "name": "Gift of Febrile Frenzy",
       "activation": "Passive",
       "phases": ["Movement Phase"],
-      "effect": "Add 1\" to the Move characteristic of friendly Maggotkin of Nurgle units that do not have Fly if they are wholly within 12\" of this unit at the start of the move.",
-      "keywords": []
+      "effect": "Add 1\" to the Move characteristic of friendly Maggotkin of Nurgle units that do not have Fly if they are wholly within 12\" of this unit at the start of the move."
     },
     {
       "name": "Grandfather's Blessing",
       "activation": "End of Any Turn",
-      "phases": null,
-      "effect": "If this unit is in combat with a Diseased enemy unit, Heal (D6) this unit.",
-      "keywords": []
+      "effect": "If this unit is in combat with a Diseased enemy unit, Heal (D6) this unit."
     }
   ],
   "artefacts_of_power": [
@@ -104,24 +69,21 @@
       "activation": "Once Per Battle, Any Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick up to 3 enemy units within 12\" of this unit to be the targets.",
-      "effect": "Subtract 3 from each target’s control score for the rest of the turn.",
-      "keywords": []
+      "effect": "Subtract 3 from each target’s control score for the rest of the turn."
     },
     {
       "name": "The Witherstave",
       "activation": "Any Combat Phase",
       "phases": ["Combat Phase"],
       "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
-      "effect": "Roll a dice. On a 4+, the target has Strike-last for the rest of the turn.",
-      "keywords": []
+      "effect": "Roll a dice. On a 4+, the target has Strike-last for the rest of the turn."
     },
     {
       "name": "Rustfang",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
       "declare": "Pick an enemy Hero in combat with this unit to be the target.",
-      "effect": "Subtract 1 from save rolls for the target for the rest of the battle.",
-      "keywords": []
+      "effect": "Subtract 1 from save rolls for the target for the rest of the battle."
     }
   ],
   "spell_lore": {
@@ -162,10 +124,7 @@
       "health": "8",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -175,7 +134,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -185,7 +143,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -195,8 +152,7 @@
           "name": "Relentless Attackers",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Rend characteristic of this unit’s Flyrider’s Arsenal for attacks that target units contesting an objective you do not control.",
-          "keywords": []
+          "effect": "Add 1 to the Rend characteristic of this unit’s Flyrider’s Arsenal for attacks that target units contesting an objective you do not control."
         }
       ],
       "keywords": [
@@ -210,8 +166,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/2a716ded-7771-4fdd-8313-ee161899925e",
       "baseSize": "60mm",
       "points": 250,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Feculent Gnarlmaw",
@@ -219,10 +174,7 @@
       "health": "7",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -231,9 +183,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -241,10 +191,8 @@
         {
           "name": "Riddled With Disease",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit within 6\" of this terrain feature to be the target.",
-          "effect": "Roll a dice. On a 4+, the target has the Diseased keyword.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, the target has the Diseased keyword."
         }
       ],
       "keywords": [
@@ -255,9 +203,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/16b9695b-c672-4989-a84b-01b19dda8630",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Pusgoyle Blightlords (1 model)",
@@ -265,10 +211,7 @@
       "health": "8",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -278,7 +221,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -288,7 +230,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -298,8 +239,7 @@
           "name": "Relentless Attackers",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Rend characteristic of this unit’s Flyrider’s Arsenal for attacks that target units contesting an objective you do not control.",
-          "keywords": []
+          "effect": "Add 1 to the Rend characteristic of this unit’s Flyrider’s Arsenal for attacks that target units contesting an objective you do not control."
         }
       ],
       "keywords": [
@@ -322,10 +262,7 @@
       "health": "5",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -334,9 +271,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -346,8 +281,7 @@
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a visible friendly Maggotkin of Nurgle Daemon unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n\nA-Stabbing We Will Go!: \nAdd 1 to wound rolls for the target’s attacks.\n\nEarly One Evening My Pustule Was Seeping: \nWard rolls cannot be made for damage points inflicted by the target’s combat attacks.\n\nMy Love Is Like a Ripe, Ripe Fart:\nSubtract 1 from hit rolls for attacks made by enemy units that target the target unit.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n\nA-Stabbing We Will Go!: \nAdd 1 to wound rolls for the target’s attacks.\n\nEarly One Evening My Pustule Was Seeping: \nWard rolls cannot be made for damage points inflicted by the target’s combat attacks.\n\nMy Love Is Like a Ripe, Ripe Fart:\nSubtract 1 from hit rolls for attacks made by enemy units that target the target unit."
         }
       ],
       "keywords": [
@@ -361,8 +295,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f0c7b94a-2956-4710-9243-f471fdda9cb6",
       "baseSize": "32mm",
       "points": 110,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Poxbringer, Herald of Nurgle",
@@ -371,9 +304,7 @@
       "save": "5+",
       "ward": "5+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -383,7 +314,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -393,8 +323,7 @@
           "name": "Captain of the Plague Legions",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly Plaguebearers unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly Plaguebearers unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -409,8 +338,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f58ed6fd-a1f6-4ffd-bf6c-9688cca52a8e",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Rotbringer Sorcerer",
@@ -419,9 +347,7 @@
       "save": "5+",
       "ward": "5+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -430,9 +356,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -442,8 +366,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick an enemy unit that was picked to be the target of a spell that was successfully cast by this unit this phase to be the target.",
-          "effect": "Roll a dice. On a 2+, subtract 1 from ward rolls for the target for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, subtract 1 from ward rolls for the target for the rest of the turn."
         }
       ],
       "keywords": [
@@ -458,8 +381,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c0fef205-3a55-4e25-82ce-f4d72269d45c",
       "baseSize": "32mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Great Unclean One",
@@ -468,9 +390,7 @@
       "save": "4+",
       "ward": "5+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -481,7 +401,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -493,7 +412,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           },
           {
@@ -503,8 +421,7 @@
             "wound": "2+",
             "rend": "2",
             "damage": "4",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           }
         ]
       },
@@ -513,8 +430,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Colossal Blight Weapons is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Colossal Blight Weapons is 3."
         },
         {
           "name": "Plague Wind",
@@ -530,13 +446,11 @@
           "activation": "Once Per Turn (Army), Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick a friendly Maggotkin of Nurgle Daemon unit that started the battle with 3 or more models and that has been destroyed to be the target.",
-          "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units."
         },
         {
           "name": "Bloated with Corruption",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "If this unit is damaged, pick up to 3 enemy units in combat with this unit to be the targets.",
           "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
           "keywords": ["Rampage"]
@@ -554,8 +468,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/70d4258b-0ba2-463f-a4ab-b4dc0c9f8e9d",
       "baseSize": "130mm",
       "points": 480,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Rotmire Creed",
@@ -563,10 +476,7 @@
       "health": "1",
       "save": "6+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -577,7 +487,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -588,9 +497,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -598,9 +505,7 @@
         {
           "name": "Virulent Concoctions",
           "activation": "Passive",
-          "phases": null,
-          "effect": "When using the ‘Blessed by the Plaguefather’ ability, if you choose to infect an enemy unit, you can pick an enemy unit that had any damage points allocated to it by this unit’s shooting attacks this turn to be the target even if that unit is not in combat with a friendly Maggotkin of Nurgle unit.",
-          "keywords": []
+          "effect": "When using the ‘Blessed by the Plaguefather’ ability, if you choose to infect an enemy unit, you can pick an enemy unit that had any damage points allocated to it by this unit’s shooting attacks this turn to be the target even if that unit is not in combat with a friendly Maggotkin of Nurgle unit."
         }
       ],
       "keywords": [
@@ -623,10 +528,7 @@
       "health": "7",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -636,7 +538,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-charge (+1 Rend)"]
           }
         ]
@@ -647,15 +548,13 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
-          "effect": "Roll D3. On 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll D3. On 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Festering Bulwark",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "The Blighted Weapons used by friendly Putrid Blightkings units have Anti‑charge (+1 Rend) while those units are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "The Blighted Weapons used by friendly Putrid Blightkings units have Anti‑charge (+1 Rend) while those units are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -678,10 +577,7 @@
       "health": "8",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -691,7 +587,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -708,9 +603,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": [
@@ -723,8 +616,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ac9756a3-1bef-4af4-bea0-1379c935d568",
       "baseSize": "60mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Plague Drones",
@@ -732,10 +624,7 @@
       "health": "5",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -745,7 +634,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -755,7 +643,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -765,8 +652,7 @@
           "name": "Ripe Pastures",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities.",
-          "keywords": []
+          "effect": "This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities."
         }
       ],
       "keywords": [
@@ -783,8 +669,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/aeac478e-f2c0-4f5d-a6ca-b9f09485c6f7",
       "baseSize": "60mm",
       "points": 180,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Nurglings",
@@ -792,10 +677,7 @@
       "health": "4",
       "save": "6+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -805,7 +687,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -814,9 +695,7 @@
         {
           "name": "Endless Swarm",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "Heal (3) this unit.",
-          "keywords": []
+          "effect": "Heal (3) this unit."
         }
       ],
       "keywords": [
@@ -829,8 +708,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ae2fa0e8-98f5-4136-bc92-88bbc23871c5",
       "baseSize": "40mm",
       "points": 110,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Epidemius, Tallyman of Nurgle",
@@ -838,10 +716,7 @@
       "health": "7",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -851,7 +726,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -860,9 +734,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -871,8 +743,7 @@
           "name": "Tallyman of Nurgle",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "You gain a number of tally points equal to the current battle round number.\n\nDuring the battle round, you can spend your tally points. For each tally point you spend, you can re-roll 1 hit roll, 1 wound roll, 1 save roll or 1 ward roll for a friendly Maggotkin of Nurgle unit wholly within 12\" of this unit.\n\nAt the end of the battle round, any unspent tally points are lost.",
-          "keywords": []
+          "effect": "You gain a number of tally points equal to the current battle round number.\n\nDuring the battle round, you can spend your tally points. For each tally point you spend, you can re-roll 1 hit roll, 1 wound roll, 1 save roll or 1 ward roll for a friendly Maggotkin of Nurgle unit wholly within 12\" of this unit.\n\nAt the end of the battle round, any unspent tally points are lost."
         }
       ],
       "keywords": [
@@ -887,8 +758,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/771a5f34-2a04-4f0a-8848-d3066f8077c8",
       "baseSize": "60mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Morbidex Twiceborn",
@@ -896,10 +766,7 @@
       "health": "14",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -910,7 +777,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -921,9 +787,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Tripletongue’s Claws and Maw",
@@ -942,15 +806,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Tripletongue’s Claws and Maw is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Tripletongue’s Claws and Maw is 3."
         },
         {
           "name": "Lord of Nurglings",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While any friendly Nurglings units are wholly within 12\" of this unit:\n\n• Ignore the first damage point that would be allocated to each of those units each phase.\n• Add 3 to those units’ control scores.",
-          "keywords": []
+          "effect": "While any friendly Nurglings units are wholly within 12\" of this unit:\n\n• Ignore the first damage point that would be allocated to each of those units each phase.\n• Add 3 to those units’ control scores."
         },
         {
           "name": "Tide of Nurglings",
@@ -963,9 +825,7 @@
         {
           "name": "Gigantic Nurgling-kin",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "Heal (X) this unit, where X is half the number of damage points this unit has (rounding up).",
-          "keywords": []
+          "effect": "Heal (X) this unit, where X is half the number of damage points this unit has (rounding up)."
         }
       ],
       "keywords": [
@@ -980,8 +840,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/502bb1d2-8dd8-4e8f-8a92-33ca0dbb3029",
       "baseSize": "100mm",
       "points": 320,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Glottkin",
@@ -990,9 +849,7 @@
       "save": "4+",
       "ward": "5+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1002,8 +859,7 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3+3",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           },
           {
             "name": "Otto’s Scythe",
@@ -1011,9 +867,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Ghurk’s Lamprey Maw",
@@ -1021,9 +875,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -1032,8 +884,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points,the Attacks characteristic of Ghurk’s Tentacle is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points,the Attacks characteristic of Ghurk’s Tentacle is 2."
         },
         {
           "name": "Overgrowth of Flesh",
@@ -1054,9 +905,7 @@
         {
           "name": "Horrific Opponent",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Subtract 3 from the control scores of enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Subtract 3 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
       "keywords": [
@@ -1073,8 +922,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ec369ec3-d3ca-4469-9848-8e2d2fec3ae6",
       "baseSize": "130mm",
       "points": 550,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Horticulous Slimux",
@@ -1082,10 +930,7 @@
       "health": "8",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1094,9 +939,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Slime-encrusted Jaws",
@@ -1105,7 +948,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1116,15 +958,13 @@
           "activation": "Once Per Turn (Army), Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick a friendly Beasts of Nurgle unit that has been destroyed.",
-          "effect": "Roll a dice. On a 3+, set up a replacement unit wholly within 12\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, set up a replacement unit wholly within 12\" of this unit and more than 9\" from all enemy units."
         },
         {
           "name": "Cultivating the Garden of Nurgle",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "If there are fewer than 3 friendly Feculent Gnarlmaws on the battlefield, you can set up a Feculent Gnarlmaw wholly within 12\" of this unit, more than 3\" from all enemy units, objectives and other terrain features.",
-          "keywords": []
+          "effect": "If there are fewer than 3 friendly Feculent Gnarlmaws on the battlefield, you can set up a Feculent Gnarlmaw wholly within 12\" of this unit, more than 3\" from all enemy units, objectives and other terrain features."
         }
       ],
       "keywords": [
@@ -1139,8 +979,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/139166d6-792d-42a2-ab26-804c9e3ddd2a",
       "baseSize": "105 x 70mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lord of Afflictions",
@@ -1148,10 +987,7 @@
       "health": "8",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1161,7 +997,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -1171,7 +1006,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1182,16 +1016,14 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Master of Rot Flies",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this unit charged this turn, pick this unit and up to 2 friendly Pusgoyle Blightlords units wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 1 to the Rend characteristic of the targets’ Companion melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the Rend characteristic of the targets’ Companion melee weapons for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1206,8 +1038,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/010bdaf4-ea28-4c56-96d0-01c7fd37324a",
       "baseSize": "60mm",
       "points": 220,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Harbinger of Decay",
@@ -1215,10 +1046,8 @@
       "health": "7",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1228,7 +1057,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -1238,7 +1066,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1249,8 +1076,7 @@
           "activation": "Once Per Battle (Army), Enemy Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to 3 enemy units within 24\" of this unit to be the targets.",
-          "effect": "Until the start of your next turn, subtract 1\" from the Move characteristic of each target and subtract 1 from run rolls and charge rolls for each target.",
-          "keywords": []
+          "effect": "Until the start of your next turn, subtract 1\" from the Move characteristic of each target and subtract 1 from run rolls and charge rolls for each target."
         },
         {
           "name": "Omens of Decay",
@@ -1274,8 +1100,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d761abce-f106-41be-8f53-2bff890d2bb4",
       "baseSize": "75 x 42mm",
       "points": 200,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Festus the Leechlord",
@@ -1284,9 +1109,7 @@
       "save": "5+",
       "ward": "5+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1295,9 +1118,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "-",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1307,8 +1128,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a visible unit within this unit’s combat range to be the target.",
-          "effect": "If the target is a friendly Maggotkin of Nurgle unit, Heal (D3) the target. If the target is an enemy unit, roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "If the target is a friendly Maggotkin of Nurgle unit, Heal (D3) the target. If the target is an enemy unit, roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Scumboil Pox",
@@ -1333,8 +1153,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c1180893-0a99-4547-a1fa-04cc0953e6b2",
       "baseSize": "32mm",
       "points": 100,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Plaguebearers",
@@ -1342,10 +1161,7 @@
       "health": "2",
       "save": "6+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1355,7 +1171,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1365,8 +1180,7 @@
           "name": "Cloud of Flies",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
         }
       ],
       "keywords": [
@@ -1382,8 +1196,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/8eaf4a4a-0487-4f2b-a313-3420a3dfd498",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Lord of Plagues",
@@ -1391,10 +1204,7 @@
       "health": "7",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1404,7 +1214,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1414,16 +1223,14 @@
           "name": "Lord of the Blightkings",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to charge rolls for friendly Putrid Blightkings units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to charge rolls for friendly Putrid Blightkings units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Sevenfold Slaughter",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a friendly Putrid Blightkings unit that charged this turn and is wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, add 1 to the Attacks characteristic of the target’s Blighted Weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, add 1 to the Attacks characteristic of the target’s Blighted Weapons for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1446,10 +1253,7 @@
       "health": "7",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1459,7 +1263,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)", "Crit (Mortal)"]
           }
         ]
@@ -1478,16 +1281,14 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is aboard the Slime Fleet.",
-          "effect": "Set up this unit on the battlefield, wholly within 7\" of a battlefield edge and more than 9\" from all enemy units. Then set up every other friendly unit that is aboard the Slime Fleet on the battlefield wholly within 7\" of a battlefield edge, wholly within 7\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit on the battlefield, wholly within 7\" of a battlefield edge and more than 9\" from all enemy units. Then set up every other friendly unit that is aboard the Slime Fleet on the battlefield wholly within 7\" of a battlefield edge, wholly within 7\" of this unit and more than 9\" from all enemy units."
         },
         {
           "name": "Flailing Tentacles",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy Infantry Hero in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Strike‑last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target has Strike‑last for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1502,8 +1303,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1e37567a-46f3-4e36-98ce-b18e5ce01106",
       "baseSize": "40mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Orghotts Daemonspew",
@@ -1511,10 +1311,7 @@
       "health": "14",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1525,7 +1322,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -1536,9 +1332,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Whippermaw’s Claws and Maws",
@@ -1557,8 +1351,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Whippermaw’s Claws and Maws is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Whippermaw’s Claws and Maws is 3."
         },
         {
           "name": "Grasping Tongue",
@@ -1572,8 +1365,7 @@
           "name": "Acid Ichor",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1588,8 +1380,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/189d998c-edd6-4faf-8bca-12222f839ebd",
       "baseSize": "100mm",
       "points": 340,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bloab Rotspawned",
@@ -1598,9 +1389,7 @@
       "save": "4+",
       "ward": "5+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1611,7 +1400,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -1632,9 +1420,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1643,8 +1429,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Bilespurter’s Claws and Maw is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Bilespurter’s Claws and Maw is 3."
         },
         {
           "name": "Miasma of Pestilence",
@@ -1677,8 +1462,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f3636620-b27f-46f6-a9d6-7e9f94d505ee",
       "baseSize": "100mm",
       "points": 320,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Rotigus",
@@ -1687,9 +1471,7 @@
       "save": "4+",
       "ward": "5+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1698,9 +1480,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Host of Nurglings",
@@ -1709,7 +1489,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion", "Crit (Auto-wound)"]
           },
           {
@@ -1719,8 +1498,7 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           }
         ]
       },
@@ -1729,15 +1507,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Gnarlrod is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Gnarlrod is 3."
         },
         {
           "name": "Bringer of Plenty",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to casting rolls for this unit.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for this unit."
         },
         {
           "name": "Deluge of Nurgle",
@@ -1771,8 +1547,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e56c740c-35f6-4661-89f3-b0294698c27e",
       "baseSize": "130mm",
       "points": 500,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Putrid Blightkings",
@@ -1780,10 +1555,7 @@
       "health": "3",
       "save": "3+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1792,9 +1564,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1802,9 +1572,7 @@
         {
           "name": "Bloated Bulk",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Add 3 to this unit’s control score while each model in this unit is contesting an objective you control.",
-          "keywords": []
+          "effect": "Add 3 to this unit’s control score while each model in this unit is contesting an objective you control."
         }
       ],
       "keywords": [
@@ -1820,8 +1588,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d3537f5f-ef0d-4841-bac1-12852a671dd6",
       "baseSize": "40mm",
       "points": 200,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Spoilpox Scrivener, Herald of Nurgle",
@@ -1829,10 +1596,7 @@
       "health": "5",
       "save": "5+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1843,7 +1607,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1854,9 +1617,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1866,8 +1627,7 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Plaguebearers unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a D6. On a 2+, pick 1 of the following effects to apply until the start of your next turn:\n\nTally of Blows: Add 1 to the Attacks characteristic of the target’s melee weapons.\n\nRecorded Stamina: Add 1 to save rolls for the target.",
-          "keywords": []
+          "effect": "Roll a D6. On a 2+, pick 1 of the following effects to apply until the start of your next turn:\n\nTally of Blows: Add 1 to the Attacks characteristic of the target’s melee weapons.\n\nRecorded Stamina: Add 1 to save rolls for the target."
         }
       ],
       "keywords": [
@@ -1881,8 +1641,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/225688ef-75e4-482e-a18f-4977844c392f",
       "baseSize": "40mm",
       "points": 100,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Wurmspat",
@@ -1890,10 +1649,7 @@
       "health": "4",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1902,9 +1658,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1913,15 +1667,13 @@
           "name": "Retchling",
           "activation": "Once Per Battle, Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "If this unit’s Fecula Flyblown is on the battlefield, add 1 to its power level for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit’s Fecula Flyblown is on the battlefield, add 1 to its power level for the rest of the turn."
         },
         {
           "name": "Fecula Flyblown",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Fecula Flyblown is on the battlefield, it has Wizard (1).",
-          "keywords": []
+          "effect": "While this unit’s Fecula Flyblown is on the battlefield, it has Wizard (1)."
         }
       ],
       "keywords": [

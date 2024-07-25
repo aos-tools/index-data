@@ -1,60 +1,10 @@
 {
-  "name": "Krazogg’s Grunta Stampede",
-  "battle_traits": [
-    {
-      "name": "Fast and Furious",
-      "activation": "Once Per Battle (Army), Deployment Phase",
-      "phases": ["Start of Turn"],
-      "declare": "Pick a friendly non-Hero Grunta Stampede unit to be the target.",
-      "effect": "The target can immediately use the ‘Normal Move’ ability as if it were your movement phase.",
-      "keywords": []
-    },
-    {
-      "name": "Wall of Hogflesh",
-      "activation": "Once Per Battle (Army), Deployment Phase",
-      "phases": ["Start of Turn"],
-      "declare": "Pick a friendly Grunta Stampede Hero to be the target.",
-      "effect": "For the rest of the battle, subtract 1 from hit rolls for shooting attacks that target that Hero while it is wholly within 6\" of a friendly non-Hero Grunta Stampede unit.",
-      "keywords": []
-    },
-    {
-      "name": "Monstrous Momentum",
-      "activation": "Passive",
-      "phases": ["Movement Phase"],
-      "effect": "Add the current battle round number to the Move characteristic of friendly Grunta Stampede units.",
-      "keywords": []
-    },
-    {
-      "name": "Grunta Waaagh!",
-      "activation": "Once Per Battle (Army), Your Charge Phase",
-      "phases": ["Charge Phase"],
-      "declare": "Pick a friendly Grunta Stampede Hero to be the target.",
-      "effect": "For the rest of the turn, the following effects apply to friendly Grunta Stampede units while they are wholly within 18\" of the target:\n\n• You can re-roll charge rolls for those units. \n• Add 1 to the Attacks characteristic of those units’ Maw-grunta’s Trotters.\n• Roll a D6 instead of a D3 when determining the amount of mortal damage inflicted by the ‘Goregrunta Charge’ ability of those units.",
-      "keywords": []
-    },
-    {
-      "name": "Eatin On Da Hoof",
-      "activation": "Once Per Turn (Army), Any Charge Phase",
-      "phases": ["Charge Phase"],
-      "declare": "Pick a friendly Grunta Stampede Monster that has not used a Rampage ability this turn to use this ability, then pick a visible enemy unit in combat with it to be the target.",
-      "effect": "Roll a dice and add the momentum score of the unit using this ability to the roll. If the result exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
-      "keywords": ["Rampage"]
-    },
-    {
-      "name": "Incessant Drive",
-      "activation": "End of the First Battle Round",
-      "phases": null,
-      "effect": "Add 1 to the momentum scores of friendly Maw-grunta units.",
-      "keywords": []
-    }
-  ],
   "heroic_traits": [
     {
       "name": "Trophy Hunta",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "This unit’s Pig-hakka has Anti-Monster (+1 Rend) and Anti-War Machine (+1 Rend).",
-      "keywords": []
+      "effect": "This unit’s Pig-hakka has Anti-Monster (+1 Rend) and Anti-War Machine (+1 Rend)."
     }
   ],
   "artefacts_of_power": [
@@ -62,8 +12,7 @@
       "name": "Da Boom Skull",
       "activation": "Reaction: You declared a command for a friendly Grunta Stampede unit wholly within 18\" of this unit",
       "phases": ["Start of Turn"],
-      "effect": "Pick an enemy unit in combat with that friendly unit to be the target and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-      "keywords": []
+      "effect": "Pick an enemy unit in combat with that friendly unit to be the target and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
     }
   ],
   "warscrolls": [
@@ -72,11 +21,7 @@
       "move": "10\"",
       "health": "12",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -86,7 +31,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -96,7 +40,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -105,9 +48,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -124,27 +65,21 @@
           "name": "Unstoppable Momentum",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time this unit uses a Charge ability, it gains 1 momentum point. Each time it uses a Run ability, it gains 2 momentum points.\n\nIt can have a maximum of 3 momentum points at once.\n\nAdd the number of momentum points this unit has to the Damage characteristic of its Maw-grunta’s Tusks. At the end of each battle round, subtract 1 from its momentum points, to a minimum of 0.",
-          "keywords": []
+          "effect": "Each time this unit uses a Charge ability, it gains 1 momentum point. Each time it uses a Run ability, it gains 2 momentum points.\n\nIt can have a maximum of 3 momentum points at once.\n\nAdd the number of momentum points this unit has to the Damage characteristic of its Maw-grunta’s Tusks. At the end of each battle round, subtract 1 from its momentum points, to a minimum of 0."
         }
       ],
       "keywords": ["Monster", "Destruction", "Ironjawz", "Maw‑grunta"],
       "image": "https://dhss9aar8ocw.cloudfront.net/a9f60d7c-d707-4402-b80c-1d409927b778",
       "baseSize": "120 x 92mm",
       "points": 220,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Maw-grunta with Hakkin' Krew",
       "move": "10\"",
       "health": "12",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -154,7 +89,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -163,9 +97,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Choppas",
@@ -173,9 +105,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Maw-grunta’s Trotters",
@@ -184,7 +114,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -201,27 +130,21 @@
           "name": "Unstoppable Momentum",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time this unit uses a Charge ability, it gains 1 momentum point. Each time it uses a Run ability, it gains 2 momentum points.\n\nIt can have a maximum of 3 momentum points at once.\n\nAdd the number of momentum points this unit has to the Damage characteristic of its Maw-grunta’s Tusks. At the end of each battle round, subtract 1 from its momentum points, to a minimum of 0.",
-          "keywords": []
+          "effect": "Each time this unit uses a Charge ability, it gains 1 momentum point. Each time it uses a Run ability, it gains 2 momentum points.\n\nIt can have a maximum of 3 momentum points at once.\n\nAdd the number of momentum points this unit has to the Damage characteristic of its Maw-grunta’s Tusks. At the end of each battle round, subtract 1 from its momentum points, to a minimum of 0."
         }
       ],
       "keywords": ["Monster", "Destruction", "Ironjawz", "Maw‑grunta"],
       "image": "https://dhss9aar8ocw.cloudfront.net/4cf3eda2-b00e-4511-8aff-8b3b725de58a",
       "baseSize": "120 x 92mm",
       "points": 270,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Gore-gruntas",
       "move": "9\"",
       "health": "5",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -231,7 +154,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Cavalry (+1 Rend)"]
           },
           {
@@ -241,7 +163,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Companion"]
           }
         ]
@@ -252,27 +173,21 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the mortal damage inflicted (if any) if the target is Cavalry.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the mortal damage inflicted (if any) if the target is Cavalry."
         }
       ],
       "keywords": ["Cavalry", "Champion", "Destruction", "Ironjawz"],
       "image": "https://dhss9aar8ocw.cloudfront.net/442b22f1-1129-41f3-a1d0-f20492acb111",
       "baseSize": "90 x 52mm",
       "points": 190,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Tuskboss on Maw-grunta",
       "move": "10\"",
       "health": "14",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -282,7 +197,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -291,9 +205,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Kill-choppas",
@@ -301,9 +213,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Maw-grunta’s Tusks",
@@ -322,8 +232,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Maw-grunta’s Tusks is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Maw-grunta’s Tusks is 3."
         },
         {
           "name": "Head of the Stampede",
@@ -337,16 +246,14 @@
           "name": "Unstoppable Momentum",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time this unit uses a Charge ability, it gains 1 momentum point. Each time it uses a Run ability, it gains 2 momentum points.\n\nIt can have a maximum of 3 momentum points at once.\n\nAdd the number of momentum points this unit has to the Damage characteristic of its Maw-grunta’s Tusks. At the end of each battle round, subtract 1 from its momentum points, to a minimum of 0.",
-          "keywords": []
+          "effect": "Each time this unit uses a Charge ability, it gains 1 momentum point. Each time it uses a Run ability, it gains 2 momentum points.\n\nIt can have a maximum of 3 momentum points at once.\n\nAdd the number of momentum points this unit has to the Damage characteristic of its Maw-grunta’s Tusks. At the end of each battle round, subtract 1 from its momentum points, to a minimum of 0."
         }
       ],
       "keywords": ["Hero", "Monster", "Destruction", "Ironjawz", "Maw‑grunta"],
       "image": "https://dhss9aar8ocw.cloudfront.net/d6835ffe-86ef-4701-85fa-bf76c629380c",
       "baseSize": "120 x 92mm",
       "points": 300,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     }
   ]
 }

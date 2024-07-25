@@ -2,20 +2,6 @@
   "name": "Soulblight Gravelords",
   "battle_traits": [
     {
-      "name": "Swoop Down",
-      "activation": "Your Movement Phase",
-      "phases": ["Movement Phase"],
-      "effect": "Set up this unit anywhere on the battlefield more than 6\" from all enemy units.",
-      "keywords": ["Core"]
-    },
-    {
-      "name": "The Hunger",
-      "activation": "Passive",
-      "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Each time a friendly Vampire unit uses a Fight ability, after all of its attacks have been resolved, Heal (X) that Vampire unit where X is the number of damage points allocated by those attacks.",
-      "keywords": []
-    },
-    {
       "name": "The Unquiet Dead",
       "activation": "Deployment Phase",
       "phases": ["Start of Turn"],
@@ -28,8 +14,7 @@
       "activation": "Once Per Turn (Army), Any Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick a friendly Soulblight Gravelords Hero to use this ability, then pick up to 3 friendly Deathrattle or Deadwalkers units wholly within 12\" of that Hero to be the targets.",
-      "effect": "For each target:\n\n• If the target is damaged, Heal (3) the target.\n• If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to 3.",
-      "keywords": []
+      "effect": "For each target:\n\n• If the target is damaged, Heal (3) the target.\n• If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to 3."
     },
     {
       "name": "Endless Legions",
@@ -37,24 +22,20 @@
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly non-Unique Deathrattle or Deadwalkers unit that started the battle with 2 or more models and that has been destroyed to be the target.",
       "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of a friendly Soulblight Gravelords Hero or wholly within 6\" of a terrain feature. It must be set up more than 9\" from all enemy units.\n\nIf it is your movement phase, you can set up the replacement unit more than 3\" from all enemy units instead of more than 9\", but if you set it up within 9\" of any enemy units, it cannot use Charge abilities this turn.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "The Rising Dead",
       "activation": "Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly unit that is in the grave.",
-      "effect": "Set up that unit wholly within 6\" of a terrain feature and more than 9\" from all enemy units.",
-      "keywords": []
+      "effect": "Set up that unit wholly within 6\" of a terrain feature and more than 9\" from all enemy units."
     },
     {
       "name": "The Hunger",
       "activation": "Once Per Turn (Army), End of Any Turn",
-      "phases": null,
       "declare": "Pick each friendly Vampire unit that used a Fight ability this turn to be the targets.",
-      "effect": "Heal (D3) each target. Heal (2D3) the target instead if it destroyed an enemy unit this turn using a Fight ability.",
-      "keywords": []
+      "effect": "Heal (D3) each target. Heal (2D3) the target instead if it destroyed an enemy unit this turn using a Fight ability."
     }
   ],
   "battle_formations": {
@@ -62,30 +43,25 @@
       "name": "Aristocracy of the Night",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "Add 1 to casting rolls for friendly Vampire units that are not in combat and add 1 to wound rolls for combat attacks made by friendly Vampire units that charged in the same turn.",
-      "keywords": []
+      "effect": "Add 1 to casting rolls for friendly Vampire units that are not in combat and add 1 to wound rolls for combat attacks made by friendly Vampire units that charged in the same turn."
     },
     "Deathmarch": {
       "name": "Tide of Bones and Blades",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly Deathrattle units that charged in the same turn for attacks that target a unit that has fewer models than the attacking unit.",
-      "keywords": []
+      "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly Deathrattle units that charged in the same turn for attacks that target a unit that has fewer models than the attacking unit."
     },
     "Deathstench Drove": {
       "name": "Dragged Down and Torn Apart",
       "activation": "Once Per Turn (Army), End of Any Turn",
-      "phases": null,
       "declare": "Pick up to 3 friendly Deadwalkers units in combat to be the targets.",
-      "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
-      "keywords": []
+      "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
     "Legion of Shyish": {
       "name": "Horror Unending",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "You can pick 1 additional target when using the ‘Deathly Invocation’ ability.",
-      "keywords": []
+      "effect": "You can pick 1 additional target when using the ‘Deathly Invocation’ ability."
     }
   },
   "heroic_traits": [
@@ -94,23 +70,20 @@
       "activation": "Once Per Turn, Your Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick a friendly Deathrattle or Deadwalkers unit that has 2 or more models and is wholly within 12\" of this unit to be the target.",
-      "effect": "Add D6 to the target’s control score for the rest of the turn.",
-      "keywords": []
+      "effect": "Add D6 to the target’s control score for the rest of the turn."
     },
     {
       "name": "Lash of the Sire",
       "activation": "Once Per Turn, Your Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick another friendly Soulblight Gravelords unit within this unit’s combat range to be the target.",
-      "effect": "Roll a dice. On a 2+, if the target is not in combat, it can move D6\". If the target is in combat, it can make a pile‑in move.",
-      "keywords": []
+      "effect": "Roll a dice. On a 2+, if the target is not in combat, it can move D6\". If the target is in combat, it can make a pile‑in move."
     },
     {
       "name": "Unhinged Rampager",
       "activation": "Passive",
       "phases": ["Charge Phase"],
-      "effect": "You can re-roll charge rolls for this unit in your charge phase.",
-      "keywords": []
+      "effect": "You can re-roll charge rolls for this unit in your charge phase."
     }
   ],
   "artefacts_of_power": [
@@ -118,23 +91,20 @@
       "name": "Amulet of Screams",
       "activation": "Reaction: Opponent declared a Spell ability for a Wizard within 18\" of this unit",
       "phases": ["Hero Phase"],
-      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the caster equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that Spell ability.",
-      "keywords": []
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the caster equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that Spell ability."
     },
     {
       "name": "Shard of Night",
       "activation": "Passive",
       "phases": ["Shooting Phase"],
-      "effect": "Ignore modifiers to save rolls for shooting attacks that target this unit (positive and negative).",
-      "keywords": []
+      "effect": "Ignore modifiers to save rolls for shooting attacks that target this unit (positive and negative)."
     },
     {
       "name": "Orb of Enchantment",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
       "declare": "Pick an enemy Hero in combat to be the target.",
-      "effect": "The target has Strike-last for the rest of the turn.",
-      "keywords": []
+      "effect": "The target has Strike-last for the rest of the turn."
     }
   ],
   "spell_lore": {
@@ -176,9 +146,7 @@
       "save": "3+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -188,7 +156,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           }
         ]
@@ -198,8 +165,7 @@
           "name": "Come Then, Amuse Us",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit is in combat with any enemy Heroes, roll a D3 and then pick a number of effects from the list below equal to the roll:\n\n• Add 1 to save rolls for this unit for the rest of the turn.\n• Add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.\n• Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit is in combat with any enemy Heroes, roll a D3 and then pick a number of effects from the list below equal to the roll:\n\n• Add 1 to save rolls for this unit for the rest of the turn.\n• Add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.\n• Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn."
         }
       ],
       "keywords": [
@@ -224,10 +190,7 @@
       "health": "3",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -237,7 +200,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -247,15 +209,12 @@
           "name": "Fleet and Fell",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities.",
-          "keywords": []
+          "effect": "This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": [
@@ -269,8 +228,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/47d4d827-100a-44ed-8c25-f9e7197f4405",
       "baseSize": "40mm",
       "points": 90,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Mortis Engine",
@@ -279,9 +237,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -291,7 +247,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -300,9 +255,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -311,23 +264,20 @@
           "name": "The Reliquary",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "When this unit is set up for the first time, place a stored energy dice beside it with the ‘1’ facing up. Each time a friendly Soulblight Gravelords Wizard successfully casts a spell while it is within 12\" of this unit, increase the value of the stored energy dice beside this unit by 1 (to a maximum of 6).",
-          "keywords": []
+          "effect": "When this unit is set up for the first time, place a stored energy dice beside it with the ‘1’ facing up. Each time a friendly Soulblight Gravelords Wizard successfully casts a spell while it is within 12\" of this unit, increase the value of the stored energy dice beside this unit by 1 (to a maximum of 6)."
         },
         {
           "name": "Nexus of Death Energy",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "When a friendly Deathrattle or Deadwalkers unit wholly within 12\" of this unit is picked to be the target of the ‘Deathly Invocation’ ability, add D3 to the number of damage points that can be healed or the combined Health characteristic of models that can be returned.",
-          "keywords": []
+          "effect": "When a friendly Deathrattle or Deadwalkers unit wholly within 12\" of this unit is picked to be the target of the ‘Deathly Invocation’ ability, add D3 to the number of damage points that can be healed or the combined Health characteristic of models that can be returned."
         },
         {
           "name": "Wave of Power",
           "activation": "Once Per Turn (Army), Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick up to 3 enemy units within 10\" of this unit to be the targets.",
-          "effect": "Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the value of this unit’s stored energy dice. Then, change the value of the stored energy dice back to 1.",
-          "keywords": []
+          "effect": "Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the value of this unit’s stored energy dice. Then, change the value of the stored energy dice back to 1."
         }
       ],
       "keywords": [
@@ -342,8 +292,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/161e8359-424a-47c4-9bf7-bf153d6b487a",
       "baseSize": "120 x 92mm",
       "points": 240,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Wight King",
@@ -351,10 +300,7 @@
       "health": "5",
       "save": "3+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -364,7 +310,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -374,8 +319,7 @@
           "name": "Ancient Strategies",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Deathrattle Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Deathrattle Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -389,8 +333,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/12acb973-14a3-4b14-a9e8-40428682db23",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vampire Lord",
@@ -399,9 +342,7 @@
       "save": "3+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -411,7 +352,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Hero (+1 Rend)"]
           }
         ]
@@ -437,8 +377,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/a7e332ad-a966-414b-a0b3-9b6d7989d1b8",
       "baseSize": "40mm",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Torgillius the Chamberlain",
@@ -447,9 +386,7 @@
       "save": "6+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -460,7 +397,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -472,7 +408,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -482,8 +417,7 @@
           "name": "Trusted Lieutenant",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit can use the ‘Deathly Invocation’ ability even if a different friendly unit has already used it this turn.",
-          "keywords": []
+          "effect": "This unit can use the ‘Deathly Invocation’ ability even if a different friendly unit has already used it this turn."
         },
         {
           "name": "Failing Fortitude",
@@ -516,10 +450,7 @@
       "health": "1",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -528,9 +459,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -538,9 +467,7 @@
         {
           "name": "Skeleton Legion",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "You can return D3 slain models to this unit.",
-          "keywords": []
+          "effect": "You can return D3 slain models to this unit."
         }
       ],
       "keywords": [
@@ -555,8 +482,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/87d6825f-6188-4bbb-bc25-979ef8db7804",
       "baseSize": "25mm",
       "points": 100,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Radukar the Wolf",
@@ -565,9 +491,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -577,7 +501,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -596,8 +519,7 @@
           "name": "Call to the Hunt",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Deathrattle, Deadwalkers and Vyrkos Blood-born units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Deathrattle, Deadwalkers and Vyrkos Blood-born units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -622,10 +544,7 @@
       "health": "5",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -635,7 +554,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -645,15 +563,13 @@
           "name": "Disciplined Advance",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "Each time you make a run roll for a friendly Deathrattle Skeletons unit wholly within 12\" of this unit, you can change that roll to a 4.",
-          "keywords": []
+          "effect": "Each time you make a run roll for a friendly Deathrattle Skeletons unit wholly within 12\" of this unit, you can change that roll to a 4."
         },
         {
           "name": "Echoes of the Watch",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly Deathrattle Skeletons unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly Deathrattle Skeletons unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": [
@@ -678,9 +594,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -689,9 +603,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Lupine Fangs and Claws",
@@ -700,7 +612,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -718,16 +629,13 @@
         {
           "name": "First of the Vyrkos",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Add 3 to the control scores of friendly Radukar the Wolf, Radukar the Beast, Ivya Volga, Lady Annika, Kritza, Vyrkos Blood-born and Vargskyr units while they are wholly within 18\" of this unit.",
-          "keywords": []
+          "effect": "Add 3 to the control scores of friendly Radukar the Wolf, Radukar the Beast, Ivya Volga, Lady Annika, Kritza, Vyrkos Blood-born and Vargskyr units while they are wholly within 18\" of this unit."
         },
         {
           "name": "Wolfguard",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is within the combat range of a friendly Dire Wolves unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Dire Wolves unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "While this unit is within the combat range of a friendly Dire Wolves unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Dire Wolves unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -743,8 +651,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4954727a-c55a-41a1-a241-0f08b62a695b",
       "baseSize": "60mm",
       "points": 230,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vargheists",
@@ -752,10 +659,7 @@
       "health": "4",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -765,7 +669,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -791,8 +694,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/682d0ec6-b6ae-4164-bcec-5d094d7e3571",
       "baseSize": "50mm",
       "points": 160,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Neferata, Mortarch of Blood",
@@ -801,9 +703,7 @@
       "save": "3+",
       "ward": "6+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -812,9 +712,7 @@
             "hit": "2+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Akmet-har",
@@ -823,7 +721,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           },
           {
@@ -844,15 +741,13 @@
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick up to 3 friendly Deathrattle Infantry or Deadwalkers Infantry units to be the targets.",
-          "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase.",
-          "keywords": []
+          "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Nagadron’s Claws is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Nagadron’s Claws is 3."
         },
         {
           "name": "Dark Mist",
@@ -866,7 +761,6 @@
         {
           "name": "The Adevore",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy Hero that was allocated any damage points inflicted by this unit’s Akmet-har this turn to be the target.",
           "effect": "Roll a dice. On a 5+, the target is automatically destroyed.",
           "keywords": ["Rampage"]
@@ -875,8 +769,7 @@
           "name": "Twilight's Allure",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for combat attacks that target friendly Soulblight Gravelords units while they are wholly within 6\" of this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for combat attacks that target friendly Soulblight Gravelords units while they are wholly within 6\" of this unit."
         }
       ],
       "keywords": [
@@ -894,8 +787,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1247cc5f-5146-4b55-9e75-8c3a16c9c855",
       "baseSize": "120 x 92mm",
       "points": 460,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Prince Vhordrai",
@@ -904,9 +796,7 @@
       "save": "3+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -917,7 +807,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -929,7 +818,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -949,7 +837,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -959,8 +846,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Shordemaire’s Claws is 5.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Shordemaire’s Claws is 5."
         },
         {
           "name": "Quickblood",
@@ -982,10 +868,8 @@
         {
           "name": "Saint of Slaughter",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick a friendly non-Monster Vampire unit that destroyed a unit this turn using a Fight ability and is wholly within 12\" of this unit to be the target.",
-          "effect": "Pick 1 of the following effects to apply for the rest of the battle:\n\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to the Attacks characteristic of the target’s melee weapons.\n• Add 1 to the Damage characteristic of the target’s melee weapons.\n\nMore than 1 effect can apply to a unit at the same time; however, each effect can only be applied to a unit once.",
-          "keywords": []
+          "effect": "Pick 1 of the following effects to apply for the rest of the battle:\n\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to the Attacks characteristic of the target’s melee weapons.\n• Add 1 to the Damage characteristic of the target’s melee weapons.\n\nMore than 1 effect can apply to a unit at the same time; however, each effect can only be applied to a unit once."
         }
       ],
       "keywords": [
@@ -1002,8 +886,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/04d94a7f-80a7-44ac-b41b-7b090b2b68fd",
       "baseSize": "130mm",
       "points": 480,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Black Knights",
@@ -1011,10 +894,7 @@
       "health": "3",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1024,7 +904,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1034,7 +913,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -1044,8 +922,7 @@
           "name": "The Deathly Charge",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit charged this turn, its Barrow Lances have Crit (Mortal) for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit charged this turn, its Barrow Lances have Crit (Mortal) for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1061,8 +938,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/581065cc-45b3-415a-9a3e-c95f1743ccce",
       "baseSize": "60 x 35mm",
       "points": 160,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Deadwalker Zombies",
@@ -1070,10 +946,7 @@
       "health": "1",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1082,9 +955,7 @@
             "hit": "5+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1093,8 +964,7 @@
           "name": "Mindless Ferocity",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 6+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 6+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1107,8 +977,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/632bb9fa-697e-4e95-b5f2-6a8338f1393e",
       "baseSize": "25mm",
       "points": 150,
-      "modelCount": 20,
-      "notes": ""
+      "modelCount": 20
     },
     {
       "name": "Coven Throne",
@@ -1117,9 +986,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1129,7 +996,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1139,7 +1005,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -1148,9 +1013,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1159,15 +1022,13 @@
           "name": "Scrying Pool",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "If a friendly Soulblight Gravelords unit wholly within 12\" of this unit uses the ‘Redeploy’ command, you can pick another friendly Soulblight Gravelords unit wholly within 12\" of this unit that has not used a command this phase to use the ‘Redeploy’ command immediately after the first has been resolved (this is an exception to Commands, 1.2). No command point is spent the second time that command is used.",
-          "keywords": []
+          "effect": "If a friendly Soulblight Gravelords unit wholly within 12\" of this unit uses the ‘Redeploy’ command, you can pick another friendly Soulblight Gravelords unit wholly within 12\" of this unit that has not used a command this phase to use the ‘Redeploy’ command immediately after the first has been resolved (this is an exception to Commands, 1.2). No command point is spent the second time that command is used."
         },
         {
           "name": "Tactical Insight",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Friendly Deathrattle and Deadwalkers units have Ward (5+) while they are wholly within 6\" of this unit.",
-          "keywords": []
+          "effect": "Friendly Deathrattle and Deadwalkers units have Ward (5+) while they are wholly within 6\" of this unit."
         }
       ],
       "keywords": [
@@ -1183,8 +1044,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0e7c2f0f-213b-420d-b096-9e3012d3e671",
       "baseSize": "120 x 92mm",
       "points": 270,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vengorian Lord",
@@ -1193,9 +1053,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1204,9 +1062,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Gore-drenched Talons",
@@ -1214,9 +1070,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "3",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -1232,17 +1086,14 @@
         {
           "name": "Festering Feast",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick a visible friendly non‑Hero Soulblight Gravelords Monster that destroyed an enemy unit this turn and that is wholly within 12\" of this unit to be the target.",
-          "effect": "Heal (6) the target.",
-          "keywords": []
+          "effect": "Heal (6) the target."
         },
         {
           "name": "Nightmare's Miasma",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit."
         }
       ],
       "keywords": [
@@ -1258,8 +1109,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e932dba2-d4d8-4282-9ff1-4ec70f47d82c",
       "baseSize": "80mm",
       "points": 330,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Blood Knights",
@@ -1267,10 +1117,7 @@
       "health": "3",
       "save": "3+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1280,7 +1127,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
           },
           {
@@ -1290,7 +1136,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1300,16 +1145,14 @@
           "name": "Riders of Ruin",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used.",
-          "keywords": []
+          "effect": "When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used."
         },
         {
           "name": "Trampled to Dust",
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick an enemy unit that this unit passed across this turn to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -1324,8 +1167,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/350affa0-3b9e-4533-bcf9-7fac35be7f61",
       "baseSize": "60 x 35mm",
       "points": 230,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Necromancer",
@@ -1334,9 +1176,7 @@
       "save": "6+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1345,9 +1185,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1357,15 +1195,13 @@
           "activation": "Once Per Turn (Army), Your Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a friendly Deathrattle or Deadwalkers unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target can use 2 Fight abilities this phase. After the first is used, however, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target can use 2 Fight abilities this phase. After the first is used, however, the target has Strike-last for the rest of the turn."
         },
         {
           "name": "Undead Minions",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is within the combat range of a friendly Deathrattle or Deadwalkers unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Deathrattle or Deadwalkers unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "While this unit is within the combat range of a friendly Deathrattle or Deadwalkers unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Deathrattle or Deadwalkers unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -1379,8 +1215,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/059d0758-e1c7-4fd4-9618-0931e294409c",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vyrkos Blood-born",
@@ -1388,10 +1223,7 @@
       "health": "3",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1401,7 +1233,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1410,16 +1241,13 @@
         {
           "name": "Shadowfast",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "Roll a dice. On a 3+, this unit can use a Move ability as if it were your movement phase.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, this unit can use a Move ability as if it were your movement phase."
         },
         {
           "name": "Cling to the Shadows",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While each model in this unit is within 1\" of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it.",
-          "keywords": []
+          "effect": "While each model in this unit is within 1\" of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it."
         }
       ],
       "keywords": [
@@ -1441,10 +1269,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1454,7 +1279,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1463,9 +1287,7 @@
         {
           "name": "Restless Dead",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "You can return D3 slain models to this unit.",
-          "keywords": []
+          "effect": "You can return D3 slain models to this unit."
         }
       ],
       "keywords": [
@@ -1490,9 +1312,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1502,7 +1322,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1521,8 +1340,7 @@
           "name": "The Court of the Lost",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply until the start of your next turn.\n\n• This unit has a Move characteristic of 12\".\n• Add 1 to casting rolls, unbinding rolls and banishment rolls for this unit.\n• This unit’s melee weapons have Crit (Mortal).",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply until the start of your next turn.\n\n• This unit has a Move characteristic of 12\".\n• Add 1 to casting rolls, unbinding rolls and banishment rolls for this unit.\n• This unit’s melee weapons have Crit (Mortal)."
         }
       ],
       "keywords": [
@@ -1538,8 +1356,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d16ffdb2-ecbe-43ad-a77e-9ebbb3535f44",
       "baseSize": "40mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Wight King on Skeleton Steed",
@@ -1547,10 +1364,7 @@
       "health": "7",
       "save": "3+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1560,7 +1374,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Charge (+1 Damage)"]
           },
           {
@@ -1570,7 +1383,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1580,15 +1392,13 @@
           "name": "Lord of Trampling Bones",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to charge rolls for friendly Deathrattle Cavalry units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to charge rolls for friendly Deathrattle Cavalry units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Royal Companions",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Deathrattle Cavalry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Deathrattle Cavalry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": [
@@ -1602,8 +1412,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/3285d448-30b2-42b6-9734-752f487a3bc8",
       "baseSize": "75 x 42mm",
       "points": 190,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Dire Wolves",
@@ -1611,10 +1420,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1624,7 +1430,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1634,15 +1439,12 @@
           "name": "On The Hunt",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can use a Run ability and still use Charge abilities later in the turn.",
-          "keywords": []
+          "effect": "This unit can use a Run ability and still use Charge abilities later in the turn."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": [
@@ -1656,8 +1458,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ed734a2d-f8d5-48d2-b5d2-f05f4488c920",
       "baseSize": "60 x 35mm",
       "points": 140,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Gorslav the Gravekeeper",
@@ -1665,10 +1466,7 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1677,9 +1475,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1689,15 +1485,13 @@
           "activation": "Once Per Turn, Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 3 friendly Deadwalker Zombies units wholly within 12\" of this unit to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, return up to a number of slain models to the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, return up to a number of slain models to the target equal to the roll."
         },
         {
           "name": "Keeper of the Corpse-gardens",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is within the combat range of a friendly Deadwalker Zombies unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Deadwalker Zombies unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "While this unit is within the combat range of a friendly Deadwalker Zombies unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Deadwalker Zombies unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -1721,10 +1515,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1733,9 +1524,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "2",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Askurgan Weapons",
@@ -1744,7 +1533,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Monster (+1 Rend)"]
           }
         ]
@@ -1755,15 +1543,13 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit’s Curseblood to be the target.",
-          "effect": "Roll a dice. On a 4+, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, the target has Strike-last for the rest of the turn."
         },
         {
           "name": "Creed of the Askurga Renkai",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for combat attacks made by enemy Monsters that target this unit. Add 1 to hit rolls for combat attacks made by this unit that target enemy Monsters.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for combat attacks made by enemy Monsters that target this unit. Add 1 to hit rolls for combat attacks made by this unit that target enemy Monsters."
         }
       ],
       "keywords": [
@@ -1786,10 +1572,7 @@
       "health": "4",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "3",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1798,9 +1581,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -1809,8 +1590,7 @@
           "name": "A Pact Maintained",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While a friendly Radukar the Wolf or Radukar the Beast is within this unit’s combat range, both that unit and this unit have Ward (5+).",
-          "keywords": []
+          "effect": "While a friendly Radukar the Wolf or Radukar the Beast is within this unit’s combat range, both that unit and this unit have Ward (5+)."
         }
       ],
       "keywords": [
@@ -1832,10 +1612,7 @@
       "health": "1",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1845,7 +1622,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1855,8 +1631,7 @@
           "name": "Guardians of the King",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Soulblight Gravelords Infantry Heroes are within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly Soulblight Gravelords Infantry Heroes are within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -1872,8 +1647,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/fa84a6a6-0032-4dd1-a672-7af66e7abd99",
       "baseSize": "25mm",
       "points": 150,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Zombie Dragon",
@@ -1881,10 +1655,7 @@
       "health": "14",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1895,7 +1666,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -1917,7 +1687,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1935,16 +1704,14 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5."
         },
         {
           "name": "Loathsome Descent",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is high above the battlefield.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units."
         },
         {
           "name": "Armour Crunch",
@@ -1965,8 +1732,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/41aa7974-7888-48bb-8cfa-cdd7dc299b2e",
       "baseSize": "130mm",
       "points": 290,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Mannfred von Carstein, Mortarch of Night",
@@ -1975,9 +1741,7 @@
       "save": "3+",
       "ward": "6+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1996,9 +1760,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2007,8 +1769,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Ashigaroth’s Claws is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Ashigaroth’s Claws is 3."
         },
         {
           "name": "Wind of Death",
@@ -2023,8 +1784,7 @@
           "name": "The Mortarch of Night",
           "activation": "Reaction: You declared the ‘Redeploy’ command for a Soulblight Gravelords unit wholly within 12\" of this unit",
           "phases": ["Movement Phase"],
-          "effect": "The unit using the ‘Redeploy’ command can move into combat when using that ability.",
-          "keywords": []
+          "effect": "The unit using the ‘Redeploy’ command can move into combat when using that ability."
         },
         {
           "name": "Ashigaroth's Hunger",
@@ -2037,8 +1797,7 @@
           "name": "The Sword of Unholy Power",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit has slain any enemy models this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Deathrattle and Deadwalkers units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "If this unit has slain any enemy models this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Deathrattle and Deadwalkers units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -2056,8 +1815,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5738040c-8c5f-49b8-be2a-325f833fa9af",
       "baseSize": "120 x 92mm",
       "points": 410,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Corpse Cart",
@@ -2065,10 +1823,7 @@
       "health": "7",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2078,7 +1833,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2087,9 +1841,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -2098,8 +1850,7 @@
           "name": "Locus of Undeath",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Melee weapons used by other friendly Deadwalkers units have Crit (Auto-wound) while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Melee weapons used by other friendly Deadwalkers units have Crit (Auto-wound) while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -2112,8 +1863,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/ecd7fd9d-caab-4ba1-9642-1a4d06fa8129",
       "baseSize": "105 x 70mm",
       "points": 90,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vampire Lord on Zombie Dragon",
@@ -2122,9 +1872,7 @@
       "save": "3+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2135,7 +1883,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -2147,7 +1894,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2167,7 +1913,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -2177,13 +1922,11 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5."
         },
         {
           "name": "Bloodthirsty Dominance",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
           "effect": "Roll a number of dice equal to the target’s Health characteristic. For each 6, inflict 1 mortal damage on the target.",
           "keywords": ["Rampage"]
@@ -2191,9 +1934,7 @@
         {
           "name": "That Which Should Not Be",
           "activation": "Passive",
-          "phases": null,
-          "effect": "If this unit charged this turn, for the rest of the turn, subtract 1 from the control scores of enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "If this unit charged this turn, for the rest of the turn, subtract 1 from the control scores of enemy units while they are in combat with this unit."
         }
       ],
       "keywords": [
@@ -2209,8 +1950,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/751b7bb1-1f85-4dff-b0ac-ccb562ecef1e",
       "baseSize": "130mm",
       "points": 400,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Radukar the Beast",
@@ -2219,9 +1959,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2231,7 +1969,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -2241,7 +1978,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2260,13 +1996,11 @@
           "name": "Call to the Hunt",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Deathrattle, Deadwalkers and Vyrkos Blood-born units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Deathrattle, Deadwalkers and Vyrkos Blood-born units while they are wholly within 12\" of this unit."
         },
         {
           "name": "The Beast Will Out",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "effect": "If this unit is not in combat, it can move D6\". It can move into combat.",
           "keywords": ["Rampage"]
         }
@@ -2293,10 +2027,7 @@
       "health": "2",
       "save": "3+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2306,7 +2037,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -2316,8 +2046,7 @@
           "name": "Rise Again",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit’s King Morlak Velmorn is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit.",
-          "keywords": []
+          "effect": "If this unit’s King Morlak Velmorn is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit."
         }
       ],
       "keywords": [
@@ -2341,10 +2070,7 @@
       "health": "8",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2354,7 +2080,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -2364,7 +2089,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2374,15 +2098,12 @@
           "name": "Bounding Haste",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3. In addition, when this unit uses a Charge ability, it can pass through terrain features and enemy models as if it had Fly.",
-          "keywords": []
+          "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3. In addition, when this unit uses a Charge ability, it can pass through terrain features and enemy models as if it had Fly."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": [
@@ -2395,8 +2116,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0a71a03d-22da-4efa-b3a4-789e6c935d30",
       "baseSize": "50mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Sekhar, Fang of Nulahmia",
@@ -2405,9 +2125,7 @@
       "save": "3+",
       "ward": "6+",
       "wizardLevel": "2",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2417,7 +2135,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -2427,7 +2144,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2447,15 +2163,13 @@
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick each enemy unit in combat with this unit to be the targets.",
-          "effect": "This unit cannot use the ‘Serpentine Agility’ ability for the rest of the battle. Roll 2D6 for each target. If the roll exceeds the target’s Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the roll and its Move characteristic.",
-          "keywords": []
+          "effect": "This unit cannot use the ‘Serpentine Agility’ ability for the rest of the battle. Roll 2D6 for each target. If the roll exceeds the target’s Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the roll and its Move characteristic."
         },
         {
           "name": "Serpentine Agility",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
-          "keywords": []
+          "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends."
         }
       ],
       "keywords": [
@@ -2471,8 +2185,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e227d92a-e9d5-438c-bc82-c199d8d555df",
       "baseSize": "60 x 35mm",
       "points": 260,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Terrorgheist",
@@ -2480,10 +2193,7 @@
       "health": "14",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2494,7 +2204,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -2516,7 +2225,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2526,8 +2234,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Skeletal Talons is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Skeletal Talons is 4."
         },
         {
           "name": "Sonic Assault",
@@ -2541,8 +2248,7 @@
           "name": "Gaping Maw",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time an attack made with this unit’s Fanged Maw scores a critical hit, that attack inflicts 6 mortal damage on the target unit and the attack sequence ends.",
-          "keywords": []
+          "effect": "Each time an attack made with this unit’s Fanged Maw scores a critical hit, that attack inflicts 6 mortal damage on the target unit and the attack sequence ends."
         }
       ],
       "keywords": [
@@ -2555,8 +2261,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/df1b1788-8681-437e-ba22-157b6020f28d",
       "baseSize": "130mm",
       "points": 280,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bloodseeker Palanquin",
@@ -2565,9 +2270,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2577,7 +2280,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -2587,7 +2289,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -2598,15 +2299,12 @@
           "activation": "Once Per Battle (Army), Your Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick up to 3 friendly Vampire units wholly within 12\" of this unit to be the targets.",
-          "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn."
         },
         {
           "name": "Wails of the Damned",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Subtract 3 from the control scores of enemy units while they are within 12\" of this unit.",
-          "keywords": []
+          "effect": "Subtract 3 from the control scores of enemy units while they are within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -2622,8 +2320,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/037641ff-efde-4ffa-be72-b23fa9cd8d45",
       "baseSize": "120 x 92mm",
       "points": 250,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Lauka Vai, Mother of Nightmares",
@@ -2632,9 +2329,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2643,9 +2338,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "3",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           },
           {
             "name": "Askurga Rapier",
@@ -2653,9 +2346,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2681,8 +2372,7 @@
           "name": "Nightmare's Miasma",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit."
         }
       ],
       "keywords": [
@@ -2699,8 +2389,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/dff942a7-dad5-4230-b248-621f350ccc5f",
       "baseSize": "80mm",
       "points": 320,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Ivya Volga, The Outcast",
@@ -2709,9 +2398,7 @@
       "save": "5+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2722,7 +2409,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -2734,7 +2420,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ]
@@ -2753,15 +2438,13 @@
           "name": "Behemoth's Bane",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 2 from the Attacks characteristic of enemy Monsters’ melee weapons while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Subtract 2 from the Attacks characteristic of enemy Monsters’ melee weapons while they are in combat with this unit."
         },
         {
           "name": "Shrieking Swarm",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for attacks that target this unit."
         }
       ],
       "keywords": [
@@ -2787,9 +2470,7 @@
       "save": "3+",
       "ward": "5+",
       "wizardLevel": "9",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2798,9 +2479,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "D6",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D6"
           },
           {
             "name": "Zefet-nebtar",
@@ -2808,9 +2487,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -2819,23 +2496,20 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, subtract 3 from its power level.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, subtract 3 from its power level."
         },
         {
           "name": "Supreme Lord of the Undead",
           "activation": "Once Per Battle, Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly non-Hero non-Unique Death unit that has been destroyed to be the target.",
-          "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units."
         },
         {
           "name": "The Staff of Power",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.",
-          "keywords": []
+          "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn."
         },
         {
           "name": "Invocation of Nagash",
@@ -2849,7 +2523,6 @@
         {
           "name": "Hand of Dust",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
           "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
           "keywords": ["Rampage"]
@@ -2869,8 +2542,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e8dc791a-71f5-4263-9750-529fc5da9a77",
       "baseSize": "130mm",
       "points": 880,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Kritza, the Rat Prince",
@@ -2878,10 +2550,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2891,7 +2560,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -2902,15 +2570,13 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target, then pick an artefact of power that the target has.",
-          "effect": "Roll a dice. On a 3+, the target no longer has that artefact of power.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target no longer has that artefact of power."
         },
         {
           "name": "Scurrying Retreat",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit is in combat, roll a dice. On a 2+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
-          "keywords": []
+          "effect": "If this unit is in combat, roll a dice. On a 2+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
         }
       ],
       "keywords": [
@@ -2934,10 +2600,7 @@
       "health": "5",
       "save": "5+",
       "ward": "4+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2946,9 +2609,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2966,16 +2627,13 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is lying in wait.",
-          "effect": "Set up this unit wholly within enemy territory and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit wholly within enemy territory and more than 9\" from all enemy units."
         },
         {
           "name": "Kiss of the Blade Proboscian",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit that was allocated any damage points inflicted by this unit’s combat attacks this turn to be the target.",
-          "effect": "Roll a dice. On a 2+, subtract 1 from save rolls for the target for the rest of the battle.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, subtract 1 from save rolls for the target for the rest of the battle."
         }
       ],
       "keywords": [
@@ -2999,10 +2657,7 @@
       "health": "2",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3012,7 +2667,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -3022,15 +2676,13 @@
           "name": "Deintalos the Exile",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Deintalos the Exile is on the battlefield, it has Wizard (1). While this unit’s Prentice Marcov is on the battlefield, add 1 to casting rolls for this unit.",
-          "keywords": []
+          "effect": "While this unit’s Deintalos the Exile is on the battlefield, it has Wizard (1). While this unit’s Prentice Marcov is on the battlefield, add 1 to casting rolls for this unit."
         },
         {
           "name": "Unfeeling Fortitude",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "Roll a dice. On a 3+, this unit has Ward (5+) until the start of your next turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, this unit has Ward (5+) until the start of your next turn."
         }
       ],
       "keywords": [
@@ -3054,10 +2706,7 @@
       "health": "2",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -3066,9 +2715,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Graverobber’s Tools",
@@ -3076,9 +2723,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -3087,15 +2732,13 @@
           "name": "Zondara Rivenheart",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Zondara Rivenheart is on the battlefield, it has Wizard (1).",
-          "keywords": []
+          "effect": "While this unit’s Zondara Rivenheart is on the battlefield, it has Wizard (1)."
         },
         {
           "name": "Wrest From the Realms",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "If this unit is in a Soulblight Gravelords army, pick a terrain feature within 3\" of this unit, then roll a dice and apply the corresponding effect. You cannot pick the same terrain feature more than once per battle.\n\n1 Cruel Hope: No effect.\n\n2-4 Cursed Flesh: You can return D3 slain models to this unit.\n\n5-6 Borrowed Power: Pick a friendly Soulblight Gravelords Hero wholly within 12\" of this unit that does not have an artefact of power. You can pick an artefact of power from the Soulblight Gravelords faction rules that no other friendly Hero has and give it to that Hero.",
-          "keywords": []
+          "effect": "If this unit is in a Soulblight Gravelords army, pick a terrain feature within 3\" of this unit, then roll a dice and apply the corresponding effect. You cannot pick the same terrain feature more than once per battle.\n\n1 Cruel Hope: No effect.\n\n2-4 Cursed Flesh: You can return D3 slain models to this unit.\n\n5-6 Borrowed Power: Pick a friendly Soulblight Gravelords Hero wholly within 12\" of this unit that does not have an artefact of power. You can pick an artefact of power from the Soulblight Gravelords faction rules that no other friendly Hero has and give it to that Hero."
         }
       ],
       "keywords": [

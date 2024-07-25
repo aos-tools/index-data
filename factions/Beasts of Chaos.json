@@ -13,16 +13,14 @@
       "name": "Rituals of Ruin",
       "activation": "Once Per Turn (Army), Your Hero Phase",
       "phases": ["Hero Phase"],
-      "effect": "Pick 1 of the following effects:\n\nWarping Curse: Pick an enemy unit within 12\" of a friendly Beasts of Chaos Hero or, if there is a friendly Beasts of Chaos Hero in reserve, within 12\" of a battlefield edge to be the target. Then, roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nBrand of Wild Fury: Pick a friendly Beasts of Chaos unit wholly within 12\" of a friendly Beasts of Chaos Hero or, if there is a friendly Beasts of Chaos Hero in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, the target has Ward (6+) for the rest of the turn.\n\nBestial Instinct: Pick a friendly Beasts of Chaos unit wholly within 12\" of a friendly Beasts of Chaos Hero or, if there is a friendly Beasts of Chaos Hero in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
-      "keywords": []
+      "effect": "Pick 1 of the following effects:\n\nWarping Curse: Pick an enemy unit within 12\" of a friendly Beasts of Chaos Hero or, if there is a friendly Beasts of Chaos Hero in reserve, within 12\" of a battlefield edge to be the target. Then, roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nBrand of Wild Fury: Pick a friendly Beasts of Chaos unit wholly within 12\" of a friendly Beasts of Chaos Hero or, if there is a friendly Beasts of Chaos Hero in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, the target has Ward (6+) for the rest of the turn.\n\nBestial Instinct: Pick a friendly Beasts of Chaos unit wholly within 12\" of a friendly Beasts of Chaos Hero or, if there is a friendly Beasts of Chaos Hero in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn."
     },
     {
       "name": "Beastherd Ambush",
       "activation": "Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Beasts of Chaos unit that is in ambush.",
-      "effect": "Set up that unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.\n\nFor the rest of the turn, add 1 to charge rolls for that unit.",
-      "keywords": []
+      "effect": "Set up that unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.\n\nFor the rest of the turn, add 1 to charge rolls for that unit."
     }
   ],
   "battle_formations": {
@@ -30,31 +28,26 @@
       "name": "Arch-Despoilers",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to hit rolls for combat attacks made by friendly Beasts of Chaos units that target an enemy unit that is contesting an objective you do not control.",
-      "keywords": []
+      "effect": "Add 1 to hit rolls for combat attacks made by friendly Beasts of Chaos units that target an enemy unit that is contesting an objective you do not control."
     },
     "Hungering Warherd": {
       "name": "Bloodgreed",
       "activation": "End of Any Turn",
-      "phases": null,
       "declare": "Pick each friendly Warherd unit that used a Fight ability this turn to be the targets.",
-      "effect": "Heal (3) each target.",
-      "keywords": []
+      "effect": "Heal (3) each target."
     },
     "Marauding Brayherd": {
       "name": "Fiends of the Wilds",
       "activation": "Once Per Turn (Army), Reaction: You declared a Charge ability for a friendly Brayherd unit",
       "phases": ["Charge Phase"],
-      "effect": "Change one of the dice in the charge roll to a 4.",
-      "keywords": []
+      "effect": "Change one of the dice in the charge roll to a 4."
     },
     "Thunderscorn Stormherd": {
       "name": "Raging Storm",
       "activation": "Your Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick each friendly Thunderscorn unit on the battlefield to be the friendly targets, then pick each enemy unit in combat with any friendly Thunderscorn units to be the enemy targets.",
-      "effect": "Heal (1) each friendly target. Then, roll a D3 for each enemy target, if any. On a 2+, inflict an amount of mortal damage on the enemy target equal to the roll.",
-      "keywords": []
+      "effect": "Heal (1) each friendly target. Then, roll a D3 for each enemy target, if any. On a 2+, inflict an amount of mortal damage on the enemy target equal to the roll."
     }
   },
   "heroic_traits": [
@@ -62,23 +55,20 @@
       "name": "Propagator of Ruin",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "While this unit is on the battlefield, you can use the ‘Rituals of Ruin’ ability twice per turn in your hero phase instead of once per turn. You cannot pick the same effect more than once per turn.",
-      "keywords": []
+      "effect": "While this unit is on the battlefield, you can use the ‘Rituals of Ruin’ ability twice per turn in your hero phase instead of once per turn. You cannot pick the same effect more than once per turn."
     },
     {
       "name": "Bestial Cunning",
       "activation": "Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick up to 3 friendly Beasts of Chaos units wholly within 12\" of this unit that were set up this turn using the ‘Beastherd Ambush’ ability to be the targets.",
-      "effect": "Each target can immediately move D3\". The targets cannot move into combat during any part of that move.",
-      "keywords": []
+      "effect": "Each target can immediately move D3\". The targets cannot move into combat during any part of that move."
     },
     {
       "name": "Death-grip",
       "activation": "Once Per Turn, Reaction: Opponent declared a Shoot ability that targeted a friendly Beasts of Chaos unit",
       "phases": ["Shooting Phase"],
-      "effect": "If that friendly Beasts of Chaos unit is not in combat and is wholly within 18\" of this unit, after the Shoot ability has been resolved, that friendly unit can move 2D6\". It can move into combat.",
-      "keywords": []
+      "effect": "If that friendly Beasts of Chaos unit is not in combat and is wholly within 18\" of this unit, after the Shoot ability has been resolved, that friendly unit can move 2D6\". It can move into combat."
     }
   ],
   "artefacts_of_power": [
@@ -87,23 +77,20 @@
       "activation": "Your Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
-      "effect": "Roll a dice. On a 2+, ward rolls cannot be made for the target for the rest of the turn.",
-      "keywords": []
+      "effect": "Roll a dice. On a 2+, ward rolls cannot be made for the target for the rest of the turn."
     },
     {
       "name": "Brayblast Trumpet",
       "activation": "Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly non-Unique Beasts of Chaos Infantry or Cavalry unit that started the battle with 2 or more models and that has been destroyed to be the target.",
-      "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of a battlefield edge and more than 9\" from all enemy units.",
-      "keywords": []
+      "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of a battlefield edge and more than 9\" from all enemy units."
     },
     {
       "name": "Slitherwrack Helm",
       "activation": "Passive",
       "phases": ["Charge Phase"],
-      "effect": "Subtract 1 from charge rolls for enemy units while they are within 12\" of this unit.",
-      "keywords": []
+      "effect": "Subtract 1 from charge rolls for enemy units while they are within 12\" of this unit."
     }
   ],
   "spell_lore": {
@@ -177,11 +164,8 @@
       "move": "6\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -190,9 +174,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "-",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -202,8 +184,7 @@
           "activation": "Once Per Turn (Army), Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick a friendly Beasts of Chaos unit wholly within 12\" of this unit to be the target.",
-          "effect": "For the rest of the turn, the target can use a Run ability and still use Charge abilities later in the turn.",
-          "keywords": []
+          "effect": "For the rest of the turn, the target can use a Run ability and still use Charge abilities later in the turn."
         }
       ],
       "keywords": [
@@ -225,11 +206,7 @@
       "move": "6\"",
       "health": "1",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -239,7 +216,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -249,8 +225,7 @@
           "name": "Fleet of Hoof",
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
-          "keywords": []
+          "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
         }
       ],
       "keywords": [
@@ -274,9 +249,6 @@
       "health": "6",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -286,9 +258,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -297,15 +267,12 @@
           "name": "Multiple Parts",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and all of its parts are removed from play.\n\nEach time this Manifestation moves, each of its parts must end within 1\" of at least 1 other part.\n\nEach part of this Manifestation is armed with Murderous Beaks.",
-          "keywords": []
+          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and all of its parts are removed from play.\n\nEach time this Manifestation moves, each of its parts must end within 1\" of at least 1 other part.\n\nEach part of this Manifestation is armed with Murderous Beaks."
         },
         {
           "name": "Harbingers of Dark Omens",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Subtract 5 from the control scores of enemy units while they are within 12\" of this unit.",
-          "keywords": []
+          "effect": "Subtract 5 from the control scores of enemy units while they are within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -318,20 +285,15 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/35f61d19-f599-40ff-bbeb-93de9db730db",
       "baseSize": "40mm",
-      "points": 0,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Dragon Ogor Shaggoth",
       "move": "8\"",
       "health": "10",
       "save": "4+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -342,7 +304,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Shoot in Combat"]
           }
         ],
@@ -354,7 +315,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -364,13 +324,11 @@
           "name": "Scion of the Primordial Storm",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If this unit or a friendly Dragon Ogors unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability.",
-          "keywords": []
+          "effect": "If this unit or a friendly Dragon Ogors unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability."
         },
         {
           "name": "Beneath The Tempest",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick each enemy unit in combat with this unit to be the targets.",
           "effect": "Roll a dice. On a 2+, Heal (X) this unit, where X is an amount equal to the roll. Then, roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
           "keywords": ["Rampage"]
@@ -395,11 +353,7 @@
       "move": "6\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -408,9 +362,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Iron-capped Horns",
@@ -419,7 +371,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -430,8 +381,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a dice for each model in this unit. For each 2+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice for each model in this unit. For each 2+, inflict 1 mortal damage on the target."
         }
       ],
       "keywords": [
@@ -454,11 +404,7 @@
       "move": "8\"",
       "health": "15",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -467,9 +413,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "D6",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D6"
           },
           {
             "name": "Butchering Blades",
@@ -488,8 +432,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Butchering Blades is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Butchering Blades is 4."
         },
         {
           "name": "Swallow Whole",
@@ -512,11 +455,7 @@
       "move": "6\"",
       "health": "8",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -525,9 +464,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           },
           {
             "name": "Alphabeast Horns",
@@ -536,7 +473,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -547,16 +483,14 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Slaughterer's Call",
           "activation": "Once Per Turn (Army), Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick a friendly Warherd unit that is not in combat and is wholly within 12\" of this unit to be the target.",
-          "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
-          "keywords": []
+          "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3."
         }
       ],
       "keywords": ["Hero", "Infantry", "Chaos", "Beasts of Chaos", "Warherd"],
@@ -571,11 +505,7 @@
       "move": "2D6\"",
       "health": "5",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -585,7 +515,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           }
         ]
@@ -594,9 +523,7 @@
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": ["Beast", "Chaos", "Beasts of Chaos"],
@@ -611,11 +538,7 @@
       "move": "10\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -625,7 +548,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -634,16 +556,13 @@
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         },
         {
           "name": "Feed On Mangled Remains",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time this unit uses a Fight ability, after that Fight ability has been resolved, Heal (D3) this unit.",
-          "keywords": []
+          "effect": "Each time this unit uses a Fight ability, after that Fight ability has been resolved, Heal (D3) this unit."
         }
       ],
       "keywords": ["Beast", "Chaos", "Beasts of Chaos"],
@@ -658,27 +577,20 @@
       "move": "-",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
           "name": "Entropic Lodestone",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly Beasts of Chaos units while they are wholly within 24\" of this terrain feature.\n\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly Beasts of Chaos units on the battlefield instead of those wholly within 24\" of it.",
-          "keywords": []
+          "effect": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly Beasts of Chaos units while they are wholly within 24\" of this terrain feature.\n\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly Beasts of Chaos units on the battlefield instead of those wholly within 24\" of it."
         }
       ],
       "keywords": ["Faction Terrain", "Chaos", "Beasts of Chaos"],
       "image": "https://dhss9aar8ocw.cloudfront.net/072807cb-ac81-4421-9c27-bc8dee2aee17",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Wildfire Taurus",
@@ -686,9 +598,6 @@
       "health": "10",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "8+",
       "weapons": {
         "melee": [
@@ -699,7 +608,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -710,8 +618,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has Strike-last for the rest of the turn."
         }
       ],
       "keywords": [
@@ -724,20 +631,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/84aa8e47-7dfc-4fac-8847-e628d2afb6d6",
       "baseSize": "105 x 70mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Centigors",
       "move": "10\"",
       "health": "2",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -747,9 +648,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -759,9 +658,7 @@
             "hit": "5+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -770,8 +667,7 @@
           "name": "Drunken Revelry",
           "activation": "Once Per Turn (Army), Your Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "This unit can use this ability if it is not in combat. It has Ward (4+) for the rest of the turn.",
-          "keywords": []
+          "effect": "This unit can use this ability if it is not in combat. It has Ward (4+) for the rest of the turn."
         }
       ],
       "keywords": [
@@ -794,11 +690,7 @@
       "move": "6\"",
       "health": "2",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -808,7 +700,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -818,15 +709,13 @@
           "name": "Despoilers",
           "activation": "Reaction: Opponent declared the ‘All-out Defence’ command for a unit within 6\" of this unit",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of this unit’s Despoiler Axes for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of this unit’s Despoiler Axes for the rest of the turn."
         },
         {
           "name": "Ferocious Advance",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from wound rolls for shooting attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from wound rolls for shooting attacks that target this unit."
         }
       ],
       "keywords": [
@@ -849,11 +738,7 @@
       "move": "8\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -863,7 +748,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -872,9 +756,7 @@
             "hit": "5+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -883,8 +765,7 @@
           "name": "Speed Of An Avalanche",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has Strike-first for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has Strike-first for the rest of the turn."
         }
       ],
       "keywords": ["Cavalry", "Chaos", "Beasts of Chaos", "Thunderscorn"],
@@ -900,9 +781,6 @@
       "health": "7",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -910,15 +788,13 @@
           "name": "Louder and Louder",
           "activation": "Start of Battle Round",
           "phases": ["Start of Turn"],
-          "effect": "Increase the range of this Manifestation’s ‘Booming Cacophony’ ability by 6\". This effect can be applied multiple times to this Manifestation and is cumulative. If this Manifestation is removed from play, this effect no longer applies.",
-          "keywords": []
+          "effect": "Increase the range of this Manifestation’s ‘Booming Cacophony’ ability by 6\". This effect can be applied multiple times to this Manifestation and is cumulative. If this Manifestation is removed from play, this effect no longer applies."
         },
         {
           "name": "Booming Cacophony",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "When this Manifestation is set up, the range of this ability is 6\". Subtract 1 from wound rolls for attacks made by enemy units while they are within range of this Manifestation’s ability.",
-          "keywords": []
+          "effect": "When this Manifestation is set up, the range of this ability is 6\". Subtract 1 from wound rolls for attacks made by enemy units while they are within range of this Manifestation’s ability."
         }
       ],
       "keywords": [
@@ -930,20 +806,14 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/5245dd32-057c-4059-99fb-5b32d286f938",
       "baseSize": "40mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Cockatrice",
       "move": "12\"",
       "health": "8",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -953,7 +823,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -964,15 +833,12 @@
           "activation": "Once Per Turn (Army,) Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
-          "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has Strike-last for the rest of the turn."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": ["Beast", "Fly", "Chaos", "Beasts of Chaos"],
@@ -987,11 +853,7 @@
       "move": "6\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1001,9 +863,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1014,7 +874,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1025,8 +884,7 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If this unit is in reserve in ambush, pick a non-Hero enemy unit within 12\" of a battlefield edge to be the target.",
-          "effect": "Roll a number of dice equal to the number of models in this unit. For each 6, inflict 1 mortal damage on the target. Then, in your next movement phase, set up this unit on the battlefield. If it is not possible to do so, it is destroyed.",
-          "keywords": []
+          "effect": "Roll a number of dice equal to the number of models in this unit. For each 6, inflict 1 mortal damage on the target. Then, in your next movement phase, set up this unit on the battlefield. If it is not possible to do so, it is destroyed."
         }
       ],
       "keywords": [
@@ -1049,11 +907,7 @@
       "move": "10\"",
       "health": "7",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1063,7 +917,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           },
           {
@@ -1073,7 +926,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1084,8 +936,7 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": ["War Machine", "Chaos", "Beasts of Chaos", "Brayherd"],
@@ -1100,11 +951,7 @@
       "move": "8\"",
       "health": "15",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1115,7 +962,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3+3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1137,15 +983,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Massive Horns is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Massive Horns is 4."
         },
         {
           "name": "Soul-eater",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "This unit can use Unbind abilities as if it had Wizard (1). Each time this unit unbinds a spell, inflict D3 mortal damage on the caster.",
-          "keywords": []
+          "effect": "This unit can use Unbind abilities as if it had Wizard (1). Each time this unit unbinds a spell, inflict D3 mortal damage on the caster."
         },
         {
           "name": "Consume Endless Spell",
@@ -1168,11 +1012,7 @@
       "move": "10\"",
       "health": "12",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1183,7 +1023,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -1195,7 +1034,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1222,11 +1060,7 @@
       "move": "8\"",
       "health": "12",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1236,9 +1070,7 @@
             "hit": "5+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -1248,9 +1080,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Massive Club",
@@ -1258,9 +1088,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "’Eadbutt",
@@ -1268,9 +1096,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           }
         ]
       },
@@ -1286,8 +1112,7 @@
           "name": "Timberrrrr!",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit.",
-          "keywords": []
+          "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit."
         }
       ],
       "keywords": ["Monster", "Chaos", "Beasts of Chaos"],
@@ -1302,11 +1127,7 @@
       "move": "10\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1316,7 +1137,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1326,15 +1146,12 @@
           "name": "Outrunners of Chaos",
           "activation": "Reaction: You declared a Charge ability for this unit",
           "phases": ["Charge Phase"],
-          "effect": "Change one of the dice in the charge roll to a 4.",
-          "keywords": []
+          "effect": "Change one of the dice in the charge roll to a 4."
         },
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         }
       ],
       "keywords": ["Beast", "Chaos", "Beasts of Chaos"],
@@ -1349,11 +1166,7 @@
       "move": "10\"",
       "health": "12",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1364,7 +1177,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat", "Companion"]
           }
         ],
@@ -1376,7 +1188,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Companion"]
           },
           {
@@ -1386,7 +1197,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1412,11 +1222,7 @@
       "move": "8\"",
       "health": "2",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1426,9 +1232,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1438,9 +1242,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1449,15 +1251,13 @@
           "name": "Grashrak Fellhoof",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Grashrak Fellhoof is on the battlefield, it has Wizard (1).",
-          "keywords": []
+          "effect": "While this unit’s Grashrak Fellhoof is on the battlefield, it has Wizard (1)."
         },
         {
           "name": "Violent Despoilers",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to hit rolls for this unit’s attacks while it is wholly outside friendly territory.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for this unit’s attacks while it is wholly outside friendly territory."
         }
       ],
       "keywords": [
@@ -1479,11 +1279,7 @@
       "move": "6\"",
       "health": "6",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1493,7 +1289,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)", "Anti-Hero (+1 Rend)"]
           }
         ]
@@ -1503,15 +1298,13 @@
           "name": "Hatred of Heroes",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit is in combat with any enemy Heroes, add 1 to hit rolls and wound rolls for combat attacks made by friendly Beasts of Chaos units wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "While this unit is in combat with any enemy Heroes, add 1 to hit rolls and wound rolls for combat attacks made by friendly Beasts of Chaos units wholly within 12\" of this unit."
         },
         {
           "name": "Call of Battle",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Brayherd Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Brayherd Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": ["Hero", "Infantry", "Chaos", "Beasts of Chaos", "Brayherd"],
@@ -1526,11 +1319,7 @@
       "move": "6\"",
       "health": "1",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1540,7 +1329,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1551,8 +1339,7 @@
           "activation": "Your Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy non-Hero Infantry unit that has fewer models than this unit and is within 1\" of it to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target has Strike-last for the rest of the turn."
         }
       ],
       "keywords": [

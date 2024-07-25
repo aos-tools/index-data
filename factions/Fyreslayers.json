@@ -36,14 +36,6 @@
       "phases": ["Combat Phase"],
       "effect": "You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\n\nMelee weapons used by friendly Fyreslayers units have Crit (Mortal) for the rest of the battle round.",
       "keywords": ["Ur-gold Rune"]
-    },
-    {
-      "name": "Awaken the Runes",
-      "activation": "Once Per Battle Round, Start of Your Turn",
-      "phases": ["Start of Turn"],
-      "declare": "Pick 1 of the ur-gold runes from the ur-gold runes table, then make an activation roll of D6. Each urgold rune can only be activated once per battle.",
-      "effect": "On a 1-5, the rune’s standard effect applies. On a 6, the rune’s enhanced effect applies as well. The effects last until the start of your next turn.",
-      "keywords": []
     }
   ],
   "battle_formations": {
@@ -51,29 +43,24 @@
       "name": "Bulwark of Molten Stone",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Add 1 to save rolls for friendly Infantry units while they are wholly within friendly territory.",
-      "keywords": []
+      "effect": "Add 1 to save rolls for friendly Infantry units while they are wholly within friendly territory."
     },
     "Lords of the Lodge": {
       "name": "Martial Pride and Stubborn Will",
       "activation": "Passive",
-      "phases": null,
-      "effect": "Add 3 to the control scores of friendly Fyreslayers Heroes. In addition, the control scores of Fyreslayers Heroes cannot be modified by enemy abilities.",
-      "keywords": []
+      "effect": "Add 3 to the control scores of friendly Fyreslayers Heroes. In addition, the control scores of Fyreslayers Heroes cannot be modified by enemy abilities."
     },
     "Scales of Vulcatrix": {
       "name": "Ancient Bloodlines",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Add 2 to the Health characteristic of friendly Magmadroth units.",
-      "keywords": []
+      "effect": "Add 2 to the Health characteristic of friendly Magmadroth units."
     },
     "Warrior Kinband": {
       "name": "Berserk Kindred",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to wound rolls for combat attacks made by friendly Fyreslayers Infantry units that charged in the same turn.",
-      "keywords": []
+      "effect": "Add 1 to wound rolls for combat attacks made by friendly Fyreslayers Infantry units that charged in the same turn."
     }
   },
   "heroic_traits": [
@@ -81,22 +68,19 @@
       "name": "Ash-beard",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "If this unit is not a Priest, they have Priest (1). If this unit was already a Priest, add 1 to this unit’s chanting rolls.",
-      "keywords": []
+      "effect": "If this unit is not a Priest, they have Priest (1). If this unit was already a Priest, add 1 to this unit’s chanting rolls."
     },
     {
       "name": "Blood of the Berzerker",
       "activation": "Passive",
       "phases": ["Charge Phase"],
-      "effect": "Add 1 to charge rolls for friendly Fyreslayers units while they are wholly within 12\" of this unit.",
-      "keywords": []
+      "effect": "Add 1 to charge rolls for friendly Fyreslayers units while they are wholly within 12\" of this unit."
     },
     {
       "name": "Fiercely Competitive",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "If this unit is in combat with an enemy unit that has Strike-first, this unit has Strike-first. If this unit is in combat with an enemy unit that uses the ‘All-out Attack’ command, add 1 to hit rolls for this unit’s attacks for the rest of the turn.",
-      "keywords": []
+      "effect": "If this unit is in combat with an enemy unit that has Strike-first, this unit has Strike-first. If this unit is in combat with an enemy unit that uses the ‘All-out Attack’ command, add 1 to hit rolls for this unit’s attacks for the rest of the turn."
     }
   ],
   "artefacts_of_power": [
@@ -104,22 +88,19 @@
       "name": "Ash-cloud Rune",
       "activation": "Once Per Battle, Enemy Hero Phase",
       "phases": ["Hero Phase"],
-      "effect": "Until the start of your next turn, friendly Infantry units cannot be targeted by shooting attacks while they are wholly within 12\" of this unit.",
-      "keywords": []
+      "effect": "Until the start of your next turn, friendly Infantry units cannot be targeted by shooting attacks while they are wholly within 12\" of this unit."
     },
     {
       "name": "Draught of the Finest Magmalt",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
-      "effect": "Add 3 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
-      "keywords": []
+      "effect": "Add 3 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn."
     },
     {
       "name": "Droth-helm",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to hit rolls for Companion weapons used by friendly Fyreslayers  units while they are wholly within 12\" of this unit.",
-      "keywords": []
+      "effect": "Add 1 to hit rolls for Companion weapons used by friendly Fyreslayers  units while they are wholly within 12\" of this unit."
     }
   ],
   "prayer_lore": {
@@ -194,10 +175,7 @@
       "health": "2",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -208,7 +186,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -219,9 +196,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -230,8 +205,7 @@
           "name": "Molten Rockbolts",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit’s Move characteristic until the start of your next turn. This ability cannot reduce the target unit’s unmodified Move characteristic below half.",
-          "keywords": []
+          "effect": "Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit’s Move characteristic until the start of your next turn. This ability cannot reduce the target unit’s unmodified Move characteristic below half."
         }
       ],
       "keywords": [
@@ -245,8 +219,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d36466ea-47f5-4ed1-a025-6edf1282ae23",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Battlesmith",
@@ -254,10 +227,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -266,9 +236,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -277,15 +245,12 @@
           "name": "Bard of the Lodge",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
-          "keywords": []
+          "effect": "If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
         },
         {
           "name": "Icon of Grimnir",
           "activation": "Passive",
-          "phases": null,
-          "effect": "Ignore negative modifiers to the control scores of friendly Fyreslayers units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Ignore negative modifiers to the control scores of friendly Fyreslayers units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": [
@@ -299,8 +264,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/6825a3fb-6458-4a8e-86b8-2fdf1cfd8618",
       "baseSize": "32mm",
       "points": 110,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Auric Runesmiter",
@@ -308,10 +272,8 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -320,9 +282,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -340,8 +300,7 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick this unit if it is underground.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the other unit that was set up underground with it (if any) wholly within 6\" of this unit and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the other unit that was set up underground with it (if any) wholly within 6\" of this unit and more than 9\" from all enemy units."
         }
       ],
       "keywords": [
@@ -356,8 +315,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/77f51e23-45eb-4570-8bef-3b1729bebfb4",
       "baseSize": "32mm",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Hearthguard Berzerker with Berzerker Broadaxes",
@@ -365,10 +323,7 @@
       "health": "2",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -377,9 +332,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -388,15 +341,13 @@
           "name": "Fires of Vengeance",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "While this unit is within the combat ranges of any damaged friendly Fyreslayers Heroes, add 1 to the Attacks characteristic of this unit’s melee weapons.",
-          "keywords": []
+          "effect": "While this unit is within the combat ranges of any damaged friendly Fyreslayers Heroes, add 1 to the Attacks characteristic of this unit’s melee weapons."
         },
         {
           "name": "Duty Unto Death",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Fyreslayers Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly Fyreslayers Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -410,8 +361,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/87c8eb18-b5d3-4612-87ab-df89b1145b75",
       "baseSize": "32mm",
       "points": 120,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Auric Runeson on Magmadroth",
@@ -419,10 +369,7 @@
       "health": "14",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -433,7 +380,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Companion"]
           }
         ],
@@ -445,7 +391,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -465,7 +410,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ]
@@ -475,27 +419,23 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4."
         },
         {
           "name": "Volcanic Blood",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         },
         {
           "name": "Vying for Glory",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time this unit destroys a Monster, add 1 to the Attacks characteristic of this unit’s Ancestral Weapons for the rest of the battle.",
-          "keywords": []
+          "effect": "Each time this unit destroys a Monster, add 1 to the Attacks characteristic of this unit’s Ancestral Weapons for the rest of the battle."
         },
         {
           "name": "Dominating Roar",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy Monster in combat with this unit to be the target",
           "effect": "If this unit has fewer damage points than the target, subtract 10 from the target’s control score for the rest of the turn.",
           "keywords": ["Rampage"]
@@ -513,8 +453,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0ec75fdd-c87c-4559-af48-4370de217c5c",
       "baseSize": "120 x 92mm",
       "points": 300,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "The Chosen Axes",
@@ -522,10 +461,7 @@
       "health": "3",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -534,9 +470,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Latchkey Grandaxe",
@@ -544,9 +478,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -555,15 +487,13 @@
           "name": "Berserk Fury",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         },
         {
           "name": "Fjul's Retinue",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit’s Fjul-Grimnir is on the battlefield, ignore the first damage point that would be allocated to this unit each phase.",
-          "keywords": []
+          "effect": "While this unit’s Fjul-Grimnir is on the battlefield, ignore the first damage point that would be allocated to this unit each phase."
         }
       ],
       "keywords": [
@@ -587,10 +517,8 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
       "priestLevel": "2",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -599,9 +527,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -610,15 +536,13 @@
           "name": "Master of the Runes",
           "activation": "Reaction: You declared an Ur-gold Rune ability",
           "phases": ["Start of Turn"],
-          "effect": "Remove 3 of this unit’s magmic power tokens. If you do so, apply the effect below that corresponds to the Ur‑gold Rune ability that was used:\n\nRune of Fury: For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly Fyreslayers units while they have Strike-first.\n\nRune of Fiery Determination: Add 1 to save rolls for friendly Fyreslayers units for the rest of the battle round.\n\nRune of Relentless Zeal: Add 1 to run rolls and charge rolls for friendly Fyreslayers units for the rest of the battle round.\n\nRune of Searing Heat: Add 1 to the Rend characteristic of melee weapons used by friendly Fyreslayers units for the rest of the battle round.\n\nRune of Farsight: Increase the range of the ‘Rune of Farsight’ ability to 16\".",
-          "keywords": []
+          "effect": "Remove 3 of this unit’s magmic power tokens. If you do so, apply the effect below that corresponds to the Ur‑gold Rune ability that was used:\n\nRune of Fury: For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly Fyreslayers units while they have Strike-first.\n\nRune of Fiery Determination: Add 1 to save rolls for friendly Fyreslayers units for the rest of the battle round.\n\nRune of Relentless Zeal: Add 1 to run rolls and charge rolls for friendly Fyreslayers units for the rest of the battle round.\n\nRune of Searing Heat: Add 1 to the Rend characteristic of melee weapons used by friendly Fyreslayers units for the rest of the battle round.\n\nRune of Farsight: Increase the range of the ‘Rune of Farsight’ ability to 16\"."
         },
         {
           "name": "High Priest of the Zharrgrim",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Each time a Prayer chanted by this unit is answered, this unit gains a magmic power token.",
-          "keywords": []
+          "effect": "Each time a Prayer chanted by this unit is answered, this unit gains a magmic power token."
         }
       ],
       "keywords": [
@@ -633,8 +557,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e6ad2efb-446d-4091-b453-522517d8daa5",
       "baseSize": "32mm",
       "points": 190,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Magmic Battleforge",
@@ -642,10 +565,7 @@
       "health": "8",
       "save": "3+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
@@ -653,24 +573,20 @@
           "activation": "Start of Any Turn",
           "phases": ["Start of Turn"],
           "declare": "Pick a friendly Fyreslayers Priest within this terrain feature’s combat range to be the target.",
-          "effect": "Add 1 to chanting rolls for the target for the rest of the turn. In addition, the target can use the ‘Unbind’ ability this turn as if it had Wizard (1).",
-          "keywords": []
+          "effect": "Add 1 to chanting rolls for the target for the rest of the turn. In addition, the target can use the ‘Unbind’ ability this turn as if it had Wizard (1)."
         },
         {
           "name": "Spending the Forge",
           "activation": "Once Per Battle (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Fyreslayers Priest within this terrain feature’s combat range to expend the power of the forge.",
-          "effect": "Heal (D3) each friendly Fyreslayers unit on the battlefield. Once this ability has been used, this terrain feature cannot use the ‘Molten Blessing’ ability for the rest of the battle.",
-          "keywords": []
+          "effect": "Heal (D3) each friendly Fyreslayers unit on the battlefield. Once this ability has been used, this terrain feature cannot use the ‘Molten Blessing’ ability for the rest of the battle."
         }
       ],
       "keywords": ["Faction Terrain", "Ward (6+)", "Order", "Fyreslayers"],
       "image": "https://dhss9aar8ocw.cloudfront.net/93318731-f55a-402d-b445-5adc14b99c7f",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Grimhold Exile",
@@ -678,10 +594,7 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -690,9 +603,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -702,8 +613,7 @@
           "activation": "Once Per Battle, Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to 3 friendly Fyreslayers Infantry units wholly within 12\" of this unit to be the targets.",
-          "effect": "You can re-roll charge rolls for the targets for the rest of the turn.",
-          "keywords": []
+          "effect": "You can re-roll charge rolls for the targets for the rest of the turn."
         },
         {
           "name": "Last of the Lodge-fire",
@@ -725,8 +635,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/fba54a63-4cde-4066-a8ca-25179fd3f1aa",
       "baseSize": "32mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Vulkite Berzerkers with Fyresteel Weapons",
@@ -734,10 +643,7 @@
       "health": "2",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -746,9 +652,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -757,8 +661,7 @@
           "name": "Whirlwind of Destruction",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons if this unit charged this turn.",
-          "keywords": []
+          "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons if this unit charged this turn."
         }
       ],
       "keywords": [
@@ -773,8 +676,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/372d76c3-1298-4540-8fa6-48b23dfc0ac3",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Auric Runeson",
@@ -782,10 +684,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -795,7 +694,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ]
@@ -805,15 +703,13 @@
           "name": "Fearless Charge",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly Fyreslayers Infantry units while they are wholly within 18\" of this unit.",
-          "keywords": []
+          "effect": "If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly Fyreslayers Infantry units while they are wholly within 18\" of this unit."
         },
         {
           "name": "Dauntless Assault",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Fyreslayers Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Fyreslayers Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": [
@@ -827,8 +723,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/8c5f5b78-f4e9-4f86-9a98-259aab3d3bc8",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Auric Runefather",
@@ -836,10 +731,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -848,9 +740,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -860,15 +750,12 @@
           "activation": "Once Per Battle (Army), Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick a friendly non-Hero Fyreslayers Infantry unit within this unit’s combat range to be the royal retinue.",
-          "effect": "For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has Ward (4+).",
-          "keywords": []
+          "effect": "For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has Ward (4+)."
         },
         {
           "name": "Commanding Presence",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "Add the current battle round number to the control scores of friendly Fyreslayers Infantry units wholly within 12\" of this unit for the rest of the turn.",
-          "keywords": []
+          "effect": "Add the current battle round number to the control scores of friendly Fyreslayers Infantry units wholly within 12\" of this unit for the rest of the turn."
         }
       ],
       "keywords": [
@@ -883,8 +770,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f6699bd2-7ce6-4976-9c77-a53ce94e3d22",
       "baseSize": "32mm",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Auric Flamekeeper",
@@ -892,10 +778,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -904,9 +787,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -916,8 +797,7 @@
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If any friendly units have been destroyed during the battle, pick a friendly Fyreslayers Infantry unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. If the roll is equal to or less than the number of Fyreslayers units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n\nGrimnir’s Grit: The target has Ward (5+).\n\nGrimnir’s Resolve: Add 2 to charge rolls for the target.\n\nGrimnir’s Vengeance: Add 1 to the Damage characteristic of the target’s melee weapons.",
-          "keywords": []
+          "effect": "Roll a dice. If the roll is equal to or less than the number of Fyreslayers units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n\nGrimnir’s Grit: The target has Ward (5+).\n\nGrimnir’s Resolve: Add 2 to charge rolls for the target.\n\nGrimnir’s Vengeance: Add 1 to the Damage characteristic of the target’s melee weapons."
         }
       ],
       "keywords": [
@@ -931,8 +811,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5f10802e-ddcc-41fa-b135-20ed34f55b83",
       "baseSize": "32mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Auric Runefather on Magmadroth",
@@ -940,10 +819,7 @@
       "health": "14",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -954,7 +830,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Companion"]
           }
         ],
@@ -965,9 +840,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           },
           {
             "name": "Magmadroth’s Blazing Maw",
@@ -976,7 +849,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -996,15 +868,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4."
         },
         {
           "name": "Warrior-kings",
           "activation": "Once Per Battle (Army), Your Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Fyreslayers units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Fyreslayers units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Raging Inferno",
@@ -1018,8 +888,7 @@
           "name": "Volcanic Blood",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1035,8 +904,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/08f5b58b-d7fd-44b9-9582-5fc5a90d3130",
       "baseSize": "120 x 92mm",
       "points": 350,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Hearthguard Berzerkers with Flamestrike Poleaxes",
@@ -1044,10 +912,7 @@
       "health": "2",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1057,7 +922,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1066,17 +930,14 @@
         {
           "name": "Smouldering Braziers",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Duty Unto Death",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While any friendly Fyreslayers Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "keywords": []
+          "effect": "While any friendly Fyreslayers Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
       "keywords": [
@@ -1090,8 +951,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b498d837-526f-4025-9b9e-fbfc7f1b6a1c",
       "baseSize": "32mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Auric Runesmiter on Magmadroth",
@@ -1099,10 +959,8 @@
       "health": "14",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1113,7 +971,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Companion"]
           }
         ],
@@ -1124,9 +981,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Magmadroth’s Blazing Maw",
@@ -1135,7 +990,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1155,16 +1009,14 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4."
         },
         {
           "name": "Runic Empowerment",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Fyreslayers unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s attacks for the rest of the turn."
         },
         {
           "name": "Lashing Tail",
@@ -1178,8 +1030,7 @@
           "name": "Volcanic Blood",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1195,8 +1046,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1e9ee132-ab98-4c31-b12a-d4280dab0de2",
       "baseSize": "120 x 92mm",
       "points": 340,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Grimwrath Berzerker",
@@ -1204,10 +1054,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1216,9 +1063,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1227,15 +1072,13 @@
           "name": "Grimwrath Oaths",
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
-          "effect": "Pick 1 of the following oaths for this unit to swear:\n\n‘I will guard them with my life!’: While this unit is wholly within 6\" of another friendly Fyreslayers Hero:\n\n• Add 1 to hit rolls for this unit’s attacks.\n• Add 1 to ward rolls for this unit.\n\nIf a friendly Fyreslayers Hero wholly within 6\" of this unit is destroyed, this effect no longer applies.\n\n‘I will not be stopped!’: Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the ‘Retreat’ or ‘Rally’ abilities, this effect no longer applies.",
-          "keywords": []
+          "effect": "Pick 1 of the following oaths for this unit to swear:\n\n‘I will guard them with my life!’: While this unit is wholly within 6\" of another friendly Fyreslayers Hero:\n\n• Add 1 to hit rolls for this unit’s attacks.\n• Add 1 to ward rolls for this unit.\n\nIf a friendly Fyreslayers Hero wholly within 6\" of this unit is destroyed, this effect no longer applies.\n\n‘I will not be stopped!’: Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the ‘Retreat’ or ‘Rally’ abilities, this effect no longer applies."
         },
         {
           "name": "Battle-fury",
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit is in combat, it can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike‑last for the rest of the phase.",
-          "keywords": []
+          "effect": "If this unit is in combat, it can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike‑last for the rest of the phase."
         }
       ],
       "keywords": [
@@ -1258,9 +1101,6 @@
       "health": "8",
       "save": "3+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -1269,8 +1109,7 @@
           "activation": "Enemy Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick up to 3 enemy units within 6\" of this Manifestation to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract 3 from the target’s control score for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract 3 from the target’s control score for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1282,9 +1121,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/7f577974-a93d-4282-9801-b376e31f84fe",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Molten Infernoth",
@@ -1292,9 +1129,6 @@
       "health": "10",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "ranged": [
@@ -1306,7 +1140,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1318,7 +1151,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1327,10 +1159,8 @@
         {
           "name": "Flamescarred",
           "activation": "End of Any Turn",
-          "phases": null,
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this Manifestation’s attacks to be the target.",
-          "effect": "Subtract 1 from wound rolls for the target’s combat attacks until the end of your next turn.",
-          "keywords": []
+          "effect": "Subtract 1 from wound rolls for the target’s combat attacks until the end of your next turn."
         }
       ],
       "keywords": [
@@ -1343,9 +1173,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/3c8965c2-03d7-41cb-a670-b10511d8d5ed",
       "baseSize": "120 x 92mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Zharrgron Flame-spitter",
@@ -1353,9 +1181,6 @@
       "health": "5",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "ranged": [
@@ -1367,7 +1192,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1377,8 +1201,7 @@
           "name": "Magma Blast",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Add 1 to hit rolls for this Manifestation’s shooting attacks if the target unit has 10 or more models. Add 1 to hit rolls and wound rolls instead if the target unit has 15 or more models.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls for this Manifestation’s shooting attacks if the target unit has 10 or more models. Add 1 to hit rolls and wound rolls instead if the target unit has 15 or more models."
         }
       ],
       "keywords": [
@@ -1390,9 +1213,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/dc5a1174-8336-43cc-94e2-d3e2e45c6d92",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Doomseeker",
@@ -1400,10 +1221,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1412,9 +1230,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1424,15 +1240,13 @@
           "activation": "Deployment Phase",
           "phases": ["Start of Turn"],
           "declare": "Pick an enemy unit to be this unit’s quarry. You can pick a unit that has been deployed in reserve.",
-          "effect": "Add 1 to hit rolls and wound rolls for attacks made by this unit that target its quarry.\nIf this unit is destroyed while it is in combat with its quarry, inflict 3 mortal damage on this unit’s quarry immediately after the ability that destroyed this unit has been resolved.",
-          "keywords": []
+          "effect": "Add 1 to hit rolls and wound rolls for attacks made by this unit that target its quarry.\nIf this unit is destroyed while it is in combat with its quarry, inflict 3 mortal damage on this unit’s quarry immediately after the ability that destroyed this unit has been resolved."
         },
         {
           "name": "Runic Power",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points."
         }
       ],
       "keywords": [
@@ -1455,10 +1269,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1467,9 +1278,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1478,8 +1287,7 @@
           "name": "Berserk Fury",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1494,8 +1302,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/aac5ffc6-17f1-4c57-9a6c-b62c2935e7ec",
       "baseSize": "32mm",
       "points": 150,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Vulkyn Flameseekers",
@@ -1503,10 +1310,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1516,7 +1320,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -1526,7 +1329,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)", "Companion"]
           }
         ]
@@ -1537,8 +1339,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target’s Companion melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target’s Companion melee weapons for the rest of the turn."
         }
       ],
       "keywords": [

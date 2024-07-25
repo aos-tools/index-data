@@ -6,23 +6,20 @@
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
       "phases": ["Start of Turn"],
       "declare": "If there is no quarry on the battlefield, pick an enemy unit on the battlefield to be the target.",
-      "effect": "The target is the quarry for the rest of the battle.",
-      "keywords": []
+      "effect": "The target is the quarry for the rest of the battle."
     },
     {
       "name": "Opening Horn Blast",
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
       "phases": ["Start of Turn"],
       "declare": "You must use this ability at the start of the\nbattle round.",
-      "effect": "Your chords are reset to 0. Then, you gain 1 chord:\n\n• If a friendly Belthanos is on the battlefield.\n• For each friendly Evergreen Hunt unit that is wholly within the same large quarter of the battlefield as the quarry.\n• For each quarry destroyed so far during the battle.",
-      "keywords": []
+      "effect": "Your chords are reset to 0. Then, you gain 1 chord:\n\n• If a friendly Belthanos is on the battlefield.\n• For each friendly Evergreen Hunt unit that is wholly within the same large quarter of the battlefield as the quarry.\n• For each quarry destroyed so far during the battle."
     },
     {
       "name": "Song of the Hunt",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "The following cumulative effects apply to friendly Evergreen Hunt units depending on the number of chords you have:\n\n1 chord – Simple: Add 1 to run rolls and charge rolls for friendly units wholly within the same quarter of the battlefield as the quarry.\n\n2 chords – Tuneful: Add 1 to hit rolls and wound rolls for friendly units’ combat attacks that target an enemy unit wholly within the same quarter of the battlefield as the quarry.\n\n3-5 chords – Melodic: Add 1 to the Attacks characteristic of melee weapons used by friendly units while they are in combat with the quarry.\n\n6+ chords – Mellifluous: While a friendly unit is in combat with the quarry, the quarry has Strike-last.",
-      "keywords": []
+      "effect": "The following cumulative effects apply to friendly Evergreen Hunt units depending on the number of chords you have:\n\n1 chord – Simple: Add 1 to run rolls and charge rolls for friendly units wholly within the same quarter of the battlefield as the quarry.\n\n2 chords – Tuneful: Add 1 to hit rolls and wound rolls for friendly units’ combat attacks that target an enemy unit wholly within the same quarter of the battlefield as the quarry.\n\n3-5 chords – Melodic: Add 1 to the Attacks characteristic of melee weapons used by friendly units while they are in combat with the quarry.\n\n6+ chords – Mellifluous: While a friendly unit is in combat with the quarry, the quarry has Strike-last."
     },
     {
       "name": "A Prize Quarry is Sighted",
@@ -30,16 +27,14 @@
       "phases": ["Hero Phase"],
       "declare": "Pick an enemy unit within 9\" of a friendly Evergreen Hunt unit to be the target.",
       "effect": "The target becomes the quarry for the rest of the battle. If there was already a quarry on the battlefield when you declared this ability, that unit is no longer the quarry.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     },
     {
       "name": "Abundant Growth",
       "activation": "Once Per Turn (Army), Your Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick each friendly Evergreen Hunt unit that is wholly within 3\" of a terrain feature to be the targets.",
-      "effect": "Heal (1) each target.",
-      "keywords": []
+      "effect": "Heal (1) each target."
     },
     {
       "name": "Merciful Strike",
@@ -55,8 +50,7 @@
       "name": "Sapwood Leader",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "If you pick this unit to be a target of the 'Abundant Growth’ ability, Heal (3) this unit instead of Heal (1).",
-      "keywords": []
+      "effect": "If you pick this unit to be a target of the 'Abundant Growth’ ability, Heal (3) this unit instead of Heal (1)."
     }
   ],
   "artefacts_of_power": [
@@ -64,8 +58,7 @@
       "name": "Heartwood Hunting Hown",
       "activation": "Once Per Battle (Army), Any Hero Phase",
       "phases": ["Hero Phase"],
-      "effect": "You gain 1 chord.",
-      "keywords": []
+      "effect": "You gain 1 chord."
     }
   ],
   "warscrolls": [
@@ -74,11 +67,7 @@
       "move": "5\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -88,7 +77,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -99,34 +87,27 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this unit charged this turn, pick an enemy unit that is in combat with this unit to be the target.",
-          "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target."
         },
         {
           "name": "Envoys of the Everqueen",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is contesting an objective, friendly Sylvaneth units contesting that objective have Ward (6+).",
-          "keywords": []
+          "effect": "While this unit is contesting an objective, friendly Sylvaneth units contesting that objective have Ward (6+)."
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
       "image": "https://dhss9aar8ocw.cloudfront.net/7ac623d7-1a3f-411e-b67c-c9124780bb08",
       "baseSize": "50mm",
       "points": 220,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Awakened Wyldwood",
       "move": "-",
       "health": "8",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
@@ -140,42 +121,33 @@
           "name": "Growing Woods",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Each time you set up an Awakened Wyldwood, you can place 1-3 scenery pieces (Terrain, 1.6). If you place more than 1 scenery piece, the tips at the end of each base must touch, forming a circle. Add 2 to the Health characteristic of this terrain feature for each additional scenery piece that is placed after the first.",
-          "keywords": []
+          "effect": "Each time you set up an Awakened Wyldwood, you can place 1-3 scenery pieces (Terrain, 1.6). If you place more than 1 scenery piece, the tips at the end of each base must touch, forming a circle. Add 2 to the Health characteristic of this terrain feature for each additional scenery piece that is placed after the first."
         },
         {
           "name": "Overgrown Wilderness",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Enemy units can be targeted by shooting attacks made by friendly Sylvaneth units even if they are behind or wholly on this terrain feature (this is an exception to Terrain, 1.2).",
-          "keywords": []
+          "effect": "Enemy units can be targeted by shooting attacks made by friendly Sylvaneth units even if they are behind or wholly on this terrain feature (this is an exception to Terrain, 1.2)."
         },
         {
           "name": "Vengeful Forest Spirits",
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick each enemy unit within this terrain feature’s combat range to be the targets.",
-          "effect": "Roll a dice for each target. On a 4+, inflict D3 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice for each target. On a 4+, inflict D3 mortal damage on the target."
         }
       ],
       "keywords": ["Faction Terrain", "Order", "Sylvaneth"],
       "image": "https://dhss9aar8ocw.cloudfront.net/1afe769a-7418-40be-9986-aaa4440ee895",
       "baseSize": "Use model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Spiterider Lancers",
       "move": "12\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -185,7 +157,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Cavalry (+1 Rend)", "Charge (+1 Damage)"]
           },
           {
@@ -195,7 +166,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Companion"]
           }
         ]
@@ -205,22 +175,18 @@
           "name": "Forest Fighters",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit has a coherency range of 2\".",
-          "keywords": []
+          "effect": "This unit has a coherency range of 2\"."
         },
         {
           "name": "Descent of Spiteriders",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit has Strike-first for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit has Strike-first for the rest of the turn."
         },
         {
           "name": "Thrumming with Life",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "Heal (3) this unit.",
-          "keywords": []
+          "effect": "Heal (3) this unit."
         }
       ],
       "keywords": [
@@ -235,19 +201,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/9875bbf9-ec10-4c52-8176-2ef96d639f1c",
       "baseSize": "60mm",
       "points": 210,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Belthanos, First Thorn of Kurnoth",
       "move": "12\"",
       "health": "14",
       "save": "3+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -267,7 +228,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           }
         ]
@@ -277,24 +237,21 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Carnelian Greatspite’s Razor-like Mandibles is 3.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Carnelian Greatspite’s Razor-like Mandibles is 3."
         },
         {
           "name": "Nature Aetheric",
           "activation": "Once Per Battle, Start of Any Turn",
           "phases": ["Hero Phase"],
           "declare": "Pick a terrain feature within 6\" of this unit to be the target.",
-          "effect": "For the rest of the battle, the target gains the ‘Place of Power’ terrain ability (Terrain 1.2) and counts as a friendly Awakened Wyldwood for the purposes of the ‘Endless Growth’, ‘Walk the Hidden Paths’ and ‘Strike and Fade’ abilities.",
-          "keywords": []
+          "effect": "For the rest of the battle, the target gains the ‘Place of Power’ terrain ability (Terrain 1.2) and counts as a friendly Awakened Wyldwood for the purposes of the ‘Endless Growth’, ‘Walk the Hidden Paths’ and ‘Strike and Fade’ abilities."
         },
         {
           "name": "Kurnothi War-horn",
           "activation": "Your Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick up to 3 friendly Sylvaneth units to be the target.",
-          "effect": "Each target can use Charge abilities even if they used a Run ability in the same turn.",
-          "keywords": []
+          "effect": "Each target can use Charge abilities even if they used a Run ability in the same turn."
         },
         {
           "name": "Rhythm of the Chase",
@@ -317,19 +274,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1569209f-bed0-4a60-9e7d-2323effc57e7",
       "baseSize": "150 x 95mm",
       "points": 330,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Revenant Seekers",
       "move": "12\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -339,7 +291,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -349,7 +300,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)", "Companion"]
           }
         ]
@@ -359,22 +309,18 @@
           "name": "Forest Fighters",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit has a coherency range of 2\".",
-          "keywords": []
+          "effect": "This unit has a coherency range of 2\"."
         },
         {
           "name": "Harvesters of the Lamentiri",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Each time a friendly unit wholly within 12\" of any friendly Revenant Seekers units uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
-          "keywords": []
+          "effect": "Each time a friendly unit wholly within 12\" of any friendly Revenant Seekers units uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
         },
         {
           "name": "Thrumming With Life",
           "activation": "End of Any Turn",
-          "phases": null,
-          "effect": "Heal (3) this unit.",
-          "keywords": []
+          "effect": "Heal (3) this unit."
         }
       ],
       "keywords": [
@@ -389,19 +335,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/757c1450-ec1e-4207-86c7-2d7fe6bb5cd1",
       "baseSize": "60mm",
       "points": 200,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Kurnoth Hunters with Kurnoth Scythes",
       "move": "5\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -411,7 +352,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-charge (+1 Rend)"]
           }
         ]
@@ -422,34 +362,27 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
-          "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target.",
-          "keywords": []
+          "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target."
         },
         {
           "name": "Envoys of the Everqueen",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is contesting an objective, friendly Sylvaneth units contesting that objective have Ward (6+).",
-          "keywords": []
+          "effect": "While this unit is contesting an objective, friendly Sylvaneth units contesting that objective have Ward (6+)."
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
       "image": "https://dhss9aar8ocw.cloudfront.net/2bcc6ee3-947c-4985-abb7-995f972ee3d4",
       "baseSize": "50mm",
       "points": 200,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Kurnoth Hunters with Kurnoth Greatbows",
       "move": "5\"",
       "health": "5",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -460,7 +393,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           }
         ],
@@ -471,9 +403,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -482,34 +412,27 @@
           "name": "Steady Aim",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "This unit can ignore the ‘Guarded Hero’ ability (Core Rules, 25.0) for the rest of the turn.",
-          "keywords": []
+          "effect": "This unit can ignore the ‘Guarded Hero’ ability (Core Rules, 25.0) for the rest of the turn."
         },
         {
           "name": "Envoys of the Everqueen",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is contesting an objective, friendly Sylvaneth units contesting that objective have Ward (6+).",
-          "keywords": []
+          "effect": "While this unit is contesting an objective, friendly Sylvaneth units contesting that objective have Ward (6+)."
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
       "image": "https://dhss9aar8ocw.cloudfront.net/47317c49-e02d-46ad-965a-68e4ca9a606d",
       "baseSize": "50mm",
       "points": 200,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Arch-Revenant",
       "move": "12\"",
       "health": "6",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -518,9 +441,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -529,23 +450,20 @@
           "name": "Crescent Shield",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "Pick 1 of the following effects to apply to this unit for the rest of the turn:\n\nDefensive Stance: This unit has Ward (4+).\n\nAggressive Stance: Add 1 to the Attacks characteristic of this unit’s melee weapons, and add 1 to wound rolls for this unit’s combat attacks.",
-          "keywords": []
+          "effect": "Pick 1 of the following effects to apply to this unit for the rest of the turn:\n\nDefensive Stance: This unit has Ward (4+).\n\nAggressive Stance: Add 1 to the Attacks characteristic of this unit’s melee weapons, and add 1 to wound rolls for this unit’s combat attacks."
         },
         {
           "name": "Champion of Kurnoth",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to wound rolls for combat attacks made by friendly Kurnothi units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to wound rolls for combat attacks made by friendly Kurnothi units while they are wholly within 12\" of this unit."
         }
       ],
       "keywords": ["Hero", "Infantry", "Fly", "Order", "Sylvaneth"],
       "image": "https://dhss9aar8ocw.cloudfront.net/f3c14392-b524-4aa3-8961-61ddf0f48415",
       "baseSize": "40mm",
       "points": 170,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     }
   ]
 }

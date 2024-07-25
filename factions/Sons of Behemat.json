@@ -37,24 +37,7 @@
       "name": "Timberrrrr!",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Each time a friendly Mega‑Gargant or Gargant model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model.",
-      "keywords": []
-    },
-    {
-      "name": "'Grab Those Rocks and Chuck 'Em!'",
-      "activation": "Your Hero Phase",
-      "phases": ["Hero Phase"],
-      "declare": "Pick your general to use this ability, then pick another friendly unit wholly within 12\" of them.",
-      "effect": "Add 1 to the Attacks characteristic of that unit’s Throwin’ Rocks this turn.",
-      "keywords": []
-    },
-    {
-      "name": "Bellowing Roar",
-      "activation": "Any Combat Phase",
-      "phases": ["Combat Phase"],
-      "declare": "Pick a friendly unit to use this ability, pick an enemy unit in combat with it to be the target, then roll a dice.",
-      "effect": "On a 2+, subtract 1 from hit rolls for attacks made by the target unit this phase.",
-      "keywords": []
+      "effect": "Each time a friendly Mega‑Gargant or Gargant model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model."
     }
   ],
   "battle_formations": {
@@ -62,30 +45,26 @@
       "name": "Big Mouth",
       "activation": "Once Per Turn (Army), Reaction: You declared a Fight ability for a friendly Mega-Gargant",
       "phases": ["Combat Phase"],
-      "effect": "Pick a friendly Gargant unit that has not used a Fight ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-      "keywords": []
+      "effect": "Pick a friendly Gargant unit that has not used a Fight ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
     },
     "Breaker Tribe": {
       "name": "Besieging Bulk",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Friendly Mega-Gargants have Ward (6+) while they are within the combat ranges of any other friendly Mega-Gargants.",
-      "keywords": []
+      "effect": "Friendly Mega-Gargants have Ward (6+) while they are within the combat ranges of any other friendly Mega-Gargants."
     },
     "Stomper Tribe": {
       "name": "Revel in War",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "You can pick 2 friendly Mega‑Gargants or Gargant units that have not used a Rampage ability this turn to use the ‘Jump Up and Down’ ability instead of 1.",
-      "keywords": []
+      "effect": "You can pick 2 friendly Mega‑Gargants or Gargant units that have not used a Rampage ability this turn to use the ‘Jump Up and Down’ ability instead of 1."
     },
     "Taker Tribe": {
       "name": "More Stuff For Me Collection",
       "activation": "Once Per Battle, Deployment Phase",
       "phases": ["Start of Turn"],
       "declare": "Pick a friendly non-Unique Sons of Behemat Hero that does not have an artefact of power.",
-      "effect": "Give that Hero 1 artefact of power from ‘Titanic Trophies’.\n\nDesigner’s Note: This artefact of power is given to the unit during the deployment phase, not during army composition.",
-      "keywords": []
+      "effect": "Give that Hero 1 artefact of power from ‘Titanic Trophies’.\n\nDesigner’s Note: This artefact of power is given to the unit during the deployment phase, not during army composition."
     }
   },
   "heroic_traits": [
@@ -93,22 +72,19 @@
       "name": "Rabble Rouser",
       "activation": "Passive",
       "phases": ["Charge Phase"],
-      "effect": "Add 1 to charge rolls for friendly Sons of Behemat units while they are wholly within 12\" of this unit.",
-      "keywords": []
+      "effect": "Add 1 to charge rolls for friendly Sons of Behemat units while they are wholly within 12\" of this unit."
     },
     {
       "name": "Furious Temper",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
-      "effect": "For the rest of the turn:\n\n• Add 2 to the Attacks characteristic of this unit’s melee weapons.\n• Subtract 1 from save rolls for this unit.",
-      "keywords": []
+      "effect": "For the rest of the turn:\n\n• Add 2 to the Attacks characteristic of this unit’s melee weapons.\n• Subtract 1 from save rolls for this unit."
     },
     {
       "name": "Monstrously Tough",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "This unit has a Health characteristic of 40 instead of 35.",
-      "keywords": []
+      "effect": "This unit has a Health characteristic of 40 instead of 35."
     }
   ],
   "artefacts_of_power": [
@@ -116,43 +92,37 @@
       "name": "Glowy Lantern",
       "activation": "Once Per Battle, Deployment Phase",
       "phases": ["Start of Turn"],
-      "effect": "Pick 1 manifestation lore available to your faction. This unit can use Summon abilities from that manifestation lore as if it had Wizard (1).",
-      "keywords": []
+      "effect": "Pick 1 manifestation lore available to your faction. This unit can use Summon abilities from that manifestation lore as if it had Wizard (1)."
     },
     {
       "name": "Amberstone Totem",
       "activation": "Once Per Battle, Your Charge Phase",
       "phases": ["Charge Phase"],
-      "effect": "For the rest of the turn, this unit can use Charge abilities even if it used a Run ability in the same turn.",
-      "keywords": []
+      "effect": "For the rest of the turn, this unit can use Charge abilities even if it used a Run ability in the same turn."
     },
     {
       "name": "Mantle of Tusk and Horns",
       "activation": "Once Per Battle, Your Combat Phase",
       "phases": ["Combat Phase"],
-      "effect": "For the rest of the turn, add 1 to hit rolls for combat attacks made by friendly Sons of Behemat units while they are wholly within 12\" of this unit.",
-      "keywords": []
+      "effect": "For the rest of the turn, add 1 to hit rolls for combat attacks made by friendly Sons of Behemat units while they are wholly within 12\" of this unit."
     },
     {
       "name": "Extra-calloused Feet",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to the Attacks characteristic, Rend characteristic and Damage characteristic of this unit’s Almighty Stomp or Almightier Stomp.",
-      "keywords": []
+      "effect": "Add 1 to the Attacks characteristic, Rend characteristic and Damage characteristic of this unit’s Almighty Stomp or Almightier Stomp."
     },
     {
       "name": "Kingslaughter Cowl",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is in combat with an enemy Hero.",
-      "keywords": []
+      "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is in combat with an enemy Hero."
     },
     {
       "name": "Glowy Shield of Protectiness",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-      "keywords": []
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
     }
   ],
   "warscrolls": [
@@ -162,10 +132,7 @@
       "health": "18",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "15",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -174,9 +141,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "The Dread Mace",
@@ -185,8 +150,7 @@
             "wound": "2+",
             "rend": "3",
             "damage": "4",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           },
           {
             "name": "Tuskbreaker",
@@ -195,7 +159,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -205,15 +168,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10."
         },
         {
           "name": "The Shield Inviolate",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per Spell ability.",
-          "keywords": []
+          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per Spell ability."
         },
         {
           "name": "Rampaging Destruction",
@@ -226,15 +187,13 @@
           "name": "The End of Empires",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to the number of dice rolled when making charge rolls for friendly Destruction units while they are wholly within 12\" of this unit, to a maximum of 3.",
-          "keywords": []
+          "effect": "Add 1 to the number of dice rolled when making charge rolls for friendly Destruction units while they are wholly within 12\" of this unit, to a maximum of 3."
         },
         {
           "name": "Avatar of Destruction",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -249,19 +208,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/25396551-6aac-47d6-82df-948c09f34a9b",
       "baseSize": "130mm",
       "points": 680,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Gatebreaker Mega-Gargant",
       "move": "10\"",
       "health": "35",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "20",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -271,9 +225,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "3",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           }
         ],
         "melee": [
@@ -284,7 +236,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           },
           {
@@ -294,7 +245,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           },
           {
@@ -314,15 +264,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Fortcrusha Flail is 4 and this unit has a Control characteristic of 10.",
-          "keywords": []
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Fortcrusha Flail is 4 and this unit has a Control characteristic of 10."
         },
         {
           "name": "Longshanks",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
-          "keywords": []
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall."
         },
         {
           "name": "Pulverising Strike",
@@ -337,15 +285,13 @@
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a terrain feature within 3\" of this unit to be the target.",
-          "effect": "If the target is Faction Terrain, inflict D3+3 mortal damage on it. Then, roll a D3 for each non-Monster unit (friendly and enemy) within 3\" of the target. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
-          "keywords": []
+          "effect": "If the target is Faction Terrain, inflict D3+3 mortal damage on it. Then, roll a D3 for each non-Monster unit (friendly and enemy) within 3\" of the target. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
         },
         {
           "name": "Sons of Behemat",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -366,11 +312,7 @@
       "move": "8\"",
       "health": "12",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -380,9 +322,7 @@
             "hit": "5+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -392,9 +332,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           },
           {
             "name": "Mighty Kick",
@@ -402,9 +340,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Massive Club",
@@ -412,9 +348,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -423,35 +357,28 @@
           "name": "Keep Up!",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn.",
-          "keywords": []
+          "effect": "While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn."
         },
         {
           "name": "Stuff 'Em In Me Bag",
           "activation": "Once Per Turn, Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
-          "keywords": []
+          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain."
         }
       ],
       "keywords": ["Monster", "Destruction", "Sons of Behemat", "Gargant"],
       "image": "https://dhss9aar8ocw.cloudfront.net/ff15af97-1525-4c04-a635-852ad4b95802",
       "baseSize": "90 x 52mm",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Warstomper Mega-Gargant",
       "move": "10\"",
       "health": "35",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "20",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -461,7 +388,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           },
           {
@@ -471,7 +397,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           },
           {
@@ -491,37 +416,32 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Titanic Boulderclub is 3 and this unit has a Control characteristic of 10.",
-          "keywords": []
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Titanic Boulderclub is 3 and this unit has a Control characteristic of 10."
         },
         {
           "name": "Longshanks",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
-          "keywords": []
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall."
         },
         {
           "name": "Hurled Body",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in that unit is slain and you can pick a visible enemy unit within 12\" of this unit. Inflict an amount of mortal damage on that unit equal to the target’s Health characteristic.",
-          "keywords": []
+          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in that unit is slain and you can pick a visible enemy unit within 12\" of this unit. Inflict an amount of mortal damage on that unit equal to the target’s Health characteristic."
         },
         {
           "name": "Titanic Boulderclub",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If all of the attacks made with this unit’s Titanic Boulderclub target the same enemy unit, for every 5 models in the target unit, add 2 to its Attacks characteristic for the rest of the phase.",
-          "keywords": []
+          "effect": "If all of the attacks made with this unit’s Titanic Boulderclub target the same enemy unit, for every 5 models in the target unit, add 2 to its Attacks characteristic for the rest of the phase."
         },
         {
           "name": "Son of Behemat",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -542,11 +462,7 @@
       "move": "10\"",
       "health": "35",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "20",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -556,9 +472,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -569,7 +483,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           },
           {
@@ -579,7 +492,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           },
           {
@@ -589,8 +501,7 @@
             "wound": "2+",
             "rend": "2",
             "damage": "4",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           }
         ]
       },
@@ -599,38 +510,33 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Shipwrecka Warclub is 3 and this unit has a Control characteristic of 10.",
-          "keywords": []
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Shipwrecka Warclub is 3 and this unit has a Control characteristic of 10."
         },
         {
           "name": "Get Orf Me Land!",
           "activation": "Once Per Turn (Army), Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick an objective within 1\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, move the target 2D6\" to a new position on the battlefield more than 1\" from all models, terrain features and other objectives.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, move the target 2D6\" to a new position on the battlefield more than 1\" from all models, terrain features and other objectives."
         },
         {
           "name": "Longshanks",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
-          "keywords": []
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall."
         },
         {
           "name": "Stuff 'Em In Me Net",
           "activation": "Once Per Turn, Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll 3 dice. For each roll that is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
-          "keywords": []
+          "effect": "Roll 3 dice. For each roll that is at least double the target’s Health characteristic, 1 model in the target unit is slain."
         },
         {
           "name": "Sons of Behemat",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -651,11 +557,7 @@
       "move": "8\"",
       "health": "12",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -665,9 +567,7 @@
             "hit": "5+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -677,9 +577,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Mighty Kick",
@@ -687,9 +585,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "’Eadbutt",
@@ -697,9 +593,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "4",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "4"
           }
         ]
       },
@@ -708,23 +602,20 @@
           "name": "'Oo's Under The Heel Now?",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Each time this unit uses the ‘Gargant Charge’ ability, add 1 to the amount of mortal damage inflicted, if any, for each model in this unit.",
-          "keywords": []
+          "effect": "Each time this unit uses the ‘Gargant Charge’ ability, add 1 to the amount of mortal damage inflicted, if any, for each model in this unit."
         },
         {
           "name": "Keep Up!",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn.",
-          "keywords": []
+          "effect": "While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn."
         },
         {
           "name": "Stuff 'Em In Me Bag",
           "activation": "Once Per Turn, Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
-          "keywords": []
+          "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain."
         }
       ],
       "keywords": ["Monster", "Destruction", "Sons of Behemat", "Gargant"],
@@ -739,11 +630,7 @@
       "move": "10\"",
       "health": "35",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "20",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -753,7 +640,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           },
           {
@@ -773,7 +659,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -783,15 +668,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Menhir Club is 3 and this unit has a Control characteristic of 10.",
-          "keywords": []
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Menhir Club is 3 and this unit has a Control characteristic of 10."
         },
         {
           "name": "Longshanks",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
-          "keywords": []
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall."
         },
         {
           "name": "Beast-breaking Strike",
@@ -805,15 +688,13 @@
           "name": "Behemoth Brawler",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from the Attacks characteristic of enemy Monsters while they are in combat with this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from the Attacks characteristic of enemy Monsters while they are in combat with this unit."
         },
         {
           "name": "Son of Behemat",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -834,11 +715,8 @@
       "move": "10\"",
       "health": "40",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "20",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -848,8 +726,7 @@
             "wound": "2+",
             "rend": "2",
             "damage": "5",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           },
           {
             "name": "Death Grip",
@@ -858,7 +735,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)"]
           },
           {
@@ -868,7 +744,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -878,8 +753,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Obelisk of Tor Crania is 4 and this unit has a Control characteristic of 10.",
-          "keywords": []
+          "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its Obelisk of Tor Crania is 4 and this unit has a Control characteristic of 10."
         },
         {
           "name": "Power of Behemat",
@@ -894,22 +768,19 @@
           "name": "Longshanks",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall.",
-          "keywords": []
+          "effect": "This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall."
         },
         {
           "name": "Creepers",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "This unit cannot be picked to be the target of enemy Rampage abilities.",
-          "keywords": []
+          "effect": "This unit cannot be picked to be the target of enemy Rampage abilities."
         },
         {
           "name": "Sons of Behemat",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -925,8 +796,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/722498ba-60f1-4338-a192-de0c6a8b3265",
       "baseSize": "130mm",
       "points": 520,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     }
   ]
 }

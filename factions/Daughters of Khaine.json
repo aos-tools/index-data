@@ -5,8 +5,7 @@
       "name": "Blood Rites",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "A different effect applies to friendly Daughters of Khaine units each battle round, as shown below. The effects of all previous battle rounds also apply to those units.\n\nBattle Round 1:\nQuickening Bloodlust: Add 1 to run rolls for this unit.\n\nBattle Round 2:\nHeadlong Fury: Add 1 to charge rolls for this unit.\n\nBattle Round 3:\nZealot’s Rage: Add 1 to hit rolls for this unit’s combat attacks.\n\nBattle Round 4:\nSlaughterer’s Wound: Add 1 to wound rolls for this unit’s combat attacks.\n\nBattle Round 5:\nFrenzied Worshippers: Add 1 to the Attacks characteristic of this unit’s melee weapons.",
-      "keywords": []
+      "effect": "A different effect applies to friendly Daughters of Khaine units each battle round, as shown below. The effects of all previous battle rounds also apply to those units.\n\nBattle Round 1:\nQuickening Bloodlust: Add 1 to run rolls for this unit.\n\nBattle Round 2:\nHeadlong Fury: Add 1 to charge rolls for this unit.\n\nBattle Round 3:\nZealot’s Rage: Add 1 to hit rolls for this unit’s combat attacks.\n\nBattle Round 4:\nSlaughterer’s Wound: Add 1 to wound rolls for this unit’s combat attacks.\n\nBattle Round 5:\nFrenzied Worshippers: Add 1 to the Attacks characteristic of this unit’s melee weapons."
     },
     {
       "name": "All-out Slaughter",
@@ -14,40 +13,34 @@
       "phases": ["Combat Phase"],
       "declare": "Pick a friendly Daughters of Khaine Infantry unit that is in combat to use this ability.",
       "effect": "That unit can use 2 Fight abilities this phase. After the first is used, this unit has Strike-last for the rest of the turn.",
-      "command_point_cost": 1,
-      "keywords": []
+      "command_point_cost": 1
     }
   ],
   "battle_formations": {
     "Cauldron Guard": {
       "name": "Frenzied Devotees",
       "activation": "Once Per Turn (Army), End of Any Turn",
-      "phases": null,
       "declare": "Pick up to 3 friendly Daughters of Khaine Infantry or War Machine units that are in combat to be the targets.",
-      "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
-      "keywords": []
+      "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
     },
     "Scáthcoven": {
       "name": "Speed of the Scáthborn",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "If the unmodified charge roll for a friendly Melusai or Khinerai unit is 8+, that unit has Strike-first for the rest of the turn.",
-      "keywords": []
+      "effect": "If the unmodified charge roll for a friendly Melusai or Khinerai unit is 8+, that unit has Strike-first for the rest of the turn."
     },
     "Shadow Patrol": {
       "name": "Shadowpaths",
       "activation": "Your Movement Phase",
       "phases": ["Movement Phase"],
       "declare": "Pick a friendly Daughters of Khaine Infantry unit that is not in combat to use this ability.",
-      "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-      "keywords": []
+      "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
     },
     "Slaughter Troupe": {
       "name": "Gladiatorial Acrobatics",
       "activation": "Once Per Turn (Army), Reaction: You declared a Charge ability for a friendly Daughters of Khaine Aelf unit",
       "phases": ["Charge Phase"],
-      "effect": "Change one of the dice in the charge roll to a 4.",
-      "keywords": []
+      "effect": "Change one of the dice in the charge roll to a 4."
     }
   },
   "heroic_traits": [
@@ -55,23 +48,18 @@
       "name": "Zealous Orator",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
-      "keywords": []
+      "effect": "If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
     },
     {
       "name": "Bathed in Blood",
       "activation": "End of Any Turn",
-      "phases": null,
-      "effect": "Heal (3) this unit if it is in combat.",
-      "keywords": []
+      "effect": "Heal (3) this unit if it is in combat."
     },
     {
       "name": "Master of Poisons",
       "activation": "End of Any Turn",
-      "phases": null,
       "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.",
-      "effect": "For the rest of the battle:\n\n• The target cannot be healed.\n• Slain models cannot be returned to the target unit.",
-      "keywords": []
+      "effect": "For the rest of the battle:\n\n• The target cannot be healed.\n• Slain models cannot be returned to the target unit."
     }
   ],
   "artefacts_of_power": [
@@ -80,8 +68,7 @@
       "activation": "Once Per Battle, Your Hero Phase",
       "phases": ["Hero Phase"],
       "declare": "Pick a friendly Daughters of Khaine Priest wholly within 12\" of this unit.",
-      "effect": "Give that unit D6 ritual points.",
-      "keywords": []
+      "effect": "Give that unit D6 ritual points."
     },
     {
       "name": "Sevenfold Shadow",
@@ -93,9 +80,7 @@
     {
       "name": "Crown of Woe",
       "activation": "Passive",
-      "phases": null,
-      "effect": "Subtract 2 from the control scores of enemy units while they are within 9\" of this unit.",
-      "keywords": []
+      "effect": "Subtract 2 from the control scores of enemy units while they are within 9\" of this unit."
     }
   ],
   "spell_lore": {
@@ -201,10 +186,7 @@
       "health": "1",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -214,7 +196,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -224,8 +205,7 @@
           "name": "Dance of Death",
           "activation": "Enemy Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "This unit can move 3\". It can pass through the combat ranges of enemy units and can end that move in combat.",
-          "keywords": []
+          "effect": "This unit can move 3\". It can pass through the combat ranges of enemy units and can end that move in combat."
         }
       ],
       "keywords": [
@@ -241,8 +221,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/d0d74437-21dd-4d14-9e84-43237afc4798",
       "baseSize": "25mm",
       "points": 130,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Slaughter Queen",
@@ -250,10 +229,8 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -262,9 +239,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -274,8 +249,7 @@
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a friendly Daughters of Khaine Aelf Infantry unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
         }
       ],
       "keywords": [
@@ -290,8 +264,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/19884af3-93b7-4b54-82b9-5f026544eb42",
       "baseSize": "25mm",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Avatar of Khaine",
@@ -299,10 +272,7 @@
       "health": "7",
       "save": "3+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -313,7 +283,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -324,9 +293,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -344,8 +311,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/45131942-88b3-4d29-ad7a-70ef2c8b9bbf",
       "baseSize": "40mm",
       "points": 190,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "High Gladiatrix",
@@ -353,10 +319,7 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -365,9 +328,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -377,16 +338,14 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this unit is in combat, pick a visible friendly Daughters of Khaine Aelf non-Hero Infantry unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, add 1 to the Rend characteristic of melee weapons used by the target for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, add 1 to the Rend characteristic of melee weapons used by the target for the rest of the turn."
         },
         {
           "name": "Killing Stroke",
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
-          "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
-          "keywords": []
+          "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed."
         }
       ],
       "keywords": [
@@ -409,9 +368,6 @@
       "health": "7",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -422,7 +378,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -433,8 +388,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "If this Manifestation charged this turn, pick an enemy unit in combat with it to be the target.",
-          "effect": "Roll a dice. On a 3+, ignore positive modifiers to save rolls for the target for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, ignore positive modifiers to save rolls for the target for the rest of the turn."
         }
       ],
       "keywords": [
@@ -447,9 +401,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/f5f77014-9265-4906-ba2b-7ffcbb7a000c",
       "baseSize": "50mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Morathi-Khaine",
@@ -458,9 +410,7 @@
       "save": "5+",
       "ward": "6+",
       "wizardLevel": "3",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -469,9 +419,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "2",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -480,8 +428,7 @@
           "name": "Sorceress Supreme",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "Add 1 to casting rolls for this unit.",
-          "keywords": []
+          "effect": "Add 1 to casting rolls for this unit."
         },
         {
           "name": "Mirror Dance",
@@ -496,8 +443,7 @@
           "name": "One Soul, Two Bodies",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time a damage point would be allocated to this unit, it is instead allocated to a friendly The Shadow Queen (you cannot make any further ward rolls for that damage point).\n\nIf this unit would be automatically destroyed by another ability, it is not automatically destroyed. Instead, allocate 3 damage points to a friendly The Shadow Queen (ward rolls cannot be made for those damage points).\n\nIf a friendly The Shadow Queen is destroyed, this unit is automatically destroyed.",
-          "keywords": []
+          "effect": "Each time a damage point would be allocated to this unit, it is instead allocated to a friendly The Shadow Queen (you cannot make any further ward rolls for that damage point).\n\nIf this unit would be automatically destroyed by another ability, it is not automatically destroyed. Instead, allocate 3 damage points to a friendly The Shadow Queen (ward rolls cannot be made for those damage points).\n\nIf a friendly The Shadow Queen is destroyed, this unit is automatically destroyed."
         }
       ],
       "keywords": [
@@ -514,8 +460,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/97d70e47-6fc7-485e-bd7b-5766bc19ff5d",
       "baseSize": "40mm",
       "points": 760,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bloodwrack Shrine",
@@ -524,9 +469,7 @@
       "save": "4+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -537,7 +480,6 @@
             "wound": "*",
             "rend": "*",
             "damage": "*",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -548,9 +490,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Bloodwrack Spear and Whisperclaw",
@@ -558,9 +498,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -570,23 +508,20 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to 3 different enemy units within 9\" of this unit to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Bloodwrack Stare",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit attacks with its Bloodwrack Stare, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a Bloodwrack Stare more than once per phase.",
-          "keywords": []
+          "effect": "Each time this unit attacks with its Bloodwrack Stare, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a Bloodwrack Stare more than once per phase."
         },
         {
           "name": "Bladed Impact",
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -601,8 +536,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f9e9ef0d-f32c-4f3a-a4ac-d1b87323912b",
       "baseSize": "120 x 92mm",
       "points": 240,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Slaughter Queen on Cauldron of Blood",
@@ -610,10 +544,8 @@
       "health": "12",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -624,7 +556,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -635,9 +566,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           },
           {
             "name": "Witch Aelves’ Sciansá",
@@ -645,9 +574,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Deathsword and Blade of Khaine",
@@ -655,9 +582,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -666,24 +591,21 @@
           "name": "Altar of Khaine",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Add 1 to save rolls for friendly Daughters of Khaine Infantry units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly Daughters of Khaine Priests while they are wholly within 9\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to save rolls for friendly Daughters of Khaine Infantry units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly Daughters of Khaine Priests while they are wholly within 9\" of this unit."
         },
         {
           "name": "Bladed Impact",
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         },
         {
           "name": "Orgy of Slaughter",
           "activation": "Once Per Turn (Army), Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick a friendly Daughters of Khaine Aelf Infantry unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
         }
       ],
       "keywords": [
@@ -699,8 +621,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/745030fd-8f11-443e-84a9-ad596eb7d2f5",
       "baseSize": "120 x 92mm",
       "points": 350,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Hag Queen",
@@ -708,10 +629,8 @@
       "health": "5",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -721,7 +640,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -732,8 +650,7 @@
           "activation": "Once Per Turn (Army), Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Daughters of Khaine unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn."
         }
       ],
       "keywords": [
@@ -748,8 +665,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/712482a0-0b43-44b7-ba8a-cbd43cdd81d5",
       "baseSize": "25mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Witch Aelves with Paired Sciansá",
@@ -757,10 +673,7 @@
       "health": "1",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -770,7 +683,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -780,8 +692,7 @@
           "name": "Frenzied Fervour",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn if this unit charged in the same turn.",
-          "keywords": []
+          "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn if this unit charged in the same turn."
         }
       ],
       "keywords": [
@@ -797,8 +708,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/713c45d6-68f4-4769-9118-52f9c65c022b",
       "baseSize": "25mm",
       "points": 110,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "The Shadeborn",
@@ -806,10 +716,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -819,9 +726,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -831,9 +736,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -842,16 +745,14 @@
           "name": "Shadow Leap",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
         },
         {
           "name": "Mask of Shadowed Mirrors",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
         }
       ],
       "keywords": [
@@ -875,10 +776,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -888,7 +786,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -899,8 +796,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, the target has Strike-last for the rest of the turn."
         }
       ],
       "keywords": [
@@ -914,8 +810,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/015b7ad6-b014-4317-9f3a-c510f6fe99cd",
       "baseSize": "40mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Heart of Fury",
@@ -923,9 +818,6 @@
       "health": "7",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {},
       "abilities": [
@@ -933,8 +825,7 @@
           "name": "Locus of the Murder God",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from wound rolls for combat attacks that target friendly Daughters of Khaine Infantry units while they are wholly within 12\" of this Manifestation.",
-          "keywords": []
+          "effect": "Subtract 1 from wound rolls for combat attacks that target friendly Daughters of Khaine Infantry units while they are wholly within 12\" of this Manifestation."
         }
       ],
       "keywords": [
@@ -946,9 +837,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/79ebce5f-cb2f-40e2-9ac8-da6bfc4072cb",
       "baseSize": "50mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bloodwrack Medusa",
@@ -957,9 +846,7 @@
       "save": "5+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -970,7 +857,6 @@
             "wound": "*",
             "rend": "*",
             "damage": "*",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -981,9 +867,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -992,15 +876,13 @@
           "name": "Bloodwrack Stare",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit attacks with its Bloodwrack Stare, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a Bloodwrack Stare more than once per phase.",
-          "keywords": []
+          "effect": "Each time this unit attacks with its Bloodwrack Stare, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a Bloodwrack Stare more than once per phase."
         },
         {
           "name": "Melusai Kin",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Melusai unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Melusai unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."
         }
       ],
       "keywords": [
@@ -1015,8 +897,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/35986637-52f0-4ec8-9dd3-d6e8d4e5e4ab",
       "baseSize": "40mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Blood Stalkers",
@@ -1024,10 +905,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1038,7 +916,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -1049,9 +926,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1060,8 +935,7 @@
           "name": "Heartseekers",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1075,8 +949,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/dfb98994-b1f6-40cb-8fd3-e938c955611c",
       "baseSize": "40mm",
       "points": 140,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Melusai Ironscale",
@@ -1084,10 +957,7 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1097,9 +967,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -1110,7 +978,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           }
         ]
@@ -1120,15 +987,13 @@
           "name": "Wrath of the Sc00e1thborn",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "You can re-roll charge rolls for friendly Melusai units while they are wholly within 12\" of this unit.",
-          "keywords": []
+          "effect": "You can re-roll charge rolls for friendly Melusai units while they are wholly within 12\" of this unit."
         },
         {
           "name": "Gory Offering",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "Pick a friendly non-Hero Melusai unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "Pick a friendly non-Hero Melusai unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1142,8 +1007,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e00fa439-240b-42e4-aafc-66b4e3d05ed3",
       "baseSize": "40mm",
       "points": 160,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Sisters of Slaughter with Bladed Bucklers",
@@ -1151,10 +1015,7 @@
       "health": "1",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1164,7 +1025,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -1174,15 +1034,13 @@
           "name": "Bladed Bucklers",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         },
         {
           "name": "Dance of Diversion",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from hit rolls for combat attacks that target this unit.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for combat attacks that target this unit."
         }
       ],
       "keywords": [
@@ -1198,8 +1056,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/01ab670a-a181-429a-8716-6022945e9f05",
       "baseSize": "25mm",
       "points": 110,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Doomfire Warlocks",
@@ -1208,9 +1065,7 @@
       "save": "5+",
       "ward": "6+",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1220,9 +1075,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1232,9 +1085,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Dark Steed’s Vicious Bite",
@@ -1243,7 +1094,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -1253,8 +1103,7 @@
           "name": "Outmanoeuvre",
           "activation": "Passive",
           "phases": ["Movement Phase"],
-          "effect": "When this unit uses the ‘Redeploy’ command, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead.",
-          "keywords": []
+          "effect": "When this unit uses the ‘Redeploy’ command, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead."
         }
       ],
       "keywords": [
@@ -1269,8 +1118,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/3bebc14b-5548-4e49-9b73-ac6ef8aa6760",
       "baseSize": "60 x 35mm",
       "points": 150,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Hag Queen on Cauldron of Blood",
@@ -1278,10 +1126,8 @@
       "health": "12",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1292,7 +1138,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1303,9 +1148,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Blade of Khaine",
@@ -1314,7 +1157,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -1323,9 +1165,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -1334,24 +1174,21 @@
           "name": "Altar of Khaine",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "Add 1 to save rolls for friendly Daughters of Khaine Infantry units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly Daughters of Khaine Priests while they are wholly within 9\" of this unit.",
-          "keywords": []
+          "effect": "Add 1 to save rolls for friendly Daughters of Khaine Infantry units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly Daughters of Khaine Priests while they are wholly within 9\" of this unit."
         },
         {
           "name": "Witchbrew",
           "activation": "Once Per Turn (Army), Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Daughters of Khaine unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn."
         },
         {
           "name": "Bladed Impact",
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": [
@@ -1367,8 +1204,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/a7a53039-e536-4b19-9fee-6666a438d3c7",
       "baseSize": "120 x 92mm",
       "points": 350,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Krethusa the Croneseer",
@@ -1376,10 +1212,8 @@
       "health": "6",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1388,9 +1222,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1400,8 +1232,7 @@
           "activation": "Once Per Turn, Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If this unit is within the combat range of a friendly Cauldron of Blood, pick a visible friendly Daughters of Khaine Aelf non‑Hero Infantry unit wholly within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply to the target.\n\nProphecy of Silence: Until the start of your next turn, enemy units cannot use commands while they are in combat with the target.\n\nProphecy of Dark Wings: The target can use the ‘Normal Move’ ability as if it were your movement phase. That unit counts as having used a Run ability this turn.\n\nProphecy of Reclamation: For the rest of the turn, while the target is contesting an objective, subtract 10 from the control scores of enemy units contesting that objective that do not have the Hero or Monster keyword.",
-          "keywords": []
+          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply to the target.\n\nProphecy of Silence: Until the start of your next turn, enemy units cannot use commands while they are in combat with the target.\n\nProphecy of Dark Wings: The target can use the ‘Normal Move’ ability as if it were your movement phase. That unit counts as having used a Run ability this turn.\n\nProphecy of Reclamation: For the rest of the turn, while the target is contesting an objective, subtract 10 from the control scores of enemy units contesting that objective that do not have the Hero or Monster keyword."
         },
         {
           "name": "Murder of Crows",
@@ -1427,8 +1258,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4de88064-f3bc-43e9-b1b7-5b50daacd3c9",
       "baseSize": "60mm",
       "points": 190,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bloodwrack Viper",
@@ -1436,9 +1266,6 @@
       "health": "10",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
-      "control": "",
       "banishment": "7+",
       "weapons": {
         "melee": [
@@ -1449,7 +1276,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Hero (+1 Rend)", "Crit (Mortal)"]
           }
         ]
@@ -1474,9 +1300,7 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/27993db9-6a15-4558-aa02-f0f4e29a9740",
       "baseSize": "100mm",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Khainite Shadowstalkers",
@@ -1484,10 +1308,7 @@
       "health": "1",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1497,9 +1318,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1509,9 +1328,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1544,10 +1361,7 @@
       "health": "1",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1557,7 +1371,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1567,8 +1380,7 @@
           "name": "Bladed Bucklers",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
-          "keywords": []
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
       "keywords": [
@@ -1584,8 +1396,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/22d5b3b8-b3f0-4f37-bb9f-8ff4e2e15b31",
       "baseSize": "25mm",
       "points": 110,
-      "modelCount": 10,
-      "notes": ""
+      "modelCount": 10
     },
     {
       "name": "Khinerai Heartrenders",
@@ -1593,10 +1404,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1607,7 +1415,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -1618,9 +1425,7 @@
             "hit": "3+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1638,15 +1443,13 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is in the skies.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units."
         },
         {
           "name": "Fire and Flight",
           "activation": "Any Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If this unit used a Shoot ability this phase, this unit can move D6\". It cannot move into combat during any part of that move.",
-          "keywords": []
+          "effect": "If this unit used a Shoot ability this phase, this unit can move D6\". It cannot move into combat during any part of that move."
         }
       ],
       "keywords": [
@@ -1661,8 +1464,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/7206bd87-b4c1-49ff-817e-8c79f5d25c3c",
       "baseSize": "40mm",
       "points": 110,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "Gryselle’s Arenai",
@@ -1670,10 +1472,7 @@
       "health": "2",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1683,7 +1482,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1694,8 +1492,7 @@
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "For the rest of the turn, while this unit is in combat with the target, its combat attacks must target that enemy unit. In addition, if any of this unit’s attacks score a critical hit on the target this phase, the target has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "For the rest of the turn, while this unit is in combat with the target, its combat attacks must target that enemy unit. In addition, if any of this unit’s attacks score a critical hit on the target this phase, the target has Strike-last for the rest of the turn."
         }
       ],
       "keywords": [
@@ -1719,10 +1516,7 @@
       "health": "2",
       "save": "5+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1732,7 +1526,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1751,15 +1544,13 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is in the skies.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units."
         },
         {
           "name": "Fight and Flight",
           "activation": "Reaction: You declared a Fight ability for this unit",
           "phases": ["Combat Phase"],
-          "effect": "After resolving the effect of that Fight ability, this unit can immediately move D6\". It cannot end that move in combat with any units that it was not already in combat with at the start of the move.",
-          "keywords": []
+          "effect": "After resolving the effect of that Fight ability, this unit can immediately move D6\". It cannot end that move in combat with any units that it was not already in combat with at the start of the move."
         }
       ],
       "keywords": [
@@ -1774,8 +1565,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/62b75ee9-10c6-4e81-b609-80f1c57b5ecf",
       "baseSize": "40mm",
       "points": 100,
-      "modelCount": 5,
-      "notes": ""
+      "modelCount": 5
     },
     {
       "name": "The Shadow Queen",
@@ -1783,10 +1573,7 @@
       "health": "12",
       "save": "4+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1797,7 +1584,6 @@
             "wound": "2+",
             "rend": "3",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1808,9 +1594,7 @@
             "hit": "3+",
             "wound": "3+",
             "rend": "2",
-            "damage": "6",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "6"
           },
           {
             "name": "Heartrender",
@@ -1819,7 +1603,6 @@
             "wound": "3+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -1828,9 +1611,7 @@
             "hit": "4+",
             "wound": "4+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1847,8 +1628,7 @@
           "name": "Iron Heart of Khaine",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "You cannot allocate more than 3 damage points to this unit each turn. Once 3 points have been allocated to this unit in a turn, any further damage points that would be allocated to it are ignored.\n\nDamage points allocated to this unit cannot be healed.\n\nIf this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 3 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "You cannot allocate more than 3 damage points to this unit each turn. Once 3 points have been allocated to this unit in a turn, any further damage points that would be allocated to it are ignored.\n\nDamage points allocated to this unit cannot be healed.\n\nIf this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 3 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -1862,7 +1642,6 @@
       ],
       "image": "https://dhss9aar8ocw.cloudfront.net/757b0e86-77b6-4d98-b85c-68caeab3b846",
       "baseSize": "100mm",
-      "points": 0,
       "modelCount": 1,
       "notes": "This unit can only be taken in Morathi‐Khaine’s regiment."
     },
@@ -1872,10 +1651,7 @@
       "health": "2",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1886,7 +1662,6 @@
             "wound": "4+",
             "rend": "1",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -1898,7 +1673,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ]
@@ -1909,15 +1683,13 @@
           "activation": "Once Per Turn (Army), Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick a friendly Daughters of Khaine unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn.",
-          "keywords": []
+          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn."
         },
         {
           "name": "Morgwaeth the Bloodied",
           "activation": "Passive",
           "phases": ["Hero Phase"],
-          "effect": "While this unit’s Morgwaeth the Bloodied is on the battlefield, it has Priest (1).",
-          "keywords": []
+          "effect": "While this unit’s Morgwaeth the Bloodied is on the battlefield, it has Priest (1)."
         }
       ],
       "keywords": [

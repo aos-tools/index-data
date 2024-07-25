@@ -2,34 +2,23 @@
   "name": "Ogor Mawtribes",
   "battle_traits": [
     {
-      "name": "Bellowing Arrival",
-      "activation": "Your Movement Phase",
-      "phases": ["Movement Phase"],
-      "effect": "Set up this unit anywhere on the battlefield, within 1\" of a battlefield edge and more than 6\" from all enemy units.",
-      "keywords": ["Core"]
-    },
-    {
       "name": "Ravenous Brutes",
       "activation": "Passive",
       "phases": ["Movement Phase"],
-      "effect": "Add 2 to run rolls for friendly Ogor units while you have not used the ‘Feast on Flesh’ ability this battle.",
-      "keywords": []
+      "effect": "Add 2 to run rolls for friendly Ogor units while you have not used the ‘Feast on Flesh’ ability this battle."
     },
     {
       "name": "Trampling Charge",
       "activation": "Any Charge Phase",
       "phases": ["Charge Phase"],
       "declare": "Pick a friendly Ogor or Rhinox unit that charged this turn to use this ability, then pick a visible enemy unit within 1\" of it to be the target.",
-      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-      "keywords": []
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
     },
     {
       "name": "Feast on Flesh",
       "activation": "Once Per Battle (Army), End of Any Turn",
-      "phases": null,
       "declare": "Pick each friendly Ogor unit that is in combat or that used a Fight ability this turn to be the targets.",
-      "effect": "Roll a D3 for each target. On a 2+:\n\n• Heal (X) the target, where X is an amount equal to the roll.\n• Pick an enemy unit in combat with the target. You cannot pick the same enemy unit more than once. Inflict an amount of mortal damage on that enemy unit equal to the roll.",
-      "keywords": []
+      "effect": "Roll a D3 for each target. On a 2+:\n\n• Heal (X) the target, where X is an amount equal to the roll.\n• Pick an enemy unit in combat with the target. You cannot pick the same enemy unit more than once. Inflict an amount of mortal damage on that enemy unit equal to the roll."
     }
   ],
   "battle_formations": {
@@ -37,29 +26,25 @@
       "name": "Brutal Stock",
       "activation": "Passive",
       "phases": ["Charge Phase"],
-      "effect": "Each time a friendly Beastclaw Raiders Monster uses the ‘Trampling Charge’ ability, add 1 to the amount of mortal damage inflicted, if any.",
-      "keywords": []
+      "effect": "Each time a friendly Beastclaw Raiders Monster uses the ‘Trampling Charge’ ability, add 1 to the amount of mortal damage inflicted, if any."
     },
     "Blackpowder Fanatics": {
       "name": "Feed Yer Cannons!",
       "activation": "Passive",
       "phases": ["Shooting Phase"],
-      "effect": "Ranged weapons used by friendly Leadbelchers and Ironblaster units have Shoot in Combat while they are within the combat range of a friendly Ogor Mawtribes Hero.",
-      "keywords": []
+      "effect": "Ranged weapons used by friendly Leadbelchers and Ironblaster units have Shoot in Combat while they are within the combat range of a friendly Ogor Mawtribes Hero."
     },
     "Heralds of the Everwinter": {
       "name": "Eyes of the Storm",
       "activation": "Passive",
       "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-      "effect": "Subtract 1 from hit rolls for shooting attacks that target friendly Ogor Mawtribes Infantry units while they are wholly within 12\" of any friendly Beastclaw Raiders Heroes.",
-      "keywords": []
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target friendly Ogor Mawtribes Infantry units while they are wholly within 12\" of any friendly Beastclaw Raiders Heroes."
     },
     "Prophets of the Gulping God": {
       "name": "Master Butchers",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "Add 1 to casting rolls for friendly Ogor Mawtribes Wizards.",
-      "keywords": []
+      "effect": "Add 1 to casting rolls for friendly Ogor Mawtribes Wizards."
     }
   },
   "heroic_traits": [
@@ -67,22 +52,18 @@
       "name": "Great Gutlord",
       "activation": "Passive",
       "phases": ["Start of Turn"],
-      "effect": "Ignore negative modifiers to this unit’s control score and to hit rolls and wound rolls for this unit’s attacks.",
-      "keywords": []
+      "effect": "Ignore negative modifiers to this unit’s control score and to hit rolls and wound rolls for this unit’s attacks."
     },
     {
       "name": "Touched by the Everwinter",
       "activation": "Passive",
       "phases": ["Hero Phase"],
-      "effect": "If this unit is not a Priest, it has Priest (1). If this unit is already a Priest, you can re-roll chanting rolls of 1 for it instead. If this unit is a Wizard, it cannot use Spell abilities and Prayer abilities in the same phase.",
-      "keywords": []
+      "effect": "If this unit is not a Priest, it has Priest (1). If this unit is already a Priest, you can re-roll chanting rolls of 1 for it instead. If this unit is a Wizard, it cannot use Spell abilities and Prayer abilities in the same phase."
     },
     {
       "name": "Booming Roar",
       "activation": "Passive",
-      "phases": null,
-      "effect": "Subtract 5 from the control scores of enemy Infantry units while they are in combat with this unit.",
-      "keywords": []
+      "effect": "Subtract 5 from the control scores of enemy Infantry units while they are in combat with this unit."
     }
   ],
   "artefacts_of_power": [
@@ -91,23 +72,20 @@
       "activation": "Once Per Battle, Any Shooting Phase",
       "phases": ["Shooting Phase"],
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
-      "effect": "Roll a dice. Inflict an amount of mortal damage on the target equal to the roll. Then, Heal (X) this unit, where X is an amount equal to the roll.",
-      "keywords": []
+      "effect": "Roll a dice. Inflict an amount of mortal damage on the target equal to the roll. Then, Heal (X) this unit, where X is an amount equal to the roll."
     },
     {
       "name": "The Fang of Ghur",
       "activation": "Once Per Battle, Any Combat Phase",
       "phases": ["Combat Phase"],
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
-      "effect": "Ward rolls cannot be made for the target for the rest of the turn.",
-      "keywords": []
+      "effect": "Ward rolls cannot be made for the target for the rest of the turn."
     },
     {
       "name": "Gruesome Trophies",
       "activation": "Passive",
       "phases": ["Combat Phase"],
-      "effect": "Add 1 to hit rolls for combat attacks that target Heroes or Monsters made by friendly Ogor Mawtribes units while they are wholly within 12\" of this unit.",
-      "keywords": []
+      "effect": "Add 1 to hit rolls for combat attacks that target Heroes or Monsters made by friendly Ogor Mawtribes units while they are wholly within 12\" of this unit."
     }
   ],
   "spell_lore": {
@@ -178,11 +156,7 @@
       "move": "6\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -192,9 +166,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -204,9 +176,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "-",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -215,15 +185,13 @@
           "name": "Powder Gnoblars",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "This unit has up to 2 Powder Gnoblar tokens. Each time this unit uses a Shoot ability, for each of this unit’s Powder Gnoblars that are on the battlefield, you can re-roll 1 random characteristic roll for this unit’s Attacks characteristic. If a random characteristic roll re-rolled in this manner is 1, remove 1 of this unit’s Powder Gnoblars from the battlefield.",
-          "keywords": []
+          "effect": "This unit has up to 2 Powder Gnoblar tokens. Each time this unit uses a Shoot ability, for each of this unit’s Powder Gnoblars that are on the battlefield, you can re-roll 1 random characteristic roll for this unit’s Attacks characteristic. If a random characteristic roll re-rolled in this manner is 1, remove 1 of this unit’s Powder Gnoblars from the battlefield."
         },
         {
           "name": "Firing from the Belly",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn."
         }
       ],
       "keywords": [
@@ -237,19 +205,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/e1caa0f0-fbdd-403c-a811-8c424f2b2a5c",
       "baseSize": "40mm",
       "points": 150,
-      "modelCount": 4,
-      "notes": ""
+      "modelCount": 4
     },
     {
       "name": "Ogor Gluttons",
       "move": "6\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -258,9 +221,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -268,9 +229,7 @@
         {
           "name": "Insatiable Gluttony",
           "activation": "Passive",
-          "phases": null,
-          "effect": "If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit.",
-          "keywords": []
+          "effect": "If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit."
         }
       ],
       "keywords": [
@@ -286,19 +245,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/12ab3c9b-c3e0-45d8-92a4-cd4ae36cc78e",
       "baseSize": "40mm",
       "points": 220,
-      "modelCount": 6,
-      "notes": ""
+      "modelCount": 6
     },
     {
       "name": "Slaughtermaster",
       "move": "6\"",
       "health": "8",
       "save": "5+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -307,9 +262,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Goblar's Implements",
@@ -318,7 +271,6 @@
             "wound": "5+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -328,15 +280,13 @@
           "name": "Great Cauldron",
           "activation": "Any Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "You can spend 1 or more of this unit’s grisly remains points. For each point spent, pick a friendly Gutbusters unit wholly within 12\" of this unit to be the target, then pick 1 of the following effects:\n\nBloodgruel: The target has Ward (5+) for the rest of the turn.\n\nSpinemarrow: Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "keywords": []
+          "effect": "You can spend 1 or more of this unit’s grisly remains points. For each point spent, pick a friendly Gutbusters unit wholly within 12\" of this unit to be the target, then pick 1 of the following effects:\n\nBloodgruel: The target has Ward (5+) for the rest of the turn.\n\nSpinemarrow: Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
         },
         {
           "name": "Fill the Pot",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "Each time an enemy unit is destroyed by a combat attack made by a friendly Ogor Mawtribes unit wholly within 18\" of this unit, give this unit a grisly remains point, to a maximum of 3.",
-          "keywords": []
+          "effect": "Each time an enemy unit is destroyed by a combat attack made by a friendly Ogor Mawtribes unit wholly within 18\" of this unit, give this unit a grisly remains point, to a maximum of 3."
         }
       ],
       "keywords": [
@@ -351,19 +301,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/52d7d7f0-1da1-49c0-ab46-e6157cd3faa5",
       "baseSize": "105 x 70mm",
       "points": 130,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Ironguts",
       "move": "6\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -372,9 +317,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -383,15 +326,13 @@
           "name": "Down to the Ironguts",
           "activation": "Once Per Battle, Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn.",
-          "keywords": []
+          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn."
         },
         {
           "name": "Protect the Tyrant",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "While this unit is within the combat ranges of any friendly Tyrants, both this unit and those Tyrants have Ward (6+).",
-          "keywords": []
+          "effect": "While this unit is within the combat ranges of any friendly Tyrants, both this unit and those Tyrants have Ward (6+)."
         }
       ],
       "keywords": [
@@ -407,19 +348,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/c7f34924-c339-47bb-ad8f-c8b8172e25e1",
       "baseSize": "40mm",
       "points": 240,
-      "modelCount": 4,
-      "notes": ""
+      "modelCount": 4
     },
     {
       "name": "Stonehorn Beastriders",
       "move": "10\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -430,7 +366,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -440,9 +375,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Blood Vulture",
@@ -451,9 +384,7 @@
             "hit": "2+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -473,9 +404,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Stonehorn’s Hooves",
@@ -484,7 +413,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -494,8 +422,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stonehorn’s Rock-hard Horns is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stonehorn’s Rock-hard Horns is 4."
         },
         {
           "name": "Stonehorn Avalanche",
@@ -508,8 +435,7 @@
           "name": "Stone Skeleton",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Ignore the first damage point that would be allocated to this unit in each phase.",
-          "keywords": []
+          "effect": "Ignore the first damage point that would be allocated to this unit in each phase."
         }
       ],
       "keywords": [
@@ -522,19 +448,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/a7e17ada-f9ed-4e95-821c-f73b841188d2",
       "baseSize": "120 x 92mm",
       "points": 290,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Ironblaster",
       "move": "9\"",
       "health": "9",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -544,9 +465,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Ironblaster Cannon: Big Shot",
@@ -555,9 +474,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "2",
-            "damage": "D3+3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3+3"
           }
         ],
         "melee": [
@@ -568,7 +485,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -577,9 +493,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "-",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -588,8 +502,7 @@
           "name": "Lethal Payload",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Each time this unit uses a Shoot ability, pick either the Big Shot or Hail Shot weapon characteristics for all the attacks it makes with its Ironblaster Cannon.",
-          "keywords": []
+          "effect": "Each time this unit uses a Shoot ability, pick either the Big Shot or Hail Shot weapon characteristics for all the attacks it makes with its Ironblaster Cannon."
         }
       ],
       "keywords": [
@@ -603,19 +516,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/fb6c2b57-31a7-4cc2-a62d-e8b36b19c106",
       "baseSize": "120 x 92mm",
       "points": 240,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Huskard on Thundertusk",
       "move": "10\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -625,9 +534,7 @@
             "hit": "2+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Harpoon Launcher",
@@ -636,9 +543,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Ice Blast",
@@ -648,7 +553,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3+2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -659,7 +563,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ],
@@ -670,9 +573,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Thundertusk’s Colossal Tusks",
@@ -691,8 +592,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Thundertusk’s Colossal Tusks is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Thundertusk’s Colossal Tusks is 2."
         },
         {
           "name": "Freezing Aura",
@@ -715,68 +615,53 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/107ee0a9-5dbe-4392-9149-c7cba8f5e72e",
       "baseSize": "120 x 92mm",
       "points": 270,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Great Mawpot",
       "move": "-",
       "health": "6",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
           "name": "Throw 'Em In",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "If an enemy model is slain within 6\" of the Great Mawpot when it is empty, it becomes full.",
-          "keywords": []
+          "effect": "If an enemy model is slain within 6\" of the Great Mawpot when it is empty, it becomes full."
         },
         {
           "name": "Great Mawpot",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "The Great Mawpot is either full or empty. It starts the battle full.",
-          "keywords": []
+          "effect": "The Great Mawpot is either full or empty. It starts the battle full."
         },
         {
           "name": "Battlebroth",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
-          "effect": "If the Great Mawpot is full, Heal (D3) each friendly unit wholly within 18\" of it. After you have done so, the Great Mawpot is empty.",
-          "keywords": []
+          "effect": "If the Great Mawpot is full, Heal (D3) each friendly unit wholly within 18\" of it. After you have done so, the Great Mawpot is empty."
         },
         {
           "name": "Vessel of the Gulping God",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If the Great Mawpot is full, pick a friendly Ogor Wizard within 3\" of it to be the target.",
-          "effect": "Add 1 to the power level of the target for the rest of the turn.",
-          "keywords": []
+          "effect": "Add 1 to the power level of the target for the rest of the turn."
         }
       ],
       "keywords": ["Faction Terrain", "Destruction", "Ogor Mawtribes"],
       "image": "https://dhss9aar8ocw.cloudfront.net/8b48765f-631d-4178-b8ce-93c6657370db",
       "baseSize": "Use Model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Frostlord on Stonehorn",
       "move": "10\"",
       "health": "15",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -796,7 +681,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -806,7 +690,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ]
@@ -816,8 +699,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stonehorn’s Rock-hard Horns is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stonehorn’s Rock-hard Horns is 4."
         },
         {
           "name": "Earth-shattering Charge",
@@ -831,15 +713,13 @@
           "name": "Frost Spear",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "If any damage points are allocated to an enemy Hero or Monster by attacks made with this unit’s Frost Spear, subtract 1 from the Attacks characteristic of that enemy unit’s melee weapons until the start of your next turn.",
-          "keywords": []
+          "effect": "If any damage points are allocated to an enemy Hero or Monster by attacks made with this unit’s Frost Spear, subtract 1 from the Attacks characteristic of that enemy unit’s melee weapons until the start of your next turn."
         },
         {
           "name": "Stone Skeleton",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Ignore the first damage point that would be allocated to this unit in each phase.",
-          "keywords": []
+          "effect": "Ignore the first damage point that would be allocated to this unit in each phase."
         }
       ],
       "keywords": [
@@ -853,19 +733,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/5a46838c-fef8-450e-8866-1eeef9c84c5f",
       "baseSize": "120 x 92mm",
       "points": 360,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Thundertusk Beastriders",
       "move": "10\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -875,9 +750,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Blood Vulture",
@@ -886,9 +759,7 @@
             "hit": "2+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Chaintrap",
@@ -898,7 +769,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -909,7 +779,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3+2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ],
@@ -930,9 +799,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -941,13 +808,11 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Thundertusk’s Colossal Tusks is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Thundertusk’s Colossal Tusks is 2."
         },
         {
           "name": "Everwinter's Assault",
           "activation": "Once Per Turn (Army), End of Any Turn",
-          "phases": null,
           "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
           "effect": "Roll a dice. On a 3+, for the rest of the turn:\n\n• If the target is a Monster, subtract 3 from its control score.\n• If the target is a non-Monster unit, subtract 5 from its control score.",
           "keywords": ["Rampage"]
@@ -963,19 +828,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/58d4aa60-955c-4b63-9fa6-879f33f58c59",
       "baseSize": "120 x 92mm",
       "points": 240,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Frostlord on Thundertusk",
       "move": "10\"",
       "health": "15",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -986,7 +846,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3+2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           }
         ],
@@ -998,7 +857,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Charge (+1 Damage)"]
           },
           {
@@ -1018,8 +876,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Thundertusk’s Colossal Tusks is 2.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Thundertusk’s Colossal Tusks is 2."
         },
         {
           "name": "Sweeping Tusks",
@@ -1034,8 +891,7 @@
           "activation": "Once Per Battle (Army), Your Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick any number of friendly Beastclaw Raiders units wholly within 12\" of this unit to be the targets.",
-          "effect": "Each target can add 1 to the D3 roll made if that unit uses the ‘Trampling Charge’ ability this turn.",
-          "keywords": []
+          "effect": "Each target can add 1 to the D3 roll made if that unit uses the ‘Trampling Charge’ ability this turn."
         }
       ],
       "keywords": [
@@ -1049,19 +905,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/05e64fb6-ee45-4efd-910b-a3a9a5c2dc3f",
       "baseSize": "120 x 92mm",
       "points": 300,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Tyrant",
       "move": "6\"",
       "health": "8",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1072,7 +923,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1084,7 +934,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Crit (Mortal)"]
           },
           {
@@ -1094,7 +943,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ]
@@ -1105,15 +953,13 @@
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick another friendly Ogor Mawtribes unit wholly within 12\" of this unit to be the target.",
-          "effect": "Add 3 to the target’s control score until the start of your next turn.",
-          "keywords": []
+          "effect": "Add 3 to the target’s control score until the start of your next turn."
         },
         {
           "name": "Brawlerguts",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to the D3 roll made when this unit uses the ‘Trampling Charge’ ability.",
-          "keywords": []
+          "effect": "Add 1 to the D3 roll made when this unit uses the ‘Trampling Charge’ ability."
         }
       ],
       "keywords": [
@@ -1127,19 +973,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/1ce9eea7-1f6a-471e-966c-d8cdc771855a",
       "baseSize": "50mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Frost Sabres",
       "move": "9\"",
       "health": "3",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1148,9 +989,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1158,16 +997,13 @@
         {
           "name": "Beast",
           "activation": "Passive",
-          "phases": null,
-          "effect": "This unit has a maximum control score of 1.",
-          "keywords": []
+          "effect": "This unit has a maximum control score of 1."
         },
         {
           "name": "Hunters of the Frozen Wilds",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "This unit is not visible to enemy units while it is within 3\" of a terrain feature and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "This unit is not visible to enemy units while it is within 3\" of a terrain feature and more than 9\" from all enemy units."
         }
       ],
       "keywords": [
@@ -1179,19 +1015,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/f1482ad4-4823-465d-8755-89a48bb9bb3b",
       "baseSize": "60 x 35mm",
       "points": 70,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Firebelly",
       "move": "6\"",
       "health": "7",
       "save": "5+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1202,7 +1034,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1213,9 +1044,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ]
       },
@@ -1224,8 +1053,7 @@
           "name": "Torrent of Flame",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "Add 1 to the Damage characteristic of this unit’s Fire Breath for attacks that target Infantry.",
-          "keywords": []
+          "effect": "Add 1 to the Damage characteristic of this unit’s Fire Breath for attacks that target Infantry."
         }
       ],
       "keywords": [
@@ -1239,19 +1067,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/cce935d6-1344-46aa-b26d-3f3fc9729ac0",
       "baseSize": "50mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Gnoblar Scraplauncher",
       "move": "9\"",
       "health": "9",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1262,7 +1085,6 @@
             "wound": "4+",
             "rend": "-",
             "damage": "1",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)", "Crit (Auto-wound)"]
           }
         ],
@@ -1274,7 +1096,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1283,9 +1104,7 @@
             "hit": "5+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1295,23 +1114,20 @@
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
           "declare": "Pick an enemy unit that had any models slain this turn by this unit’s shooting attacks to be the target.",
-          "effect": "Subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
-          "keywords": []
+          "effect": "Subtract 1 from hit rolls for the target’s attacks for the rest of the turn."
         },
         {
           "name": "Load It Up!",
           "activation": "Your Shooting Phase",
           "phases": ["Shooting Phase"],
-          "effect": "If this unit is within the combat range of a friendly Gnoblars unit, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.",
-          "keywords": []
+          "effect": "If this unit is within the combat range of a friendly Gnoblars unit, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn."
         }
       ],
       "keywords": ["War Machine", "Destruction", "Ogor Mawtribes", "Rhinox"],
       "image": "https://dhss9aar8ocw.cloudfront.net/5008589f-2bd4-473b-99ed-7149d501a088",
       "baseSize": "120 x 92mm",
       "points": 180,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Icefall Yhetees",
@@ -1319,10 +1135,7 @@
       "health": "4",
       "save": "6+",
       "ward": "6+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1331,9 +1144,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1342,8 +1153,7 @@
           "name": "Bounding Leaps",
           "activation": "Enemy Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "This unit can move up to 3\". It can move into combat.",
-          "keywords": []
+          "effect": "This unit can move up to 3\". It can move into combat."
         }
       ],
       "keywords": [
@@ -1356,19 +1166,15 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/cd379aa9-6a0d-4c47-b93f-be4942ff974c",
       "baseSize": "50mm",
       "points": 120,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Huskard on Stonehorn",
       "move": "10\"",
       "health": "14",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
       "priestLevel": "1",
       "control": "10",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1378,9 +1184,7 @@
             "hit": "2+",
             "wound": "3+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           },
           {
             "name": "Harpoon Launcher",
@@ -1389,9 +1193,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           },
           {
             "name": "Chaintrap",
@@ -1401,7 +1203,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ],
@@ -1423,7 +1224,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1432,9 +1232,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1443,8 +1241,7 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stonehorn’s Rock-hard Horns is 4.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Stonehorn’s Rock-hard Horns is 4."
         },
         {
           "name": "Everwinter Goad",
@@ -1458,8 +1255,7 @@
           "name": "Stone Skeleton",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Ignore the first damage point that would be allocated to this unit in each phase.",
-          "keywords": []
+          "effect": "Ignore the first damage point that would be allocated to this unit in each phase."
         }
       ],
       "keywords": [
@@ -1474,19 +1270,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/0d56bcdd-f052-4511-be84-235725366e51",
       "baseSize": "120 x 92mm",
       "points": 300,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Maneaters",
       "move": "6\"",
       "health": "4",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1497,7 +1288,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1508,9 +1298,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -1519,27 +1307,21 @@
           "name": "Been There, Done That",
           "activation": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-Core ability",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Roll a dice. On a 4+, that ability has no effect on this unit.",
-          "keywords": []
+          "effect": "Roll a dice. On a 4+, that ability has no effect on this unit."
         }
       ],
       "keywords": ["Infantry", "Destruction", "Ogor Mawtribes", "Ogor"],
       "image": "https://dhss9aar8ocw.cloudfront.net/7d49c578-1121-4c55-9312-77e289b41302",
       "baseSize": "50mm",
       "points": 170,
-      "modelCount": 3,
-      "notes": ""
+      "modelCount": 3
     },
     {
       "name": "Gnoblars",
       "move": "5\"",
       "health": "1",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "1",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1549,9 +1331,7 @@
             "hit": "4+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ],
         "melee": [
@@ -1561,9 +1341,7 @@
             "hit": "5+",
             "wound": "5+",
             "rend": "-",
-            "damage": "1",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "1"
           }
         ]
       },
@@ -1573,27 +1351,21 @@
           "activation": "Any Charge Phase",
           "phases": ["Charge Phase"],
           "declare": "Pick an enemy unit within 6\" of this unit and that used a Move ability this turn to be the target. You cannot pick the same unit to be the target of this ability more than once per turn.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
       "keywords": ["Infantry", "Champion", "Destruction", "Ogor Mawtribes"],
       "image": "https://dhss9aar8ocw.cloudfront.net/f0fae813-28ea-4cf3-8347-30bf4b3099ea",
       "baseSize": "25mm",
       "points": 120,
-      "modelCount": 20,
-      "notes": ""
+      "modelCount": 20
     },
     {
       "name": "Mournfang Pack",
       "move": "9\"",
       "health": "6",
       "save": "4+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1604,7 +1376,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Shoot in Combat"]
           }
         ],
@@ -1616,7 +1387,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Companion"]
           },
           {
@@ -1626,7 +1396,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Cavalry (+1 Rend)"]
           }
         ]
@@ -1636,15 +1405,13 @@
           "name": "Alpha Cavalry",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "The Charge (+1 Damage) weapon ability has no effect on attacks that target this unit.",
-          "keywords": []
+          "effect": "The Charge (+1 Damage) weapon ability has no effect on attacks that target this unit."
         },
         {
           "name": "Lumpen Wall of Flesh",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly Beastclaw Raiders units while they are within this unit’s combat range.",
-          "keywords": []
+          "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly Beastclaw Raiders units while they are within this unit’s combat range."
         }
       ],
       "keywords": [
@@ -1660,69 +1427,54 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/b19764b0-8562-4fc7-8840-9458e7408a2a",
       "baseSize": "90 x 52mm",
       "points": 200,
-      "modelCount": 2,
-      "notes": ""
+      "modelCount": 2
     },
     {
       "name": "Mawpit",
       "move": "-",
       "health": "10",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "-",
-      "banishment": "",
       "weapons": {},
       "abilities": [
         {
           "name": "Altar of the Gulping God",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this terrain feature has a Head Butcher:\n\n• The Head Butcher cannot use Move abilities.\n• Instead of measuring range or visibility to the Head Butcher, measure to this terrain feature instead.\n• All attacks that would target the Head Butcher target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Head Butcher. Then, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher. If it is not possible to set up the Head Butcher, it is slain.",
-          "keywords": []
+          "effect": "While this terrain feature has a Head Butcher:\n\n• The Head Butcher cannot use Move abilities.\n• Instead of measuring range or visibility to the Head Butcher, measure to this terrain feature instead.\n• All attacks that would target the Head Butcher target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Head Butcher. Then, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher. If it is not possible to set up the Head Butcher, it is slain."
         },
         {
           "name": "Throat of Ghur",
           "activation": "Any Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "Pick up to 3 enemy units within 12\" of this terrain feature, or within 18\" if it has a Head Butcher, to be the targets.",
-          "effect": "Roll a D3 for each target. Add 1 to the roll if the target is more than 3\" from all other enemy units. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
-          "keywords": []
+          "effect": "Roll a D3 for each target. Add 1 to the roll if the target is more than 3\" from all other enemy units. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
         },
         {
           "name": "Feed the Maw",
           "activation": "Your Hero Phase",
           "phases": ["Hero Phase"],
           "declare": "If this terrain feature does not have a Head Butcher, pick a friendly Butcher or Slaughtermaster within 3\" of it to be the target.",
-          "effect": "Place the target on this terrain feature. The target is now a Head Butcher (see ‘Altar of the Gulping God’).",
-          "keywords": []
+          "effect": "Place the target on this terrain feature. The target is now a Head Butcher (see ‘Altar of the Gulping God’)."
         },
         {
           "name": "Step Away From The Maw",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "If this terrain feature has a Head Butcher, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher.",
-          "keywords": []
+          "effect": "If this terrain feature has a Head Butcher, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher."
         }
       ],
       "keywords": ["Faction Terrain", "Destruction", "Ogor Mawtribes"],
       "image": "https://dhss9aar8ocw.cloudfront.net/81c633df-09dd-49b7-8a8a-01fab50e1a17",
       "baseSize": "Use Model",
-      "points": 0,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Gorlok Blackpowder",
       "move": "6\"",
       "health": "7",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1733,7 +1485,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (Auto-wound)"]
           }
         ],
@@ -1745,7 +1496,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -1755,15 +1505,13 @@
           "name": "Blackpowder's Buccaneers",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit’s Peggz, Kagey, Mange and Shreek are tokens. After setting up this unit on the battlefield for the first time, place its tokens next to it.",
-          "keywords": []
+          "effect": "This unit’s Peggz, Kagey, Mange and Shreek are tokens. After setting up this unit on the battlefield for the first time, place its tokens next to it."
         },
         {
           "name": "Tiny Braggarts",
           "activation": "Any Combat Phase",
           "phases": ["Combat Phase"],
-          "effect": "Pick 1 of this unit’s tokens that is on the battlefield and roll a dice. On a 1, remove that token from the battlefield. On a 2+, apply its effect for the rest of the turn:\n\nPeggz: The abilities of enemy artefacts of power that target this unit have no effect on this unit.\n\nKagey: This unit has Strike-first.\n\nMange: Each time an unmodified hit roll for a combat attack that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\n\nShreek: Other than the Companion weapon ability, weapon abilities for attacks that target this unit have no effect.",
-          "keywords": []
+          "effect": "Pick 1 of this unit’s tokens that is on the battlefield and roll a dice. On a 1, remove that token from the battlefield. On a 2+, apply its effect for the rest of the turn:\n\nPeggz: The abilities of enemy artefacts of power that target this unit have no effect on this unit.\n\nKagey: This unit has Strike-first.\n\nMange: Each time an unmodified hit roll for a combat attack that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\n\nShreek: Other than the Companion weapon ability, weapon abilities for attacks that target this unit have no effect."
         }
       ],
       "keywords": [
@@ -1777,8 +1525,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/40c3ff05-b3ba-4f63-8de8-aaf549c2eb98",
       "baseSize": "50mm [1], 25mm [4]",
       "points": 150,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Kragnos, the End of Empires",
@@ -1786,10 +1533,7 @@
       "health": "18",
       "save": "4+",
       "ward": "5+",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "15",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1799,8 +1543,7 @@
             "wound": "2+",
             "rend": "3",
             "damage": "4",
-            "battleDamaged": true,
-            "abilities": []
+            "battleDamaged": true
           },
           {
             "name": "Hooves of Wrack and Ruin",
@@ -1808,9 +1551,7 @@
             "hit": "3+",
             "wound": "2+",
             "rend": "1",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           },
           {
             "name": "Tuskbreaker",
@@ -1819,7 +1560,6 @@
             "wound": "2+",
             "rend": "2",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Crit (2 Hits)"]
           }
         ]
@@ -1829,15 +1569,13 @@
           "name": "Battle Damaged",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10.",
-          "keywords": []
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10."
         },
         {
           "name": "The Shield Inviolate",
           "activation": "Reaction: Opponent declared a Spell ability",
           "phases": ["Hero Phase"],
-          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per Spell ability.",
-          "keywords": []
+          "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per Spell ability."
         },
         {
           "name": "Rampaging Destruction",
@@ -1850,15 +1588,13 @@
           "name": "The End of Empires",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "Add 1 to the number of dice rolled when making charge rolls for friendly Destruction units while they are wholly within 12\" of this unit, to a maximum of 3.",
-          "keywords": []
+          "effect": "Add 1 to the number of dice rolled when making charge rolls for friendly Destruction units while they are wholly within 12\" of this unit, to a maximum of 3."
         },
         {
           "name": "Avatar of Destruction",
           "activation": "Passive",
           "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
-          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
-          "keywords": []
+          "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
         }
       ],
       "keywords": [
@@ -1873,19 +1609,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/09fa6e8a-e499-47bc-8cc6-554773448030",
       "baseSize": "130mm",
       "points": 680,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Icebrow Hunter",
       "move": "6\"",
       "health": "7",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -1896,7 +1627,6 @@
             "wound": "3+",
             "rend": "-",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -1907,7 +1637,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ],
@@ -1919,7 +1648,6 @@
             "wound": "2+",
             "rend": "-",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ]
@@ -1938,8 +1666,7 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is outflanking the prey.",
-          "effect": "Set up this unit wholly within 9\" of a battlefield edge and more than 9\" from all enemy units. Then, set up each Frost Sabres unit that was set up outflanking the prey with this unit wholly within 12\" of it and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit wholly within 9\" of a battlefield edge and more than 9\" from all enemy units. Then, set up each Frost Sabres unit that was set up outflanking the prey with this unit wholly within 12\" of it and more than 9\" from all enemy units."
         }
       ],
       "keywords": [
@@ -1961,11 +1688,8 @@
       "move": "6\"",
       "health": "7",
       "save": "5+",
-      "ward": "",
       "wizardLevel": "1",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -1974,9 +1698,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "1",
-            "damage": "3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "3"
           }
         ]
       },
@@ -1985,8 +1707,7 @@
           "name": "Savage Hunger",
           "activation": "Passive",
           "phases": ["Charge Phase"],
-          "effect": "While they are wholly within 12\" of this unit, friendly Gutbusters units can use Charge abilities even if they used a Run ability in the same turn.",
-          "keywords": []
+          "effect": "While they are wholly within 12\" of this unit, friendly Gutbusters units can use Charge abilities even if they used a Run ability in the same turn."
         }
       ],
       "keywords": [
@@ -2001,19 +1722,14 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/4fa3edb4-ed15-46a3-a1cf-8b1dd0d15daa",
       "baseSize": "50mm",
       "points": 140,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     },
     {
       "name": "Bloodpelt Hunter",
       "move": "6\"",
       "health": "8",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2024,7 +1740,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "D6",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           },
           {
@@ -2034,9 +1749,7 @@
             "hit": "4+",
             "wound": "3+",
             "rend": "1",
-            "damage": "D3",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "D3"
           }
         ],
         "melee": [
@@ -2047,7 +1760,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Monster (+1 Rend)"]
           }
         ]
@@ -2057,15 +1769,13 @@
           "name": "Unrelenting Hunter",
           "activation": "Once Per Turn (Army), Enemy Movement Phase",
           "phases": ["Movement Phase"],
-          "effect": "If this unit is more than 9\" from all enemy units, it can use the ‘Normal Move’ ability as if it were your movement phase.",
-          "keywords": []
+          "effect": "If this unit is more than 9\" from all enemy units, it can use the ‘Normal Move’ ability as if it were your movement phase."
         },
         {
           "name": "Beast-breaker",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "If the target is a Monster, the Damage characteristic of this unit’s Skullshatter Crossbow is 3 and the Damage characteristic of its Impaling Spear is 6.",
-          "keywords": []
+          "effect": "If the target is a Monster, the Damage characteristic of this unit’s Skullshatter Crossbow is 3 and the Damage characteristic of its Impaling Spear is 6."
         }
       ],
       "keywords": [
@@ -2087,11 +1797,7 @@
       "move": "6\"",
       "health": "5",
       "save": "6+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "2",
-      "banishment": "",
       "weapons": {
         "melee": [
           {
@@ -2101,7 +1807,6 @@
             "wound": "2+",
             "rend": "1",
             "damage": "2",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ]
@@ -2120,8 +1825,7 @@
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "Pick this unit if it is lurking on the fringes.",
-          "effect": "Set up this unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.",
-          "keywords": []
+          "effect": "Set up this unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units."
         }
       ],
       "keywords": [
@@ -2143,11 +1847,7 @@
       "move": "6\"",
       "health": "7",
       "save": "5+",
-      "ward": "",
-      "wizardLevel": "",
-      "priestLevel": "",
       "control": "5",
-      "banishment": "",
       "weapons": {
         "ranged": [
           {
@@ -2158,7 +1858,6 @@
             "wound": "3+",
             "rend": "1",
             "damage": "D3",
-            "battleDamaged": false,
             "abilities": ["Anti-Infantry (+1 Rend)"]
           }
         ],
@@ -2169,9 +1868,7 @@
             "hit": "4+",
             "wound": "2+",
             "rend": "-",
-            "damage": "2",
-            "battleDamaged": false,
-            "abilities": []
+            "damage": "2"
           }
         ]
       },
@@ -2180,30 +1877,26 @@
           "name": "Hrothgorn's Mantrappers",
           "activation": "Passive",
           "phases": ["Start of Turn"],
-          "effect": "This unit’s Bushwakka, Bushwakka’s Trap, Quiv, Luggit and Thwack, and Thrafnir are tokens. After setting up this unit on the battlefield for the first time, place all of its tokens except for its Bushwakka’s Trap next to it. Then, pick an objective or terrain feature and place its Bushwakka’s Trap next to it.",
-          "keywords": []
+          "effect": "This unit’s Bushwakka, Bushwakka’s Trap, Quiv, Luggit and Thwack, and Thrafnir are tokens. After setting up this unit on the battlefield for the first time, place all of its tokens except for its Bushwakka’s Trap next to it. Then, pick an objective or terrain feature and place its Bushwakka’s Trap next to it."
         },
         {
           "name": "Hunting Beast",
           "activation": "Your Movement Phase",
           "phases": ["Movement Phase"],
           "declare": "If this unit’s Thrafnir is on the battlefield, pick an enemy unit within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 1, remove Thrafnir from the battlefield. On a 2+, place Thrafnir next to the target. Until the start of your next turn, the target is being stalked by Thrafnir. While a unit is being stalked by Thrafnir, add 1 to the Damage characteristic of this unit’s Trap Launcher for attacks that target that unit.",
-          "keywords": []
+          "effect": "Roll a dice. On a 1, remove Thrafnir from the battlefield. On a 2+, place Thrafnir next to the target. Until the start of your next turn, the target is being stalked by Thrafnir. While a unit is being stalked by Thrafnir, add 1 to the Damage characteristic of this unit’s Trap Launcher for attacks that target that unit."
         },
         {
           "name": "Gnoblar Minions",
           "activation": "Passive",
           "phases": ["Shooting Phase"],
-          "effect": "You can re-roll hit rolls for attacks made with this unit’s Trap Launcher while this unit’s Bushwakka, Quiv or Luggit and Thwack are on the battlefield. If you make an unmodified save roll of 1 for this unit, remove 1 of those tokens from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
-          "keywords": []
+          "effect": "You can re-roll hit rolls for attacks made with this unit’s Trap Launcher while this unit’s Bushwakka, Quiv or Luggit and Thwack are on the battlefield. If you make an unmodified save roll of 1 for this unit, remove 1 of those tokens from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         },
         {
           "name": "Bushwakka's Traps",
           "activation": "Passive",
           "phases": ["Combat Phase"],
-          "effect": "The first time an enemy unit finishes a move within 1\" of the objective or terrain feature with this unit’s Bushwakka’s Trap next to it, remove that Bushwakka’s Trap from the battlefield, then roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
-          "keywords": []
+          "effect": "The first time an enemy unit finishes a move within 1\" of the objective or terrain feature with this unit’s Bushwakka’s Trap next to it, remove that Bushwakka’s Trap from the battlefield, then roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
         }
       ],
       "keywords": [
@@ -2218,8 +1911,7 @@
       "image": "https://dhss9aar8ocw.cloudfront.net/dd056895-85c8-4cce-b741-d0a17ceb69fb",
       "baseSize": "40mm [1], 50 x 25mm [1], 25mm [3]",
       "points": 120,
-      "modelCount": 1,
-      "notes": ""
+      "modelCount": 1
     }
   ]
 }
