@@ -4,7 +4,7 @@
     {
       "name": "The Bad Moon's Orbit",
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "declare": "You must use this ability at the start of the battle round. \n\nIf multiple players are commanding a Gloomspite Gitz army, then instead, at the start of the battle round, those players roll off and only the winner declares and uses this ability this battle round.",
       "effect": "If it is the first battle round, pick a quarter of the battlefield to be the Bad Moon’s starting location.\n\nIf it is the second or subsequent battle round, roll a dice. On a 1-3, the Bad Moon stays at its current location. On a 4+, the Bad Moon moves.\n\nThe first time the Bad Moon moves, it moves to the centre of the battlefield. The second time it moves, it moves to the quarter diagonally opposite the quarter in which it started. The third time it moves, it moves off the battlefield and has no further effect on the battle."
     },

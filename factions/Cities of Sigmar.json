@@ -2865,7 +2865,7 @@
         {
           "name": "Attendant Relic Envoy",
           "activation": "Start of Battle Round",
-          "phases": ["Start of Turn"],
+          "phases": ["Start of Battle Round"],
           "declare": "Pick a friendly Cities of Sigmar Human wholly within 18\" of this unit to be the target.",
           "effect": "Place this unit’s Relic Envoy next to the target (if this unit’s Relic Envoy is currently next to a different friendly unit, move it next to the target).\n\nWhile the target has a Relic Envoy next to it, it can be picked to be the target of an Officar’s Order ability even if it is not wholly within 12\" of the friendly Hero using that ability.\n\nIf this unit is destroyed, remove its Relic Envoy from the battlefield."
         },

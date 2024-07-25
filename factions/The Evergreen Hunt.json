@@ -4,14 +4,14 @@
     {
       "name": "Rhythm of the Chase",
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "declare": "If there is no quarry on the battlefield, pick an enemy unit on the battlefield to be the target.",
       "effect": "The target is the quarry for the rest of the battle."
     },
     {
       "name": "Opening Horn Blast",
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "declare": "You must use this ability at the start of the\nbattle round.",
       "effect": "Your chords are reset to 0. Then, you gain 1 chord:\n\n• If a friendly Belthanos is on the battlefield.\n• For each friendly Evergreen Hunt unit that is wholly within the same large quarter of the battlefield as the quarry.\n• For each quarry destroyed so far during the battle."
     },

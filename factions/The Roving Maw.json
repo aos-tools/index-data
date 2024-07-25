@@ -4,7 +4,7 @@
     {
       "name": "Mawpits of Ghur",
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "effect": "Roll 2D6 and add the number of tasty morsels you have to the roll. Apply the corresponding effect below for the rest of the battle round. Then, reset your tasty morsels to 0.\n\n2-3 – Subdued: \nNo effect.\n\n4-5 – Peckish: \nSubtract 3 from the control scores of units that are vulnerable to Mawpits.\n\n6-8 – Rumbling: \nRoll a dice for each unit that is vulnerable to Mawpits. On a 3+, inflict 1 mortal damage on that unit.\n\n9-11 – Famished: \nUnits that are vulnerable to Mawpits cannot use commands.\n\n12+ – Ravenous: \nRoll a D3 for each unit that is vulnerable to Mawpits. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
     },
     {
@@ -37,7 +37,7 @@
     {
       "name": "Prime Gutserver",
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "effect": "If this unit is a Head Butcher, gain 1 tasty morsel."
     }
   ],

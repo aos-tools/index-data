@@ -12,7 +12,7 @@
     {
       "name": "Splinters of the Vermindoom",
       "activation": "Once Per Battle Round (Army), Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "declare": "You can use this ability if there are fewer than 3 friendly Gnawholes on the battlefield.",
       "effect": "Set up a Gnawhole on the battlefield more than 9\" from all enemy units, more than 1\" from all friendly units and more than 3\" from all objectives and other terrain features."
     },

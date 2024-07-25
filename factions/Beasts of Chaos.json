@@ -778,7 +778,7 @@
         {
           "name": "Louder and Louder",
           "activation": "Start of Battle Round",
-          "phases": ["Start of Turn"],
+          "phases": ["Start of Battle Round"],
           "effect": "Increase the range of this Manifestation’s ‘Booming Cacophony’ ability by 6\". This effect can be applied multiple times to this Manifestation and is cumulative. If this Manifestation is removed from play, this effect no longer applies."
         },
         {

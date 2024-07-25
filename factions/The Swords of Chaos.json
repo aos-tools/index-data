@@ -12,7 +12,7 @@
     {
       "name": "Demands of the Dark Gods",
       "activation": "Once Per Turn (Army), Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "effect": "Pick 1 of the following effects:\n\nDemand of Khorne: For the rest of the battle round, add 1 to the Rend characteristic of melee weapons used by friendly Swords of Chaos units.\n\nDemand of Tzeentch: Pick 1 visible enemy unit within 9\" of a friendly Swords of Chaos unit that is not in combat and roll a D6. On a 3+, inflict an amount of mortal damage on that enemy unit equal to the roll.\n\nDemand of Nurgle: Heal (D3) each friendly Swords of Chaos unit. Then pick a friendly Swords of Chaos unit that healed any damage points this turn. Until the start of the next battle round, that unit has Ward (6+).\n\nDemand of Slaanesh: Add 2\" to the Move characteristic of friendly Swords of Chaos units until the start of the next battle round."
     },
     {

@@ -4,21 +4,21 @@
     {
       "name": "Deep Thinkers",
       "activation": "Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "effect": "You can only use this ability if you have not used any Facet of War abilities this battle round.\n\nAdd 1 to casting rolls for friendly Scinari units for the rest of the battle round.",
       "keywords": ["Facet of War"]
     },
     {
       "name": "Enduring As Rock",
       "activation": "Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "effect": "You can only use this ability if you have not used any Facet of War abilities this battle round.\n\nSubtract 1 from the Rend characteristic of weapons used for attacks that target friendly Alarith units for the rest of the battle round.",
       "keywords": ["Facet of War"]
     },
     {
       "name": "Power of Hysh",
       "activation": "Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "declare": "You can only use this ability if you have not used any Facet of War abilities this battle round. Pick a friendly Vanari unit to be the target.",
       "effect": "The target’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the battle round.",
       "keywords": ["Facet of War"]
@@ -26,7 +26,7 @@
     {
       "name": "Shining Company",
       "activation": "Start of Battle Round",
-      "phases": ["Start of Turn"],
+      "phases": ["Start of Battle Round"],
       "effect": "You can only use this ability if you have not used any Facet of War abilities this battle round.\n\nSubtract 1 from hit rolls for attacks that target friendly Vanari units for the rest of the battle round.",
       "keywords": ["Facet of War"]
     },
