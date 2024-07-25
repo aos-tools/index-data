@@ -97,7 +97,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7ac623d7-1a3f-411e-b67c-c9124780bb08",
       "baseSize": "50mm",
       "points": 220,
       "modelCount": 3
@@ -138,7 +137,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1afe769a-7418-40be-9986-aaa4440ee895",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -198,7 +196,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9875bbf9-ec10-4c52-8176-2ef96d639f1c",
       "baseSize": "60mm",
       "points": 210,
       "modelCount": 3
@@ -271,7 +268,6 @@
         "Sylvaneth",
         "Kurnothi"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1569209f-bed0-4a60-9e7d-2323effc57e7",
       "baseSize": "150 x 95mm",
       "points": 330,
       "modelCount": 1
@@ -332,7 +328,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/757c1450-ec1e-4207-86c7-2d7fe6bb5cd1",
       "baseSize": "60mm",
       "points": 200,
       "modelCount": 3
@@ -372,7 +367,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2bcc6ee3-947c-4985-abb7-995f972ee3d4",
       "baseSize": "50mm",
       "points": 200,
       "modelCount": 3
@@ -422,7 +416,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/47317c49-e02d-46ad-965a-68e4ca9a606d",
       "baseSize": "50mm",
       "points": 200,
       "modelCount": 3
@@ -460,7 +453,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Fly", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f3c14392-b524-4aa3-8961-61ddf0f48415",
       "baseSize": "40mm",
       "points": 170,
       "modelCount": 1

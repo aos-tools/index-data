@@ -102,7 +102,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Chaos", "Slaves to Darkness"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c35d3d29-1b2f-4437-a0c8-7809ee9eab37",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -146,7 +145,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d4411a08-6089-47f0-bf54-055640411dac",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 1,
@@ -215,7 +213,6 @@
         "Darkoath",
         "Gunnar’s Oathsworn"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b2c3e531-6ba1-4de9-95b6-cd809f962f42",
       "baseSize": "60mm x 35mm",
       "modelCount": 1,
       "notes": "This unit can only be taken in Gunnar Brand’s regiment."
@@ -264,7 +261,6 @@
         "Darkoath",
         "Gunnar’s Oathsworn"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e33100bf-2d2c-45b5-bf78-e98b9a5d6c22",
       "baseSize": "32mm",
       "points": 280,
       "modelCount": 1
@@ -311,7 +307,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/876ae5c0-0994-4d2c-bb34-aa16c7f4d8c4",
       "baseSize": "28.5mm",
       "points": 100,
       "modelCount": 10
@@ -365,7 +360,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a34a7dd7-86cd-4ee5-851f-1921e218549d",
       "baseSize": "75 x 42mm",
       "points": 180,
       "modelCount": 1
@@ -441,7 +435,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6ae11da9-2ff7-46f8-9b72-e8ab6bb39658",
       "baseSize": "60 x 35mm",
       "points": 150,
       "modelCount": 5
@@ -502,7 +495,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7cf0bbc2-0c58-48c7-b62e-a1ee41bf04b4",
       "baseSize": "60mm",
       "points": 190,
       "modelCount": 1
@@ -560,7 +552,6 @@
         "Darkoath",
         "Gunnar’s Oathsworn"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a4b8863b-19c9-405e-9afe-d9d7cc608411",
       "baseSize": "32mm",
       "modelCount": 3,
       "notes": "This unit can only be taken in Gunnar Brand’s regiment. This unit cannot be reinforced."
@@ -609,7 +600,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9308efbb-fbd0-4ef7-9a16-83bce691d4c9",
       "baseSize": "32mm",
       "points": 140,
       "modelCount": 1
@@ -649,7 +639,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/88912958-5dd0-4ec6-bac6-aa05e7c5ce91",
       "baseSize": "32mm [3], 28.5mm [7]",
       "points": 130,
       "modelCount": 10,

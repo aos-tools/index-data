@@ -202,7 +202,6 @@
         "Ogor",
         "Gutbusters"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e1caa0f0-fbdd-403c-a811-8c424f2b2a5c",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 4
@@ -242,7 +241,6 @@
         "Ogor",
         "Gutbusters"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/12ab3c9b-c3e0-45d8-92a4-cd4ae36cc78e",
       "baseSize": "40mm",
       "points": 220,
       "modelCount": 6
@@ -298,7 +296,6 @@
         "Ogor",
         "Gutbusters"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/52d7d7f0-1da1-49c0-ab46-e6157cd3faa5",
       "baseSize": "105 x 70mm",
       "points": 130,
       "modelCount": 1
@@ -345,7 +342,6 @@
         "Ogor",
         "Gutbusters"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c7f34924-c339-47bb-ad8f-c8b8172e25e1",
       "baseSize": "40mm",
       "points": 240,
       "modelCount": 4
@@ -445,7 +441,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a7e17ada-f9ed-4e95-821c-f73b841188d2",
       "baseSize": "120 x 92mm",
       "points": 290,
       "modelCount": 1
@@ -513,7 +508,6 @@
         "Rhinox",
         "Gutbusters"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/fb6c2b57-31a7-4cc2-a62d-e8b36b19c106",
       "baseSize": "120 x 92mm",
       "points": 240,
       "modelCount": 1
@@ -612,7 +606,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/107ee0a9-5dbe-4392-9149-c7cba8f5e72e",
       "baseSize": "120 x 92mm",
       "points": 270,
       "modelCount": 1
@@ -652,7 +645,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Destruction", "Ogor Mawtribes"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/8b48765f-631d-4178-b8ce-93c6657370db",
       "baseSize": "Use Model",
       "modelCount": 1
     },
@@ -730,7 +722,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5a46838c-fef8-450e-8866-1eeef9c84c5f",
       "baseSize": "120 x 92mm",
       "points": 360,
       "modelCount": 1
@@ -825,7 +816,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/58d4aa60-955c-4b63-9fa6-879f33f58c59",
       "baseSize": "120 x 92mm",
       "points": 240,
       "modelCount": 1
@@ -902,7 +892,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/05e64fb6-ee45-4efd-910b-a3a9a5c2dc3f",
       "baseSize": "120 x 92mm",
       "points": 300,
       "modelCount": 1
@@ -970,7 +959,6 @@
         "Ogor",
         "Gutbusters"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1ce9eea7-1f6a-471e-966c-d8cdc771855a",
       "baseSize": "50mm",
       "points": 180,
       "modelCount": 1
@@ -1012,7 +1000,6 @@
         "Ogor Mawtribes",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f1482ad4-4823-465d-8755-89a48bb9bb3b",
       "baseSize": "60 x 35mm",
       "points": 70,
       "modelCount": 2
@@ -1064,7 +1051,6 @@
         "Ogor Mawtribes",
         "Ogor"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/cce935d6-1344-46aa-b26d-3f3fc9729ac0",
       "baseSize": "50mm",
       "points": 140,
       "modelCount": 1
@@ -1124,7 +1110,6 @@
         }
       ],
       "keywords": ["War Machine", "Destruction", "Ogor Mawtribes", "Rhinox"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5008589f-2bd4-473b-99ed-7149d501a088",
       "baseSize": "120 x 92mm",
       "points": 180,
       "modelCount": 1
@@ -1163,7 +1148,6 @@
         "Ogor Mawtribes",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/cd379aa9-6a0d-4c47-b93f-be4942ff974c",
       "baseSize": "50mm",
       "points": 120,
       "modelCount": 3
@@ -1267,7 +1251,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0d56bcdd-f052-4511-be84-235725366e51",
       "baseSize": "120 x 92mm",
       "points": 300,
       "modelCount": 1
@@ -1311,7 +1294,6 @@
         }
       ],
       "keywords": ["Infantry", "Destruction", "Ogor Mawtribes", "Ogor"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7d49c578-1121-4c55-9312-77e289b41302",
       "baseSize": "50mm",
       "points": 170,
       "modelCount": 3
@@ -1355,7 +1337,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Destruction", "Ogor Mawtribes"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f0fae813-28ea-4cf3-8347-30bf4b3099ea",
       "baseSize": "25mm",
       "points": 120,
       "modelCount": 20
@@ -1424,7 +1405,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b19764b0-8562-4fc7-8840-9458e7408a2a",
       "baseSize": "90 x 52mm",
       "points": 200,
       "modelCount": 2
@@ -1465,7 +1445,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Destruction", "Ogor Mawtribes"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/81c633df-09dd-49b7-8a8a-01fab50e1a17",
       "baseSize": "Use Model",
       "modelCount": 1
     },
@@ -1522,7 +1501,6 @@
         "Ogor Mawtribes",
         "Ogor"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/40c3ff05-b3ba-4f63-8de8-aaf549c2eb98",
       "baseSize": "50mm [1], 25mm [4]",
       "points": 150,
       "modelCount": 1
@@ -1606,7 +1584,6 @@
         "Destruction",
         "Ogor Mawtribes"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/09fa6e8a-e499-47bc-8cc6-554773448030",
       "baseSize": "130mm",
       "points": 680,
       "modelCount": 1
@@ -1677,7 +1654,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/27ed21bc-d289-4115-91c5-cf431b38d3f3",
       "baseSize": "50mm",
       "points": 130,
       "modelCount": 1,
@@ -1719,7 +1695,6 @@
         "Ogor",
         "Gutbusters"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4fa3edb4-ed15-46a3-a1cf-8b1dd0d15daa",
       "baseSize": "50mm",
       "points": 140,
       "modelCount": 1
@@ -1786,7 +1761,6 @@
         "Ogor",
         "Gutbusters"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/18c5b50e-d58c-4362-8d5c-5a5898fa3015",
       "baseSize": "40mm",
       "points": 170,
       "modelCount": 1,
@@ -1836,7 +1810,6 @@
         "Ogor Mawtribes",
         "Ogor"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6570d299-c3ea-4606-925a-f295cec6ec3e",
       "baseSize": "50mm",
       "points": 260,
       "modelCount": 5,
@@ -1908,7 +1881,6 @@
         "Ogor",
         "Beastclaw Raiders"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/dd056895-85c8-4cce-b741-d0a17ceb69fb",
       "baseSize": "40mm [1], 50 x 25mm [1], 25mm [3]",
       "points": 120,
       "modelCount": 1

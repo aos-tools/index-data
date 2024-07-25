@@ -281,7 +281,6 @@
         "Skaven",
         "Masterclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4853c92e-15f9-46d7-b9dc-e7cda60925df",
       "baseSize": "120 x 92mm",
       "points": 350,
       "modelCount": 1
@@ -321,7 +320,6 @@
         }
       ],
       "keywords": ["Unique", "Infantry", "Chaos", "Skaven", "Verminus"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f7b6f1b0-d153-4e5f-8b58-a603af969221",
       "baseSize": "32mm [1], 25mm [4]",
       "points": 100,
       "modelCount": 5,
@@ -382,7 +380,6 @@
         }
       ],
       "keywords": ["Unique", "Infantry", "Chaos", "Skaven", "Eshin"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/40e1518d-56d9-4bb0-9eb5-22ee52b76f9a",
       "baseSize": "32mm [2], 25mm [3]",
       "points": 100,
       "modelCount": 5,
@@ -434,7 +431,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Chaos", "Skaven", "Eshin"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b52873cd-19b7-4c2c-b0c0-da59a0b75eee",
       "baseSize": "25mm",
       "points": 130,
       "modelCount": 10
@@ -474,7 +470,6 @@
         "Skaven",
         "Verminus"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/025ea085-8639-45e1-b633-206decf572fb",
       "baseSize": "25mm",
       "points": 160,
       "modelCount": 20
@@ -537,7 +532,6 @@
         "Daemon",
         "Eshin"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f53c7168-8ec6-4841-a518-0526a1d33432",
       "baseSize": "120 x 92mm",
       "points": 410,
       "modelCount": 1
@@ -571,7 +565,6 @@
         }
       ],
       "keywords": ["War Machine", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3274b335-0253-4054-a648-6c4169886dbc",
       "baseSize": "50mm",
       "points": 80,
       "modelCount": 1,
@@ -625,7 +618,6 @@
         }
       ],
       "keywords": ["Monster", "Chaos", "Skaven", "Moulder"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/44c3135f-8cf4-4804-ba7f-76d875fd4197",
       "baseSize": "120 x 92mm",
       "points": 270,
       "modelCount": 1
@@ -665,7 +657,6 @@
         "Chaos",
         "Skaven"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c2ed515b-a997-4f13-aebd-5e6483a75fd8",
       "baseSize": "40mm",
       "modelCount": 1
     },
@@ -710,7 +701,6 @@
         }
       ],
       "keywords": ["War Machine", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e8bc63e5-c40d-4f79-8bc4-d7e7248b3769",
       "baseSize": "105 x 70mm",
       "points": 140,
       "modelCount": 1,
@@ -771,7 +761,6 @@
         }
       ],
       "keywords": ["Hero", "Cavalry", "Chaos", "Skaven", "Verminus"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/37c7c2d4-741c-4d52-b793-258d4e5995dd",
       "baseSize": "90 x 52mm",
       "points": 170,
       "modelCount": 1
@@ -822,7 +811,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Chaos", "Skaven", "Eshin"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/434c0487-a10d-4656-a6e5-372448ec5f19",
       "baseSize": "32mm",
       "points": 160,
       "modelCount": 1,
@@ -872,7 +860,6 @@
         }
       ],
       "keywords": ["War Machine", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/91e41917-88c0-400c-83ad-7070dd732b84",
       "baseSize": "120 x 92mm",
       "points": 180,
       "modelCount": 1,
@@ -908,7 +895,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Chaos", "Skaven"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/690199fe-f27e-4a36-9393-22eceaff14fa",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -951,7 +937,6 @@
         }
       ],
       "keywords": ["Infantry", "Chaos", "Skaven", "Moulder"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/05dce67c-a3ba-4201-a6a7-93b207c96d17",
       "baseSize": "50mm",
       "points": 170,
       "modelCount": 3
@@ -992,7 +977,6 @@
         "Skaven",
         "Verminus"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3f16830a-4fb4-452a-a381-9b6385fd8882",
       "baseSize": "25mm",
       "points": 140,
       "modelCount": 10
@@ -1075,7 +1059,6 @@
         "Skaven",
         "Pestilens"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/31277362-9771-4f56-a69f-29188b04654f",
       "baseSize": "120 x 92mm",
       "points": 340,
       "modelCount": 1
@@ -1119,7 +1102,6 @@
         }
       ],
       "keywords": ["Infantry", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/fbf4d729-4fd1-434f-82e5-e42c469f376a",
       "baseSize": "60 x 35mm",
       "points": 150,
       "modelCount": 3
@@ -1170,7 +1152,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b3fccbee-04dd-4aa2-b477-dced731767a4",
       "baseSize": "32mm",
       "points": 150,
       "modelCount": 1
@@ -1211,7 +1192,6 @@
         "Skaven",
         "Pestilens"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/825118ed-b984-416b-a45d-6dd65863fd44",
       "baseSize": "25mm",
       "points": 140,
       "modelCount": 20
@@ -1278,7 +1258,6 @@
         "Daemon",
         "Masterclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/90888308-def3-41e1-9b3b-e1d1b0492f95",
       "baseSize": "120 x 92mm",
       "points": 340,
       "modelCount": 1
@@ -1328,7 +1307,6 @@
         }
       ],
       "keywords": ["War Machine", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/552a6a7f-a46c-4086-9849-392bd438060c",
       "baseSize": "105 x 70mm",
       "points": 190,
       "modelCount": 1,
@@ -1370,7 +1348,6 @@
         "Skaven",
         "Pestilens"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/69a41671-8f1f-47e7-85db-66efc7f335cc",
       "baseSize": "32mm",
       "points": 110,
       "modelCount": 1
@@ -1420,7 +1397,6 @@
         }
       ],
       "keywords": ["Infantry", "Weapon Team", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0569d1b9-7425-43f7-8c47-a0f067a6a1e1",
       "baseSize": "28.5mm",
       "points": 130,
       "modelCount": 5,
@@ -1460,7 +1436,6 @@
         "Chaos",
         "Skaven"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3c56c8fd-6969-4e13-8e77-352194bca993",
       "baseSize": "120 x 92mm",
       "modelCount": 1
     },
@@ -1511,7 +1486,6 @@
         "Daemon",
         "Verminus"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ebbb0ead-9ed4-49bb-aa66-5518529c8408",
       "baseSize": "120 x 92mm",
       "points": 360,
       "modelCount": 1
@@ -1562,7 +1536,6 @@
         }
       ],
       "keywords": ["Infantry", "Chaos", "Skaven", "Eshin"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9edaa1b7-a8a4-4678-8ee5-04b214fdde84",
       "baseSize": "25mm",
       "points": 110,
       "modelCount": 5
@@ -1612,7 +1585,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e4a1d629-cf9a-4b47-9a47-3b37de195f40",
       "baseSize": "32mm",
       "points": 130,
       "modelCount": 1
@@ -1652,7 +1624,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Chaos", "Skaven", "Moulder"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/275d8e27-a5bc-4e4e-88d2-ee05299a6657",
       "baseSize": "32mm",
       "points": 100,
       "modelCount": 1
@@ -1704,7 +1675,6 @@
         "Skaven",
         "Skryre"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/818d22ec-2657-433e-92e9-617b194ccafb",
       "baseSize": "32mm",
       "points": 170,
       "modelCount": 1
@@ -1744,7 +1714,6 @@
         "Skaven",
         "Masterclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1d2fdbb0-0ca6-4864-bf0c-914fbe00ec03",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 1
@@ -1788,7 +1757,6 @@
         }
       ],
       "keywords": ["Infantry", "Weapon Team", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/714560ba-bea1-406f-abf6-db42bc2d62e4",
       "baseSize": "60 x 35mm",
       "points": 100,
       "modelCount": 1,
@@ -1827,7 +1795,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Chaos", "Skaven", "Verminus"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a7da9569-a30d-43bf-935b-38f9dc854baf",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 1,
@@ -1885,7 +1852,6 @@
         "Skaven",
         "Pestilens"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/cfc9af0b-44a8-4e92-8a58-45418e20d51c",
       "baseSize": "32mm [1], 28.5mm [1], 25mm [4]",
       "points": 100,
       "modelCount": 5,
@@ -1925,7 +1891,6 @@
         }
       ],
       "keywords": ["Infantry", "Chaos", "Skaven", "Pestilens"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/da368fc2-9e41-47d3-ac4c-e5e37afdc20b",
       "baseSize": "32mm",
       "points": 160,
       "modelCount": 5
@@ -2019,7 +1984,6 @@
         }
       ],
       "keywords": ["Infantry", "Chaos", "Skaven", "Skryre", "Moulder"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/cdd8975a-3a63-4db1-9185-a6b5c1933131",
       "baseSize": "60mm",
       "points": 260,
       "modelCount": 3
@@ -2063,7 +2027,6 @@
         }
       ],
       "keywords": ["Infantry", "Weapon Team", "Chaos", "Skaven", "Skryre"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/71319893-320a-4417-a517-862020c32b05",
       "baseSize": "60 x 35mm",
       "points": 90,
       "modelCount": 1,
@@ -2116,7 +2079,6 @@
         "Daemon",
         "Pestilens"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b43b1b7c-c8b5-4b46-bd7b-d48c498cc967",
       "baseSize": "120 x 92mm",
       "points": 360,
       "modelCount": 1
@@ -2161,7 +2123,6 @@
         }
       ],
       "keywords": ["War Machine", "Chaos", "Skaven", "Pestilens"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b581824c-cad7-455a-9146-ac64d32a9900",
       "baseSize": "120 x 92mm",
       "points": 150,
       "modelCount": 1
@@ -2202,7 +2163,6 @@
         "Chaos",
         "Skaven"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3b7f0d5c-93e0-468d-bb16-f977bb3d186f",
       "baseSize": "40mm",
       "modelCount": 3
     },
@@ -2269,7 +2229,6 @@
         "Skryre",
         "Moulder"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/26f81f39-b8e7-4f22-8aa0-b5db3edb3683",
       "baseSize": "120 x 92mm",
       "points": 430,
       "modelCount": 1
@@ -2363,7 +2322,6 @@
         "Skaven",
         "Masterclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2361312e-1511-4868-b182-eb68b10ac57a",
       "baseSize": "90 x 52mm",
       "points": 360,
       "modelCount": 1

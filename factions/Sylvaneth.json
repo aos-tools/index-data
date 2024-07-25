@@ -215,7 +215,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion (1/8)", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5240caa6-130c-4da8-a7f5-be1ab54bf596",
       "baseSize": "40mm [1], 32mm [4], 28.5mm [3]",
       "points": 130,
       "modelCount": 8,
@@ -256,7 +255,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7ac623d7-1a3f-411e-b67c-c9124780bb08",
       "baseSize": "50mm",
       "points": 220,
       "modelCount": 3
@@ -335,7 +333,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d42046ca-c18b-44af-8090-d1418f3d55bb",
       "baseSize": "105 x 70mm",
       "points": 310,
       "modelCount": 1
@@ -367,7 +364,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d9a8c6e3-0e3c-4f9b-85b8-cd2b407468bf",
       "baseSize": "32mm",
       "points": 110,
       "modelCount": 10
@@ -401,7 +397,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/14991c45-868a-417a-aa72-138922768b99",
       "baseSize": "32mm",
       "points": 110,
       "modelCount": 5
@@ -442,7 +437,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1afe769a-7418-40be-9986-aaa4440ee895",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -491,7 +485,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Fly", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7d31617e-7e9b-4533-a6f4-de2913c79432",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 5
@@ -561,7 +554,6 @@
         }
       ],
       "keywords": ["Hero", "Monster", "Wizard (1)", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/af2af28a-1259-4be4-bf3e-d4bd8e6efeb8",
       "baseSize": "105 x 70mm",
       "points": 320,
       "modelCount": 1
@@ -656,7 +648,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a71e307c-7131-4822-b65e-578dca7e8e90",
       "baseSize": "160mm",
       "points": 680,
       "modelCount": 1
@@ -702,7 +693,6 @@
         }
       ],
       "keywords": ["Hero", "Wizard (1)", "Infantry", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/799f8d2c-bc11-41c0-88d8-0c123ae5594b",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 1
@@ -770,7 +760,6 @@
         }
       ],
       "keywords": ["Hero", "Monster", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/358b8312-81e0-4035-84d0-eb6214fb62bc",
       "baseSize": "105 x 70mm",
       "points": 330,
       "modelCount": 1
@@ -810,7 +799,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9e275876-ef90-4186-b9d4-23628708db20",
       "baseSize": "32mm",
       "points": 110,
       "modelCount": 5
@@ -871,7 +859,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9875bbf9-ec10-4c52-8176-2ef96d639f1c",
       "baseSize": "60mm",
       "points": 210,
       "modelCount": 3
@@ -944,7 +931,6 @@
         "Sylvaneth",
         "Kurnothi"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1569209f-bed0-4a60-9e7d-2323effc57e7",
       "baseSize": "150 x 95mm",
       "points": 330,
       "modelCount": 1
@@ -973,7 +959,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/65aa4402-afbb-4fdf-9571-550e2b3c0e1b",
       "baseSize": "50mm",
       "modelCount": 1
     },
@@ -1033,7 +1018,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/757c1450-ec1e-4207-86c7-2d7fe6bb5cd1",
       "baseSize": "60mm",
       "points": 200,
       "modelCount": 3
@@ -1073,7 +1057,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2048f8f8-d8a1-4447-8f90-2a07fabb047a",
       "baseSize": "105 x 70mm",
       "modelCount": 1
     },
@@ -1142,7 +1125,6 @@
         }
       ],
       "keywords": ["Hero", "Monster", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b28bb733-90d4-4f38-b5ff-4723d0ceb245",
       "baseSize": "105 x 70mm",
       "points": 260,
       "modelCount": 1,
@@ -1213,7 +1195,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ba6d885e-7e67-4dc9-8af9-a68b5d6c5f3d",
       "baseSize": "80mm",
       "points": 280,
       "modelCount": 1
@@ -1270,7 +1251,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/df4bb65d-2af3-4206-97b2-a210f30e7387",
       "baseSize": "105x70mm",
       "points": 210,
       "modelCount": 1
@@ -1310,7 +1290,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2bcc6ee3-947c-4985-abb7-995f972ee3d4",
       "baseSize": "50mm",
       "points": 200,
       "modelCount": 3
@@ -1357,7 +1336,6 @@
         "Order",
         "Sylvaneth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/92db8a99-ec86-41f5-9873-94dd662b3443",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -1406,7 +1384,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Sylvaneth", "Kurnothi"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/47317c49-e02d-46ad-965a-68e4ca9a606d",
       "baseSize": "50mm",
       "points": 200,
       "modelCount": 3
@@ -1444,7 +1421,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Fly", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f3c14392-b524-4aa3-8961-61ddf0f48415",
       "baseSize": "40mm",
       "points": 170,
       "modelCount": 1
@@ -1503,7 +1479,6 @@
         }
       ],
       "keywords": ["Unique", "Infantry", "Champion", "Order", "Sylvaneth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5a74bdb1-65aa-492b-b846-4d140d3f1a5a",
       "baseSize": "32mm [4]",
       "points": 140,
       "modelCount": 4,
@@ -1561,7 +1536,6 @@
         "Sylvaneth",
         "Kurnothi"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/69d8aeeb-4740-4238-b458-fb7459e618aa",
       "baseSize": "50 x 25mm [1], 32mm [3], 25mm [1]",
       "points": 90,
       "modelCount": 5,

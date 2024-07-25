@@ -220,7 +220,6 @@
         }
       ],
       "keywords": ["Cavalry", "Champion", "Fly", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/552d3947-5447-4043-b2c5-a1d05ba37e0a",
       "baseSize": "50mm",
       "points": 110,
       "modelCount": 3
@@ -267,7 +266,6 @@
         }
       ],
       "keywords": ["Hero", "Cavalry", "Order", "Seraphon", "Saurus"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0f10d6d2-de1f-4720-acad-8b0ef2973d5f",
       "baseSize": "90 x 52mm",
       "points": 180,
       "modelCount": 1
@@ -345,7 +343,6 @@
         "Seraphon",
         "Slann"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c30cb04b-6cd8-4701-bcb9-0efe21715157",
       "baseSize": "80mm",
       "points": 460,
       "modelCount": 1
@@ -430,7 +427,6 @@
         "Seraphon",
         "Skink"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0a1c3a5e-d314-4fc0-a475-67e33cb89175",
       "baseSize": "28.5mm [2], 25mm [3]",
       "points": 90,
       "modelCount": 5,
@@ -480,7 +476,6 @@
         }
       ],
       "keywords": ["Cavalry", "Champion", "Fly", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6c700a67-7f63-4fa8-969a-fd6e1f5c72b7",
       "baseSize": "50mm",
       "points": 70,
       "modelCount": 2,
@@ -550,7 +545,6 @@
         "Seraphon",
         "Skink"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/fa30cf4a-5944-450d-9bbb-e0c50a308988",
       "baseSize": "28.5mm [1], 25mm [4]",
       "points": 80,
       "modelCount": 5,
@@ -606,7 +600,6 @@
         }
       ],
       "keywords": ["Hero", "Cavalry", "Fly", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d76f1094-91e3-4cd1-bcef-c9dcbb5449f6",
       "baseSize": "50mm",
       "points": 150,
       "modelCount": 1
@@ -663,7 +656,6 @@
         }
       ],
       "keywords": ["Monster", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ff8fc786-549f-4e19-b382-39a21e33e76f",
       "baseSize": "120 x 92mm",
       "points": 290,
       "modelCount": 1
@@ -726,7 +718,6 @@
         }
       ],
       "keywords": ["Hero", "Monster", "Order", "Seraphon", "Saurus"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2c983181-9c38-4f67-906a-d996862190a9",
       "baseSize": "120 x 92mm",
       "points": 270,
       "modelCount": 1
@@ -808,7 +799,6 @@
         }
       ],
       "keywords": ["Hero", "Monster", "Order", "Seraphon", "Saurus"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/582778ba-05f7-4e79-8a04-907e002213c5",
       "baseSize": "120 x 92mm",
       "points": 330,
       "modelCount": 1
@@ -882,7 +872,6 @@
         }
       ],
       "keywords": ["Monster", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3de18bcd-fb71-4833-89da-3df07b10a61a",
       "baseSize": "120 x 92mm",
       "points": 240,
       "modelCount": 1
@@ -932,7 +921,6 @@
         "Seraphon",
         "Skink"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/01fa248d-ffe3-453c-9e6e-aff3d3830434",
       "baseSize": "60 x 35mm",
       "points": 140,
       "modelCount": 5
@@ -976,7 +964,6 @@
         }
       ],
       "keywords": ["Infantry", "Champion", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/32e84bc8-78db-4a7b-bd86-a3ac2d56cc62",
       "baseSize": "25mm",
       "points": 100,
       "modelCount": 10
@@ -1004,7 +991,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Order", "Seraphon"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/bbe40a31-8180-40a4-9147-61fb5845d973",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -1051,7 +1037,6 @@
         }
       ],
       "keywords": ["Infantry", "Order", "Seraphon", "Kroxigor"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/28736620-79a2-4f2f-aa5c-31a1a37c4045",
       "baseSize": "50mm",
       "points": 220,
       "modelCount": 3
@@ -1089,7 +1074,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Seraphon", "Saurus"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/dda4fa61-e272-45c2-98e9-8a574ac1bb7e",
       "baseSize": "32mm",
       "points": 130,
       "modelCount": 1
@@ -1138,7 +1122,6 @@
         }
       ],
       "keywords": ["Cavalry", "Champion", "Fly", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6c700a67-7f63-4fa8-969a-fd6e1f5c72b7",
       "baseSize": "50mm",
       "points": 120,
       "modelCount": 3
@@ -1190,7 +1173,6 @@
         }
       ],
       "keywords": ["Cavalry", "Champion", "Fly", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/552d3947-5447-4043-b2c5-a1d05ba37e0a",
       "baseSize": "50mm",
       "points": 70,
       "modelCount": 2,
@@ -1240,7 +1222,6 @@
         }
       ],
       "keywords": ["Hero", "Cavalry", "Fly", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/afe401ea-e38e-4fcb-8f07-dca0904662e6",
       "baseSize": "50mm",
       "points": 150,
       "modelCount": 1
@@ -1289,7 +1270,6 @@
         "Seraphon",
         "Saurus"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/cc11ee5f-f3bd-44de-95cb-c552e84c814a",
       "baseSize": "75 x 42mm",
       "points": 210,
       "modelCount": 3
@@ -1328,7 +1308,6 @@
         }
       ],
       "keywords": ["Beast", "Fly", "Order", "Seraphon"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5cc9e8ee-847d-40d8-80d2-874b0c025d41",
       "baseSize": "32mm",
       "points": 100,
       "modelCount": 3,
@@ -1369,7 +1348,6 @@
         "Seraphon",
         "Saurus"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9dc04831-5c96-4bba-81a1-0e36e47d1a3f",
       "baseSize": "32mm",
       "points": 110,
       "modelCount": 5
@@ -1429,7 +1407,6 @@
         }
       ],
       "keywords": ["Beast", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/bf133aa8-ca0b-4c30-83ca-e76371538173",
       "baseSize": "90mm [1], 25mm [3]",
       "points": 170,
       "modelCount": 1
@@ -1469,7 +1446,6 @@
         "Seraphon",
         "Saurus"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7129abd7-0c87-4391-992d-9f35f5215f9e",
       "baseSize": "32mm",
       "points": 170,
       "modelCount": 10
@@ -1519,7 +1495,6 @@
         "Seraphon",
         "Skink"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/14e3ea0d-e5ff-4f18-a9cc-c7039acac046",
       "baseSize": "50mm",
       "points": 150,
       "modelCount": 1
@@ -1580,7 +1555,6 @@
         "Seraphon",
         "Skink"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2ccaa7dd-fe5e-4967-8620-1cc9fb2ce929",
       "baseSize": "60 x 35mm",
       "points": 140,
       "modelCount": 5
@@ -1621,7 +1595,6 @@
         "Seraphon",
         "Skink"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6f79760e-a6d0-4f79-8134-86afe01ad2f4",
       "baseSize": "25mm",
       "points": 110,
       "modelCount": 1,
@@ -1683,7 +1656,6 @@
         }
       ],
       "keywords": ["Monster", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ba19d70d-1939-4482-8370-a53ad8a3fc2f",
       "baseSize": "120 x 92mm",
       "points": 210,
       "modelCount": 1
@@ -1751,7 +1723,6 @@
         "Seraphon",
         "Slann"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ed42a044-4079-4f3d-8e55-f7a8499a37c2",
       "baseSize": "50mm",
       "points": 280,
       "modelCount": 1
@@ -1793,7 +1764,6 @@
         }
       ],
       "keywords": ["Infantry", "Order", "Seraphon", "Kroxigor"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3f7755d2-5628-40cb-b04d-c042951612b0",
       "baseSize": "50mm",
       "points": 220,
       "modelCount": 3
@@ -1831,7 +1801,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Order", "Seraphon", "Saurus"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/03ab95ed-79cb-44f7-9fed-998540a6a4ab",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 1,
@@ -1920,7 +1889,6 @@
         }
       ],
       "keywords": ["Hero", "Monster", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/87e1cd53-e391-4673-ad98-653c866b3293",
       "baseSize": "120 x 92mm",
       "points": 260,
       "modelCount": 1
@@ -1976,7 +1944,6 @@
         }
       ],
       "keywords": ["Monster", "Order", "Seraphon", "Skink"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/df17fc51-99c3-48ff-8a90-24f105637009",
       "baseSize": "120 x 92mm",
       "points": 270,
       "modelCount": 1
@@ -2064,7 +2031,6 @@
         "Seraphon",
         "Skink"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ba716b5a-10e5-44fc-a0ed-e49f418e9083",
       "baseSize": "120 x 92mm",
       "points": 280,
       "modelCount": 1
@@ -2125,7 +2091,6 @@
         "Skink",
         "Saurus"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/899f9c35-140f-4e01-bcc4-45b8306e6b94",
       "baseSize": "32mm [1], 25mm [5]",
       "points": 110,
       "modelCount": 6,

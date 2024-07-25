@@ -181,7 +181,6 @@
         "Destruction",
         "Gloomspite Gitz"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/40db0d95-d669-4748-96e3-f2c7d70eb214",
       "baseSize": "50mm",
       "modelCount": 1
     },
@@ -229,7 +228,6 @@
         "Squig",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4f95f7da-6543-40dd-b436-51954a11d4c2",
       "baseSize": "32mm",
       "points": 110,
       "modelCount": 1
@@ -267,7 +265,6 @@
         }
       ],
       "keywords": ["Infantry", "Destruction", "Gloomspite Gitz", "Moonclan"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6adc2ace-c167-4dae-894d-c4d07b8526d8",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 5
@@ -334,7 +331,6 @@
         "Gloomspite Gitz",
         "Troggoth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5fe85a0a-446e-4260-8b4a-8e30b20103f6",
       "baseSize": "100mm",
       "points": 360,
       "modelCount": 1
@@ -374,7 +370,6 @@
         "Destruction",
         "Gloomspite Gitz"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ca5bf212-56a6-4ef9-afdb-362ee288f9f6",
       "baseSize": "75 x 42mm",
       "modelCount": 1
     },
@@ -427,7 +422,6 @@
         "Squig",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9c8e3112-2337-4584-926e-63d33e0c7367",
       "baseSize": "75 x 42mm",
       "points": 120,
       "modelCount": 1
@@ -482,7 +476,6 @@
         "Gloomspite Gitz",
         "Gitmob"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d19307d1-77ac-46a4-85c7-0d2bac8c8160",
       "baseSize": "50 x 25mm",
       "points": 100,
       "modelCount": 3,
@@ -543,7 +536,6 @@
         "Gloomspite Gitz",
         "Gitmob"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/160a65f7-8e6b-47d9-a988-d36a1c847820",
       "baseSize": "60 x 35mm",
       "points": 130,
       "modelCount": 5
@@ -595,7 +587,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/eed72c92-3950-48c0-844a-bfd7306610e2",
       "baseSize": "25mm",
       "points": 160,
       "modelCount": 20
@@ -635,7 +626,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b87e0bc4-cc6b-43f2-856b-bbd4abde5f0b",
       "baseSize": "25mm",
       "points": 80,
       "modelCount": 1
@@ -702,7 +692,6 @@
         }
       ],
       "keywords": ["Monster", "Destruction", "Gloomspite Gitz"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1fa82ed7-e4f3-42ab-b8f6-a197e267d606",
       "baseSize": "90 x 52mm",
       "points": 170,
       "modelCount": 1
@@ -771,7 +760,6 @@
         "Gloomspite Gitz",
         "Troggoth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/73ef0653-a366-49af-ac1d-117ac494b909",
       "baseSize": "50mm [1], 25mm [3]",
       "points": 210,
       "modelCount": 1
@@ -820,7 +808,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/75f51a76-5bad-4468-80bd-c09621c173ef",
       "baseSize": "32mm",
       "points": 100,
       "modelCount": 1
@@ -873,7 +860,6 @@
         "Gloomspite Gitz",
         "Spiderfang"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/66b1289c-798c-419e-9649-0bd9b9ec57c2",
       "baseSize": "60mm",
       "points": 160,
       "modelCount": 1
@@ -939,7 +925,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7b81dfaf-d7eb-4329-b39c-ec5320338b6d",
       "baseSize": "32mm [3], 25mm [4]",
       "points": 100,
       "modelCount": 7,
@@ -1040,7 +1025,6 @@
         "Arachnarok",
         "Spiderfang"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/69392625-f202-4a13-84f1-a1af1b2486c0",
       "baseSize": "160mm",
       "points": 320,
       "modelCount": 1
@@ -1087,7 +1071,6 @@
         }
       ],
       "keywords": ["Infantry", "Destruction", "Gloomspite Gitz", "Moonclan"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d8b02084-9fb6-469d-953b-ec05ed0521ac",
       "baseSize": "32mm",
       "points": 140,
       "modelCount": 5
@@ -1153,7 +1136,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0c9d377e-0451-4c56-a507-09d25efa852d",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 1,
@@ -1205,7 +1187,6 @@
         "Squig",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/64c6064c-a6fd-44d9-a489-9bbdad3b2450",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 5
@@ -1255,7 +1236,6 @@
         }
       ],
       "keywords": ["Infantry", "Destruction", "Gloomspite Gitz", "Troggoth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/8a2381dd-2d7f-4c1d-a834-88a9117b4276",
       "baseSize": "50mm",
       "points": 180,
       "modelCount": 3
@@ -1305,7 +1285,6 @@
         "Gloomspite Gitz",
         "Troggoth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2c68ab1b-0ace-4afc-a1cb-ee55793b219b",
       "baseSize": "50mm",
       "points": 170,
       "modelCount": 3
@@ -1389,7 +1368,6 @@
         "Destruction",
         "Gloomspite Gitz"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/23456519-4d38-4688-aa80-f5ae4c5093da",
       "baseSize": "130mm",
       "points": 680,
       "modelCount": 1
@@ -1447,7 +1425,6 @@
         "Squig",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6cc69177-88c5-42d0-9d5a-2f90bbede303",
       "baseSize": "25mm",
       "points": 100,
       "modelCount": 12
@@ -1497,7 +1474,6 @@
         "Squig",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/34d74abf-9c56-4b6d-98b0-7ffaa4a1e319",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 1
@@ -1557,7 +1533,6 @@
         "Gloomspite Gitz",
         "Spiderfang"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c15a3838-a101-404e-bdc7-d985f6469aef",
       "baseSize": "60 x 35mm",
       "points": 110,
       "modelCount": 5
@@ -1598,7 +1573,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/45215248-7867-4169-a31b-60b39ed432cc",
       "baseSize": "25mm",
       "points": 140,
       "modelCount": 20
@@ -1648,7 +1622,6 @@
         "Squig",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0857abc2-41dc-428c-9a3a-cc2eb13bc292",
       "baseSize": "32mm",
       "points": 170,
       "modelCount": 10
@@ -1707,7 +1680,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c9aca84d-a197-4488-aa41-5afa6c737b0f",
       "baseSize": "60 x 35mm",
       "points": 220,
       "modelCount": 1
@@ -1789,7 +1761,6 @@
         "Arachnarok",
         "Spiderfang"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d9169e57-9fab-412a-bff2-2079e47cbac2",
       "baseSize": "160mm",
       "points": 280,
       "modelCount": 1
@@ -1817,7 +1788,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Destruction", "Gloomspite Gitz"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a40df3fa-35d5-4658-9f11-73d7c42dc6db",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -1863,7 +1833,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4113d5f5-5932-4ebc-8e3b-383fae2a16fa",
       "baseSize": "32mm",
       "points": 130,
       "modelCount": 1,
@@ -1909,7 +1878,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/eac25238-265e-4298-9fdb-ad8c2ac7803e",
       "baseSize": "32mm",
       "points": 150,
       "modelCount": 5,
@@ -2008,7 +1976,6 @@
         "Arachnarok",
         "Spiderfang"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/842d9397-cb4f-4d36-9f2f-9148bdb14f7f",
       "baseSize": "160mm",
       "points": 290,
       "modelCount": 1
@@ -2057,7 +2024,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/10fc5693-579a-462b-8078-0993acee4be8",
       "baseSize": "32mm",
       "points": 140,
       "modelCount": 6
@@ -2102,7 +2068,6 @@
         }
       ],
       "keywords": ["Monster", "Destruction", "Gloomspite Gitz", "Troggoth"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/218bba63-7fb9-4629-928a-dd51b18f34e4",
       "baseSize": "60mm",
       "points": 180,
       "modelCount": 1
@@ -2179,7 +2144,6 @@
         "Arachnarok",
         "Spiderfang"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b3f7b83c-c417-4d73-87bb-b9eb926058c7",
       "baseSize": "160mm",
       "points": 250,
       "modelCount": 1
@@ -2259,7 +2223,6 @@
         "Squig",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ad4a6e5c-1444-4e5c-b18d-39a4a54ca9bc",
       "baseSize": "80mm",
       "points": 260,
       "modelCount": 1
@@ -2288,7 +2251,6 @@
         "Destruction",
         "Gloomspite Gitz"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c0c2f1c8-1e0c-4e26-a5e9-2a47e306453d",
       "baseSize": "60mm",
       "modelCount": 1
     },
@@ -2333,7 +2295,6 @@
         "Destruction",
         "Gloomspite Gitz"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/bc19ab01-682e-4581-8fa7-0efea31db6b7",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -2403,7 +2364,6 @@
         "Squig",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a9230000-72b0-402a-bbc7-a145e8d32d02",
       "baseSize": "80mm",
       "points": 220,
       "modelCount": 1
@@ -2454,7 +2414,6 @@
         "Gloomspite Gitz",
         "Troggoth"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f3219b54-5a43-42d7-9a85-28191d5639ff",
       "baseSize": "60mm",
       "points": 220,
       "modelCount": 1,
@@ -2508,7 +2467,6 @@
         "Gloomspite Gitz",
         "Spiderfang"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0391bd50-8a29-44c8-85ac-c1aa787ef5e5",
       "baseSize": "25mm",
       "points": 140,
       "modelCount": 1
@@ -2572,7 +2530,6 @@
         "Gloomspite Gitz",
         "Moonclan"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6b46e157-c407-4b27-8507-9a8b8ef7e04d",
       "baseSize": "25mm",
       "points": 130,
       "modelCount": 9,

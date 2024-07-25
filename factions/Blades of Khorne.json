@@ -222,7 +222,6 @@
         "Chaos",
         "Blades of Khorne"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5887cee1-3433-494a-bfcb-1272f24bf6ac",
       "baseSize": "60mm",
       "modelCount": 2
     },
@@ -269,7 +268,6 @@
         "Bloodbound",
         "Gorechosen"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/01be4063-097f-4113-b9a2-b32d2f493645",
       "baseSize": "40mm",
       "points": 160,
       "modelCount": 1
@@ -327,7 +325,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/8ff58d9e-12de-40f7-b48a-822217427470",
       "baseSize": "90 x 52mm",
       "points": 190,
       "modelCount": 1
@@ -398,7 +395,6 @@
         "Daemon",
         "Bloodthirster"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/72fd1786-d509-4ebe-b768-6234db0851a9",
       "baseSize": "120 x 92mm",
       "points": 420,
       "modelCount": 1
@@ -450,7 +446,6 @@
         }
       ],
       "keywords": ["Monster", "Chaos", "Blades of Khorne", "Bloodbound"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/26288031-8768-43c0-a00d-07d637f841bf",
       "baseSize": "90 x 52mm",
       "points": 170,
       "modelCount": 1
@@ -490,7 +485,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/50862acd-58fe-472d-b0a1-a39196a106ee",
       "baseSize": "32mm",
       "points": 100,
       "modelCount": 10
@@ -535,7 +529,6 @@
         "Bloodbound",
         "Gorechosen"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f98d6a51-488a-4388-9d4d-a82d9eba4955",
       "baseSize": "32mm",
       "points": 160,
       "modelCount": 1,
@@ -576,7 +569,6 @@
         "Bloodbound",
         "Gorechosen"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/877f8034-685a-4d8d-b661-bc561be31c65",
       "baseSize": "40mm",
       "points": 110,
       "modelCount": 1,
@@ -624,7 +616,6 @@
         "Bloodbound",
         "Gorechosen"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/fb714469-9ab9-4303-ba4e-52e012f15f15",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 1,
@@ -670,7 +661,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4a26c111-0ea2-4c61-ab36-770132c59464",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 5
@@ -710,7 +700,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Chaos", "Blades of Khorne"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ef3409b9-2aba-40aa-8ad7-a66fefd2c550",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -775,7 +764,6 @@
         "Daemon",
         "Bloodthirster"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0ce2cbe3-756d-48fa-bbc0-f9e89f10a2a2",
       "baseSize": "100mm",
       "points": 510,
       "modelCount": 1
@@ -821,7 +809,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2a5124d0-a6fc-4287-8fb2-bfc442e662ca",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 1
@@ -876,7 +863,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2b2d58db-d025-4357-b4b4-ee6d2c7bfaf7",
       "baseSize": "75 x 42mm",
       "points": 140,
       "modelCount": 1
@@ -930,7 +916,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e887905b-e435-41fc-8f75-355128c8493c",
       "baseSize": "60mm",
       "points": 160,
       "modelCount": 1
@@ -972,7 +957,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/11d3cb87-15d6-4c02-8547-88ab31e8296c",
       "baseSize": "32mm",
       "points": 200,
       "modelCount": 10
@@ -1020,7 +1004,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a79e2c6c-00e0-4ad1-ac1a-eee1027185a4",
       "baseSize": "40mm",
       "points": 170,
       "modelCount": 1
@@ -1068,7 +1051,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b8886edb-98a7-4683-8e2f-4aa2a61b8abc",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 4,
@@ -1127,7 +1109,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c8243997-d527-4b3b-af25-644196bf8751",
       "baseSize": "32mm",
       "points": 180,
       "modelCount": 1
@@ -1171,7 +1152,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/24de0cc6-f925-4b17-a6da-5e12cab66506",
       "baseSize": "32mm [5]",
       "points": 70,
       "modelCount": 5,
@@ -1211,7 +1191,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7a0ca010-9a13-4d17-ba9e-47623bf38cc6",
       "baseSize": "40mm",
       "points": 220,
       "modelCount": 5
@@ -1255,7 +1234,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/92324174-605f-4d21-96d2-ade5cc020b68",
       "baseSize": "120 x 92mm",
       "points": 210,
       "modelCount": 1
@@ -1284,7 +1262,6 @@
         "Chaos",
         "Blades of Khorne"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3ddd403d-e6bd-45a6-8434-4449beb73076",
       "baseSize": "105 x 70mm",
       "modelCount": 1
     },
@@ -1330,7 +1307,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6de00099-eafa-4a9a-84a2-03cfdab38888",
       "baseSize": "32mm",
       "points": 210,
       "modelCount": 10
@@ -1383,7 +1359,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a3c012ac-6ddc-4976-8b82-ca433d9168f3",
       "baseSize": "90 x 52mm",
       "points": 200,
       "modelCount": 3
@@ -1423,7 +1398,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b135f56a-9981-42d7-97b8-8236e6125454",
       "baseSize": "40mm",
       "points": 190,
       "modelCount": 3,
@@ -1463,7 +1437,6 @@
         "Bloodbound",
         "Gorechosen"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4b336ca7-e2e6-4f1c-9b0f-44cbe8d5031b",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 1,
@@ -1522,7 +1495,6 @@
         "Daemon",
         "Bloodthirster"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/8cb8e150-4c0a-4bea-81f7-6fd74487a9d9",
       "baseSize": "120 x 92mm",
       "points": 470,
       "modelCount": 1
@@ -1568,7 +1540,6 @@
         "Bloodbound",
         "Gorechosen"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/61c13a68-30fc-4fa2-8782-6f9d798aafc3",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 1,
@@ -1618,7 +1589,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/06e6b584-bb01-4aca-b663-09a059040a42",
       "baseSize": "40mm",
       "points": 160,
       "modelCount": 1,
@@ -1690,7 +1660,6 @@
         "Daemon",
         "Bloodthirster"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/bbeecea1-70ba-4d8d-a519-9e40f4299d3e",
       "baseSize": "120 x 92mm",
       "points": 440,
       "modelCount": 1
@@ -1735,7 +1704,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c1cb6e2a-8183-423c-8f59-13fd4acda5bb",
       "baseSize": "60 x 35mm [1], 40mm [1], 32mm [2], 28.5mm [4]",
       "points": 120,
       "modelCount": 8,
@@ -1787,7 +1755,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7a24461a-1bfb-49a8-acf8-9bbebb4103b8",
       "baseSize": "90 x 52mm",
       "points": 260,
       "modelCount": 3
@@ -1828,7 +1795,6 @@
         "Chaos",
         "Blades of Khorne"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1870fd68-3aeb-4707-9207-4c592bd6a2f1",
       "baseSize": "105 x 70mm",
       "modelCount": 1
     },
@@ -1873,7 +1839,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/985d16ac-2f89-467c-ab42-6b7b65830395",
       "baseSize": "60 x 35mm",
       "points": 110,
       "modelCount": 5
@@ -1916,7 +1881,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/64b18d17-3c3a-447b-8262-9de542c451d7",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 1
@@ -1982,7 +1946,6 @@
         "Blades of Khorne",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f6afb37c-b636-4095-b507-1bc01c0a2e5d",
       "baseSize": "120 x 92mm",
       "points": 180,
       "modelCount": 1
@@ -2024,7 +1987,6 @@
         "Bloodbound",
         "Gorechosen"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3b93e453-1458-4180-88bb-008167343a32",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 1
@@ -2078,7 +2040,6 @@
         "Blades of Khorne",
         "Bloodbound"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d6f91156-cf60-457f-aac3-02e918c0c414",
       "baseSize": "90 x 52mm",
       "points": 220,
       "modelCount": 1

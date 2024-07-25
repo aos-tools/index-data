@@ -262,7 +262,6 @@
         "Stormcast Eternals",
         "Vanguard Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e316d924-713b-4cfc-a4f5-d936a74ca32d",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 5
@@ -289,7 +288,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/277ca4e7-822b-4e35-9caa-6fbeeef6cbff",
       "baseSize": "50mm",
       "modelCount": 1
     },
@@ -346,7 +344,6 @@
         "Stormcast Eternals",
         "Vanguard Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ccf9b728-cdbd-4995-929d-6a2bfdd7168d",
       "baseSize": "40mm [3]",
       "points": 100,
       "modelCount": 3,
@@ -396,7 +393,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b56e498a-d1b3-420c-b5ec-292ace103882",
       "baseSize": "50mm",
       "points": 200,
       "modelCount": 1
@@ -446,7 +442,6 @@
         "Stormcast Eternals",
         "Ruination Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/8e9fcfab-8f5b-4e8b-b8ed-d993819a48ea",
       "baseSize": "40mm [1], 25mm [1]",
       "points": 170,
       "modelCount": 1
@@ -502,7 +497,6 @@
         "Stormcast Eternals",
         "Vanguard Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/345e2daf-7664-476e-a105-c552af57c80f",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 3
@@ -537,7 +531,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7855fc03-9b9c-4531-8d2a-ad77ed7fdb58",
       "baseSize": "65mm",
       "modelCount": 1
     },
@@ -590,7 +583,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b26bf061-f723-47f6-9be6-29ab72614d24",
       "baseSize": "90 x 52mm",
       "points": 240,
       "modelCount": 3,
@@ -657,7 +649,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3216a306-3b9a-4cb7-be9b-99aea9affbd6",
       "baseSize": "90 x 52mm",
       "points": 250,
       "modelCount": 2
@@ -704,7 +695,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e18cdd1f-ee60-4f5b-aeac-1630788e06b7",
       "baseSize": "40mm",
       "points": 140,
       "modelCount": 1,
@@ -745,7 +735,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/25c14056-2673-4b96-8e01-6b100b578a06",
       "baseSize": "40mm",
       "points": 120,
       "modelCount": 1,
@@ -833,7 +822,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6aca29be-956d-44b1-a647-8c054ab961d9",
       "baseSize": "160mm",
       "points": 540,
       "modelCount": 1
@@ -908,7 +896,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d34cb802-4a72-4d99-8592-cf7c9850362b",
       "baseSize": "90 x 52mm",
       "points": 210,
       "modelCount": 2
@@ -995,7 +982,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/fb75a99c-5841-4e7f-8caf-ea53b1c1c53f",
       "baseSize": "100mm",
       "points": 420,
       "modelCount": 1
@@ -1036,7 +1022,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6e4e4acb-a549-4dbf-97b9-973d59cb55c0",
       "baseSize": "65mm",
       "modelCount": 1
     },
@@ -1076,7 +1061,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e4d8ef00-e126-4d41-b545-535a359a1796",
       "baseSize": "40mm",
       "points": 110,
       "modelCount": 5
@@ -1133,7 +1117,6 @@
         "Stormcast Eternals",
         "Vanguard Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/63130fc0-02e6-4839-a691-5c1247907362",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 1,
@@ -1201,7 +1184,6 @@
         "Vanguard Chamber",
         "The Blacktalons"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d174ea6c-905d-4d0c-9775-c3134691f236",
       "baseSize": "40mm",
       "points": 360,
       "modelCount": 1
@@ -1249,7 +1231,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/317c15f5-9090-42bd-87b1-2024baa8f421",
       "baseSize": "40mm",
       "points": 180,
       "modelCount": 5,
@@ -1315,7 +1296,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f912fbef-d0b7-4227-920b-5dc908c5a88b",
       "baseSize": "90 x 52mm",
       "points": 230,
       "modelCount": 2
@@ -1361,7 +1341,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2fc8b00c-7447-41bd-8bc9-2f82c459e308",
       "baseSize": "40mm [1], 32mm [1]",
       "points": 160,
       "modelCount": 1
@@ -1421,7 +1400,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ba18977a-64ba-41ae-a4ef-4b37af404445",
       "baseSize": "40mm [3]",
       "points": 210,
       "modelCount": 3,
@@ -1467,7 +1445,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/802d1071-8366-47ff-a074-60d8463abda6",
       "baseSize": "40mm [3]",
       "points": 110,
       "modelCount": 3,
@@ -1519,7 +1496,6 @@
         "Idoneth Deepkin",
         "The Blacktalons"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9a5eedc9-effb-4eb2-aa0e-a61e83461001",
       "baseSize": "40mm",
       "modelCount": 1,
       "notes": "This unit can only be taken in Neave Blacktalon’s regiment."
@@ -1585,7 +1561,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/79844dfe-5f0e-4809-80b9-32a49d1e3d53",
       "baseSize": "90 x 52mm",
       "points": 230,
       "modelCount": 2
@@ -1651,7 +1626,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/79844dfe-5f0e-4809-80b9-32a49d1e3d53",
       "baseSize": "90 x 52mm",
       "points": 120,
       "modelCount": 1,
@@ -1717,7 +1691,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f912fbef-d0b7-4227-920b-5dc908c5a88b",
       "baseSize": "90 x 52mm",
       "points": 120,
       "modelCount": 1,
@@ -1766,7 +1739,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f2fdf403-550b-4003-982f-33f36d4b2b0b",
       "baseSize": "40mm",
       "points": 240,
       "modelCount": 5,
@@ -1808,7 +1780,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/87965fdb-19c2-49a7-9f58-5102292e7d16",
       "baseSize": "40mm",
       "points": 120,
       "modelCount": 1
@@ -1882,7 +1853,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e275e240-8ad4-4072-bb48-b9a8f6860d89",
       "baseSize": "60mm",
       "points": 340,
       "modelCount": 1
@@ -1928,7 +1898,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/71c4fc62-1f80-4a79-ae3a-dd1a3c10bbb7",
       "baseSize": "40mm",
       "points": 220,
       "modelCount": 3
@@ -1984,7 +1953,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9f4e9e18-233a-453e-9b5a-6bf1aa156e52",
       "baseSize": "90 x 52mm [1], 40mm [2]",
       "points": 160,
       "modelCount": 1
@@ -2025,7 +1993,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c6274d0d-e967-455e-b91f-4a9fb4102f08",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 1
@@ -2075,7 +2042,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ee90401f-396c-4b74-a93d-29350e22932b",
       "baseSize": "60mm [1], 40mm [2]",
       "points": 140,
       "modelCount": 1,
@@ -2143,7 +2109,6 @@
         "Stormcast Eternals",
         "The Blacktalons"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a5565163-4f00-4f6b-a43d-3bd39c037cbc",
       "baseSize": "40mm",
       "modelCount": 3,
       "notes": "This unit can only be taken in Neave Blacktalon’s regiment. This unit cannot be reinforced."
@@ -2209,7 +2174,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/33438b9c-a99e-4df7-877f-8a351de9c3d8",
       "baseSize": "90 x 52mm",
       "points": 190,
       "modelCount": 1
@@ -2256,7 +2220,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/526dc147-52d7-4019-9b51-057ca4529381",
       "baseSize": "40mm",
       "points": 220,
       "modelCount": 5,
@@ -2319,7 +2282,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/45b94e18-a771-4228-b280-7a77e37d3d54",
       "baseSize": "50mm",
       "points": 190,
       "modelCount": 1,
@@ -2381,7 +2343,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/66794331-5bca-459b-b101-7d5c73d8e577",
       "baseSize": "100mm",
       "points": 360,
       "modelCount": 1
@@ -2436,7 +2397,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/92c0eb7f-7334-47c6-93ea-6893bf3c4b0b",
       "baseSize": "90 x 52mm",
       "points": 220,
       "modelCount": 1,
@@ -2486,7 +2446,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/edc36dbe-95ed-4e68-b82c-1cb4fed8c1f2",
       "baseSize": "40mm",
       "points": 140,
       "modelCount": 5
@@ -2550,7 +2509,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6d4e0761-7a33-4b60-b989-9c33fe5f6e54",
       "baseSize": "50mm",
       "points": 270,
       "modelCount": 1
@@ -2626,7 +2584,6 @@
         "Order",
         "Stormcast Eternals"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b7b8f570-646f-4571-b029-39e771fa5d50",
       "baseSize": "160mm",
       "points": 500,
       "modelCount": 1
@@ -2687,7 +2644,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/24e576ed-405a-40f0-9235-c7be0b6138ca",
       "baseSize": "40mm",
       "points": 140,
       "modelCount": 5,
@@ -2734,7 +2690,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1979a042-c6c2-4088-a9a7-6e66078f7d57",
       "baseSize": "40mm",
       "points": 180,
       "modelCount": 5,
@@ -2817,7 +2772,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/f0e0cd00-37a1-4ae3-9872-723c57f10672",
       "baseSize": "170 x 105mm",
       "points": 490,
       "modelCount": 1
@@ -2869,7 +2823,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3a23b408-3745-49ac-af18-aaa25bc68125",
       "baseSize": "40mm",
       "points": 230,
       "modelCount": 6,
@@ -2933,7 +2886,6 @@
         "Stormcast Eternals",
         "Ruination Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d7da16a3-c3b1-4700-aea8-d69672018cca",
       "baseSize": "40mm",
       "points": 140,
       "modelCount": 3
@@ -2998,7 +2950,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/acfae6d7-33af-4446-a84a-3a8b2595fcf7",
       "baseSize": "100mm",
       "points": 280,
       "modelCount": 1,
@@ -3045,7 +2996,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ca90ef96-d15b-46cf-b76c-5fc3333392a7",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 1,
@@ -3100,7 +3050,6 @@
         "Stormcast Eternals",
         "Ruination Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0375ef81-3920-4677-8f4b-ad4501d75cc5",
       "baseSize": "90 x 52mm",
       "points": 210,
       "modelCount": 1
@@ -3144,7 +3093,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4a6b68ad-96e0-481a-9a90-0e0484109ec4",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 3
@@ -3189,7 +3137,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/26afcad5-c4fa-42cd-9b40-6adcdd73fd2a",
       "baseSize": "40mm",
       "points": 110,
       "modelCount": 1,
@@ -3264,7 +3211,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/35169e5b-80f6-4a12-8a30-6a8b345e71c4",
       "baseSize": "105 x 70mm",
       "points": 280,
       "modelCount": 1
@@ -3330,7 +3276,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b135ad61-f512-42b0-8105-5196862a1550",
       "baseSize": "90 x 52mm",
       "points": 230,
       "modelCount": 1
@@ -3391,7 +3336,6 @@
         "Stormcast Eternals",
         "Ruination Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4994898b-9aeb-42f9-9b05-7ae39fdbf1d6",
       "baseSize": "40mm",
       "points": 140,
       "modelCount": 1
@@ -3458,7 +3402,6 @@
         "Vanguard Chamber",
         "Vanguard-Palladors"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/761bebc8-7916-4dae-b10f-98664cd34b60",
       "baseSize": "75 x 42mm",
       "points": 230,
       "modelCount": 3
@@ -3497,7 +3440,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/daf46905-dc88-48e1-a404-7f32c8bb0d31",
       "baseSize": "40mm",
       "points": 120,
       "modelCount": 1,
@@ -3559,7 +3501,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d1bbe7a6-e4d3-49ca-ace8-6aadb7c95da2",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 1,
@@ -3611,7 +3552,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/aa75a523-810e-4cb4-b580-1d7b6fb0519f",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 1,
@@ -3679,7 +3619,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0561e38b-ee17-408a-b90e-9f3f5731bba9",
       "baseSize": "90 x 52mm",
       "points": 220,
       "modelCount": 1,
@@ -3736,7 +3675,6 @@
         "Stormcast Eternals",
         "Vanguard Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5c6fa39b-567f-4474-88de-40b9f46296aa",
       "baseSize": "60 x 35mm [2], 40mm [1]",
       "points": 170,
       "modelCount": 3
@@ -3803,7 +3741,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6a348772-3ffd-4d5c-b7a9-c8573cc05ad1",
       "baseSize": "40mm [3], 25mm [1]",
       "points": 130,
       "modelCount": 3,
@@ -3848,7 +3785,6 @@
         "Stormcast Eternals",
         "Vanguard Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/22d3d8f3-664f-46d2-9b8a-c03428e08ca0",
       "baseSize": "32mm",
       "points": 90,
       "modelCount": 3
@@ -3893,7 +3829,6 @@
         "Stormcast Eternals",
         "Ruination Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c6ba6a09-bfd5-4a59-924e-257119d6a49d",
       "baseSize": "40mm",
       "points": 150,
       "modelCount": 3
@@ -3969,7 +3904,6 @@
         "Vanguard Chamber",
         "Vanguard-Palladors"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9d63d209-c80e-44fc-964d-5dcb91036829",
       "baseSize": "75 x 42mm",
       "points": 230,
       "modelCount": 3
@@ -4031,7 +3965,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/36549871-8b8e-4896-9522-d708836a57f9",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 3,
@@ -4071,7 +4004,6 @@
         }
       ],
       "keywords": ["Beast", "Champion", "Order", "Stormcast Eternals"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9ce463c4-d4df-4fc1-8dbe-1fbf2dea33bb",
       "baseSize": "40mm",
       "points": 80,
       "modelCount": 6
@@ -4137,7 +4069,6 @@
         "Stormcast Eternals",
         "Vanguard Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3b34fdc8-b54b-4467-91ff-700020d093f3",
       "baseSize": "90 x 52mm",
       "points": 200,
       "modelCount": 1
@@ -4223,7 +4154,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4bb3b008-7aa2-42ea-93c2-4c1a673743e4",
       "baseSize": "170 x 105mm",
       "points": 460,
       "modelCount": 1
@@ -4284,7 +4214,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b0b45493-45e7-42f2-b76f-e3124d17d589",
       "baseSize": "40mm",
       "points": 160,
       "modelCount": 5,
@@ -4325,7 +4254,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/ddfada43-eba7-4c25-96d1-73d808e71c44",
       "baseSize": "40mm",
       "points": 110,
       "modelCount": 5
@@ -4371,7 +4299,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/31e704fb-39a4-4a5a-9ec3-5670a9450d1a",
       "baseSize": "40mm",
       "points": 180,
       "modelCount": 3
@@ -4419,7 +4346,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e5c2ddaf-dc05-4e1b-8eff-0293d73e09d5",
       "baseSize": "40mm",
       "points": 170,
       "modelCount": 5,
@@ -4459,7 +4385,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/683ea994-5fd0-461b-800e-5b7b04ad91d9",
       "baseSize": "40mm",
       "points": 130,
       "modelCount": 1
@@ -4525,7 +4450,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3216a306-3b9a-4cb7-be9b-99aea9affbd6",
       "baseSize": "90 x 52mm",
       "points": 130,
       "modelCount": 1,
@@ -4567,7 +4491,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/729ab2e3-2f43-406e-8a4d-3b0dbe7ca97e",
       "baseSize": "40mm",
       "points": 120,
       "modelCount": 1
@@ -4642,7 +4565,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d34cb802-4a72-4d99-8592-cf7c9850362b",
       "baseSize": "90 x 52mm",
       "points": 110,
       "modelCount": 1,
@@ -4716,7 +4638,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b3d357c3-47f3-4c34-8a25-37d7d561785e",
       "baseSize": "120 x 92mm",
       "points": 170,
       "modelCount": 1
@@ -4763,7 +4684,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b6905af4-26d9-4868-b19a-39c10a567ba5",
       "baseSize": "40mm",
       "points": 140,
       "modelCount": 1,
@@ -4846,7 +4766,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c54a99f0-c5cf-4f30-9726-3b5740d76419",
       "baseSize": "105 x 70mm",
       "points": 360,
       "modelCount": 2
@@ -4903,7 +4822,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/04a817dd-e478-491d-9d3f-5c510dc3e098",
       "baseSize": "90 x 52mm",
       "points": 210,
       "modelCount": 1,
@@ -4950,7 +4868,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9dfd0797-044b-424d-ba71-cdf3248f53e9",
       "baseSize": "40mm",
       "points": 140,
       "modelCount": 1,
@@ -4998,7 +4915,6 @@
         "Stormcast Eternals",
         "Warrior Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/bb9369be-3a6a-483d-a698-5f822d6ce0db",
       "baseSize": "40mm",
       "points": 120,
       "modelCount": 5
@@ -5080,7 +4996,6 @@
         "Stormcast Eternals",
         "Extremis Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c54a99f0-c5cf-4f30-9726-3b5740d76419",
       "baseSize": "105 x 70mm",
       "points": 180,
       "modelCount": 1,
@@ -5149,7 +5064,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a1ef2b55-00ff-4755-a596-3ee7e734571e",
       "baseSize": "100mm",
       "points": 310,
       "modelCount": 1,
@@ -5197,7 +5111,6 @@
         "Stormcast Eternals",
         "Sacrosanct Chamber"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e64e2b9d-9ea9-4443-985b-ada15d977f65",
       "baseSize": "40mm [3]",
       "points": 130,
       "modelCount": 3,

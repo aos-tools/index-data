@@ -229,7 +229,6 @@
         "Slaves to Darkness",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3a851181-8ed0-4e21-9e73-589210900f61",
       "baseSize": "160mm",
       "points": 330,
       "modelCount": 1
@@ -275,7 +274,6 @@
         }
       ],
       "keywords": ["Monster", "Chaos", "Slaves to Darkness", "Undivided"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/96a253f9-9bae-4a71-b4fc-ddbdf1391ad9",
       "baseSize": "60mm",
       "points": 150,
       "modelCount": 1
@@ -322,7 +320,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/8fa7d457-9706-4bf6-9c47-c8c31fb88d04",
       "baseSize": "32mm [4]",
       "points": 110,
       "modelCount": 4,
@@ -358,7 +355,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Chaos", "Slaves to Darkness"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c35d3d29-1b2f-4437-a0c8-7809ee9eab37",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -413,7 +409,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/0169c87e-33a6-47c5-b9e3-e7c6dbe5f938",
       "baseSize": "120 x 92mm",
       "points": 260,
       "modelCount": 1
@@ -461,7 +456,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b62847cd-1b81-49b3-a5bb-4f0462b96130",
       "baseSize": "75 x 42mm",
       "points": 180,
       "modelCount": 1
@@ -506,7 +500,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/d4411a08-6089-47f0-bf54-055640411dac",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 1,
@@ -575,7 +568,6 @@
         "Darkoath",
         "Gunnar’s Oathsworn"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b2c3e531-6ba1-4de9-95b6-cd809f962f42",
       "baseSize": "60mm x 35mm",
       "modelCount": 1,
       "notes": "This unit can only be taken in Gunnar Brand’s regiment."
@@ -626,7 +618,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9fc012ad-6bb0-4ac5-91a8-8f77943acf13",
       "baseSize": "32mm [3], 28.5mm [3], 25mm [2]",
       "points": 120,
       "modelCount": 8,
@@ -714,7 +705,6 @@
         "Daemon",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c55dc849-2acd-4d0b-a8a1-8fee558d2ecf",
       "baseSize": "100mm",
       "points": 410,
       "modelCount": 1
@@ -762,7 +752,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/013b6cad-aed2-45bf-bbf2-f304041f6d55",
       "baseSize": "40mm [1], 32mm [1], 28.5mm [3], 25mm [4]",
       "points": 110,
       "modelCount": 9,
@@ -814,7 +803,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/cb618859-2b8d-4f16-a833-d04a7e6b2abc",
       "baseSize": "32mm [3], 28.5mm [4], 25mm [3]",
       "points": 120,
       "modelCount": 10,
@@ -878,7 +866,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7a74b10f-f5fe-4e57-8517-9323baafbcec",
       "baseSize": "120 x 92mm",
       "points": 110,
       "modelCount": 1
@@ -916,7 +903,6 @@
         }
       ],
       "keywords": ["Beast", "Chaos", "Slaves to Darkness"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b616d125-9a90-4b2f-b1d9-5c36128c50de",
       "baseSize": "50mm",
       "points": 60,
       "modelCount": 1
@@ -966,7 +952,6 @@
         }
       ],
       "keywords": ["Hero", "Infantry", "Chaos", "Slaves to Darkness"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7ec7afda-3fce-4072-8e98-d2377dba24ec",
       "baseSize": "50mm",
       "points": 190,
       "modelCount": 1,
@@ -1019,7 +1004,6 @@
         "Chaos",
         "Slaves to Darkness"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/12116e14-3df5-48dc-b88d-f9b07f6c4ec3",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -1057,7 +1041,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/5ca6b3ac-1538-4caa-a04c-8fd572a2fe4c",
       "baseSize": "40mm",
       "points": 140,
       "modelCount": 1
@@ -1136,7 +1119,6 @@
         "Undivided",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/207cdbec-406e-47fd-8e83-a686710f2ab6",
       "baseSize": "100mm",
       "points": 360,
       "modelCount": 1
@@ -1185,7 +1167,6 @@
         "Darkoath",
         "Gunnar’s Oathsworn"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e33100bf-2d2c-45b5-bf78-e98b9a5d6c22",
       "baseSize": "32mm",
       "points": 280,
       "modelCount": 1
@@ -1258,7 +1239,6 @@
         "Daemon",
         "Tzeentch"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/fe84a6ba-b317-4858-be2b-74c4cab38a78",
       "baseSize": "40mm",
       "points": 170,
       "modelCount": 1
@@ -1323,7 +1303,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e1e1b083-b784-48f9-abe2-e8b3301dffb5",
       "baseSize": "120 x 92mm",
       "points": 250,
       "modelCount": 1
@@ -1370,7 +1349,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/876ae5c0-0994-4d2c-bb34-aa16c7f4d8c4",
       "baseSize": "28.5mm",
       "points": 100,
       "modelCount": 10
@@ -1424,7 +1402,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a34a7dd7-86cd-4ee5-851f-1921e218549d",
       "baseSize": "75 x 42mm",
       "points": 180,
       "modelCount": 1
@@ -1471,7 +1448,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1381314a-67ee-44a0-a390-e2c0847ea5a9",
       "baseSize": "75 x 42mm",
       "points": 310,
       "modelCount": 3
@@ -1528,7 +1504,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2a817d9a-42b2-40dd-b657-1e5228422659",
       "baseSize": "40mm [1], 32mm [3], 28.5mm [4]",
       "points": 100,
       "modelCount": 8,
@@ -1586,7 +1561,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/2cd1ad1c-41ed-4615-9c2d-9fd26cb33685",
       "baseSize": "90 x 52mm",
       "points": 230,
       "modelCount": 1,
@@ -1651,7 +1625,6 @@
         "Daemon",
         "Khorne"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/125f4879-29ec-4164-8047-c6627cb0ca46",
       "baseSize": "120 x 92mm",
       "points": 240,
       "modelCount": 1
@@ -1727,7 +1700,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6ae11da9-2ff7-46f8-9b72-e8ab6bb39658",
       "baseSize": "60 x 35mm",
       "points": 150,
       "modelCount": 5
@@ -1765,7 +1737,6 @@
         }
       ],
       "keywords": ["Beast", "Chaos", "Slaves to Darkness", "Undivided"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/b89a2086-9602-4d3f-b63c-9f51a03926e9",
       "baseSize": "60 x 35mm",
       "points": 90,
       "modelCount": 6
@@ -1823,7 +1794,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4c6657e7-fe6a-461a-9732-f7a9c34f1925",
       "baseSize": "32mm [1], 28.5mm [2], 25mm [10]",
       "points": 150,
       "modelCount": 13,
@@ -1907,7 +1877,6 @@
         "Daemon",
         "Tzeentch"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/6076f1ea-a3c3-4dc8-b9d8-411b3830950f",
       "baseSize": "40mm",
       "points": 250,
       "modelCount": 1
@@ -1957,7 +1926,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/e156f028-461f-4fa0-955b-0c638850e2fe",
       "baseSize": "75 x 42mm",
       "points": 250,
       "modelCount": 5
@@ -2011,7 +1979,6 @@
         "Slaves to Darkness",
         "Daemon"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/660fad69-e542-4f45-9d97-10c876b11eb6",
       "baseSize": "60mm",
       "points": 280,
       "modelCount": 1
@@ -2071,7 +2038,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/aa242d0d-564d-4f46-903c-4e70effe7143",
       "baseSize": "40mm [1], 28.5mm [3], 25mm [5]",
       "points": 100,
       "modelCount": 9,
@@ -2133,7 +2099,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7cf0bbc2-0c58-48c7-b62e-a1ee41bf04b4",
       "baseSize": "60mm",
       "points": 190,
       "modelCount": 1
@@ -2178,7 +2143,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/065dae50-9d8f-4f68-8dab-7dd0ba9de93a",
       "baseSize": "32mm [3], 28.5mm [2], 25mm [5]",
       "points": 110,
       "modelCount": 9,
@@ -2218,7 +2182,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c6d2facc-db35-4d1a-8797-20657bd2ad51",
       "baseSize": "32mm",
       "points": 130,
       "modelCount": 1,
@@ -2258,7 +2221,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/af84c6da-6248-46d5-a869-6cd4a9d2a61a",
       "baseSize": "80mm",
       "points": 180,
       "modelCount": 1,
@@ -2300,7 +2262,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/34c43acf-8ec4-4b48-9adb-cc9941f03413",
       "baseSize": "32mm",
       "points": 250,
       "modelCount": 5
@@ -2391,7 +2352,6 @@
         "Undivided",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c0293840-98c1-46f5-a7ab-8dc6ffe34396",
       "baseSize": "160mm",
       "points": 890,
       "modelCount": 1
@@ -2431,7 +2391,6 @@
         "Chaos",
         "Slaves to Darkness"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/cfd08350-5cfb-45d5-849f-74686da08a25",
       "baseSize": "50mm",
       "points": 200,
       "modelCount": 3
@@ -2489,7 +2448,6 @@
         "Darkoath",
         "Gunnar’s Oathsworn"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a4b8863b-19c9-405e-9afe-d9d7cc608411",
       "baseSize": "32mm",
       "modelCount": 3,
       "notes": "This unit can only be taken in Gunnar Brand’s regiment. This unit cannot be reinforced."
@@ -2538,7 +2496,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/9308efbb-fbd0-4ef7-9a16-83bce691d4c9",
       "baseSize": "32mm",
       "points": 140,
       "modelCount": 1
@@ -2594,7 +2551,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a162b29c-d3b7-4aae-aff2-d921c3d49994",
       "baseSize": "90 x 52mm",
       "points": 250,
       "modelCount": 1
@@ -2639,7 +2595,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/cf16a136-85dc-466d-b13f-83c96568bd8f",
       "baseSize": "40mm [1], 32mm [3], 28.5mm [2], 25mm [3]",
       "points": 110,
       "modelCount": 9,
@@ -2681,7 +2636,6 @@
         "Daemon",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/acb647f2-a28a-489b-a464-33889eb8afe2",
       "baseSize": "32mm",
       "points": 100,
       "modelCount": 6
@@ -2709,7 +2663,6 @@
         "Chaos",
         "Slaves to Darkness"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c7cb5903-c38b-4f42-b41b-0074be2980b6",
       "baseSize": "75mm",
       "modelCount": 1
     },
@@ -2749,7 +2702,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/92a9e206-84d2-4c91-88f1-fe068ebf31e7",
       "baseSize": "32mm",
       "points": 120,
       "modelCount": 1
@@ -2788,7 +2740,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/eeeb4560-b6a6-4125-964c-10b5ef2d2198",
       "baseSize": "32mm [5], 28.5mm [3]",
       "points": 90,
       "modelCount": 8,
@@ -2845,7 +2796,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/18b91014-3b86-456b-bbef-92fe560ac2b8",
       "baseSize": "32mm [1], 28.5mm [4], 25mm [3]",
       "points": 100,
       "modelCount": 8,
@@ -2909,7 +2859,6 @@
         "Daemon",
         "Tzeentch"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/100d0f1c-f6f4-453e-ae45-f676622eb503",
       "baseSize": "120 x 92mm",
       "points": 190,
       "modelCount": 1
@@ -2943,7 +2892,6 @@
         }
       ],
       "keywords": ["Monster", "Chaos", "Slaves to Darkness", "Undivided"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/bd34985d-beba-46d8-b05e-0e81dfbfc884",
       "baseSize": "90 x 52mm",
       "points": 170,
       "modelCount": 1
@@ -2984,7 +2932,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/00b5ba9d-1d6e-4489-afc1-09c734b9a56c",
       "baseSize": "32mm",
       "points": 200,
       "modelCount": 10
@@ -3045,7 +2992,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/3d5b8e98-2287-43e9-8351-de4abbb778d8",
       "baseSize": "120 x 92mm",
       "points": 120,
       "modelCount": 1
@@ -3104,7 +3050,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/993768d2-4f26-4865-815d-8c1d84e8520d",
       "baseSize": "120 x 92mm",
       "points": 280,
       "modelCount": 1
@@ -3143,7 +3088,6 @@
         "Slaves to Darkness",
         "Undivided"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/4b64f45f-df7f-4d2d-ab26-e853830e6a79",
       "baseSize": "40mm [1], 32mm [3], 28.5mm [4]",
       "points": 110,
       "modelCount": 9,
@@ -3186,7 +3130,6 @@
         "Chaos",
         "Slaves to Darkness"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/a772ccca-5e5c-444c-84d4-a60d32993afe",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -3225,7 +3168,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/88912958-5dd0-4ec6-bac6-aa05e7c5ce91",
       "baseSize": "32mm [3], 28.5mm [7]",
       "points": 130,
       "modelCount": 10,
@@ -3272,7 +3214,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/11e7a9ce-ec12-4c6d-9327-8bdf61a3ebac",
       "baseSize": "32mm [4]",
       "points": 170,
       "modelCount": 4,
@@ -3332,7 +3273,6 @@
         "Undivided",
         "Darkoath"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/7f645748-6d11-4bfd-b70f-dd8b044058c8",
       "baseSize": "32mm [5], 25mm [1]",
       "points": 110,
       "modelCount": 6,

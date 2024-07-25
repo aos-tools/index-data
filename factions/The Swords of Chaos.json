@@ -54,7 +54,6 @@
         }
       ],
       "keywords": ["Faction Terrain", "Chaos", "Slaves to Darkness"],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c35d3d29-1b2f-4437-a0c8-7809ee9eab37",
       "baseSize": "Use model",
       "modelCount": 1
     },
@@ -132,7 +131,6 @@
         "Undivided",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/207cdbec-406e-47fd-8e83-a686710f2ab6",
       "baseSize": "100mm",
       "points": 360,
       "modelCount": 1
@@ -179,7 +177,6 @@
         "Slaves to Darkness",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/1381314a-67ee-44a0-a390-e2c0847ea5a9",
       "baseSize": "75 x 42mm",
       "points": 310,
       "modelCount": 3
@@ -270,7 +267,6 @@
         "Undivided",
         "Warriors of Chaos"
       ],
-      "image": "https://dhss9aar8ocw.cloudfront.net/c0293840-98c1-46f5-a7ab-8dc6ffe34396",
       "baseSize": "160mm",
       "points": 890,
       "modelCount": 1
