@@ -11,7 +11,7 @@
     {
       "name": "All-out Attack",
       "activation": "Reaction: You declared an Attack ability",
-      "phases": ["Combat Phase"],
+      "phases": ["Shooting Phase", "Combat Phase"],
       "effect": "Add 1 to hit rolls for attacks made as part of that Attack ability. This also affects weapons that have the Companion weapon ability.",
       "command_point_cost": 1
     },
