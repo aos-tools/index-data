@@ -25,7 +25,7 @@
     {
       "name": "At the Double",
       "activation": "Reaction: You declared a Run ability",
-      "phases": ["Start of Turn"],
+      "phases": ["Movement Phase"],
       "effect": "Do not make a run roll as part of that Run ability. Instead, add 6\" to that unit’s Move characteristic to determine the distance each model in that unit can move as part of that Run ability.",
       "command_point_cost": 1
     },
@@ -177,7 +177,7 @@
     {
       "name": "Redeploy",
       "activation": "Enemy Movement Phase",
-      "phases": ["Start of Turn"],
+      "phases": ["Movement Phase"],
       "declare": "Pick a friendly unit that is not in combat to use this ability.",
       "effect": "Each model in that unit can move up to D6\". That move cannot pass through or end within the combat range of an enemy unit.",
       "command_point_cost": 1,
