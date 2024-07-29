@@ -1,5 +1,6 @@
 {
   "name": "Disciples of Tzeentch",
+  "grand_alliance": "Chaos",
   "battle_traits": [
     {
       "name": "Masters of Destiny",

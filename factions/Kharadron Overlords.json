@@ -1,5 +1,6 @@
 {
   "name": "Kharadron Overlords",
+  "grand_alliance": "Order",
   "battle_traits": [
     {
       "name": "Flying High",

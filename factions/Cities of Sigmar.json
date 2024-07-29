@@ -1,5 +1,6 @@
 {
   "name": "Cities of Sigmar",
+  "grand_alliance": "Order",
   "battle_traits": [
     {
       "name": "Advance in Formation",

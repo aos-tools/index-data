@@ -1,5 +1,6 @@
 {
   "name": "Beasts of Chaos",
+  "grand_alliance": "Chaos",
   "battle_traits": [
     {
       "name": "Masters of the Wilderness",

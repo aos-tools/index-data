@@ -1,5 +1,6 @@
 {
   "name": "The Swords of Chaos",
+  "grand_alliance": "Chaos",
   "battle_traits": [
     {
       "name": "Knights of the First Circle",

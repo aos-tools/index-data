@@ -1,5 +1,6 @@
 {
   "name": "Grundstok Expeditionary Force",
+  "grand_alliance": "Order",
   "battle_traits": [
     {
       "name": "Transport Skyfarers",

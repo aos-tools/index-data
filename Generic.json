@@ -1052,5 +1052,71 @@
       "baseSize": "Use model",
       "modelCount": 1
     }
+  ],
+  "battle_tactics": [
+    {
+      "name": "Do Not Waver",
+      "description": "You complete this battle tactic at the end of your turn if 2 or more friendly units fought this turn and no friendly units were destroyed this turn."
+    },
+    {
+      "name": "Take Their Land",
+      "description": "Pick a terrain feature wholly or partially within enemy territory and wholly outside friendly territory. You complete this battle tactic if you control that terrain feature at the end of your turn."
+    },
+    {
+      "name": "Slay the Entourage",
+      "description": "Pick a unit in the enemy general's regiment. You complete this battle tactic if that unit is destroyed this turn."
+    },
+    {
+      "name": "Seize the Centre",
+      "description": "You complete this battle tactic at the end of your turn if 2 or more friendly units are within 3\" of the centre of the battlefield and are not in combat."
+    },
+    {
+      "name": "Attack on Two Fronts",
+      "description": "You complete this battle tactic at the end of your turn if you control 2 or more objectives that you did not control at the start of your turn and at least 1 of those objectives was controlled by your opponent at the start of your turn."
+    },
+    {
+      "name": "Take the Flanks",
+      "description": "You complete this battle tactic at the end of your turn if you have at least 1 friendly unit within 6\" of each short battlefield edge, none of those units are wholly within friendly territory, and none of those units were setup this turn."
+    },
+    {
+      "name": "Reclaim the Realms",
+      "description": "You complete this battle tactic at the end of your turn if there are 1 or more friendly units wholly within each quarter of the battlefield and more than 6\" from all enemy units.",
+      "keywords": ["Order"]
+    },
+    {
+      "name": "Slay the Tyrants",
+      "description": "You complete this battle tactic at the end of your turn if an enemy Hero was slain this turn by a combat attack made by a friendly unit.",
+      "keywords": ["Order"]
+    },
+    {
+      "name": "Offering of Carnage",
+      "description": "You complete this battle tactic at the end of your turn if 2 or more enemy units were destroyed this turn.",
+      "keywords": ["Chaos"]
+    },
+    {
+      "name": "Ordained Charge",
+      "description": "Pick an objective controlled by your opponent. You complete this battle tactic at the end of your turn if 2 or more friendly units charged this turn, 1 or more of those units are contesting that objective, and you control that objective.",
+      "keywords": ["Chaos"]
+    },
+    {
+      "name": "Marked for the Grave",
+      "description": "Pick a non-Hero enemy unit that has not had any models slain this battle. If there are no non-Hero enemy units on the battlefield, you can pick any unit type. You complete this battle tactic at the end of your turn if that unit is destroyed this turn.",
+      "keywords": ["Death"]
+    },
+    {
+      "name": "Inevitable Demise",
+      "description": "You complete this battle tactic at the end of your turn if 2 or more friendly units are wholly within enemy territory and more than 9\" from all enemy units, and none of those units were set up this turn.",
+      "keywords": ["Death"]
+    },
+    {
+      "name": "Time to get Stuck in!",
+      "description": "Pick 3 friendly units that are not in combat and are wholly within friendly territory. You complete this battle tactic at the end of your turn if each of those units is wholly outside your territory and used a Fight ability this turn.",
+      "keywords": ["Destruction"]
+    },
+    {
+      "name": "The Kunnin' Approach",
+      "description": "Pick an enemy unit that is in combat and a friendly unit that is not in combat. You complete this battle tactic at the end of your turn if that friendly unit was in combat with that enemy unit this turn and that enemy unit was destroyed this turn.",
+      "keywords": ["Destruction"]
+    }
   ]
 }

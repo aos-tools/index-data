@@ -1,5 +1,6 @@
 {
   "name": "Blades of Khorne",
+  "grand_alliance": "Chaos",
   "battle_traits": [
     {
       "name": "The Blood Tithe",

@@ -1,5 +1,6 @@
 {
   "name": "Stormcast Eternals",
+  "grand_alliance": "Order",
   "battle_traits": [
     {
       "name": "The Celestial Realm",

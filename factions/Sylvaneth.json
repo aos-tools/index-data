@@ -1,5 +1,6 @@
 {
   "name": "Sylvaneth",
+  "grand_alliance": "Order",
   "battle_traits": [
     {
       "name": "Walk the Hidden Paths",
