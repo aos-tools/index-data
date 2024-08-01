@@ -46,7 +46,7 @@
     {
       "name": "Glory Hog",
       "activation": "Passive",
-      "phases": ["Start of Turn"],
+      "phases": ["Passive"],
       "effect": "If an enemy Hero is destroyed by this unit, this unit has the Euphoric keyword for the rest of the battle."
     },
     {
@@ -695,7 +695,7 @@
         {
           "name": "Battle Damaged",
           "activation": "Passive",
-          "phases": ["Start of Turn"],
+          "phases": ["Passive"],
           "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Elegant Greatblade is 4."
         },
         {
@@ -725,7 +725,7 @@
         {
           "name": "Supernatural Grace",
           "activation": "Passive",
-          "phases": ["Hero Phase", "Shooting Phase", "Combat Phase"],
+          "phases": ["Hero Phase", "Combat Phase"],
           "effect": "Subtract 1 from hit rolls for combat attacks that target this unit."
         }
       ],
