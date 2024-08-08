@@ -379,7 +379,7 @@
         "effect": "Set up The Burning Head wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
         "casting_value": 5,
         "keywords": ["Spell", "Summon"],
-        "summons": "Burning Head"
+        "summons": "The Burning Head"
       },
       {
         "name": "Summon Emerald Lifeswarm",
@@ -710,7 +710,7 @@
       "modelCount": 1
     },
     {
-      "name": "Ravenak’s Gnashing Jaws",
+      "name": "Ravenak's Gnashing Jaws",
       "move": "3D6\"",
       "health": "10",
       "save": "5+",
