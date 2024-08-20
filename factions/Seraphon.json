@@ -78,7 +78,7 @@
     {
       "name": "Beastmaster",
       "activation": "Passive",
-      "phases": ["Charge Phase"],
+      "phases": ["Movement Phase"],
       "effect": "Add 2\" to the Move characteristic of friendly Seraphon Cavalry and Seraphon Monster units for the rest of the phase if they are wholly within 12\" of this unit at the start of the move."
     },
     {
