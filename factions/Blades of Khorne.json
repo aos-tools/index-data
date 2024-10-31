@@ -1787,8 +1787,8 @@
       "abilities": [
         {
           "name": "Hatred's Edge",
-          "activation": "Your Movement Phase",
-          "phases": ["Movement Phase"],
+          "activation": "Your Charge Phase",
+          "phases": ["Charge Phase"],
           "declare": "Pick up to 3 enemy units that this Manifestation passed across this turn to be the targets.",
           "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
